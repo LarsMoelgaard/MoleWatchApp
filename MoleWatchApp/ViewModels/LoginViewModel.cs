@@ -30,6 +30,22 @@ namespace MoleWatchApp.ViewModels
             }
             set
             {
+                //bool IsNumericalValue = false;
+                //try
+                //{
+                //    Convert.ToInt32(value[value.Length - 1]);
+                //    IsNumericalValue = true;
+                //}
+                //catch (InvalidOperationException e)
+                //{
+                    
+                //}
+
+                //if (IsNumericalValue || value[value.Length - 1] == '-')
+                //{
+                    
+                    
+                //}
                 usernameInput = value;
                 this.OnPropertyChanged();
             }
@@ -107,7 +123,9 @@ namespace MoleWatchApp.ViewModels
             UsernameLabel = "Indtast CPR-nummer:";
             PasswordLabel = "Indtast password:";
             LoginCommand = new Command(OnLoginClicked);
+
             loginModel = new LoginModel();
+
         }
 
         private async void OnLoginClicked(object obj)

@@ -1,11 +1,11 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.Fingerprint;
 
 namespace MoleWatchApp.Droid
 {
@@ -14,6 +14,8 @@ namespace MoleWatchApp.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            CrossFingerprint.SetCurrentActivityResolver(() => this);
+
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 

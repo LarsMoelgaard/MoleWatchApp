@@ -7,11 +7,11 @@
              x:Class="MoleWatchApp.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+        <StackLayout Padding="10,150,10,0" VerticalOptions="Start">
             <Label Text="{Binding UsernameLabel, Mode=TwoWay}" TextColor="{Binding UsernameLabelColor, Mode=TwoWay}"/>
-            <Entry Text="{Binding UsernameInput, Mode=TwoWay}" Placeholder="DDMMÅÅ-XXXX"/>
+            <Entry x:Name="UsernameEntry"  Text="{Binding UsernameInput, Mode=TwoWay}" Placeholder="DDMMÅÅ-XXXX" Keyboard="Telephone" TextChanged="InputView_OnTextChanged"/>
             <Label Text="{Binding PasswordLabel, Mode=TwoWay}" TextColor="{Binding PasswordLabelColor, Mode=TwoWay}"/>
-            <Entry Text="{Binding Password, Mode=TwoWay}" IsPassword="True" Placeholder="XXX"/>
+            <Entry Text="{Binding Password, Mode=TwoWay}" IsPassword="True" Placeholder="Password"/>
             <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
         </StackLayout>
         
