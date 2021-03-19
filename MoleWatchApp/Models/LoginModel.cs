@@ -8,8 +8,8 @@ namespace MoleWatchApp.Models
     {
         public bool VerifyPassword(string Username, string Password)
         {
-
-            return true;
+            // TODO indskriv kommunikationen med API-klassen her.
+            return false;
         }
     }
 
