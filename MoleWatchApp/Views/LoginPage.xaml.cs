@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Plugin.Fingerprint;
+using Plugin.Fingerprint.Abstractions;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,10 +14,31 @@ namespace MoleWatchApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+
         public LoginPage()
         {
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
+            MessagingCenter.Subscribe<LoginViewModel,string>(this,"SmartLoginMessage", async (sender, arg) =>
+            {
+                switch (arg)
+                {
+                    case "SuccesfulBiometric":
+                        await DisplayAlert("Succes","Authentication succeeded", "OK");
+                        break;
+                    case "BiometricFailed":
+                        await DisplayAlert("Error", "Authentication failed", "OK");
+                        break;
+                    case "NoBiometricDataFound":
+                        await DisplayAlert("Error", "Biometric authentication is not available or is not configured.", "OK");
+                        break;
+                }
+
+               
+            });
+
+
+
         }
 
         private void InputView_OnTextChanged(object sender, TextChangedEventArgs e)
@@ -49,5 +72,9 @@ namespace MoleWatchApp.Views
                     ((Entry) sender).Text = TextValueWithDash;
                 }
         }
+
+        
+
+
     }
 }

@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using MoleWatchApp.Models;
+using Plugin.Fingerprint;
+using Plugin.Fingerprint.Abstractions;
 using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
@@ -18,9 +20,23 @@ namespace MoleWatchApp.ViewModels
         private string password;
         private string usernameLabel;
         private string passwordLabel;
+        private bool biometricValue;
 
+        public bool BiometricValue
+        {
+            get
+            {
+                return biometricValue;
+            }
+            set
+            {
+                biometricValue = value;
+                this.OnPropertyChanged();
+            }
+        }
 
         public Command LoginCommand { get; }
+        public Command SmartLoginCommand { get; }
 
         public string UsernameInput
         {
@@ -123,7 +139,7 @@ namespace MoleWatchApp.ViewModels
             UsernameLabel = "Indtast CPR-nummer:";
             PasswordLabel = "Indtast password:";
             LoginCommand = new Command(OnLoginClicked);
-
+            SmartLoginCommand = new Command(AuthButton_OnClicked);
             loginModel = new LoginModel();
 
         }
@@ -153,5 +169,35 @@ namespace MoleWatchApp.ViewModels
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
 
         }
+
+
+        private async void AuthButton_OnClicked(object sender)
+        {
+            bool isFingerprintAvailable = await CrossFingerprint.Current.IsAvailableAsync(false);
+            if (!isFingerprintAvailable)
+            {
+                MessagingCenter.Send(this, "SmartLoginMessage", "NoBiometricDataFound");
+                return;
+            }
+
+            AuthenticationRequestConfiguration conf =
+                new AuthenticationRequestConfiguration("Authentication",
+                    "Authenticate access to your personal data");
+
+            var authResult = await CrossFingerprint.Current.AuthenticateAsync(conf);
+            if (authResult.Authenticated)
+            {
+                //Success  
+                //
+                //TODO benyt sessionID til at verificere brugeren af dette device.
+                MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
+            }
+            else
+            {
+                MessagingCenter.Send(this,"SmartLoginMessage","BiometricFailed");
+            }
+        }
+
+
     }
 }
