@@ -15,11 +15,16 @@
             <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
 
             <!-- Place new controls here -->
-            <Button Text="Biometric authentication" x:Name="AuthButton"    
-                    Command="{Binding SmartLoginCommand}"   
-                    HorizontalOptions="Center"    
-                    VerticalOptions="CenterAndExpand" />
-</StackLayout>
-        
+                <Button Text="Biometric authentication" x:Name="AuthButton"    
+                        Command="{Binding SmartLoginCommand}"
+                        HorizontalOptions="CenterAndExpand"    
+                        VerticalOptions="CenterAndExpand"
+                        ImageSource="touch_id_240.png"
+                        ContentLayout="Top" BackgroundColor="Transparent" TextColor="Black" Grid.Column="1" Grid.Row="1"
+                        />
+
+            </StackLayout>
+
+
     </ContentPage.Content>
 </ContentPage>
