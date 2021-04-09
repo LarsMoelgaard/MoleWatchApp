@@ -6,6 +6,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Plugin.Fingerprint;
+using Xamarin.Forms;
 
 namespace MoleWatchApp.Droid
 {
@@ -20,6 +21,7 @@ namespace MoleWatchApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);

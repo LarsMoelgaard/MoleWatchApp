@@ -138,7 +138,9 @@
     <AndroidResource Include="Resources\drawable\FemaleFrontCrop.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Rotate.png" />
+    <AndroidResource Include="Resources\drawable\animated_rotate.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
