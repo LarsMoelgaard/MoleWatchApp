@@ -14,21 +14,21 @@ namespace MoleWatchApp.Models
 
         public APICommunication()
         {
-            API = new StubApiService();
+            API = new ApiService(APIWebServiesConnector.APIStringFabrics.APIStringFabric.GetDeveloperAPIString());  // For at skifte API ændre getDevString til getProductionString
 
         }
 
         public bool VerifyPasswordWithAPI(string Username, string Password)
         {
             LoginInfoDTO NewLogin = new LoginInfoDTO();
-
+            
             NewLogin.Password = Password;
             NewLogin.Username = Username;
 
 
             try
             {
-                newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>("PostLoginPatient", NewLogin);
+                newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>("PatientLogin", NewLogin); //Skal hedde PostPatientLogin
             }
             catch (Exception e)
             {

@@ -10,6 +10,7 @@ namespace MoleWatchApp.Views
         public PatientModelPage() 
         {
             InitializeComponent();
+           
         }
     }
 }

@@ -138,10 +138,17 @@ namespace MoleWatchApp.ViewModels
         {
             UsernameLabel = "Indtast CPR-nummer:";
             PasswordLabel = "Indtast password:";
+
+            
+
+
             LoginCommand = new Command(OnLoginClicked);
             SmartLoginCommand = new Command(AuthButton_OnClicked);
             loginModel = new LoginModel();
 
+
+            UsernameInput = "12345";
+            Password = "12345";
         }
 
         private async void OnLoginClicked(object obj)

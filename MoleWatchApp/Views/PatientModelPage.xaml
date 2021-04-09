@@ -31,7 +31,7 @@
 
         <extensions:PinchToZoomContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3" >
             <extensions:PinchToZoomContainer.Content>
-                <Image Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
+                <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
                        Grid.ColumnSpan="3"
                        Source="{Binding PatientPicture}"
                        HorizontalOptions="FillAndExpand" 
