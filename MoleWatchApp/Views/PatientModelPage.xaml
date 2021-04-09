@@ -29,17 +29,20 @@
             <ColumnDefinition Width="0.5*" />
         </Grid.ColumnDefinitions>
 
-        <extensions:PinchToZoomContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3" >
-            <extensions:PinchToZoomContainer.Content>
-                <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
-                       Grid.ColumnSpan="3"
-                       Source="{Binding PatientPicture}"
-                       HorizontalOptions="FillAndExpand" 
-                       VerticalOptions="FillAndExpand"
-                ></Image>
-            </extensions:PinchToZoomContainer.Content>
-        </extensions:PinchToZoomContainer>
 
+            <extensions:PinchToZoomContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3" >
+                <extensions:PinchToZoomContainer.Content>
+                    <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
+                           Grid.ColumnSpan="3"
+                           Source="{Binding PatientPicture}"
+                           HorizontalOptions="FillAndExpand"
+                           WidthRequest="500"
+                           HeightRequest="1000"
+                           > 
+                    </Image>
+
+                </extensions:PinchToZoomContainer.Content>
+            </extensions:PinchToZoomContainer>
 
 
         <ImageButton Grid.Column="3" Grid.Row="2" Source="Plus_icon.png"            

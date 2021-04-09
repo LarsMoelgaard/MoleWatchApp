@@ -14,8 +14,8 @@ namespace MoleWatchApp.Models
 
         public APICommunication()
         {
-            API = new ApiService(APIWebServiesConnector.APIStringFabrics.APIStringFabric.GetDeveloperAPIString());  // For at skifte API ændre getDevString til getProductionString
-
+            //API = new ApiService(APIWebServiesConnector.APIStringFabrics.APIStringFabric.GetDeveloperAPIString());  // For at skifte API ændre getDevString til getProductionString
+            API = new StubApiService(); //Skal slettes til produktion
         }
 
         public bool VerifyPasswordWithAPI(string Username, string Password)

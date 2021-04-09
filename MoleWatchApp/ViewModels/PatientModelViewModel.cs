@@ -33,12 +33,6 @@ namespace MoleWatchApp.ViewModels
         public PatientModelViewModel()
         {
 
-            panGesture.MaximumNumberOfTouches = 2;
-            imageView.AddGestureRecognizer(panGesture);
-            imageView.AddGestureRecognizer(rotateGesture);
-            imageView.AddGestureRecognizer(pinchGesture);
-
-
 
             Title = "Vælg Modermærke";
             
