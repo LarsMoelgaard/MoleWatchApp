@@ -5,9 +5,9 @@ using Xamarin.Forms.Xaml;
 
 namespace MoleWatchApp.Views
 {
-    public partial class AboutPage : ContentPage
+    public partial class PatientModelPage : ContentPage
     {
-        public AboutPage()
+        public PatientModelPage() 
         {
             InitializeComponent();
         }

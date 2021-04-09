@@ -14,14 +14,29 @@
             <Entry Text="{Binding Password, Mode=TwoWay}" IsPassword="True" Placeholder="Password"/>
             <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
 
-            <!-- Place new controls here -->
-                <Button Text="Biometric authentication" x:Name="AuthButton"    
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Smart login" x:Name="AuthButton"    
                         Command="{Binding SmartLoginCommand}"
                         HorizontalOptions="CenterAndExpand"    
                         VerticalOptions="CenterAndExpand"
-                        ImageSource="touch_id_240.png"
+                        ImageSource="touch_id_96.png"
                         ContentLayout="Top" BackgroundColor="Transparent" TextColor="Black" Grid.Column="1" Grid.Row="1"
-                        />
+
+                />
+            </Grid>
+            <!-- Place new controls here -->
+
 
             </StackLayout>
 

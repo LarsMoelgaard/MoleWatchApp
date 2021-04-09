@@ -150,7 +150,7 @@ namespace MoleWatchApp.ViewModels
 
             if (loginModel.VerifyPassword(UsernameInput, Password))
             {
-                await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
                 
             }
             else

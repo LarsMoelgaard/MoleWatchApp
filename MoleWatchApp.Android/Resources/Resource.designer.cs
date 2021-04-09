@@ -1752,7 +1752,6 @@ namespace MoleWatchApp.Droid
 			global::Plugin.Fingerprint.Resource.Styleable.View_paddingStart = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingStart;
 			global::Plugin.Fingerprint.Resource.Styleable.View_theme = global::MoleWatchApp.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MoleWatchApp.Droid.Resource.Attribute.alpha;
-			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MoleWatchApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderCerts;
@@ -1763,23 +1762,15 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::MoleWatchApp.Droid.Resource.Attribute.fontStyle;
 			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::MoleWatchApp.Droid.Resource.Attribute.fontVariationSettings;
 			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::MoleWatchApp.Droid.Resource.Attribute.fontWeight;
-			global::Xamarin.Essentials.Resource.Attribute.keylines = global::MoleWatchApp.Droid.Resource.Attribute.keylines;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::MoleWatchApp.Droid.Resource.Attribute.layout_anchor;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::MoleWatchApp.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Attribute.layout_behavior = global::MoleWatchApp.Droid.Resource.Attribute.layout_behavior;
-			global::Xamarin.Essentials.Resource.Attribute.layout_dodgeInsetEdges = global::MoleWatchApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::MoleWatchApp.Droid.Resource.Attribute.layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::MoleWatchApp.Droid.Resource.Attribute.layout_keyline;
-			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::MoleWatchApp.Droid.Resource.Attribute.statusBarBackground;
 			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::MoleWatchApp.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Essentials.Resource.Color.androidx_core_ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.androidx_core_secondary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::MoleWatchApp.Droid.Resource.Color.browser_actions_bg_grey;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_divider_color;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_text_color;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_title_color;
 			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::MoleWatchApp.Droid.Resource.Color.notification_action_color_filter;
 			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::MoleWatchApp.Droid.Resource.Color.notification_icon_bg_color;
-			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.ripple_material_light;
-			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.secondary_text_default_material_light;
 			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::MoleWatchApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
 			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::MoleWatchApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
@@ -1816,47 +1807,71 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::MoleWatchApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.accessibility_action_clickable_span = global::MoleWatchApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_0 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_1 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_10 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_11 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_12 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_13 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_14 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_15 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_16 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_17 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_18 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_19 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_2 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_20 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_21 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_22 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_23 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_24 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_25 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_26 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_27 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_28 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_29 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_3 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_30 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_31 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_4 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_5 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_6 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_7 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_8 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_9 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xamarin.Essentials.Resource.Id.actions = global::MoleWatchApp.Droid.Resource.Id.actions;
 			global::Xamarin.Essentials.Resource.Id.action_container = global::MoleWatchApp.Droid.Resource.Id.action_container;
 			global::Xamarin.Essentials.Resource.Id.action_divider = global::MoleWatchApp.Droid.Resource.Id.action_divider;
 			global::Xamarin.Essentials.Resource.Id.action_image = global::MoleWatchApp.Droid.Resource.Id.action_image;
 			global::Xamarin.Essentials.Resource.Id.action_text = global::MoleWatchApp.Droid.Resource.Id.action_text;
-			global::Xamarin.Essentials.Resource.Id.all = global::MoleWatchApp.Droid.Resource.Id.all;
 			global::Xamarin.Essentials.Resource.Id.async = global::MoleWatchApp.Droid.Resource.Id.async;
 			global::Xamarin.Essentials.Resource.Id.blocking = global::MoleWatchApp.Droid.Resource.Id.blocking;
-			global::Xamarin.Essentials.Resource.Id.bottom = global::MoleWatchApp.Droid.Resource.Id.bottom;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::MoleWatchApp.Droid.Resource.Id.browser_actions_header_text;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_item_icon;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_item_text;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_view;
-			global::Xamarin.Essentials.Resource.Id.center = global::MoleWatchApp.Droid.Resource.Id.center;
-			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::MoleWatchApp.Droid.Resource.Id.center_horizontal;
-			global::Xamarin.Essentials.Resource.Id.center_vertical = global::MoleWatchApp.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Essentials.Resource.Id.chronometer = global::MoleWatchApp.Droid.Resource.Id.chronometer;
-			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::MoleWatchApp.Droid.Resource.Id.clip_horizontal;
-			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::MoleWatchApp.Droid.Resource.Id.clip_vertical;
-			global::Xamarin.Essentials.Resource.Id.end = global::MoleWatchApp.Droid.Resource.Id.end;
-			global::Xamarin.Essentials.Resource.Id.fill = global::MoleWatchApp.Droid.Resource.Id.fill;
-			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::MoleWatchApp.Droid.Resource.Id.fill_horizontal;
-			global::Xamarin.Essentials.Resource.Id.fill_vertical = global::MoleWatchApp.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Essentials.Resource.Id.dialog_button = global::MoleWatchApp.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Essentials.Resource.Id.forever = global::MoleWatchApp.Droid.Resource.Id.forever;
 			global::Xamarin.Essentials.Resource.Id.icon = global::MoleWatchApp.Droid.Resource.Id.icon;
 			global::Xamarin.Essentials.Resource.Id.icon_group = global::MoleWatchApp.Droid.Resource.Id.icon_group;
 			global::Xamarin.Essentials.Resource.Id.info = global::MoleWatchApp.Droid.Resource.Id.info;
 			global::Xamarin.Essentials.Resource.Id.italic = global::MoleWatchApp.Droid.Resource.Id.italic;
-			global::Xamarin.Essentials.Resource.Id.left = global::MoleWatchApp.Droid.Resource.Id.left;
 			global::Xamarin.Essentials.Resource.Id.line1 = global::MoleWatchApp.Droid.Resource.Id.line1;
 			global::Xamarin.Essentials.Resource.Id.line3 = global::MoleWatchApp.Droid.Resource.Id.line3;
-			global::Xamarin.Essentials.Resource.Id.none = global::MoleWatchApp.Droid.Resource.Id.none;
 			global::Xamarin.Essentials.Resource.Id.normal = global::MoleWatchApp.Droid.Resource.Id.normal;
 			global::Xamarin.Essentials.Resource.Id.notification_background = global::MoleWatchApp.Droid.Resource.Id.notification_background;
 			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::MoleWatchApp.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::MoleWatchApp.Droid.Resource.Id.notification_main_column_container;
-			global::Xamarin.Essentials.Resource.Id.right = global::MoleWatchApp.Droid.Resource.Id.right;
 			global::Xamarin.Essentials.Resource.Id.right_icon = global::MoleWatchApp.Droid.Resource.Id.right_icon;
 			global::Xamarin.Essentials.Resource.Id.right_side = global::MoleWatchApp.Droid.Resource.Id.right_side;
-			global::Xamarin.Essentials.Resource.Id.start = global::MoleWatchApp.Droid.Resource.Id.start;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_actions = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_clickable_spans = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_heading = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_pane_title = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Essentials.Resource.Id.tag_screen_reader_focusable = global::MoleWatchApp.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::MoleWatchApp.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -1864,16 +1879,20 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Essentials.Resource.Id.text2 = global::MoleWatchApp.Droid.Resource.Id.text2;
 			global::Xamarin.Essentials.Resource.Id.time = global::MoleWatchApp.Droid.Resource.Id.time;
 			global::Xamarin.Essentials.Resource.Id.title = global::MoleWatchApp.Droid.Resource.Id.title;
-			global::Xamarin.Essentials.Resource.Id.top = global::MoleWatchApp.Droid.Resource.Id.top;
 			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::MoleWatchApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::MoleWatchApp.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::MoleWatchApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Essentials.Resource.Layout.custom_dialog = global::MoleWatchApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Essentials.Resource.Layout.notification_action = global::MoleWatchApp.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::MoleWatchApp.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::MoleWatchApp.Droid.Resource.Layout.notification_template_custom_big;
 			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::MoleWatchApp.Droid.Resource.Layout.notification_template_icon_group;
 			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::MoleWatchApp.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::MoleWatchApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.copy_toast_msg = global::MoleWatchApp.Droid.Resource.String.copy_toast_msg;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_copy_link = global::MoleWatchApp.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_open_in_browser = global::MoleWatchApp.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_share_link = global::MoleWatchApp.Droid.Resource.String.fallback_menu_item_share_link;
 			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::MoleWatchApp.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
 			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
@@ -1882,22 +1901,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::MoleWatchApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::MoleWatchApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -1932,6 +1939,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::MoleWatchApp.Droid.Resource.Xml.image_share_filepaths;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::MoleWatchApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::MoleWatchApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::MoleWatchApp.Droid.Resource.Animation.abc_fade_out;
@@ -1945,6 +1953,18 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_out_top = global::MoleWatchApp.Droid.Resource.Animation.abc_slide_out_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_tooltip_enter = global::MoleWatchApp.Droid.Resource.Animation.abc_tooltip_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_tooltip_exit = global::MoleWatchApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::MoleWatchApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::MoleWatchApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::MoleWatchApp.Droid.Resource.Animation.design_snackbar_in;
@@ -1953,12 +1973,27 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::MoleWatchApp.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::MoleWatchApp.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::MoleWatchApp.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_enter = global::MoleWatchApp.Droid.Resource.Animation.fragment_close_enter;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_exit = global::MoleWatchApp.Droid.Resource.Animation.fragment_close_exit;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fade_enter = global::MoleWatchApp.Droid.Resource.Animation.fragment_fade_enter;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fade_exit = global::MoleWatchApp.Droid.Resource.Animation.fragment_fade_exit;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::MoleWatchApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_open_enter = global::MoleWatchApp.Droid.Resource.Animation.fragment_open_enter;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_open_exit = global::MoleWatchApp.Droid.Resource.Animation.fragment_open_exit;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_in = global::MoleWatchApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_out = global::MoleWatchApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_card_lowers_interpolator = global::MoleWatchApp.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::MoleWatchApp.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_card_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_chip_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_change_size_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_change_size_motion_spec;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_state_list_animator = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -1995,6 +2030,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionProviderClass = global::MoleWatchApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionTextColorAlpha = global::MoleWatchApp.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionViewClass = global::MoleWatchApp.Droid.Resource.Attribute.actionViewClass;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::MoleWatchApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -2004,6 +2040,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.allowStacking = global::MoleWatchApp.Droid.Resource.Attribute.allowStacking;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alpha = global::MoleWatchApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alphabeticModifiers = global::MoleWatchApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.animationMode = global::MoleWatchApp.Droid.Resource.Attribute.animationMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.appBarLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowHeadLength = global::MoleWatchApp.Droid.Resource.Attribute.arrowHeadLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowShaftLength = global::MoleWatchApp.Droid.Resource.Attribute.arrowShaftLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -2013,16 +2051,30 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeStepGranularity = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeTextType = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeTextType;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.background = global::MoleWatchApp.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.backgroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetBottom = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetEnd = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetStart = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetTop = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundOverlayColorAlpha = global::MoleWatchApp.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundSplit = global::MoleWatchApp.Droid.Resource.Attribute.backgroundSplit;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundStacked = global::MoleWatchApp.Droid.Resource.Attribute.backgroundStacked;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTint = global::MoleWatchApp.Droid.Resource.Attribute.backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTintMode = global::MoleWatchApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.badgeGravity = global::MoleWatchApp.Droid.Resource.Attribute.badgeGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.badgeStyle = global::MoleWatchApp.Droid.Resource.Attribute.badgeStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.badgeTextColor = global::MoleWatchApp.Droid.Resource.Attribute.badgeTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.barLength = global::MoleWatchApp.Droid.Resource.Attribute.barLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoHide = global::MoleWatchApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoShrink = global::MoleWatchApp.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_draggable = global::MoleWatchApp.Droid.Resource.Attribute.behavior_draggable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_expandedOffset = global::MoleWatchApp.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_fitToContents = global::MoleWatchApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_halfExpandedRatio = global::MoleWatchApp.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_hideable = global::MoleWatchApp.Droid.Resource.Attribute.behavior_hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_overlapTop = global::MoleWatchApp.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_peekHeight = global::MoleWatchApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_saveFlags = global::MoleWatchApp.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_skipCollapsed = global::MoleWatchApp.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderWidth = global::MoleWatchApp.Droid.Resource.Attribute.borderWidth;
@@ -2038,12 +2090,15 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopStart = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeErrorColor = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidthFocused = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonCompat = global::MoleWatchApp.Droid.Resource.Attribute.buttonCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonGravity = global::MoleWatchApp.Droid.Resource.Attribute.buttonGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonIconDimen = global::MoleWatchApp.Droid.Resource.Attribute.buttonIconDimen;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::MoleWatchApp.Droid.Resource.Attribute.buttonPanelSideLayout;
@@ -2054,14 +2109,17 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardBackgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.cardCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardElevation = global::MoleWatchApp.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardForegroundColor = global::MoleWatchApp.Droid.Resource.Attribute.cardForegroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardMaxElevation = global::MoleWatchApp.Droid.Resource.Attribute.cardMaxElevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::MoleWatchApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::MoleWatchApp.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.cardViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkboxStyle = global::MoleWatchApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedButton = global::MoleWatchApp.Droid.Resource.Attribute.checkedButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedChip = global::MoleWatchApp.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIcon = global::MoleWatchApp.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconEnabled = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconTint = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconVisible = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipBackgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.chipBackgroundColor;
@@ -2074,6 +2132,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconTint = global::MoleWatchApp.Droid.Resource.Attribute.chipIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconVisible = global::MoleWatchApp.Droid.Resource.Attribute.chipIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipMinHeight = global::MoleWatchApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacing = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacingHorizontal = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacingVertical = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacingVertical;
@@ -2082,6 +2141,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.chipStrokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStyle = global::MoleWatchApp.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSurfaceColor = global::MoleWatchApp.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIcon = global::MoleWatchApp.Droid.Resource.Attribute.closeIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconEnabled = global::MoleWatchApp.Droid.Resource.Attribute.closeIconEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.closeIconEndPadding;
@@ -2103,9 +2163,19 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlHighlight = global::MoleWatchApp.Droid.Resource.Attribute.colorControlHighlight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlNormal = global::MoleWatchApp.Droid.Resource.Attribute.colorControlNormal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorError = global::MoleWatchApp.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnBackground = global::MoleWatchApp.Droid.Resource.Attribute.colorOnBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnError = global::MoleWatchApp.Droid.Resource.Attribute.colorOnError;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnPrimary = global::MoleWatchApp.Droid.Resource.Attribute.colorOnPrimary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnPrimarySurface = global::MoleWatchApp.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnSecondary = global::MoleWatchApp.Droid.Resource.Attribute.colorOnSecondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnSurface = global::MoleWatchApp.Droid.Resource.Attribute.colorOnSurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimary = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimary;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimaryDark = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimarySurface = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimaryVariant = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSecondary = global::MoleWatchApp.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSecondaryVariant = global::MoleWatchApp.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSurface = global::MoleWatchApp.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::MoleWatchApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.commitIcon = global::MoleWatchApp.Droid.Resource.Attribute.commitIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentDescription = global::MoleWatchApp.Droid.Resource.Attribute.contentDescription;
@@ -2123,12 +2193,28 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentScrim = global::MoleWatchApp.Droid.Resource.Attribute.contentScrim;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.controlBackground = global::MoleWatchApp.Droid.Resource.Attribute.controlBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.coordinatorLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamily = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyBottomLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyBottomRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyTopLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyTopRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSize = global::MoleWatchApp.Droid.Resource.Attribute.cornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeBottomLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeBottomRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeTopLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeTopRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterEnabled = global::MoleWatchApp.Droid.Resource.Attribute.counterEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterMaxLength = global::MoleWatchApp.Droid.Resource.Attribute.counterMaxLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterOverflowTextColor = global::MoleWatchApp.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterTextColor = global::MoleWatchApp.Droid.Resource.Attribute.counterTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.customNavigationLayout = global::MoleWatchApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dayInvalidStyle = global::MoleWatchApp.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.daySelectedStyle = global::MoleWatchApp.Droid.Resource.Attribute.daySelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dayStyle = global::MoleWatchApp.Droid.Resource.Attribute.dayStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dayTodayStyle = global::MoleWatchApp.Droid.Resource.Attribute.dayTodayStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.defaultQueryHint = global::MoleWatchApp.Droid.Resource.Attribute.defaultQueryHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::MoleWatchApp.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -2138,18 +2224,41 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerHorizontal = global::MoleWatchApp.Droid.Resource.Attribute.dividerHorizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerPadding = global::MoleWatchApp.Droid.Resource.Attribute.dividerPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerVertical = global::MoleWatchApp.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableBottomCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableEndCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableLeftCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableRightCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableRightCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableSize = global::MoleWatchApp.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableStartCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTint = global::MoleWatchApp.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTintMode = global::MoleWatchApp.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTopCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawerArrowStyle = global::MoleWatchApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawerLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextBackground = global::MoleWatchApp.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextColor = global::MoleWatchApp.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.editTextStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::MoleWatchApp.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayColor = global::MoleWatchApp.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayEnabled = global::MoleWatchApp.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconCheckable = global::MoleWatchApp.Droid.Resource.Attribute.endIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.endIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconDrawable = global::MoleWatchApp.Droid.Resource.Attribute.endIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconMode = global::MoleWatchApp.Droid.Resource.Attribute.endIconMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconTint = global::MoleWatchApp.Droid.Resource.Attribute.endIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.endIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceMaterialTheme = global::MoleWatchApp.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ensureMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.errorContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorEnabled = global::MoleWatchApp.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconDrawable = global::MoleWatchApp.Droid.Resource.Attribute.errorIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconTint = global::MoleWatchApp.Droid.Resource.Attribute.errorIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.errorIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorTextColor = global::MoleWatchApp.Droid.Resource.Attribute.errorTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MoleWatchApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expanded = global::MoleWatchApp.Droid.Resource.Attribute.expanded;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleGravity = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleGravity;
@@ -2159,7 +2268,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.extendedFloatingActionButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.extendMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.extendMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabAlignmentMode = global::MoleWatchApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabAnimationMode = global::MoleWatchApp.Droid.Resource.Attribute.fabAnimationMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleMargin = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleMargin;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleVerticalOffset = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -2185,20 +2297,26 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontWeight = global::MoleWatchApp.Droid.Resource.Attribute.fontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::MoleWatchApp.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gapBetweenBars = global::MoleWatchApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gestureInsetBottomIgnored = global::MoleWatchApp.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.goIcon = global::MoleWatchApp.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.haloColor = global::MoleWatchApp.Droid.Resource.Attribute.haloColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.haloRadius = global::MoleWatchApp.Droid.Resource.Attribute.haloRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.headerLayout = global::MoleWatchApp.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.height = global::MoleWatchApp.Droid.Resource.Attribute.height;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperText = global::MoleWatchApp.Droid.Resource.Attribute.helperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextEnabled = global::MoleWatchApp.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextTextColor = global::MoleWatchApp.Droid.Resource.Attribute.helperTextTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.hideMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnContentScroll = global::MoleWatchApp.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnScroll = global::MoleWatchApp.Droid.Resource.Attribute.hideOnScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::MoleWatchApp.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintEnabled = global::MoleWatchApp.Droid.Resource.Attribute.hintEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextColor = global::MoleWatchApp.Droid.Resource.Attribute.hintTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::MoleWatchApp.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeLayout = global::MoleWatchApp.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.horizontalOffset = global::MoleWatchApp.Droid.Resource.Attribute.horizontalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::MoleWatchApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.icon = global::MoleWatchApp.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.iconEndPadding;
@@ -2214,19 +2332,34 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.initialActivityCount = global::MoleWatchApp.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.insetForeground = global::MoleWatchApp.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.isLightTheme = global::MoleWatchApp.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.isMaterialTheme = global::MoleWatchApp.Droid.Resource.Attribute.isMaterialTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemBackground = global::MoleWatchApp.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemFillColor = global::MoleWatchApp.Droid.Resource.Attribute.itemFillColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::MoleWatchApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemIconPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconSize = global::MoleWatchApp.Droid.Resource.Attribute.itemIconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconTint = global::MoleWatchApp.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemMaxLines = global::MoleWatchApp.Droid.Resource.Attribute.itemMaxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemRippleColor = global::MoleWatchApp.Droid.Resource.Attribute.itemRippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeAppearance = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeFillColor = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetBottom = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetEnd = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetStart = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetTop = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemSpacing = global::MoleWatchApp.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.itemStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceActive = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceInactive = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextColor = global::MoleWatchApp.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.keylines = global::MoleWatchApp.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelBehavior = global::MoleWatchApp.Droid.Resource.Attribute.labelBehavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelStyle = global::MoleWatchApp.Droid.Resource.Attribute.labelStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelVisibilityMode = global::MoleWatchApp.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lastBaselineToBottomHeight = global::MoleWatchApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout = global::MoleWatchApp.Droid.Resource.Attribute.layout;
@@ -2242,9 +2375,12 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollFlags = global::MoleWatchApp.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::MoleWatchApp.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.liftOnScroll = global::MoleWatchApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.liftOnScrollTargetViewId = global::MoleWatchApp.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineHeight = global::MoleWatchApp.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineSpacing = global::MoleWatchApp.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::MoleWatchApp.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.listItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listLayout = global::MoleWatchApp.Droid.Resource.Attribute.listLayout;
@@ -2253,26 +2389,53 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingEnd = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingStart = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::MoleWatchApp.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::MoleWatchApp.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogBodyTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTheme = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitleIconStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitleTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonOutlinedStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonToggleGroupStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarDay = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarDay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarFullscreenTheme = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderConfirmButton = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderDivider = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderLayout = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderSelection = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderTitle = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderToggleButton = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarTheme = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCardViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialThemeOverlay = global::MoleWatchApp.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::MoleWatchApp.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxButtonHeight = global::MoleWatchApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxCharacterCount = global::MoleWatchApp.Droid.Resource.Attribute.maxCharacterCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxImageSize = global::MoleWatchApp.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxLines = global::MoleWatchApp.Droid.Resource.Attribute.maxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.measureWithLargestChild = global::MoleWatchApp.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.menu = global::MoleWatchApp.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.minTouchTargetSize = global::MoleWatchApp.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.navigationContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationIcon = global::MoleWatchApp.Droid.Resource.Attribute.navigationIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationMode = global::MoleWatchApp.Droid.Resource.Attribute.navigationMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.number = global::MoleWatchApp.Droid.Resource.Attribute.number;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.numericModifiers = global::MoleWatchApp.Droid.Resource.Attribute.numericModifiers;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.overlapAnchor = global::MoleWatchApp.Droid.Resource.Attribute.overlapAnchor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomNoButtons = global::MoleWatchApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingEnd = global::MoleWatchApp.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingLeftSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingRightSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingStart = global::MoleWatchApp.Droid.Resource.Attribute.paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingTopNoTitle = global::MoleWatchApp.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelBackground = global::MoleWatchApp.Droid.Resource.Attribute.panelBackground;
@@ -2283,9 +2446,16 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleEnabled = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTint = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTintMode = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderText = global::MoleWatchApp.Droid.Resource.Attribute.placeholderText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderTextColor = global::MoleWatchApp.Droid.Resource.Attribute.placeholderTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuBackground = global::MoleWatchApp.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuStyle = global::MoleWatchApp.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupTheme = global::MoleWatchApp.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupWindowStyle = global::MoleWatchApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixText = global::MoleWatchApp.Droid.Resource.Attribute.prefixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixTextColor = global::MoleWatchApp.Droid.Resource.Attribute.prefixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.preserveIconSpacing = global::MoleWatchApp.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.pressedTranslationZ = global::MoleWatchApp.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.progressBarPadding = global::MoleWatchApp.Droid.Resource.Attribute.progressBarPadding;
@@ -2293,9 +2463,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryBackground = global::MoleWatchApp.Droid.Resource.Attribute.queryBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryHint = global::MoleWatchApp.Droid.Resource.Attribute.queryHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.radioButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.rangeFillColor = global::MoleWatchApp.Droid.Resource.Attribute.rangeFillColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.recyclerViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.recyclerViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.reverseLayout = global::MoleWatchApp.Droid.Resource.Attribute.reverseLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.rippleColor = global::MoleWatchApp.Droid.Resource.Attribute.rippleColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::MoleWatchApp.Droid.Resource.Attribute.scrimAnimationDuration;
@@ -2308,16 +2480,25 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.seekBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.seekBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackground = global::MoleWatchApp.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::MoleWatchApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectionRequired = global::MoleWatchApp.Droid.Resource.Attribute.selectionRequired;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearance = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceLargeComponent = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceMediumComponent = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceSmallComponent = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showAsAction = global::MoleWatchApp.Droid.Resource.Attribute.showAsAction;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showDividers = global::MoleWatchApp.Droid.Resource.Attribute.showDividers;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.showMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showText = global::MoleWatchApp.Droid.Resource.Attribute.showText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showTitle = global::MoleWatchApp.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shrinkMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleLine = global::MoleWatchApp.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleSelection = global::MoleWatchApp.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.sliderStyle = global::MoleWatchApp.Droid.Resource.Attribute.sliderStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spanCount = global::MoleWatchApp.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinBars = global::MoleWatchApp.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::MoleWatchApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -2325,12 +2506,19 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.splitTrack = global::MoleWatchApp.Droid.Resource.Attribute.splitTrack;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.srcCompat = global::MoleWatchApp.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.stackFromEnd = global::MoleWatchApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconCheckable = global::MoleWatchApp.Droid.Resource.Attribute.startIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.startIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconDrawable = global::MoleWatchApp.Droid.Resource.Attribute.startIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconTint = global::MoleWatchApp.Droid.Resource.Attribute.startIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.startIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_above_anchor = global::MoleWatchApp.Droid.Resource.Attribute.state_above_anchor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsed = global::MoleWatchApp.Droid.Resource.Attribute.state_collapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsible = global::MoleWatchApp.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_dragged = global::MoleWatchApp.Droid.Resource.Attribute.state_dragged;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_liftable = global::MoleWatchApp.Droid.Resource.Attribute.state_liftable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_lifted = global::MoleWatchApp.Droid.Resource.Attribute.state_lifted;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarBackground = global::MoleWatchApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarForeground = global::MoleWatchApp.Droid.Resource.Attribute.statusBarForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarScrim = global::MoleWatchApp.Droid.Resource.Attribute.statusBarScrim;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeColor = global::MoleWatchApp.Droid.Resource.Attribute.strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.strokeWidth;
@@ -2340,6 +2528,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextColor = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixText = global::MoleWatchApp.Droid.Resource.Attribute.suffixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixTextColor = global::MoleWatchApp.Droid.Resource.Attribute.suffixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suggestionRowLayout = global::MoleWatchApp.Droid.Resource.Attribute.suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchMinWidth = global::MoleWatchApp.Droid.Resource.Attribute.switchMinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchPadding = global::MoleWatchApp.Droid.Resource.Attribute.switchPadding;
@@ -2383,6 +2574,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline5 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline6 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceLineHeightEnabled = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItem = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSecondary = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -2396,13 +2588,22 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::MoleWatchApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorSearchUrl = global::MoleWatchApp.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::MoleWatchApp.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputStyle = global::MoleWatchApp.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textLocale = global::MoleWatchApp.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textStartPadding = global::MoleWatchApp.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::MoleWatchApp.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.themeLineHeight = global::MoleWatchApp.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::MoleWatchApp.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbColor = global::MoleWatchApp.Droid.Resource.Attribute.thumbColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbElevation = global::MoleWatchApp.Droid.Resource.Attribute.thumbElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbRadius = global::MoleWatchApp.Droid.Resource.Attribute.thumbRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTextPadding = global::MoleWatchApp.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTint = global::MoleWatchApp.Droid.Resource.Attribute.thumbTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTintMode = global::MoleWatchApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColor = global::MoleWatchApp.Droid.Resource.Attribute.tickColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColorActive = global::MoleWatchApp.Droid.Resource.Attribute.tickColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColorInactive = global::MoleWatchApp.Droid.Resource.Attribute.tickColorInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMark = global::MoleWatchApp.Droid.Resource.Attribute.tickMark;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTint = global::MoleWatchApp.Droid.Resource.Attribute.tickMarkTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTintMode = global::MoleWatchApp.Droid.Resource.Attribute.tickMarkTintMode;
@@ -2424,12 +2625,21 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarStyle = global::MoleWatchApp.Droid.Resource.Attribute.toolbarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipForegroundColor = global::MoleWatchApp.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipFrameBackground = global::MoleWatchApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipStyle = global::MoleWatchApp.Droid.Resource.Attribute.tooltipStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipText = global::MoleWatchApp.Droid.Resource.Attribute.tooltipText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.track = global::MoleWatchApp.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColor = global::MoleWatchApp.Droid.Resource.Attribute.trackColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColorActive = global::MoleWatchApp.Droid.Resource.Attribute.trackColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColorInactive = global::MoleWatchApp.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackHeight = global::MoleWatchApp.Droid.Resource.Attribute.trackHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTint = global::MoleWatchApp.Droid.Resource.Attribute.trackTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTintMode = global::MoleWatchApp.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.transitionShapeAppearance = global::MoleWatchApp.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ttcIndex = global::MoleWatchApp.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useCompatPadding = global::MoleWatchApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.values = global::MoleWatchApp.Droid.Resource.Attribute.values;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.verticalOffset = global::MoleWatchApp.Droid.Resource.Attribute.verticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.viewInflaterClass = global::MoleWatchApp.Droid.Resource.Attribute.viewInflaterClass;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.voiceIcon = global::MoleWatchApp.Droid.Resource.Attribute.voiceIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionBar = global::MoleWatchApp.Droid.Resource.Attribute.windowActionBar;
@@ -2442,6 +2652,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::MoleWatchApp.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::MoleWatchApp.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowNoTitle = global::MoleWatchApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearSelectedStyle = global::MoleWatchApp.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearStyle = global::MoleWatchApp.Droid.Resource.Attribute.yearStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearTodayStyle = global::MoleWatchApp.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::MoleWatchApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::MoleWatchApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MoleWatchApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
@@ -2451,6 +2664,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::MoleWatchApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_text_material = global::MoleWatchApp.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_color_highlight_material = global::MoleWatchApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_decor_view_status_guard = global::MoleWatchApp.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_decor_view_status_guard_light = global::MoleWatchApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_light = global::MoleWatchApp.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -2471,6 +2686,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_switch_track = global::MoleWatchApp.Droid.Resource.Color.abc_tint_switch_track;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_dark = global::MoleWatchApp.Droid.Resource.Color.accent_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_light = global::MoleWatchApp.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.androidx_core_ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.androidx_core_secondary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_dark = global::MoleWatchApp.Droid.Resource.Color.background_floating_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_light = global::MoleWatchApp.Droid.Resource.Color.background_floating_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.background_material_dark = global::MoleWatchApp.Droid.Resource.Color.background_material_dark;
@@ -2487,9 +2704,35 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::MoleWatchApp.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::MoleWatchApp.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::MoleWatchApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.checkbox_themeable_attribute_color = global::MoleWatchApp.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::MoleWatchApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.design_box_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_background = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_error = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_background = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_error = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_primary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_secondary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_surface = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_primary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_primary_dark = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_primary_variant = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_secondary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_secondary_variant = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_surface = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_background = global::MoleWatchApp.Droid.Resource.Color.design_default_color_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_error = global::MoleWatchApp.Droid.Resource.Color.design_default_color_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_background = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_error = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_primary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_secondary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_surface = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_surface;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary_dark = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary_variant = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_secondary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_secondary_variant = global::MoleWatchApp.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_surface = global::MoleWatchApp.Droid.Resource.Color.design_default_color_surface;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_error = global::MoleWatchApp.Droid.Resource.Color.design_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -2498,6 +2741,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_icon_tint = global::MoleWatchApp.Droid.Resource.Color.design_icon_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_snackbar_background_color = global::MoleWatchApp.Droid.Resource.Color.design_snackbar_background_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -2521,20 +2765,61 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_800 = global::MoleWatchApp.Droid.Resource.Color.material_grey_800;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_850 = global::MoleWatchApp.Droid.Resource.Color.material_grey_850;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_900 = global::MoleWatchApp.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_background_disabled = global::MoleWatchApp.Droid.Resource.Color.material_on_background_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_background_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_background_emphasis_medium = global::MoleWatchApp.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_primary_disabled = global::MoleWatchApp.Droid.Resource.Color.material_on_primary_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_primary_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_primary_emphasis_medium = global::MoleWatchApp.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_disabled = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_emphasis_medium = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_stroke = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_stroke;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_active_tick_marks_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_active_track_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_active_track_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_halo_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_halo_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_tick_marks_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_track_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_thumb_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_thumb_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_bg_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_color_disabled = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_calendar_item_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_calendar_selected_range = global::MoleWatchApp.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_card_view_foreground = global::MoleWatchApp.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_card_view_ripple = global::MoleWatchApp.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_close_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_surface_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_error = global::MoleWatchApp.Droid.Resource.Color.mtrl_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_bg_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_icon_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_indicator_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_navigation_item_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_navigation_item_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_navigation_item_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_outlined_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_outlined_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_popupmenu_overlay_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_scrim_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_scrim_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -2544,6 +2829,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_disabled_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_action_color_filter = global::MoleWatchApp.Droid.Resource.Color.notification_action_color_filter;
@@ -2557,6 +2843,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.radiobutton_themeable_attribute_color = global::MoleWatchApp.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::MoleWatchApp.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::MoleWatchApp.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -2569,6 +2856,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day = global::MoleWatchApp.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day_selected = global::MoleWatchApp.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_dark = global::MoleWatchApp.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_light = global::MoleWatchApp.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -2619,6 +2908,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_floating_window_z = global::MoleWatchApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_height_large_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_height_small_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::MoleWatchApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_progress_bar_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
@@ -2646,6 +2938,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.action_bar_size = global::MoleWatchApp.Droid.Resource.Dimension.action_bar_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.appcompat_dialog_background_inset = global::MoleWatchApp.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::MoleWatchApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::MoleWatchApp.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_radius = global::MoleWatchApp.Droid.Resource.Dimension.cardview_default_radius;
@@ -2656,6 +2950,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.default_dimension = global::MoleWatchApp.Droid.Resource.Dimension.default_dimension;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.def_drawer_elevation = global::MoleWatchApp.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -2668,6 +2964,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_margin = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_text_size = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_border_width = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_border_width;
@@ -2686,6 +2983,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_action_text_color_alpha = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -2715,7 +3013,24 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_disabled = global::MoleWatchApp.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_medium = global::MoleWatchApp.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height = global::MoleWatchApp.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height_override = global::MoleWatchApp.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_with_text_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -2742,25 +3057,130 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_action_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_action_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_bottom_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_content_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_days_of_week_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_corner = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_today_stroke = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_content_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_text_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_landscape_header_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_navigation_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_corner = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_checked_icon_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_checked_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_dragged_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_spacing = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_end_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_min_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_min_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_start_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_top_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_min_touch_target = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_default_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_large_touch_target = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_default_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_min_touch_target_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_large_component = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_small_component = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_halo_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_square_side = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_side_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_widget_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_switch_thumb_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_counter_margin_start = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_toolbar_default_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_arrowSize = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_cornerSize = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_minHeight = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_minWidth = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_text_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_big_circle_margin = global::MoleWatchApp.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -2776,10 +3196,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_outline_width = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_shadow_offset = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_shadow_radius = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::MoleWatchApp.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_margin = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_margin;
@@ -2792,11 +3209,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_borderless_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_material_anim = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_colored_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_material_anim = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
@@ -2874,15 +3293,39 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_vector_test = global::MoleWatchApp.Droid.Resource.Drawable.abc_vector_test;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password = global::MoleWatchApp.Droid.Resource.Drawable.avd_hide_password;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password = global::MoleWatchApp.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_checked_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_off_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_on_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_bottom_navigation_item_background = global::MoleWatchApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_fab_background = global::MoleWatchApp.Droid.Resource.Drawable.design_fab_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility = global::MoleWatchApp.Droid.Resource.Drawable.design_ic_visibility;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility_off = global::MoleWatchApp.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_password_eye = global::MoleWatchApp.Droid.Resource.Drawable.design_password_eye;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_snackbar_background = global::MoleWatchApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_checked_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_calendar_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_clear_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_edit_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_dialog_background = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_dropdown_arrow = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_arrow_drop_down = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_arrow_drop_up = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_cancel = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_error = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background_dark = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::MoleWatchApp.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::MoleWatchApp.Droid.Resource.Drawable.notification_action_background;
@@ -2897,8 +3340,42 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::MoleWatchApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_custom_background = global::MoleWatchApp.Droid.Resource.Drawable.test_custom_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::MoleWatchApp.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::MoleWatchApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_action_clickable_span = global::MoleWatchApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_0 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_1 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_10 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_11 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_12 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_13 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_14 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_15 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_16 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_17 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_18 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_19 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_2 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_20 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_21 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_22 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_23 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_24 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_25 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_26 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_27 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_28 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_29 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_3 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_30 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_31 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_4 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_5 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_6 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_7 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_8 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_custom_action_9 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.action0 = global::MoleWatchApp.Droid.Resource.Id.action0;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.actions = global::MoleWatchApp.Droid.Resource.Id.actions;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar = global::MoleWatchApp.Droid.Resource.Id.action_bar;
@@ -2931,16 +3408,27 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.bottom = global::MoleWatchApp.Droid.Resource.Id.bottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_navarea = global::MoleWatchApp.Droid.Resource.Id.bottomtab_navarea;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_tabbar = global::MoleWatchApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.BOTTOM_END = global::MoleWatchApp.Droid.Resource.Id.BOTTOM_END;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.BOTTOM_START = global::MoleWatchApp.Droid.Resource.Id.BOTTOM_START;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.buttonPanel = global::MoleWatchApp.Droid.Resource.Id.buttonPanel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.cancel_action = global::MoleWatchApp.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.cancel_button = global::MoleWatchApp.Droid.Resource.Id.cancel_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center = global::MoleWatchApp.Droid.Resource.Id.center;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center_horizontal = global::MoleWatchApp.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center_vertical = global::MoleWatchApp.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::MoleWatchApp.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.@checked = global::MoleWatchApp.Droid.Resource.Id.@checked;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip = global::MoleWatchApp.Droid.Resource.Id.chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip1 = global::MoleWatchApp.Droid.Resource.Id.chip1;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip2 = global::MoleWatchApp.Droid.Resource.Id.chip2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip3 = global::MoleWatchApp.Droid.Resource.Id.chip3;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip_group = global::MoleWatchApp.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::MoleWatchApp.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.clear_text = global::MoleWatchApp.Droid.Resource.Id.clear_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_horizontal = global::MoleWatchApp.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_vertical = global::MoleWatchApp.Droid.Resource.Id.clip_vertical;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.collapseActionView = global::MoleWatchApp.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.confirm_button = global::MoleWatchApp.Droid.Resource.Id.confirm_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.container = global::MoleWatchApp.Droid.Resource.Id.container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.content = global::MoleWatchApp.Droid.Resource.Id.content;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.contentPanel = global::MoleWatchApp.Droid.Resource.Id.contentPanel;
@@ -2948,6 +3436,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.CTRL = global::MoleWatchApp.Droid.Resource.Id.CTRL;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.custom = global::MoleWatchApp.Droid.Resource.Id.custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.customPanel = global::MoleWatchApp.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.cut = global::MoleWatchApp.Droid.Resource.Id.cut;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.date_picker_actions = global::MoleWatchApp.Droid.Resource.Id.date_picker_actions;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.decor_content_parent = global::MoleWatchApp.Droid.Resource.Id.decor_content_parent;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.default_activity_button = global::MoleWatchApp.Droid.Resource.Id.default_activity_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_bottom_sheet = global::MoleWatchApp.Droid.Resource.Id.design_bottom_sheet;
@@ -2955,7 +3445,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::MoleWatchApp.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_text = global::MoleWatchApp.Droid.Resource.Id.design_menu_item_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_navigation_view = global::MoleWatchApp.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.dialog_button = global::MoleWatchApp.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.disableHome = global::MoleWatchApp.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.dropdown_menu = global::MoleWatchApp.Droid.Resource.Id.dropdown_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.edit_query = global::MoleWatchApp.Droid.Resource.Id.edit_query;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.end = global::MoleWatchApp.Droid.Resource.Id.end;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.end_padder = global::MoleWatchApp.Droid.Resource.Id.end_padder;
@@ -2964,17 +3456,23 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.exitUntilCollapsed = global::MoleWatchApp.Droid.Resource.Id.exitUntilCollapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::MoleWatchApp.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expand_activities_button = global::MoleWatchApp.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fade = global::MoleWatchApp.Droid.Resource.Id.fade;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::MoleWatchApp.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.filled = global::MoleWatchApp.Droid.Resource.Id.filled;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_horizontal = global::MoleWatchApp.Droid.Resource.Id.fill_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_vertical = global::MoleWatchApp.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fitToContents = global::MoleWatchApp.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::MoleWatchApp.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.floating = global::MoleWatchApp.Droid.Resource.Id.floating;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::MoleWatchApp.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::MoleWatchApp.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::MoleWatchApp.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fragment_container_view_tag = global::MoleWatchApp.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::MoleWatchApp.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::MoleWatchApp.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view_holder = global::MoleWatchApp.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.gone = global::MoleWatchApp.Droid.Resource.Id.gone;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::MoleWatchApp.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.hideable = global::MoleWatchApp.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::MoleWatchApp.Droid.Resource.Id.home;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.homeAsUp = global::MoleWatchApp.Droid.Resource.Id.homeAsUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.icon = global::MoleWatchApp.Droid.Resource.Id.icon;
@@ -3001,20 +3499,50 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.META = global::MoleWatchApp.Droid.Resource.Id.META;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.middle = global::MoleWatchApp.Droid.Resource.Id.middle;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mini = global::MoleWatchApp.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_grid = global::MoleWatchApp.Droid.Resource.Id.month_grid;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_bar = global::MoleWatchApp.Droid.Resource.Id.month_navigation_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_fragment_toggle = global::MoleWatchApp.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_next = global::MoleWatchApp.Droid.Resource.Id.month_navigation_next;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_previous = global::MoleWatchApp.Droid.Resource.Id.month_navigation_previous;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_title = global::MoleWatchApp.Droid.Resource.Id.month_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_days_of_week = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_day_selector_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_main_pane = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_months = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_selection_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_text_input_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_year_selector_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_card_checked_layer_id = global::MoleWatchApp.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_child_content_container = global::MoleWatchApp.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::MoleWatchApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_motion_snapshot_view = global::MoleWatchApp.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_fullscreen = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header_selection_text = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header_title_and_selection = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header_toggle = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_text_input_date = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_text_input_range_end = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_text_input_range_start = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_title_text = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.multiply = global::MoleWatchApp.Droid.Resource.Id.multiply;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.navigation_header_container = global::MoleWatchApp.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.never = global::MoleWatchApp.Droid.Resource.Id.never;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.none = global::MoleWatchApp.Droid.Resource.Id.none;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.normal = global::MoleWatchApp.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.noScroll = global::MoleWatchApp.Droid.Resource.Id.noScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_background = global::MoleWatchApp.Droid.Resource.Id.notification_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column = global::MoleWatchApp.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column_container = global::MoleWatchApp.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.off = global::MoleWatchApp.Droid.Resource.Id.off;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.on = global::MoleWatchApp.Droid.Resource.Id.on;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.outline = global::MoleWatchApp.Droid.Resource.Id.outline;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parallax = global::MoleWatchApp.Droid.Resource.Id.parallax;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parentPanel = global::MoleWatchApp.Droid.Resource.Id.parentPanel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parent_matrix = global::MoleWatchApp.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.password_toggle = global::MoleWatchApp.Droid.Resource.Id.password_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.peekHeight = global::MoleWatchApp.Droid.Resource.Id.peekHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.pin = global::MoleWatchApp.Droid.Resource.Id.pin;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_circular = global::MoleWatchApp.Droid.Resource.Id.progress_circular;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_horizontal = global::MoleWatchApp.Droid.Resource.Id.progress_horizontal;
@@ -3022,7 +3550,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right = global::MoleWatchApp.Droid.Resource.Id.right;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_icon = global::MoleWatchApp.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_side = global::MoleWatchApp.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.rounded = global::MoleWatchApp.Droid.Resource.Id.rounded;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.row_index_key = global::MoleWatchApp.Droid.Resource.Id.row_index_key;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.save_non_transition_alpha = global::MoleWatchApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.save_overlay_view = global::MoleWatchApp.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.scale = global::MoleWatchApp.Droid.Resource.Id.scale;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.screen = global::MoleWatchApp.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scroll = global::MoleWatchApp.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollable = global::MoleWatchApp.Droid.Resource.Id.scrollable;
@@ -3048,6 +3580,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showCustom = global::MoleWatchApp.Droid.Resource.Id.showCustom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showHome = global::MoleWatchApp.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showTitle = global::MoleWatchApp.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.skipCollapsed = global::MoleWatchApp.Droid.Resource.Id.skipCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.slide = global::MoleWatchApp.Droid.Resource.Id.slide;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.sliding_tabs = global::MoleWatchApp.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.smallLabel = global::MoleWatchApp.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_action = global::MoleWatchApp.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_text = global::MoleWatchApp.Droid.Resource.Id.snackbar_text;
@@ -3065,37 +3600,60 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.submit_area = global::MoleWatchApp.Droid.Resource.Id.submit_area;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.SYM = global::MoleWatchApp.Droid.Resource.Id.SYM;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tabMode = global::MoleWatchApp.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_actions = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_clickable_spans = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_heading = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_accessibility_pane_title = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_screen_reader_focusable = global::MoleWatchApp.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_transition_group = global::MoleWatchApp.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_event_manager = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_android_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_app_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_android_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_app_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::MoleWatchApp.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::MoleWatchApp.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textEnd = global::MoleWatchApp.Droid.Resource.Id.textEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_counter = global::MoleWatchApp.Droid.Resource.Id.textinput_counter;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_error = global::MoleWatchApp.Droid.Resource.Id.textinput_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_helper_text = global::MoleWatchApp.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_placeholder = global::MoleWatchApp.Droid.Resource.Id.textinput_placeholder;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_prefix_text = global::MoleWatchApp.Droid.Resource.Id.textinput_prefix_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_suffix_text = global::MoleWatchApp.Droid.Resource.Id.textinput_suffix_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoButtons = global::MoleWatchApp.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoTitle = global::MoleWatchApp.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textStart = global::MoleWatchApp.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.text_input_end_icon = global::MoleWatchApp.Droid.Resource.Id.text_input_end_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.text_input_start_icon = global::MoleWatchApp.Droid.Resource.Id.text_input_start_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.time = global::MoleWatchApp.Droid.Resource.Id.time;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.title = global::MoleWatchApp.Droid.Resource.Id.title;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.titleDividerNoCustom = global::MoleWatchApp.Droid.Resource.Id.titleDividerNoCustom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.title_template = global::MoleWatchApp.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.toolbar = global::MoleWatchApp.Droid.Resource.Id.toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.top = global::MoleWatchApp.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.topPanel = global::MoleWatchApp.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.TOP_END = global::MoleWatchApp.Droid.Resource.Id.TOP_END;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.TOP_START = global::MoleWatchApp.Droid.Resource.Id.TOP_START;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.touch_outside = global::MoleWatchApp.Droid.Resource.Id.touch_outside;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_current_scene = global::MoleWatchApp.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_layout_save = global::MoleWatchApp.Droid.Resource.Id.transition_layout_save;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_position = global::MoleWatchApp.Droid.Resource.Id.transition_position;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_scene_layoutid_cache = global::MoleWatchApp.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_transform = global::MoleWatchApp.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.@unchecked = global::MoleWatchApp.Droid.Resource.Id.@unchecked;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.uniform = global::MoleWatchApp.Droid.Resource.Id.uniform;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.unlabeled = global::MoleWatchApp.Droid.Resource.Id.unlabeled;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.up = global::MoleWatchApp.Droid.Resource.Id.up;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.useLogo = global::MoleWatchApp.Droid.Resource.Id.useLogo;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::MoleWatchApp.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_saved_state_registry_owner = global::MoleWatchApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::MoleWatchApp.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.visible_removing_fragment_view_tag = global::MoleWatchApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.withinBounds = global::MoleWatchApp.Droid.Resource.Id.withinBounds;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.withText = global::MoleWatchApp.Droid.Resource.Id.withText;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content = global::MoleWatchApp.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.zero_corner_chip = global::MoleWatchApp.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::MoleWatchApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::MoleWatchApp.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::MoleWatchApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -3105,12 +3663,25 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::MoleWatchApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.hide_password_duration = global::MoleWatchApp.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_badge_max_character_count = global::MoleWatchApp.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_calendar_header_orientation = global::MoleWatchApp.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_calendar_selection_text_lines = global::MoleWatchApp.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_calendar_year_selector_span = global::MoleWatchApp.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_card_anim_delay_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_card_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_chip_anim_duration = global::MoleWatchApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.show_password_duration = global::MoleWatchApp.Droid.Resource.Integer.show_password_duration;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::MoleWatchApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.fast_out_slow_in = global::MoleWatchApp.Droid.Resource.Interpolator.fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_linear = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_linear;
@@ -3144,6 +3715,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::MoleWatchApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_tooltip = global::MoleWatchApp.Droid.Resource.Layout.abc_tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::MoleWatchApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.custom_dialog = global::MoleWatchApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::MoleWatchApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::MoleWatchApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::MoleWatchApp.Droid.Resource.Layout.design_layout_snackbar;
@@ -3157,9 +3729,39 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_end_icon = global::MoleWatchApp.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_start_icon = global::MoleWatchApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackTabbarDoNotUse = global::MoleWatchApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackToolbarDoNotUse = global::MoleWatchApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::MoleWatchApp.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog_actions = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog_title = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_select_dialog_item = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_day = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_days_of_week = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_day_of_week = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_horizontal = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_month = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_months = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_month_labeled = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_month_navigation = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_vertical = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_year = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar = global::MoleWatchApp.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar_include = global::MoleWatchApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_actions = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_dialog = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_fullscreen = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_dialog = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_fullscreen = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_selection_text = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_title_text = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_toggle = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_text_input_date = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_text_input_date_range = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::MoleWatchApp.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::MoleWatchApp.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_action = global::MoleWatchApp.Droid.Resource.Layout.notification_media_action;
@@ -3181,6 +3783,23 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::MoleWatchApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::MoleWatchApp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::MoleWatchApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::MoleWatchApp.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::MoleWatchApp.Droid.Resource.Layout.test_action_chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::MoleWatchApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::MoleWatchApp.Droid.Resource.Layout.test_design_checkbox;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_radiobutton = global::MoleWatchApp.Droid.Resource.Layout.test_design_radiobutton;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_reflow_chipgroup = global::MoleWatchApp.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_custom_background = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_elevation = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_surface = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar_surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_without_line_height = global::MoleWatchApp.Droid.Resource.Layout.text_view_without_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_appearance = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_layout = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_style = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_theme_line_height = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::MoleWatchApp.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Plurals.mtrl_badge_content_description = global::MoleWatchApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::MoleWatchApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::MoleWatchApp.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::MoleWatchApp.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -3211,11 +3830,54 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::MoleWatchApp.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::MoleWatchApp.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_content_description = global::MoleWatchApp.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_overflowed_content_description = global::MoleWatchApp.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_pattern = global::MoleWatchApp.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Platform.Android.Resource.String.chip_text = global::MoleWatchApp.Droid.Resource.String.chip_text;
+			global::Xamarin.Forms.Platform.Android.Resource.String.clear_text_end_icon_content_description = global::MoleWatchApp.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.error_icon_content_description = global::MoleWatchApp.Droid.Resource.String.error_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.exposed_dropdown_menu_content_description = global::MoleWatchApp.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_scrim_behavior = global::MoleWatchApp.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_sheet_behavior = global::MoleWatchApp.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::MoleWatchApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.Platform.Android.Resource.String.icon_content_description = global::MoleWatchApp.Droid.Resource.String.icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.item_view_role_description = global::MoleWatchApp.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.material_slider_range_end = global::MoleWatchApp.Droid.Resource.String.material_slider_range_end;
+			global::Xamarin.Forms.Platform.Android.Resource.String.material_slider_range_start = global::MoleWatchApp.Droid.Resource.String.material_slider_range_start;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_badge_numberless_content_description = global::MoleWatchApp.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_chip_close_icon_content_description = global::MoleWatchApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_exceed_max_badge_number_content_description = global::MoleWatchApp.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_exceed_max_badge_number_suffix = global::MoleWatchApp.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_a11y_next_month = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_a11y_prev_month = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_announce_current_selection = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_cancel = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_cancel;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_confirm = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_confirm;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_date_header_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_date_header_title = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_date_header_unselected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_day_of_week_column_header = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_format = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_format_example = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_format_use = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_range = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_navigate_to_year_description = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_out_of_range = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_only_end_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_only_start_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_title = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_unselected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_save = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_save;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_date_hint = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_day_abbr = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_month_abbr = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_year_abbr = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_day_selection = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_year_selection = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
 			global::Xamarin.Forms.Platform.Android.Resource.String.overflow_tab_title = global::MoleWatchApp.Droid.Resource.String.overflow_tab_title;
 			global::Xamarin.Forms.Platform.Android.Resource.String.password_toggle_content_description = global::MoleWatchApp.Droid.Resource.String.password_toggle_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye = global::MoleWatchApp.Droid.Resource.String.path_password_eye;
@@ -3226,10 +3888,12 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::MoleWatchApp.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::MoleWatchApp.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.AndroidThemeColorAccentYellow = global::MoleWatchApp.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AppCompatDialogStyle = global::MoleWatchApp.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
@@ -3239,6 +3903,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_CardView = global::MoleWatchApp.Droid.Resource.Style.Base_CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::MoleWatchApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::MoleWatchApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::MoleWatchApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -3284,6 +3951,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -3296,6 +3967,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -3316,6 +3990,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -3325,22 +4000,30 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -3412,19 +4095,39 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_Slider = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::MoleWatchApp.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::MoleWatchApp.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::MoleWatchApp.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::MoleWatchApp.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.EmptyTheme = global::MoleWatchApp.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::MoleWatchApp.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::MoleWatchApp.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Platform_MaterialComponents;
@@ -3458,6 +4161,38 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MoleWatchApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewScrollBars = global::MoleWatchApp.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewTheme = global::MoleWatchApp.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_Cut = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeight = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeightAppearance = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithoutLineHeight = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeight = global::MoleWatchApp.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeightDisabled = global::MoleWatchApp.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::MoleWatchApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -3522,8 +4257,12 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_HelperText = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Placeholder = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Prefix = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Suffix = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Badge = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -3538,28 +4277,58 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlayColorAccentRed = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -3573,6 +4342,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Empty = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -3591,11 +4361,33 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -3603,7 +4395,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -3677,6 +4475,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_TextView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
@@ -3691,11 +4490,27 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Badge = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomSheet = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -3703,31 +4518,76 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CardView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Slider = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Tooltip = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout = global::MoleWatchApp.Droid.Resource.Styleable.ActionBarLayout;
@@ -3813,6 +4673,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_statusBarForeground = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -3838,11 +4700,21 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTint = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTintMode = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_textLocale = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
@@ -3916,14 +4788,18 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
@@ -3965,29 +4841,53 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge = global::MoleWatchApp.Droid.Resource.Styleable.Badge;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_backgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_badgeGravity = global::MoleWatchApp.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_badgeTextColor = global::MoleWatchApp.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_horizontalOffset = global::MoleWatchApp.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_maxCharacterCount = global::MoleWatchApp.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_number = global::MoleWatchApp.Droid.Resource.Styleable.Badge_number;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_verticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_elevation = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabAnimationMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_elevation = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemRippleColor = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_menu = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout = global::MoleWatchApp.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::MoleWatchApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView = global::MoleWatchApp.Droid.Resource.Styleable.CardView;
@@ -4010,6 +4910,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacing = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_selectionRequired = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleLine = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleSelection = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_checkable;
@@ -4017,8 +4918,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_text = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_textColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIcon = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconEnabled = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipBackgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -4029,9 +4932,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipMinHeight = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipSurfaceColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIcon = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconEnabled = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -4039,10 +4944,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_iconEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_iconStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_textEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_textStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -4060,6 +4968,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -4072,6 +4981,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonCompat = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout;
@@ -4094,13 +5004,26 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerLayout = global::MoleWatchApp.Droid.Resource.Styleable.DrawerLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerLayout_elevation = global::MoleWatchApp.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -4108,6 +5031,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout = global::MoleWatchApp.Droid.Resource.Styleable.FlowLayout;
@@ -4135,6 +5060,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment = global::MoleWatchApp.Droid.Resource.Styleable.Fragment;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FragmentContainerView = global::MoleWatchApp.Droid.Resource.Styleable.FragmentContainerView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FragmentContainerView_android_name = global::MoleWatchApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FragmentContainerView_android_tag = global::MoleWatchApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment_android_id = global::MoleWatchApp.Droid.Resource.Styleable.Fragment_android_id;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment_android_name = global::MoleWatchApp.Droid.Resource.Styleable.Fragment_android_name;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment_android_tag = global::MoleWatchApp.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -4151,6 +5083,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_tileMode = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_type = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets = global::MoleWatchApp.Droid.Resource.Styleable.Insets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme = global::MoleWatchApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat;
@@ -4171,7 +5107,26 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_background = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetRight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -4179,6 +5134,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_cornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_elevation = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_icon = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconGravity = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconPadding = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -4186,11 +5142,58 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_dayStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_rangeFillColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_yearStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_cardForegroundColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_checkedIcon = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_checkedIconTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_state_dragged = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox_buttonTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton = global::MoleWatchApp.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton_buttonTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape = global::MoleWatchApp.Droid.Resource.Styleable.MaterialShape;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextAppearance_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView_android_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -4241,7 +5244,16 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconPadding = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconSize = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemMaxLines = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeFillColor = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetStart = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetTop = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_menu = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_menu;
@@ -4251,10 +5263,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RangeSlider = global::MoleWatchApp.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RangeSlider_values = global::MoleWatchApp.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_clipToPadding = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
@@ -4290,13 +5305,55 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamily = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSize = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider = global::MoleWatchApp.Droid.Resource.Styleable.Slider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_stepSize = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_value = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_value;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_valueFrom = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_valueTo = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_haloColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_haloColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_haloRadius = global::MoleWatchApp.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_labelBehavior = global::MoleWatchApp.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_labelStyle = global::MoleWatchApp.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbElevation = global::MoleWatchApp.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbRadius = global::MoleWatchApp.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_tickColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColorActive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColorInactive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColorActive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColorInactive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackHeight = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_animationMode = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner = global::MoleWatchApp.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_entries = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_entries;
@@ -4327,6 +5384,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_track = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTint = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchMaterial = global::MoleWatchApp.Droid.Resource.Styleable.SwitchMaterial;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem = global::MoleWatchApp.Droid.Resource.Styleable.TabItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_icon = global::MoleWatchApp.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_layout = global::MoleWatchApp.Droid.Resource.Styleable.TabItem_android_layout;
@@ -4366,12 +5425,18 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textFontWeight = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontFamily = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textLocale = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputEditText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputEditText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -4382,24 +5447,57 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconCheckable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconCheckable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -4419,6 +5517,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logo = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_menu = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_popupTheme;
@@ -4434,11 +5533,21 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_layout_margin = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_minHeight = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_minWidth = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_padding = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_text = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View = global::MoleWatchApp.Droid.Resource.Styleable.View;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewPager2 = global::MoleWatchApp.Droid.Resource.Styleable.ViewPager2;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewPager2_android_orientation = global::MoleWatchApp.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -4448,6 +5557,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_theme = global::MoleWatchApp.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_end = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_start = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_top_start = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_offset = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_in = global::MoleWatchApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_out = global::MoleWatchApp.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom = global::MoleWatchApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -4460,6 +5574,18 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_slide_out_top = global::MoleWatchApp.Droid.Resource.Animation.abc_slide_out_top;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_tooltip_enter = global::MoleWatchApp.Droid.Resource.Animation.abc_tooltip_enter;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_tooltip_exit = global::MoleWatchApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.Platform.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_in = global::MoleWatchApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_out = global::MoleWatchApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in = global::MoleWatchApp.Droid.Resource.Animation.design_snackbar_in;
@@ -4468,12 +5594,27 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::MoleWatchApp.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::MoleWatchApp.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::MoleWatchApp.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_enter = global::MoleWatchApp.Droid.Resource.Animation.fragment_close_enter;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_exit = global::MoleWatchApp.Droid.Resource.Animation.fragment_close_exit;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fade_enter = global::MoleWatchApp.Droid.Resource.Animation.fragment_fade_enter;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fade_exit = global::MoleWatchApp.Droid.Resource.Animation.fragment_fade_exit;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fast_out_extra_slow_in = global::MoleWatchApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_open_enter = global::MoleWatchApp.Droid.Resource.Animation.fragment_open_enter;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_open_exit = global::MoleWatchApp.Droid.Resource.Animation.fragment_open_exit;
+			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_in = global::MoleWatchApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_out = global::MoleWatchApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_card_lowers_interpolator = global::MoleWatchApp.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_appbar_state_list_animator = global::MoleWatchApp.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_card_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_chip_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_change_size_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_change_size_motion_spec;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_state_list_animator = global::MoleWatchApp.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -4510,6 +5651,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionOverflowButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionOverflowMenuStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionProviderClass = global::MoleWatchApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Platform.Resource.Attribute.actionTextColorAlpha = global::MoleWatchApp.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionViewClass = global::MoleWatchApp.Droid.Resource.Attribute.actionViewClass;
 			global::Xamarin.Forms.Platform.Resource.Attribute.activityChooserViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.alertDialogButtonGroupStyle = global::MoleWatchApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -4519,6 +5661,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.allowStacking = global::MoleWatchApp.Droid.Resource.Attribute.allowStacking;
 			global::Xamarin.Forms.Platform.Resource.Attribute.alpha = global::MoleWatchApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Forms.Platform.Resource.Attribute.alphabeticModifiers = global::MoleWatchApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Platform.Resource.Attribute.animationMode = global::MoleWatchApp.Droid.Resource.Attribute.animationMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.appBarLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.arrowHeadLength = global::MoleWatchApp.Droid.Resource.Attribute.arrowHeadLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.arrowShaftLength = global::MoleWatchApp.Droid.Resource.Attribute.arrowShaftLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.autoCompleteTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -4528,16 +5672,30 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.autoSizeStepGranularity = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.autoSizeTextType = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeTextType;
 			global::Xamarin.Forms.Platform.Resource.Attribute.background = global::MoleWatchApp.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.backgroundColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetBottom = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetEnd = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetStart = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetTop = global::MoleWatchApp.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundOverlayColorAlpha = global::MoleWatchApp.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundSplit = global::MoleWatchApp.Droid.Resource.Attribute.backgroundSplit;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundStacked = global::MoleWatchApp.Droid.Resource.Attribute.backgroundStacked;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTint = global::MoleWatchApp.Droid.Resource.Attribute.backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTintMode = global::MoleWatchApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.badgeGravity = global::MoleWatchApp.Droid.Resource.Attribute.badgeGravity;
+			global::Xamarin.Forms.Platform.Resource.Attribute.badgeStyle = global::MoleWatchApp.Droid.Resource.Attribute.badgeStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.badgeTextColor = global::MoleWatchApp.Droid.Resource.Attribute.badgeTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.barLength = global::MoleWatchApp.Droid.Resource.Attribute.barLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_autoHide = global::MoleWatchApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_autoShrink = global::MoleWatchApp.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_draggable = global::MoleWatchApp.Droid.Resource.Attribute.behavior_draggable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_expandedOffset = global::MoleWatchApp.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_fitToContents = global::MoleWatchApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_halfExpandedRatio = global::MoleWatchApp.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_hideable = global::MoleWatchApp.Droid.Resource.Attribute.behavior_hideable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_overlapTop = global::MoleWatchApp.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_peekHeight = global::MoleWatchApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_saveFlags = global::MoleWatchApp.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_skipCollapsed = global::MoleWatchApp.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Xamarin.Forms.Platform.Resource.Attribute.borderlessButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.borderWidth = global::MoleWatchApp.Droid.Resource.Attribute.borderWidth;
@@ -4553,12 +5711,15 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxCornerRadiusTopEnd = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxCornerRadiusTopStart = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeErrorColor = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeWidthFocused = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarNegativeButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarNeutralButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarPositiveButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.buttonCompat = global::MoleWatchApp.Droid.Resource.Attribute.buttonCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonGravity = global::MoleWatchApp.Droid.Resource.Attribute.buttonGravity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonIconDimen = global::MoleWatchApp.Droid.Resource.Attribute.buttonIconDimen;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonPanelSideLayout = global::MoleWatchApp.Droid.Resource.Attribute.buttonPanelSideLayout;
@@ -4569,14 +5730,17 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardBackgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.cardCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardElevation = global::MoleWatchApp.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cardForegroundColor = global::MoleWatchApp.Droid.Resource.Attribute.cardForegroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardMaxElevation = global::MoleWatchApp.Droid.Resource.Attribute.cardMaxElevation;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardPreventCornerOverlap = global::MoleWatchApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardUseCompatPadding = global::MoleWatchApp.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.cardViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkboxStyle = global::MoleWatchApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkedButton = global::MoleWatchApp.Droid.Resource.Attribute.checkedButton;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedChip = global::MoleWatchApp.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIcon = global::MoleWatchApp.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconEnabled = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconTint = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconVisible = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipBackgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.chipBackgroundColor;
@@ -4589,6 +5753,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipIconTint = global::MoleWatchApp.Droid.Resource.Attribute.chipIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipIconVisible = global::MoleWatchApp.Droid.Resource.Attribute.chipIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipMinHeight = global::MoleWatchApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.chipMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipSpacing = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipSpacingHorizontal = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipSpacingVertical = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacingVertical;
@@ -4597,6 +5762,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.chipStrokeColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipStyle = global::MoleWatchApp.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.chipSurfaceColor = global::MoleWatchApp.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIcon = global::MoleWatchApp.Droid.Resource.Attribute.closeIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIconEnabled = global::MoleWatchApp.Droid.Resource.Attribute.closeIconEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIconEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.closeIconEndPadding;
@@ -4618,9 +5784,19 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorControlHighlight = global::MoleWatchApp.Droid.Resource.Attribute.colorControlHighlight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorControlNormal = global::MoleWatchApp.Droid.Resource.Attribute.colorControlNormal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorError = global::MoleWatchApp.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnBackground = global::MoleWatchApp.Droid.Resource.Attribute.colorOnBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnError = global::MoleWatchApp.Droid.Resource.Attribute.colorOnError;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnPrimary = global::MoleWatchApp.Droid.Resource.Attribute.colorOnPrimary;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnPrimarySurface = global::MoleWatchApp.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnSecondary = global::MoleWatchApp.Droid.Resource.Attribute.colorOnSecondary;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnSurface = global::MoleWatchApp.Droid.Resource.Attribute.colorOnSurface;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimary = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimary;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimaryDark = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimarySurface = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimaryVariant = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSecondary = global::MoleWatchApp.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorSecondaryVariant = global::MoleWatchApp.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorSurface = global::MoleWatchApp.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSwitchThumbNormal = global::MoleWatchApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.commitIcon = global::MoleWatchApp.Droid.Resource.Attribute.commitIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentDescription = global::MoleWatchApp.Droid.Resource.Attribute.contentDescription;
@@ -4638,12 +5814,28 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentScrim = global::MoleWatchApp.Droid.Resource.Attribute.contentScrim;
 			global::Xamarin.Forms.Platform.Resource.Attribute.controlBackground = global::MoleWatchApp.Droid.Resource.Attribute.controlBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.coordinatorLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamily = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamily;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyBottomLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyBottomRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyTopLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyTopRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSize = global::MoleWatchApp.Droid.Resource.Attribute.cornerSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeBottomLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeBottomRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeTopLeft = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeTopRight = global::MoleWatchApp.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterEnabled = global::MoleWatchApp.Droid.Resource.Attribute.counterEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterMaxLength = global::MoleWatchApp.Droid.Resource.Attribute.counterMaxLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterOverflowTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.counterOverflowTextColor = global::MoleWatchApp.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.counterTextColor = global::MoleWatchApp.Droid.Resource.Attribute.counterTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.customNavigationLayout = global::MoleWatchApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.dayInvalidStyle = global::MoleWatchApp.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.daySelectedStyle = global::MoleWatchApp.Droid.Resource.Attribute.daySelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.dayStyle = global::MoleWatchApp.Droid.Resource.Attribute.dayStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.dayTodayStyle = global::MoleWatchApp.Droid.Resource.Attribute.dayTodayStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.defaultQueryHint = global::MoleWatchApp.Droid.Resource.Attribute.defaultQueryHint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dialogCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dialogPreferredPadding = global::MoleWatchApp.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -4653,18 +5845,41 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.dividerHorizontal = global::MoleWatchApp.Droid.Resource.Attribute.dividerHorizontal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dividerPadding = global::MoleWatchApp.Droid.Resource.Attribute.dividerPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dividerVertical = global::MoleWatchApp.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableBottomCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableEndCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableLeftCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableRightCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableRightCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.drawableSize = global::MoleWatchApp.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableStartCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTint = global::MoleWatchApp.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTintMode = global::MoleWatchApp.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTopCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.drawerArrowStyle = global::MoleWatchApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawerLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dropdownListPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dropDownListViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextBackground = global::MoleWatchApp.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextColor = global::MoleWatchApp.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.editTextStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevation = global::MoleWatchApp.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayColor = global::MoleWatchApp.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayEnabled = global::MoleWatchApp.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconCheckable = global::MoleWatchApp.Droid.Resource.Attribute.endIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.endIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconDrawable = global::MoleWatchApp.Droid.Resource.Attribute.endIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconMode = global::MoleWatchApp.Droid.Resource.Attribute.endIconMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconTint = global::MoleWatchApp.Droid.Resource.Attribute.endIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.endIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceMaterialTheme = global::MoleWatchApp.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.ensureMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.errorContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorEnabled = global::MoleWatchApp.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconDrawable = global::MoleWatchApp.Droid.Resource.Attribute.errorIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconTint = global::MoleWatchApp.Droid.Resource.Attribute.errorIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.errorIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorTextColor = global::MoleWatchApp.Droid.Resource.Attribute.errorTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MoleWatchApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expanded = global::MoleWatchApp.Droid.Resource.Attribute.expanded;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleGravity = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleGravity;
@@ -4674,7 +5889,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginStart = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginTop = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.extendedFloatingActionButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.extendMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.extendMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabAlignmentMode = global::MoleWatchApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.fabAnimationMode = global::MoleWatchApp.Droid.Resource.Attribute.fabAnimationMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCradleMargin = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleMargin;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCradleRoundedCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCradleVerticalOffset = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -4700,20 +5918,26 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.fontWeight = global::MoleWatchApp.Droid.Resource.Attribute.fontWeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.foregroundInsidePadding = global::MoleWatchApp.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.gapBetweenBars = global::MoleWatchApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Platform.Resource.Attribute.gestureInsetBottomIgnored = global::MoleWatchApp.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Resource.Attribute.goIcon = global::MoleWatchApp.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Platform.Resource.Attribute.haloColor = global::MoleWatchApp.Droid.Resource.Attribute.haloColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.haloRadius = global::MoleWatchApp.Droid.Resource.Attribute.haloRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.headerLayout = global::MoleWatchApp.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.height = global::MoleWatchApp.Droid.Resource.Attribute.height;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperText = global::MoleWatchApp.Droid.Resource.Attribute.helperText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextEnabled = global::MoleWatchApp.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextTextColor = global::MoleWatchApp.Droid.Resource.Attribute.helperTextTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.hideMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideOnContentScroll = global::MoleWatchApp.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideOnScroll = global::MoleWatchApp.Droid.Resource.Attribute.hideOnScroll;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintAnimationEnabled = global::MoleWatchApp.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintEnabled = global::MoleWatchApp.Droid.Resource.Attribute.hintEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.hintTextColor = global::MoleWatchApp.Droid.Resource.Attribute.hintTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeAsUpIndicator = global::MoleWatchApp.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeLayout = global::MoleWatchApp.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.horizontalOffset = global::MoleWatchApp.Droid.Resource.Attribute.horizontalOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hoveredFocusedTranslationZ = global::MoleWatchApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Attribute.icon = global::MoleWatchApp.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.iconEndPadding;
@@ -4729,19 +5953,34 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.initialActivityCount = global::MoleWatchApp.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.insetForeground = global::MoleWatchApp.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.isLightTheme = global::MoleWatchApp.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.isMaterialTheme = global::MoleWatchApp.Droid.Resource.Attribute.isMaterialTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemBackground = global::MoleWatchApp.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemFillColor = global::MoleWatchApp.Droid.Resource.Attribute.itemFillColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemHorizontalPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemHorizontalTranslationEnabled = global::MoleWatchApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemIconPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconSize = global::MoleWatchApp.Droid.Resource.Attribute.itemIconSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconTint = global::MoleWatchApp.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemMaxLines = global::MoleWatchApp.Droid.Resource.Attribute.itemMaxLines;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemRippleColor = global::MoleWatchApp.Droid.Resource.Attribute.itemRippleColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeAppearance = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeFillColor = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetBottom = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetEnd = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetStart = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetTop = global::MoleWatchApp.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemSpacing = global::MoleWatchApp.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.itemStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearanceActive = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearanceInactive = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextColor = global::MoleWatchApp.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.keylines = global::MoleWatchApp.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Platform.Resource.Attribute.labelBehavior = global::MoleWatchApp.Droid.Resource.Attribute.labelBehavior;
+			global::Xamarin.Forms.Platform.Resource.Attribute.labelStyle = global::MoleWatchApp.Droid.Resource.Attribute.labelStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.labelVisibilityMode = global::MoleWatchApp.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lastBaselineToBottomHeight = global::MoleWatchApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout = global::MoleWatchApp.Droid.Resource.Attribute.layout;
@@ -4757,9 +5996,12 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout_scrollFlags = global::MoleWatchApp.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout_scrollInterpolator = global::MoleWatchApp.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.liftOnScroll = global::MoleWatchApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.Platform.Resource.Attribute.liftOnScrollTargetViewId = global::MoleWatchApp.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineHeight = global::MoleWatchApp.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineSpacing = global::MoleWatchApp.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceBackgroundIndicator = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listDividerAlertDialog = global::MoleWatchApp.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.listItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listLayout = global::MoleWatchApp.Droid.Resource.Attribute.listLayout;
@@ -4768,26 +6010,53 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeightLarge = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeightSmall = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingEnd = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingLeft = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingRight = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingStart = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logo = global::MoleWatchApp.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logoDescription = global::MoleWatchApp.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogBodyTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTheme = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitleIconStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitleTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonOutlinedStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonToggleGroupStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarDay = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarDay;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarFullscreenTheme = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderConfirmButton = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderDivider = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderLayout = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderSelection = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderTitle = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderToggleButton = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarTheme = global::MoleWatchApp.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialCardViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialThemeOverlay = global::MoleWatchApp.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxActionInlineWidth = global::MoleWatchApp.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxButtonHeight = global::MoleWatchApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.maxCharacterCount = global::MoleWatchApp.Droid.Resource.Attribute.maxCharacterCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxImageSize = global::MoleWatchApp.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.maxLines = global::MoleWatchApp.Droid.Resource.Attribute.maxLines;
 			global::Xamarin.Forms.Platform.Resource.Attribute.measureWithLargestChild = global::MoleWatchApp.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.Forms.Platform.Resource.Attribute.menu = global::MoleWatchApp.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Platform.Resource.Attribute.minTouchTargetSize = global::MoleWatchApp.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.multiChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.navigationContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationIcon = global::MoleWatchApp.Droid.Resource.Attribute.navigationIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationMode = global::MoleWatchApp.Droid.Resource.Attribute.navigationMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.number = global::MoleWatchApp.Droid.Resource.Attribute.number;
 			global::Xamarin.Forms.Platform.Resource.Attribute.numericModifiers = global::MoleWatchApp.Droid.Resource.Attribute.numericModifiers;
 			global::Xamarin.Forms.Platform.Resource.Attribute.overlapAnchor = global::MoleWatchApp.Droid.Resource.Attribute.overlapAnchor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingBottomNoButtons = global::MoleWatchApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingBottomSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingEnd = global::MoleWatchApp.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingLeftSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingRightSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingStart = global::MoleWatchApp.Droid.Resource.Attribute.paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingTopNoTitle = global::MoleWatchApp.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.panelBackground = global::MoleWatchApp.Droid.Resource.Attribute.panelBackground;
@@ -4798,9 +6067,16 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleEnabled = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTint = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTintMode = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderText = global::MoleWatchApp.Droid.Resource.Attribute.placeholderText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderTextColor = global::MoleWatchApp.Droid.Resource.Attribute.placeholderTextColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.popupMenuBackground = global::MoleWatchApp.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupMenuStyle = global::MoleWatchApp.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupTheme = global::MoleWatchApp.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupWindowStyle = global::MoleWatchApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixText = global::MoleWatchApp.Droid.Resource.Attribute.prefixText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixTextColor = global::MoleWatchApp.Droid.Resource.Attribute.prefixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.preserveIconSpacing = global::MoleWatchApp.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.pressedTranslationZ = global::MoleWatchApp.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Attribute.progressBarPadding = global::MoleWatchApp.Droid.Resource.Attribute.progressBarPadding;
@@ -4808,9 +6084,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.queryBackground = global::MoleWatchApp.Droid.Resource.Attribute.queryBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.queryHint = global::MoleWatchApp.Droid.Resource.Attribute.queryHint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.radioButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.rangeFillColor = global::MoleWatchApp.Droid.Resource.Attribute.rangeFillColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleIndicator = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleSmall = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Platform.Resource.Attribute.recyclerViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.recyclerViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.reverseLayout = global::MoleWatchApp.Droid.Resource.Attribute.reverseLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.rippleColor = global::MoleWatchApp.Droid.Resource.Attribute.rippleColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimAnimationDuration = global::MoleWatchApp.Droid.Resource.Attribute.scrimAnimationDuration;
@@ -4823,16 +6101,25 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.seekBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.seekBarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackground = global::MoleWatchApp.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackgroundBorderless = global::MoleWatchApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Resource.Attribute.selectionRequired = global::MoleWatchApp.Droid.Resource.Attribute.selectionRequired;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearance = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceLargeComponent = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceMediumComponent = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceSmallComponent = global::MoleWatchApp.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showAsAction = global::MoleWatchApp.Droid.Resource.Attribute.showAsAction;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showDividers = global::MoleWatchApp.Droid.Resource.Attribute.showDividers;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.showMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showText = global::MoleWatchApp.Droid.Resource.Attribute.showText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showTitle = global::MoleWatchApp.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shrinkMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleLine = global::MoleWatchApp.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleSelection = global::MoleWatchApp.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Platform.Resource.Attribute.sliderStyle = global::MoleWatchApp.Droid.Resource.Attribute.sliderStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spanCount = global::MoleWatchApp.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinBars = global::MoleWatchApp.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinnerDropDownItemStyle = global::MoleWatchApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -4840,12 +6127,19 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.splitTrack = global::MoleWatchApp.Droid.Resource.Attribute.splitTrack;
 			global::Xamarin.Forms.Platform.Resource.Attribute.srcCompat = global::MoleWatchApp.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.stackFromEnd = global::MoleWatchApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconCheckable = global::MoleWatchApp.Droid.Resource.Attribute.startIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.startIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconDrawable = global::MoleWatchApp.Droid.Resource.Attribute.startIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconTint = global::MoleWatchApp.Droid.Resource.Attribute.startIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.startIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_above_anchor = global::MoleWatchApp.Droid.Resource.Attribute.state_above_anchor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_collapsed = global::MoleWatchApp.Droid.Resource.Attribute.state_collapsed;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_collapsible = global::MoleWatchApp.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Platform.Resource.Attribute.state_dragged = global::MoleWatchApp.Droid.Resource.Attribute.state_dragged;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_liftable = global::MoleWatchApp.Droid.Resource.Attribute.state_liftable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_lifted = global::MoleWatchApp.Droid.Resource.Attribute.state_lifted;
 			global::Xamarin.Forms.Platform.Resource.Attribute.statusBarBackground = global::MoleWatchApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.statusBarForeground = global::MoleWatchApp.Droid.Resource.Attribute.statusBarForeground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.statusBarScrim = global::MoleWatchApp.Droid.Resource.Attribute.statusBarScrim;
 			global::Xamarin.Forms.Platform.Resource.Attribute.strokeColor = global::MoleWatchApp.Droid.Resource.Attribute.strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.strokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.strokeWidth;
@@ -4855,6 +6149,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextColor = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixText = global::MoleWatchApp.Droid.Resource.Attribute.suffixText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixTextColor = global::MoleWatchApp.Droid.Resource.Attribute.suffixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.suggestionRowLayout = global::MoleWatchApp.Droid.Resource.Attribute.suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchMinWidth = global::MoleWatchApp.Droid.Resource.Attribute.switchMinWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchPadding = global::MoleWatchApp.Droid.Resource.Attribute.switchPadding;
@@ -4898,6 +6195,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceHeadline5 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceHeadline6 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceLargePopupMenu = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceLineHeightEnabled = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItem = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItemSecondary = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItemSmall = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -4911,13 +6209,22 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textColorAlertDialogListItem = global::MoleWatchApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textColorSearchUrl = global::MoleWatchApp.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Platform.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::MoleWatchApp.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textInputStyle = global::MoleWatchApp.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.textLocale = global::MoleWatchApp.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textStartPadding = global::MoleWatchApp.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.theme = global::MoleWatchApp.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.themeLineHeight = global::MoleWatchApp.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thickness = global::MoleWatchApp.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbColor = global::MoleWatchApp.Droid.Resource.Attribute.thumbColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbElevation = global::MoleWatchApp.Droid.Resource.Attribute.thumbElevation;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbRadius = global::MoleWatchApp.Droid.Resource.Attribute.thumbRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTextPadding = global::MoleWatchApp.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTint = global::MoleWatchApp.Droid.Resource.Attribute.thumbTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTintMode = global::MoleWatchApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColor = global::MoleWatchApp.Droid.Resource.Attribute.tickColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColorActive = global::MoleWatchApp.Droid.Resource.Attribute.tickColorActive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColorInactive = global::MoleWatchApp.Droid.Resource.Attribute.tickColorInactive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMark = global::MoleWatchApp.Droid.Resource.Attribute.tickMark;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMarkTint = global::MoleWatchApp.Droid.Resource.Attribute.tickMarkTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMarkTintMode = global::MoleWatchApp.Droid.Resource.Attribute.tickMarkTintMode;
@@ -4939,12 +6246,21 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.toolbarStyle = global::MoleWatchApp.Droid.Resource.Attribute.toolbarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipForegroundColor = global::MoleWatchApp.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipFrameBackground = global::MoleWatchApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipStyle = global::MoleWatchApp.Droid.Resource.Attribute.tooltipStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipText = global::MoleWatchApp.Droid.Resource.Attribute.tooltipText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.track = global::MoleWatchApp.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColor = global::MoleWatchApp.Droid.Resource.Attribute.trackColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColorActive = global::MoleWatchApp.Droid.Resource.Attribute.trackColorActive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColorInactive = global::MoleWatchApp.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackHeight = global::MoleWatchApp.Droid.Resource.Attribute.trackHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.trackTint = global::MoleWatchApp.Droid.Resource.Attribute.trackTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.trackTintMode = global::MoleWatchApp.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.transitionShapeAppearance = global::MoleWatchApp.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ttcIndex = global::MoleWatchApp.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.Forms.Platform.Resource.Attribute.useCompatPadding = global::MoleWatchApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Platform.Resource.Attribute.useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Resource.Attribute.values = global::MoleWatchApp.Droid.Resource.Attribute.values;
+			global::Xamarin.Forms.Platform.Resource.Attribute.verticalOffset = global::MoleWatchApp.Droid.Resource.Attribute.verticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.viewInflaterClass = global::MoleWatchApp.Droid.Resource.Attribute.viewInflaterClass;
 			global::Xamarin.Forms.Platform.Resource.Attribute.voiceIcon = global::MoleWatchApp.Droid.Resource.Attribute.voiceIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowActionBar = global::MoleWatchApp.Droid.Resource.Attribute.windowActionBar;
@@ -4957,6 +6273,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowMinWidthMajor = global::MoleWatchApp.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowMinWidthMinor = global::MoleWatchApp.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowNoTitle = global::MoleWatchApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.yearSelectedStyle = global::MoleWatchApp.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.yearStyle = global::MoleWatchApp.Droid.Resource.Attribute.yearStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.yearTodayStyle = global::MoleWatchApp.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_action_bar_embed_tabs = global::MoleWatchApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_allow_stacked_button_bar = global::MoleWatchApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MoleWatchApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
@@ -4966,6 +6285,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.abc_btn_colored_borderless_text_material = global::MoleWatchApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_btn_colored_text_material = global::MoleWatchApp.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_color_highlight_material = global::MoleWatchApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Platform.Resource.Color.abc_decor_view_status_guard = global::MoleWatchApp.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Xamarin.Forms.Platform.Resource.Color.abc_decor_view_status_guard_light = global::MoleWatchApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_hint_foreground_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_hint_foreground_material_light = global::MoleWatchApp.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_primary_text_disable_only_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -4986,6 +6307,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.abc_tint_switch_track = global::MoleWatchApp.Droid.Resource.Color.abc_tint_switch_track;
 			global::Xamarin.Forms.Platform.Resource.Color.accent_material_dark = global::MoleWatchApp.Droid.Resource.Color.accent_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.accent_material_light = global::MoleWatchApp.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.androidx_core_ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.androidx_core_secondary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.background_floating_material_dark = global::MoleWatchApp.Droid.Resource.Color.background_floating_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.background_floating_material_light = global::MoleWatchApp.Droid.Resource.Color.background_floating_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.background_material_dark = global::MoleWatchApp.Droid.Resource.Color.background_material_dark;
@@ -5002,9 +6325,35 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_light_background = global::MoleWatchApp.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_end_color = global::MoleWatchApp.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_start_color = global::MoleWatchApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Platform.Resource.Color.checkbox_themeable_attribute_color = global::MoleWatchApp.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_bottom_navigation_shadow_color = global::MoleWatchApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Platform.Resource.Color.design_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.design_box_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_background = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_error = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_background = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_error = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_primary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_secondary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_surface = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_primary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_primary_dark = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_primary_variant = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_secondary = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_secondary_variant = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_surface = global::MoleWatchApp.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_background = global::MoleWatchApp.Droid.Resource.Color.design_default_color_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_error = global::MoleWatchApp.Droid.Resource.Color.design_default_color_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_background = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_error = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_primary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_secondary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_surface = global::MoleWatchApp.Droid.Resource.Color.design_default_color_on_surface;
 			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary;
 			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary_dark = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary_variant = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_secondary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_secondary_variant = global::MoleWatchApp.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_surface = global::MoleWatchApp.Droid.Resource.Color.design_default_color_surface;
 			global::Xamarin.Forms.Platform.Resource.Color.design_error = global::MoleWatchApp.Droid.Resource.Color.design_error;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_end_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_mid_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -5013,6 +6362,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_end_outer_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_inner_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_outer_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Platform.Resource.Color.design_icon_tint = global::MoleWatchApp.Droid.Resource.Color.design_icon_tint;
 			global::Xamarin.Forms.Platform.Resource.Color.design_snackbar_background_color = global::MoleWatchApp.Droid.Resource.Color.design_snackbar_background_color;
 			global::Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -5036,20 +6386,61 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.material_grey_800 = global::MoleWatchApp.Droid.Resource.Color.material_grey_800;
 			global::Xamarin.Forms.Platform.Resource.Color.material_grey_850 = global::MoleWatchApp.Droid.Resource.Color.material_grey_850;
 			global::Xamarin.Forms.Platform.Resource.Color.material_grey_900 = global::MoleWatchApp.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_background_disabled = global::MoleWatchApp.Droid.Resource.Color.material_on_background_disabled;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_background_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_background_emphasis_medium = global::MoleWatchApp.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_primary_disabled = global::MoleWatchApp.Droid.Resource.Color.material_on_primary_disabled;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_primary_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_primary_emphasis_medium = global::MoleWatchApp.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_disabled = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_disabled;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_emphasis_medium = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_stroke = global::MoleWatchApp.Droid.Resource.Color.material_on_surface_stroke;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_active_tick_marks_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_active_track_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_active_track_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_halo_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_halo_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_tick_marks_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_track_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_thumb_color = global::MoleWatchApp.Droid.Resource.Color.material_slider_thumb_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_item_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_bg_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_stroke_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_btn_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_color_disabled = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_transparent_bg_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_calendar_item_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_calendar_selected_range = global::MoleWatchApp.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_card_view_foreground = global::MoleWatchApp.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_card_view_ripple = global::MoleWatchApp.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_close_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_surface_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_error = global::MoleWatchApp.Droid.Resource.Color.mtrl_error;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_bg_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_icon_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_indicator_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_navigation_item_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_navigation_item_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_navigation_item_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_outlined_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_outlined_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_popupmenu_overlay_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_scrim_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_scrim_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_tabs_colored_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_tabs_icon_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -5059,6 +6450,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_default_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_disabled_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_text_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.notification_action_color_filter = global::MoleWatchApp.Droid.Resource.Color.notification_action_color_filter;
@@ -5072,6 +6464,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.radiobutton_themeable_attribute_color = global::MoleWatchApp.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_dark = global::MoleWatchApp.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_dark = global::MoleWatchApp.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -5084,6 +6477,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_material_light = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_dark = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_light = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day = global::MoleWatchApp.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day_selected = global::MoleWatchApp.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_dark = global::MoleWatchApp.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_light = global::MoleWatchApp.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_content_inset_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -5134,6 +6529,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_edit_text_inset_top_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_floating_window_z = global::MoleWatchApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_height_large_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_height_small_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_panel_menu_list_width = global::MoleWatchApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_progress_bar_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
@@ -5161,6 +6559,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material_toolbar = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Platform.Resource.Dimension.action_bar_size = global::MoleWatchApp.Droid.Resource.Dimension.action_bar_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.appcompat_dialog_background_inset = global::MoleWatchApp.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_compat_inset_shadow = global::MoleWatchApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_elevation = global::MoleWatchApp.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_radius = global::MoleWatchApp.Droid.Resource.Dimension.cardview_default_radius;
@@ -5171,6 +6571,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_control_corner_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_height = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_width = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.default_dimension = global::MoleWatchApp.Droid.Resource.Dimension.default_dimension;
+			global::Xamarin.Forms.Platform.Resource.Dimension.def_drawer_elevation = global::MoleWatchApp.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_appbar_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -5183,6 +6585,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_margin = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_shadow_height = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_text_size = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_sheet_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_fab_border_width = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_border_width;
@@ -5201,6 +6604,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_navigation_padding_bottom = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_navigation_separator_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_action_inline_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_action_text_color_alpha = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_background_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -5230,7 +6634,24 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_disabled = global::MoleWatchApp.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_high_type = global::MoleWatchApp.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_medium = global::MoleWatchApp.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height = global::MoleWatchApp.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height_override = global::MoleWatchApp.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_with_text_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -5257,25 +6678,130 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_btn_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_btn_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_action_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_action_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_bottom_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_content_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_days_of_week_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_corner = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_today_stroke = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_content_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_text_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_landscape_header_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_navigation_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_corner = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_checked_icon_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_checked_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_dragged_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_spacing = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_pressed_translation_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_end_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_min_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_min_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_start_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_top_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_min_touch_target = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_translation_z_pressed = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_default_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_large_touch_target = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_default_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_min_touch_target_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_icon_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_large_component = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_small_component = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_halo_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_square_side = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_side_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_widget_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_switch_thumb_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_counter_margin_start = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_toolbar_default_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_arrowSize = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_cornerSize = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_minHeight = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_minWidth = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_text_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_big_circle_margin = global::MoleWatchApp.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -5291,10 +6817,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_subtext_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad_large_text = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_outline_width = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_shadow_offset = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_shadow_radius = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::MoleWatchApp.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_margin = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_margin;
@@ -5307,11 +6830,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_action_bar_item_background_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_borderless_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_borderless_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_material_anim = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_colored_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_colored_material;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_default_mtrl_shape = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_material_anim = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
@@ -5389,15 +6914,39 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.abc_vector_test = global::MoleWatchApp.Droid.Resource.Drawable.abc_vector_test;
 			global::Xamarin.Forms.Platform.Resource.Drawable.avd_hide_password = global::MoleWatchApp.Droid.Resource.Drawable.avd_hide_password;
 			global::Xamarin.Forms.Platform.Resource.Drawable.avd_show_password = global::MoleWatchApp.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_checked_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_off_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_on_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Forms.Platform.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_bottom_navigation_item_background = global::MoleWatchApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_fab_background = global::MoleWatchApp.Droid.Resource.Drawable.design_fab_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_ic_visibility = global::MoleWatchApp.Droid.Resource.Drawable.design_ic_visibility;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_ic_visibility_off = global::MoleWatchApp.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_password_eye = global::MoleWatchApp.Droid.Resource.Drawable.design_password_eye;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_snackbar_background = global::MoleWatchApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_checked_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_checked_black = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_checked_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_close_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_calendar_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_clear_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_edit_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_dialog_background = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_dropdown_arrow = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_arrow_drop_down = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_arrow_drop_up = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_cancel = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_error = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background_dark = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_tabs_default_indicator = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Resource.Drawable.navigation_empty_icon = global::MoleWatchApp.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_action_background = global::MoleWatchApp.Droid.Resource.Drawable.notification_action_background;
@@ -5412,8 +6961,42 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_template_icon_low_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_tile_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notify_panel_notification_icon_bg = global::MoleWatchApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Platform.Resource.Drawable.test_custom_background = global::MoleWatchApp.Droid.Resource.Drawable.test_custom_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_dark = global::MoleWatchApp.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_light = global::MoleWatchApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_action_clickable_span = global::MoleWatchApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_0 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_1 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_10 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_11 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_12 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_13 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_14 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_15 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_16 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_17 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_18 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_19 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_2 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_20 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_21 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_22 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_23 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_24 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_25 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_26 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_27 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_28 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_29 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_3 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_30 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_31 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_4 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_5 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_6 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_7 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_8 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Forms.Platform.Resource.Id.accessibility_custom_action_9 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xamarin.Forms.Platform.Resource.Id.action0 = global::MoleWatchApp.Droid.Resource.Id.action0;
 			global::Xamarin.Forms.Platform.Resource.Id.actions = global::MoleWatchApp.Droid.Resource.Id.actions;
 			global::Xamarin.Forms.Platform.Resource.Id.action_bar = global::MoleWatchApp.Droid.Resource.Id.action_bar;
@@ -5446,16 +7029,27 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.bottom = global::MoleWatchApp.Droid.Resource.Id.bottom;
 			global::Xamarin.Forms.Platform.Resource.Id.bottomtab_navarea = global::MoleWatchApp.Droid.Resource.Id.bottomtab_navarea;
 			global::Xamarin.Forms.Platform.Resource.Id.bottomtab_tabbar = global::MoleWatchApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.Platform.Resource.Id.BOTTOM_END = global::MoleWatchApp.Droid.Resource.Id.BOTTOM_END;
+			global::Xamarin.Forms.Platform.Resource.Id.BOTTOM_START = global::MoleWatchApp.Droid.Resource.Id.BOTTOM_START;
 			global::Xamarin.Forms.Platform.Resource.Id.buttonPanel = global::MoleWatchApp.Droid.Resource.Id.buttonPanel;
 			global::Xamarin.Forms.Platform.Resource.Id.cancel_action = global::MoleWatchApp.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Platform.Resource.Id.cancel_button = global::MoleWatchApp.Droid.Resource.Id.cancel_button;
 			global::Xamarin.Forms.Platform.Resource.Id.center = global::MoleWatchApp.Droid.Resource.Id.center;
 			global::Xamarin.Forms.Platform.Resource.Id.center_horizontal = global::MoleWatchApp.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.center_vertical = global::MoleWatchApp.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Forms.Platform.Resource.Id.checkbox = global::MoleWatchApp.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Platform.Resource.Id.@checked = global::MoleWatchApp.Droid.Resource.Id.@checked;
+			global::Xamarin.Forms.Platform.Resource.Id.chip = global::MoleWatchApp.Droid.Resource.Id.chip;
+			global::Xamarin.Forms.Platform.Resource.Id.chip1 = global::MoleWatchApp.Droid.Resource.Id.chip1;
+			global::Xamarin.Forms.Platform.Resource.Id.chip2 = global::MoleWatchApp.Droid.Resource.Id.chip2;
+			global::Xamarin.Forms.Platform.Resource.Id.chip3 = global::MoleWatchApp.Droid.Resource.Id.chip3;
+			global::Xamarin.Forms.Platform.Resource.Id.chip_group = global::MoleWatchApp.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Resource.Id.chronometer = global::MoleWatchApp.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Platform.Resource.Id.clear_text = global::MoleWatchApp.Droid.Resource.Id.clear_text;
 			global::Xamarin.Forms.Platform.Resource.Id.clip_horizontal = global::MoleWatchApp.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.clip_vertical = global::MoleWatchApp.Droid.Resource.Id.clip_vertical;
 			global::Xamarin.Forms.Platform.Resource.Id.collapseActionView = global::MoleWatchApp.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.Platform.Resource.Id.confirm_button = global::MoleWatchApp.Droid.Resource.Id.confirm_button;
 			global::Xamarin.Forms.Platform.Resource.Id.container = global::MoleWatchApp.Droid.Resource.Id.container;
 			global::Xamarin.Forms.Platform.Resource.Id.content = global::MoleWatchApp.Droid.Resource.Id.content;
 			global::Xamarin.Forms.Platform.Resource.Id.contentPanel = global::MoleWatchApp.Droid.Resource.Id.contentPanel;
@@ -5463,6 +7057,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.CTRL = global::MoleWatchApp.Droid.Resource.Id.CTRL;
 			global::Xamarin.Forms.Platform.Resource.Id.custom = global::MoleWatchApp.Droid.Resource.Id.custom;
 			global::Xamarin.Forms.Platform.Resource.Id.customPanel = global::MoleWatchApp.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Platform.Resource.Id.cut = global::MoleWatchApp.Droid.Resource.Id.cut;
+			global::Xamarin.Forms.Platform.Resource.Id.date_picker_actions = global::MoleWatchApp.Droid.Resource.Id.date_picker_actions;
 			global::Xamarin.Forms.Platform.Resource.Id.decor_content_parent = global::MoleWatchApp.Droid.Resource.Id.decor_content_parent;
 			global::Xamarin.Forms.Platform.Resource.Id.default_activity_button = global::MoleWatchApp.Droid.Resource.Id.default_activity_button;
 			global::Xamarin.Forms.Platform.Resource.Id.design_bottom_sheet = global::MoleWatchApp.Droid.Resource.Id.design_bottom_sheet;
@@ -5470,7 +7066,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.design_menu_item_action_area_stub = global::MoleWatchApp.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Xamarin.Forms.Platform.Resource.Id.design_menu_item_text = global::MoleWatchApp.Droid.Resource.Id.design_menu_item_text;
 			global::Xamarin.Forms.Platform.Resource.Id.design_navigation_view = global::MoleWatchApp.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Platform.Resource.Id.dialog_button = global::MoleWatchApp.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Forms.Platform.Resource.Id.disableHome = global::MoleWatchApp.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.Platform.Resource.Id.dropdown_menu = global::MoleWatchApp.Droid.Resource.Id.dropdown_menu;
 			global::Xamarin.Forms.Platform.Resource.Id.edit_query = global::MoleWatchApp.Droid.Resource.Id.edit_query;
 			global::Xamarin.Forms.Platform.Resource.Id.end = global::MoleWatchApp.Droid.Resource.Id.end;
 			global::Xamarin.Forms.Platform.Resource.Id.end_padder = global::MoleWatchApp.Droid.Resource.Id.end_padder;
@@ -5479,17 +7077,23 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.exitUntilCollapsed = global::MoleWatchApp.Droid.Resource.Id.exitUntilCollapsed;
 			global::Xamarin.Forms.Platform.Resource.Id.expanded_menu = global::MoleWatchApp.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Resource.Id.expand_activities_button = global::MoleWatchApp.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Platform.Resource.Id.fade = global::MoleWatchApp.Droid.Resource.Id.fade;
 			global::Xamarin.Forms.Platform.Resource.Id.fill = global::MoleWatchApp.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Resource.Id.filled = global::MoleWatchApp.Droid.Resource.Id.filled;
 			global::Xamarin.Forms.Platform.Resource.Id.fill_horizontal = global::MoleWatchApp.Droid.Resource.Id.fill_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.fill_vertical = global::MoleWatchApp.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.Platform.Resource.Id.fitToContents = global::MoleWatchApp.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Resource.Id.@fixed = global::MoleWatchApp.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Resource.Id.floating = global::MoleWatchApp.Droid.Resource.Id.floating;
 			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_appbar = global::MoleWatchApp.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_recycler = global::MoleWatchApp.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Resource.Id.forever = global::MoleWatchApp.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Platform.Resource.Id.fragment_container_view_tag = global::MoleWatchApp.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Resource.Id.FUNCTION = global::MoleWatchApp.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Resource.Id.ghost_view = global::MoleWatchApp.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Platform.Resource.Id.ghost_view_holder = global::MoleWatchApp.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Forms.Platform.Resource.Id.gone = global::MoleWatchApp.Droid.Resource.Id.gone;
 			global::Xamarin.Forms.Platform.Resource.Id.group_divider = global::MoleWatchApp.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.Platform.Resource.Id.hideable = global::MoleWatchApp.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Resource.Id.home = global::MoleWatchApp.Droid.Resource.Id.home;
 			global::Xamarin.Forms.Platform.Resource.Id.homeAsUp = global::MoleWatchApp.Droid.Resource.Id.homeAsUp;
 			global::Xamarin.Forms.Platform.Resource.Id.icon = global::MoleWatchApp.Droid.Resource.Id.icon;
@@ -5516,20 +7120,50 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.META = global::MoleWatchApp.Droid.Resource.Id.META;
 			global::Xamarin.Forms.Platform.Resource.Id.middle = global::MoleWatchApp.Droid.Resource.Id.middle;
 			global::Xamarin.Forms.Platform.Resource.Id.mini = global::MoleWatchApp.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Platform.Resource.Id.month_grid = global::MoleWatchApp.Droid.Resource.Id.month_grid;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_bar = global::MoleWatchApp.Droid.Resource.Id.month_navigation_bar;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_fragment_toggle = global::MoleWatchApp.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_next = global::MoleWatchApp.Droid.Resource.Id.month_navigation_next;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_previous = global::MoleWatchApp.Droid.Resource.Id.month_navigation_previous;
+			global::Xamarin.Forms.Platform.Resource.Id.month_title = global::MoleWatchApp.Droid.Resource.Id.month_title;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_days_of_week = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_day_selector_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_main_pane = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_months = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_selection_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_text_input_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_year_selector_frame = global::MoleWatchApp.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_card_checked_layer_id = global::MoleWatchApp.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_child_content_container = global::MoleWatchApp.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_internal_children_alpha_tag = global::MoleWatchApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_motion_snapshot_view = global::MoleWatchApp.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_fullscreen = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header_selection_text = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header_title_and_selection = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header_toggle = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_text_input_date = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_text_input_range_end = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_text_input_range_start = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_title_text = global::MoleWatchApp.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Xamarin.Forms.Platform.Resource.Id.multiply = global::MoleWatchApp.Droid.Resource.Id.multiply;
 			global::Xamarin.Forms.Platform.Resource.Id.navigation_header_container = global::MoleWatchApp.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.Forms.Platform.Resource.Id.never = global::MoleWatchApp.Droid.Resource.Id.never;
 			global::Xamarin.Forms.Platform.Resource.Id.none = global::MoleWatchApp.Droid.Resource.Id.none;
 			global::Xamarin.Forms.Platform.Resource.Id.normal = global::MoleWatchApp.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Platform.Resource.Id.noScroll = global::MoleWatchApp.Droid.Resource.Id.noScroll;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_background = global::MoleWatchApp.Droid.Resource.Id.notification_background;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_main_column = global::MoleWatchApp.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_main_column_container = global::MoleWatchApp.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Platform.Resource.Id.off = global::MoleWatchApp.Droid.Resource.Id.off;
+			global::Xamarin.Forms.Platform.Resource.Id.on = global::MoleWatchApp.Droid.Resource.Id.on;
 			global::Xamarin.Forms.Platform.Resource.Id.outline = global::MoleWatchApp.Droid.Resource.Id.outline;
 			global::Xamarin.Forms.Platform.Resource.Id.parallax = global::MoleWatchApp.Droid.Resource.Id.parallax;
 			global::Xamarin.Forms.Platform.Resource.Id.parentPanel = global::MoleWatchApp.Droid.Resource.Id.parentPanel;
 			global::Xamarin.Forms.Platform.Resource.Id.parent_matrix = global::MoleWatchApp.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Platform.Resource.Id.password_toggle = global::MoleWatchApp.Droid.Resource.Id.password_toggle;
+			global::Xamarin.Forms.Platform.Resource.Id.peekHeight = global::MoleWatchApp.Droid.Resource.Id.peekHeight;
 			global::Xamarin.Forms.Platform.Resource.Id.pin = global::MoleWatchApp.Droid.Resource.Id.pin;
 			global::Xamarin.Forms.Platform.Resource.Id.progress_circular = global::MoleWatchApp.Droid.Resource.Id.progress_circular;
 			global::Xamarin.Forms.Platform.Resource.Id.progress_horizontal = global::MoleWatchApp.Droid.Resource.Id.progress_horizontal;
@@ -5537,7 +7171,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.right = global::MoleWatchApp.Droid.Resource.Id.right;
 			global::Xamarin.Forms.Platform.Resource.Id.right_icon = global::MoleWatchApp.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Resource.Id.right_side = global::MoleWatchApp.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Platform.Resource.Id.rounded = global::MoleWatchApp.Droid.Resource.Id.rounded;
+			global::Xamarin.Forms.Platform.Resource.Id.row_index_key = global::MoleWatchApp.Droid.Resource.Id.row_index_key;
 			global::Xamarin.Forms.Platform.Resource.Id.save_non_transition_alpha = global::MoleWatchApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Platform.Resource.Id.save_overlay_view = global::MoleWatchApp.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Forms.Platform.Resource.Id.scale = global::MoleWatchApp.Droid.Resource.Id.scale;
 			global::Xamarin.Forms.Platform.Resource.Id.screen = global::MoleWatchApp.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Resource.Id.scroll = global::MoleWatchApp.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Resource.Id.scrollable = global::MoleWatchApp.Droid.Resource.Id.scrollable;
@@ -5563,6 +7201,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.showCustom = global::MoleWatchApp.Droid.Resource.Id.showCustom;
 			global::Xamarin.Forms.Platform.Resource.Id.showHome = global::MoleWatchApp.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Resource.Id.showTitle = global::MoleWatchApp.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Platform.Resource.Id.skipCollapsed = global::MoleWatchApp.Droid.Resource.Id.skipCollapsed;
+			global::Xamarin.Forms.Platform.Resource.Id.slide = global::MoleWatchApp.Droid.Resource.Id.slide;
+			global::Xamarin.Forms.Platform.Resource.Id.sliding_tabs = global::MoleWatchApp.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.Forms.Platform.Resource.Id.smallLabel = global::MoleWatchApp.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_action = global::MoleWatchApp.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_text = global::MoleWatchApp.Droid.Resource.Id.snackbar_text;
@@ -5580,37 +7221,60 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.submit_area = global::MoleWatchApp.Droid.Resource.Id.submit_area;
 			global::Xamarin.Forms.Platform.Resource.Id.SYM = global::MoleWatchApp.Droid.Resource.Id.SYM;
 			global::Xamarin.Forms.Platform.Resource.Id.tabMode = global::MoleWatchApp.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_actions = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_clickable_spans = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_heading = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_accessibility_pane_title = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Forms.Platform.Resource.Id.tag_screen_reader_focusable = global::MoleWatchApp.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_transition_group = global::MoleWatchApp.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_event_manager = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_listeners = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_android_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_app_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_android_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_app_button_tint = global::MoleWatchApp.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Resource.Id.text = global::MoleWatchApp.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Resource.Id.text2 = global::MoleWatchApp.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Platform.Resource.Id.textEnd = global::MoleWatchApp.Droid.Resource.Id.textEnd;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_counter = global::MoleWatchApp.Droid.Resource.Id.textinput_counter;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_error = global::MoleWatchApp.Droid.Resource.Id.textinput_error;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_helper_text = global::MoleWatchApp.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_placeholder = global::MoleWatchApp.Droid.Resource.Id.textinput_placeholder;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_prefix_text = global::MoleWatchApp.Droid.Resource.Id.textinput_prefix_text;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_suffix_text = global::MoleWatchApp.Droid.Resource.Id.textinput_suffix_text;
 			global::Xamarin.Forms.Platform.Resource.Id.textSpacerNoButtons = global::MoleWatchApp.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.Forms.Platform.Resource.Id.textSpacerNoTitle = global::MoleWatchApp.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Id.textStart = global::MoleWatchApp.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.Platform.Resource.Id.text_input_end_icon = global::MoleWatchApp.Droid.Resource.Id.text_input_end_icon;
+			global::Xamarin.Forms.Platform.Resource.Id.text_input_start_icon = global::MoleWatchApp.Droid.Resource.Id.text_input_start_icon;
 			global::Xamarin.Forms.Platform.Resource.Id.time = global::MoleWatchApp.Droid.Resource.Id.time;
 			global::Xamarin.Forms.Platform.Resource.Id.title = global::MoleWatchApp.Droid.Resource.Id.title;
 			global::Xamarin.Forms.Platform.Resource.Id.titleDividerNoCustom = global::MoleWatchApp.Droid.Resource.Id.titleDividerNoCustom;
 			global::Xamarin.Forms.Platform.Resource.Id.title_template = global::MoleWatchApp.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Platform.Resource.Id.toolbar = global::MoleWatchApp.Droid.Resource.Id.toolbar;
 			global::Xamarin.Forms.Platform.Resource.Id.top = global::MoleWatchApp.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Resource.Id.topPanel = global::MoleWatchApp.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Platform.Resource.Id.TOP_END = global::MoleWatchApp.Droid.Resource.Id.TOP_END;
+			global::Xamarin.Forms.Platform.Resource.Id.TOP_START = global::MoleWatchApp.Droid.Resource.Id.TOP_START;
 			global::Xamarin.Forms.Platform.Resource.Id.touch_outside = global::MoleWatchApp.Droid.Resource.Id.touch_outside;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_current_scene = global::MoleWatchApp.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_layout_save = global::MoleWatchApp.Droid.Resource.Id.transition_layout_save;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_position = global::MoleWatchApp.Droid.Resource.Id.transition_position;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_scene_layoutid_cache = global::MoleWatchApp.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_transform = global::MoleWatchApp.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Platform.Resource.Id.@unchecked = global::MoleWatchApp.Droid.Resource.Id.@unchecked;
 			global::Xamarin.Forms.Platform.Resource.Id.uniform = global::MoleWatchApp.Droid.Resource.Id.uniform;
 			global::Xamarin.Forms.Platform.Resource.Id.unlabeled = global::MoleWatchApp.Droid.Resource.Id.unlabeled;
 			global::Xamarin.Forms.Platform.Resource.Id.up = global::MoleWatchApp.Droid.Resource.Id.up;
 			global::Xamarin.Forms.Platform.Resource.Id.useLogo = global::MoleWatchApp.Droid.Resource.Id.useLogo;
 			global::Xamarin.Forms.Platform.Resource.Id.view_offset_helper = global::MoleWatchApp.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Platform.Resource.Id.view_tree_saved_state_registry_owner = global::MoleWatchApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.visible = global::MoleWatchApp.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Platform.Resource.Id.visible_removing_fragment_view_tag = global::MoleWatchApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.Forms.Platform.Resource.Id.withinBounds = global::MoleWatchApp.Droid.Resource.Id.withinBounds;
 			global::Xamarin.Forms.Platform.Resource.Id.withText = global::MoleWatchApp.Droid.Resource.Id.withText;
 			global::Xamarin.Forms.Platform.Resource.Id.wrap_content = global::MoleWatchApp.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Platform.Resource.Id.zero_corner_chip = global::MoleWatchApp.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityDefaultDur = global::MoleWatchApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityShortDur = global::MoleWatchApp.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.app_bar_elevation_anim_duration = global::MoleWatchApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -5620,12 +7284,25 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Integer.design_snackbar_text_max_lines = global::MoleWatchApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xamarin.Forms.Platform.Resource.Integer.design_tab_indicator_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.hide_password_duration = global::MoleWatchApp.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_badge_max_character_count = global::MoleWatchApp.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_btn_anim_delay_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_btn_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_calendar_header_orientation = global::MoleWatchApp.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_calendar_selection_text_lines = global::MoleWatchApp.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_calendar_year_selector_span = global::MoleWatchApp.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_card_anim_delay_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_card_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_chip_anim_duration = global::MoleWatchApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.show_password_duration = global::MoleWatchApp.Droid.Resource.Integer.show_password_duration;
 			global::Xamarin.Forms.Platform.Resource.Integer.status_bar_notification_info_maxnum = global::MoleWatchApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.Platform.Resource.Interpolator.fast_out_slow_in = global::MoleWatchApp.Droid.Resource.Interpolator.fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_fast_out_linear_in = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_fast_out_slow_in = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_linear = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_linear;
@@ -5659,6 +7336,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_select_dialog_material = global::MoleWatchApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_tooltip = global::MoleWatchApp.Droid.Resource.Layout.abc_tooltip;
 			global::Xamarin.Forms.Platform.Resource.Layout.BottomTabLayout = global::MoleWatchApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Platform.Resource.Layout.custom_dialog = global::MoleWatchApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_navigation_item = global::MoleWatchApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_sheet_dialog = global::MoleWatchApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_layout_snackbar = global::MoleWatchApp.Droid.Resource.Layout.design_layout_snackbar;
@@ -5672,9 +7350,39 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_item_subheader = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu_item = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_end_icon = global::MoleWatchApp.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_start_icon = global::MoleWatchApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackTabbarDoNotUse = global::MoleWatchApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackToolbarDoNotUse = global::MoleWatchApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::MoleWatchApp.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog_actions = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog_title = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_select_dialog_item = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::MoleWatchApp.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_day = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_days_of_week = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_day_of_week = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_horizontal = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_month = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_months = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_month_labeled = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_month_navigation = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_vertical = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_year = global::MoleWatchApp.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar = global::MoleWatchApp.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar_include = global::MoleWatchApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_actions = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_dialog = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_fullscreen = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_dialog = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_fullscreen = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_selection_text = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_title_text = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_toggle = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_text_input_date = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_text_input_date_range = global::MoleWatchApp.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_action = global::MoleWatchApp.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_action_tombstone = global::MoleWatchApp.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_media_action = global::MoleWatchApp.Droid.Resource.Layout.notification_media_action;
@@ -5696,6 +7404,23 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_singlechoice_material = global::MoleWatchApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::MoleWatchApp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::MoleWatchApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::MoleWatchApp.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::MoleWatchApp.Droid.Resource.Layout.test_action_chip;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::MoleWatchApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::MoleWatchApp.Droid.Resource.Layout.test_design_checkbox;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_design_radiobutton = global::MoleWatchApp.Droid.Resource.Layout.test_design_radiobutton;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_reflow_chipgroup = global::MoleWatchApp.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_custom_background = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_elevation = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_surface = global::MoleWatchApp.Droid.Resource.Layout.test_toolbar_surface;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_without_line_height = global::MoleWatchApp.Droid.Resource.Layout.text_view_without_line_height;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_appearance = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_layout = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_style = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_theme_line_height = global::MoleWatchApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::MoleWatchApp.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Forms.Platform.Resource.Plurals.mtrl_badge_content_description = global::MoleWatchApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::MoleWatchApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_up_description = global::MoleWatchApp.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_menu_overflow_description = global::MoleWatchApp.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -5726,11 +7451,54 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.String.appbar_scrolling_view_behavior = global::MoleWatchApp.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.bottom_sheet_behavior = global::MoleWatchApp.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_content_description = global::MoleWatchApp.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.character_counter_overflowed_content_description = global::MoleWatchApp.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_pattern = global::MoleWatchApp.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Platform.Resource.String.chip_text = global::MoleWatchApp.Droid.Resource.String.chip_text;
+			global::Xamarin.Forms.Platform.Resource.String.clear_text_end_icon_content_description = global::MoleWatchApp.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.error_icon_content_description = global::MoleWatchApp.Droid.Resource.String.error_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.exposed_dropdown_menu_content_description = global::MoleWatchApp.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.fab_transformation_scrim_behavior = global::MoleWatchApp.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.fab_transformation_sheet_behavior = global::MoleWatchApp.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.hide_bottom_view_on_scroll_behavior = global::MoleWatchApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.Platform.Resource.String.icon_content_description = global::MoleWatchApp.Droid.Resource.String.icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.item_view_role_description = global::MoleWatchApp.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.Forms.Platform.Resource.String.material_slider_range_end = global::MoleWatchApp.Droid.Resource.String.material_slider_range_end;
+			global::Xamarin.Forms.Platform.Resource.String.material_slider_range_start = global::MoleWatchApp.Droid.Resource.String.material_slider_range_start;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_badge_numberless_content_description = global::MoleWatchApp.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_chip_close_icon_content_description = global::MoleWatchApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_exceed_max_badge_number_content_description = global::MoleWatchApp.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_exceed_max_badge_number_suffix = global::MoleWatchApp.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_a11y_next_month = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_a11y_prev_month = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_announce_current_selection = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_cancel = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_cancel;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_confirm = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_confirm;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_date_header_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_date_header_title = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_date_header_unselected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_day_of_week_column_header = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_format = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_format_example = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_format_use = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_range = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_navigate_to_year_description = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_out_of_range = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_only_end_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_only_start_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_selected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_title = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_unselected = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_save = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_save;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_date_hint = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_day_abbr = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_month_abbr = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_year_abbr = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_day_selection = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_year_selection = global::MoleWatchApp.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
 			global::Xamarin.Forms.Platform.Resource.String.overflow_tab_title = global::MoleWatchApp.Droid.Resource.String.overflow_tab_title;
 			global::Xamarin.Forms.Platform.Resource.String.password_toggle_content_description = global::MoleWatchApp.Droid.Resource.String.password_toggle_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.path_password_eye = global::MoleWatchApp.Droid.Resource.String.path_password_eye;
@@ -5741,10 +7509,12 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow = global::MoleWatchApp.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat = global::MoleWatchApp.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.AndroidThemeColorAccentYellow = global::MoleWatchApp.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_Design_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.AppCompatDialogStyle = global::MoleWatchApp.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
@@ -5754,6 +7524,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_CardView = global::MoleWatchApp.Droid.Resource.Style.Base_CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::MoleWatchApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::MoleWatchApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::MoleWatchApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -5799,6 +7572,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -5811,6 +7588,9 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -5831,6 +7611,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -5840,22 +7621,30 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V23_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -5927,19 +7716,39 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Spinner = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_TextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_Design_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_Chip = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_Slider = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView = global::MoleWatchApp.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::MoleWatchApp.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::MoleWatchApp.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::MoleWatchApp.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.EmptyTheme = global::MoleWatchApp.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::MoleWatchApp.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::MoleWatchApp.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::MoleWatchApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Platform_MaterialComponents;
@@ -5973,6 +7782,38 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MoleWatchApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewScrollBars = global::MoleWatchApp.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewTheme = global::MoleWatchApp.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_Cut = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::MoleWatchApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeight = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeightAppearance = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithoutLineHeight = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::MoleWatchApp.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeight = global::MoleWatchApp.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeightDisabled = global::MoleWatchApp.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::MoleWatchApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -6037,8 +7878,12 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Error = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_HelperText = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Hint = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Placeholder = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Prefix = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Suffix = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Tab = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Badge = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -6053,28 +7898,58 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Overline = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlayColorAccentRed = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_DayNight = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -6088,6 +7963,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Empty = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -6106,11 +7982,33 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -6118,7 +8016,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -6192,6 +8096,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_TextView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
@@ -6206,11 +8111,27 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TextInputLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Badge = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomSheet = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -6218,31 +8139,76 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CardView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ChipGroup = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Action = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_NavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Slider = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Tooltip = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Support_CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBar = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBarLayout = global::MoleWatchApp.Droid.Resource.Styleable.ActionBarLayout;
@@ -6328,6 +8294,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScroll = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_statusBarForeground = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_android_src = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_srcCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -6353,11 +8321,21 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTint = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTintMode = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontFamily = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_textAllCaps = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_textLocale = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
@@ -6431,14 +8409,18 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_panelBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
@@ -6480,29 +8462,53 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge = global::MoleWatchApp.Droid.Resource.Styleable.Badge;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_backgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_badgeGravity = global::MoleWatchApp.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_badgeTextColor = global::MoleWatchApp.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_horizontalOffset = global::MoleWatchApp.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_maxCharacterCount = global::MoleWatchApp.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_number = global::MoleWatchApp.Droid.Resource.Styleable.Badge_number;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_verticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_elevation = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabAnimationMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleMargin = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_hideOnScroll = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_elevation = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemBackground = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemIconSize = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemIconTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemRippleColor = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_menu = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ButtonBarLayout = global::MoleWatchApp.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ButtonBarLayout_allowStacking = global::MoleWatchApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CardView = global::MoleWatchApp.Droid.Resource.Styleable.CardView;
@@ -6525,6 +8531,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacing = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacingVertical = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_selectionRequired = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_singleLine = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_singleSelection = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_checkable;
@@ -6532,8 +8539,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_text = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_text;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_textColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIcon = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconEnabled = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipBackgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -6544,9 +8553,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipMinHeight = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipSurfaceColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIcon = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconEnabled = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -6554,10 +8565,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_iconEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_iconStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_textEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_textStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -6575,6 +8589,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -6587,6 +8602,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_android_button = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonCompat = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTint = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTintMode = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout;
@@ -6609,13 +8625,26 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_spinBars = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_thickness = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerLayout = global::MoleWatchApp.Droid.Resource.Styleable.DrawerLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerLayout_elevation = global::MoleWatchApp.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_borderWidth = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_elevation = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_fabCustomSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_fabSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -6623,6 +8652,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_maxImageSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FlowLayout = global::MoleWatchApp.Droid.Resource.Styleable.FlowLayout;
@@ -6650,6 +8681,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment = global::MoleWatchApp.Droid.Resource.Styleable.Fragment;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FragmentContainerView = global::MoleWatchApp.Droid.Resource.Styleable.FragmentContainerView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FragmentContainerView_android_name = global::MoleWatchApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FragmentContainerView_android_tag = global::MoleWatchApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment_android_id = global::MoleWatchApp.Droid.Resource.Styleable.Fragment_android_id;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment_android_name = global::MoleWatchApp.Droid.Resource.Styleable.Fragment_android_name;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment_android_tag = global::MoleWatchApp.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColorItem = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColorItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -6666,6 +8704,10 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_startY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_tileMode = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_type = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets = global::MoleWatchApp.Droid.Resource.Styleable.Insets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::MoleWatchApp.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme = global::MoleWatchApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat;
@@ -6686,7 +8728,26 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::MoleWatchApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_background = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetBottom = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetLeft = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetRight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -6694,6 +8755,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_cornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_elevation = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_icon = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconGravity = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconPadding = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -6701,11 +8763,58 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_dayStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_rangeFillColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_yearStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_cardForegroundColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_checkedIcon = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_checkedIconTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_state_dragged = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox_buttonTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton = global::MoleWatchApp.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton_buttonTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape = global::MoleWatchApp.Droid.Resource.Styleable.MaterialShape;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextAppearance_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView_android_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -6756,7 +8865,16 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemBackground = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemHorizontalPadding = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemIconPadding = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemIconSize = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemIconTint = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemMaxLines = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeFillColor = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetStart = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetTop = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_menu = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_menu;
@@ -6766,10 +8884,13 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_android_popupBackground = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_overlapAnchor = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RangeSlider = global::MoleWatchApp.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RangeSlider_values = global::MoleWatchApp.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_android_clipToPadding = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_android_orientation = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
@@ -6805,13 +8926,55 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_submitBackground = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_suggestionRowLayout = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_voiceIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamily = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSize = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::MoleWatchApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider = global::MoleWatchApp.Droid.Resource.Styleable.Slider;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_stepSize = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_value = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_value;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_valueFrom = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_valueTo = global::MoleWatchApp.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_haloColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_haloColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_haloRadius = global::MoleWatchApp.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_labelBehavior = global::MoleWatchApp.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_labelStyle = global::MoleWatchApp.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbElevation = global::MoleWatchApp.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbRadius = global::MoleWatchApp.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_tickColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColorActive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColorInactive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColor = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColorActive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColorInactive = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackHeight = global::MoleWatchApp.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_animationMode = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_elevation = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner = global::MoleWatchApp.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_dropDownWidth = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_entries = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_entries;
@@ -6842,6 +9005,8 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_track = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_trackTint = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_trackTintMode = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchMaterial = global::MoleWatchApp.Droid.Resource.Styleable.SwitchMaterial;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::MoleWatchApp.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem = global::MoleWatchApp.Droid.Resource.Styleable.TabItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem_android_icon = global::MoleWatchApp.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem_android_layout = global::MoleWatchApp.Droid.Resource.Styleable.TabItem_android_layout;
@@ -6881,12 +9046,18 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textColor = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textColorHint = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textColorLink = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textFontWeight = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textSize = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textStyle = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_typeface = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_fontFamily = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textAllCaps = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textLocale = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputEditText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputEditText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_hint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_textColorHint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -6897,24 +9068,57 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterMaxLength = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconCheckable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperTextEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperTextTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_shapeAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconCheckable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -6934,6 +9138,7 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_logo = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_logo;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_logoDescription = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_maxButtonHeight = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_menu = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_menu;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_navigationContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_navigationIcon = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_popupTheme = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_popupTheme;
@@ -6949,11 +9154,21 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMarginTop = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextColor = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_layout_margin = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_minHeight = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_minWidth = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_padding = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_text = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View = global::MoleWatchApp.Droid.Resource.Styleable.View;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_android_background = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ViewPager2 = global::MoleWatchApp.Droid.Resource.Styleable.ViewPager2;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ViewPager2_android_orientation = global::MoleWatchApp.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_id = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -6963,6 +9178,11 @@ namespace MoleWatchApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::MoleWatchApp.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_end = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::MoleWatchApp.Droid.Resource.Xml.standalone_badge_offset;
 		}
 		
 		public partial class Animation
@@ -11215,130 +13435,151 @@ namespace MoleWatchApp.Droid
 			public const int design_snackbar_background = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int fingerprint_dialog_error_to_fp = 2131230939;
+			public const int FemaleBackCrop = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int fingerprint_dialog_fp_to_error = 2131230940;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int icon_about = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int icon_feed = 2131230946;
+			public const int FemaleFrontCrop = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ic_mtrl_checked_circle = 2131230941;
+			public const int fingerprint_dialog_error_to_fp = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int ic_mtrl_chip_checked_black = 2131230942;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int ic_mtrl_chip_checked_circle = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int ic_mtrl_chip_close_circle = 2131230944;
+			public const int fingerprint_dialog_fp_to_error = 2131230942;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int material_ic_calendar_black_24dp = 2131230947;
+			public const int icon_about = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int material_ic_clear_black_24dp = 2131230948;
+			public const int icon_feed = 2131230948;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int ic_mtrl_checked_circle = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int ic_mtrl_chip_checked_black = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int ic_mtrl_chip_checked_circle = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int ic_mtrl_chip_close_circle = 2131230946;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int material_ic_edit_black_24dp = 2131230949;
+			public const int MaleBackCrop = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131230950;
+			public const int MaleFrontCrop = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131230951;
+			public const int material_ic_calendar_black_24dp = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int material_ic_menu_arrow_down_black_24dp = 2131230952;
+			public const int material_ic_clear_black_24dp = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int material_ic_menu_arrow_up_black_24dp = 2131230953;
+			public const int material_ic_edit_black_24dp = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int mtrl_dialog_background = 2131230954;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int mtrl_dropdown_arrow = 2131230955;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int mtrl_ic_arrow_drop_down = 2131230956;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int mtrl_ic_arrow_drop_up = 2131230957;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int mtrl_ic_cancel = 2131230958;
+			public const int mtrl_dialog_background = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int mtrl_ic_error = 2131230959;
+			public const int mtrl_dropdown_arrow = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int mtrl_popupmenu_background = 2131230960;
+			public const int mtrl_ic_arrow_drop_down = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int mtrl_popupmenu_background_dark = 2131230961;
+			public const int mtrl_ic_arrow_drop_up = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int mtrl_tabs_default_indicator = 2131230962;
+			public const int mtrl_ic_cancel = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int navigation_empty_icon = 2131230963;
+			public const int mtrl_ic_error = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int notification_action_background = 2131230964;
+			public const int mtrl_popupmenu_background = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int notification_bg = 2131230965;
+			public const int mtrl_popupmenu_background_dark = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int notification_bg_low = 2131230966;
+			public const int mtrl_tabs_default_indicator = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int notification_bg_low_normal = 2131230967;
+			public const int navigation_empty_icon = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int notification_bg_low_pressed = 2131230968;
+			public const int notification_action_background = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int notification_bg_normal = 2131230969;
+			public const int notification_bg = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int notification_bg_normal_pressed = 2131230970;
+			public const int notification_bg_low = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int notification_icon_background = 2131230971;
+			public const int notification_bg_low_normal = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int notification_template_icon_bg = 2131230972;
+			public const int notification_bg_low_pressed = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int notification_template_icon_low_bg = 2131230973;
+			public const int notification_bg_normal = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int notification_tile_bg = 2131230974;
+			public const int notification_bg_normal_pressed = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int notify_panel_notification_icon_bg = 2131230975;
+			public const int notification_icon_background = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int test_custom_background = 2131230976;
+			public const int notification_template_icon_bg = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int tooltip_frame_dark = 2131230977;
+			public const int notification_template_icon_low_bg = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int tooltip_frame_light = 2131230978;
+			public const int notification_tile_bg = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int touch_id_240 = 2131230979;
+			public const int notify_panel_notification_icon_bg = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int xamarin_logo = 2131230980;
+			public const int Plus_icon = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int Rotate = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int test_custom_background = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int tooltip_frame_dark = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int tooltip_frame_light = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int touch_id_240 = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int touch_id_96 = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int xamarin_logo = 2131230987;
 			
 			static Drawable()
 			{
@@ -11747,511 +13988,508 @@ namespace MoleWatchApp.Droid
 			public const int flyoutcontent_appbar = 2131296392;
 			
 			// aapt resource value: 0x7F090089
-			public const int flyoutcontent_recycler = 2131296393;
+			public const int forever = 2131296393;
 			
 			// aapt resource value: 0x7F09008A
-			public const int forever = 2131296394;
-			
-			// aapt resource value: 0x7F09008B
-			public const int fragment_container_view_tag = 2131296395;
+			public const int fragment_container_view_tag = 2131296394;
 			
 			// aapt resource value: 0x7F090004
 			public const int FUNCTION = 2131296260;
 			
+			// aapt resource value: 0x7F09008B
+			public const int ghost_view = 2131296395;
+			
 			// aapt resource value: 0x7F09008C
-			public const int ghost_view = 2131296396;
+			public const int ghost_view_holder = 2131296396;
 			
 			// aapt resource value: 0x7F09008D
-			public const int ghost_view_holder = 2131296397;
+			public const int gone = 2131296397;
 			
 			// aapt resource value: 0x7F09008E
-			public const int gone = 2131296398;
+			public const int group_divider = 2131296398;
 			
 			// aapt resource value: 0x7F09008F
-			public const int group_divider = 2131296399;
+			public const int hideable = 2131296399;
 			
 			// aapt resource value: 0x7F090090
-			public const int hideable = 2131296400;
+			public const int home = 2131296400;
 			
 			// aapt resource value: 0x7F090091
-			public const int home = 2131296401;
+			public const int homeAsUp = 2131296401;
 			
 			// aapt resource value: 0x7F090092
-			public const int homeAsUp = 2131296402;
+			public const int icon = 2131296402;
 			
 			// aapt resource value: 0x7F090093
-			public const int icon = 2131296403;
+			public const int icon_group = 2131296403;
 			
 			// aapt resource value: 0x7F090094
-			public const int icon_group = 2131296404;
+			public const int ifRoom = 2131296404;
 			
 			// aapt resource value: 0x7F090095
-			public const int ifRoom = 2131296405;
+			public const int image = 2131296405;
 			
 			// aapt resource value: 0x7F090096
-			public const int image = 2131296406;
+			public const int info = 2131296406;
 			
 			// aapt resource value: 0x7F090097
-			public const int info = 2131296407;
+			public const int italic = 2131296407;
 			
 			// aapt resource value: 0x7F090098
-			public const int italic = 2131296408;
+			public const int item_touch_helper_previous_elevation = 2131296408;
 			
 			// aapt resource value: 0x7F090099
-			public const int item_touch_helper_previous_elevation = 2131296409;
+			public const int labeled = 2131296409;
 			
 			// aapt resource value: 0x7F09009A
-			public const int labeled = 2131296410;
+			public const int largeLabel = 2131296410;
 			
 			// aapt resource value: 0x7F09009B
-			public const int largeLabel = 2131296411;
+			public const int left = 2131296411;
 			
 			// aapt resource value: 0x7F09009C
-			public const int left = 2131296412;
+			public const int line1 = 2131296412;
 			
 			// aapt resource value: 0x7F09009D
-			public const int line1 = 2131296413;
+			public const int line3 = 2131296413;
 			
 			// aapt resource value: 0x7F09009E
-			public const int line3 = 2131296414;
+			public const int listMode = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int listMode = 2131296415;
+			public const int list_item = 2131296415;
 			
 			// aapt resource value: 0x7F0900A0
-			public const int list_item = 2131296416;
+			public const int main_appbar = 2131296416;
 			
 			// aapt resource value: 0x7F0900A1
-			public const int main_appbar = 2131296417;
+			public const int main_tablayout = 2131296417;
 			
 			// aapt resource value: 0x7F0900A2
-			public const int main_tablayout = 2131296418;
+			public const int main_toolbar = 2131296418;
 			
 			// aapt resource value: 0x7F0900A3
-			public const int main_toolbar = 2131296419;
+			public const int main_viewpager = 2131296419;
 			
 			// aapt resource value: 0x7F0900A4
-			public const int main_viewpager = 2131296420;
+			public const int masked = 2131296420;
 			
 			// aapt resource value: 0x7F0900A5
-			public const int masked = 2131296421;
+			public const int media_actions = 2131296421;
 			
 			// aapt resource value: 0x7F0900A6
-			public const int media_actions = 2131296422;
-			
-			// aapt resource value: 0x7F0900A7
-			public const int message = 2131296423;
+			public const int message = 2131296422;
 			
 			// aapt resource value: 0x7F090005
 			public const int META = 2131296261;
 			
+			// aapt resource value: 0x7F0900A7
+			public const int middle = 2131296423;
+			
 			// aapt resource value: 0x7F0900A8
-			public const int middle = 2131296424;
+			public const int mini = 2131296424;
 			
 			// aapt resource value: 0x7F0900A9
-			public const int mini = 2131296425;
+			public const int month_grid = 2131296425;
 			
 			// aapt resource value: 0x7F0900AA
-			public const int month_grid = 2131296426;
+			public const int month_navigation_bar = 2131296426;
 			
 			// aapt resource value: 0x7F0900AB
-			public const int month_navigation_bar = 2131296427;
+			public const int month_navigation_fragment_toggle = 2131296427;
 			
 			// aapt resource value: 0x7F0900AC
-			public const int month_navigation_fragment_toggle = 2131296428;
+			public const int month_navigation_next = 2131296428;
 			
 			// aapt resource value: 0x7F0900AD
-			public const int month_navigation_next = 2131296429;
+			public const int month_navigation_previous = 2131296429;
 			
 			// aapt resource value: 0x7F0900AE
-			public const int month_navigation_previous = 2131296430;
-			
-			// aapt resource value: 0x7F0900AF
-			public const int month_title = 2131296431;
-			
-			// aapt resource value: 0x7F0900B1
-			public const int mtrl_calendar_days_of_week = 2131296433;
+			public const int month_title = 2131296430;
 			
 			// aapt resource value: 0x7F0900B0
-			public const int mtrl_calendar_day_selector_frame = 2131296432;
+			public const int mtrl_calendar_days_of_week = 2131296432;
+			
+			// aapt resource value: 0x7F0900AF
+			public const int mtrl_calendar_day_selector_frame = 2131296431;
+			
+			// aapt resource value: 0x7F0900B1
+			public const int mtrl_calendar_frame = 2131296433;
 			
 			// aapt resource value: 0x7F0900B2
-			public const int mtrl_calendar_frame = 2131296434;
+			public const int mtrl_calendar_main_pane = 2131296434;
 			
 			// aapt resource value: 0x7F0900B3
-			public const int mtrl_calendar_main_pane = 2131296435;
+			public const int mtrl_calendar_months = 2131296435;
 			
 			// aapt resource value: 0x7F0900B4
-			public const int mtrl_calendar_months = 2131296436;
+			public const int mtrl_calendar_selection_frame = 2131296436;
 			
 			// aapt resource value: 0x7F0900B5
-			public const int mtrl_calendar_selection_frame = 2131296437;
+			public const int mtrl_calendar_text_input_frame = 2131296437;
 			
 			// aapt resource value: 0x7F0900B6
-			public const int mtrl_calendar_text_input_frame = 2131296438;
+			public const int mtrl_calendar_year_selector_frame = 2131296438;
 			
 			// aapt resource value: 0x7F0900B7
-			public const int mtrl_calendar_year_selector_frame = 2131296439;
+			public const int mtrl_card_checked_layer_id = 2131296439;
 			
 			// aapt resource value: 0x7F0900B8
-			public const int mtrl_card_checked_layer_id = 2131296440;
+			public const int mtrl_child_content_container = 2131296440;
 			
 			// aapt resource value: 0x7F0900B9
-			public const int mtrl_child_content_container = 2131296441;
+			public const int mtrl_internal_children_alpha_tag = 2131296441;
 			
 			// aapt resource value: 0x7F0900BA
-			public const int mtrl_internal_children_alpha_tag = 2131296442;
+			public const int mtrl_motion_snapshot_view = 2131296442;
 			
 			// aapt resource value: 0x7F0900BB
-			public const int mtrl_motion_snapshot_view = 2131296443;
+			public const int mtrl_picker_fullscreen = 2131296443;
 			
 			// aapt resource value: 0x7F0900BC
-			public const int mtrl_picker_fullscreen = 2131296444;
+			public const int mtrl_picker_header = 2131296444;
 			
 			// aapt resource value: 0x7F0900BD
-			public const int mtrl_picker_header = 2131296445;
+			public const int mtrl_picker_header_selection_text = 2131296445;
 			
 			// aapt resource value: 0x7F0900BE
-			public const int mtrl_picker_header_selection_text = 2131296446;
+			public const int mtrl_picker_header_title_and_selection = 2131296446;
 			
 			// aapt resource value: 0x7F0900BF
-			public const int mtrl_picker_header_title_and_selection = 2131296447;
+			public const int mtrl_picker_header_toggle = 2131296447;
 			
 			// aapt resource value: 0x7F0900C0
-			public const int mtrl_picker_header_toggle = 2131296448;
+			public const int mtrl_picker_text_input_date = 2131296448;
 			
 			// aapt resource value: 0x7F0900C1
-			public const int mtrl_picker_text_input_date = 2131296449;
+			public const int mtrl_picker_text_input_range_end = 2131296449;
 			
 			// aapt resource value: 0x7F0900C2
-			public const int mtrl_picker_text_input_range_end = 2131296450;
+			public const int mtrl_picker_text_input_range_start = 2131296450;
 			
 			// aapt resource value: 0x7F0900C3
-			public const int mtrl_picker_text_input_range_start = 2131296451;
+			public const int mtrl_picker_title_text = 2131296451;
 			
 			// aapt resource value: 0x7F0900C4
-			public const int mtrl_picker_title_text = 2131296452;
+			public const int multiply = 2131296452;
 			
 			// aapt resource value: 0x7F0900C5
-			public const int multiply = 2131296453;
+			public const int navigation_header_container = 2131296453;
 			
 			// aapt resource value: 0x7F0900C6
-			public const int navigation_header_container = 2131296454;
-			
-			// aapt resource value: 0x7F0900C7
-			public const int never = 2131296455;
-			
-			// aapt resource value: 0x7F0900C9
-			public const int none = 2131296457;
-			
-			// aapt resource value: 0x7F0900CA
-			public const int normal = 2131296458;
+			public const int never = 2131296454;
 			
 			// aapt resource value: 0x7F0900C8
-			public const int noScroll = 2131296456;
+			public const int none = 2131296456;
+			
+			// aapt resource value: 0x7F0900C9
+			public const int normal = 2131296457;
+			
+			// aapt resource value: 0x7F0900C7
+			public const int noScroll = 2131296455;
+			
+			// aapt resource value: 0x7F0900CA
+			public const int notification_background = 2131296458;
 			
 			// aapt resource value: 0x7F0900CB
-			public const int notification_background = 2131296459;
+			public const int notification_main_column = 2131296459;
 			
 			// aapt resource value: 0x7F0900CC
-			public const int notification_main_column = 2131296460;
+			public const int notification_main_column_container = 2131296460;
 			
 			// aapt resource value: 0x7F0900CD
-			public const int notification_main_column_container = 2131296461;
+			public const int off = 2131296461;
 			
 			// aapt resource value: 0x7F0900CE
-			public const int off = 2131296462;
+			public const int on = 2131296462;
 			
 			// aapt resource value: 0x7F0900CF
-			public const int on = 2131296463;
+			public const int outline = 2131296463;
 			
 			// aapt resource value: 0x7F0900D0
-			public const int outline = 2131296464;
+			public const int parallax = 2131296464;
 			
 			// aapt resource value: 0x7F0900D1
-			public const int parallax = 2131296465;
+			public const int parentPanel = 2131296465;
 			
 			// aapt resource value: 0x7F0900D2
-			public const int parentPanel = 2131296466;
+			public const int parent_matrix = 2131296466;
 			
 			// aapt resource value: 0x7F0900D3
-			public const int parent_matrix = 2131296467;
+			public const int password_toggle = 2131296467;
 			
 			// aapt resource value: 0x7F0900D4
-			public const int password_toggle = 2131296468;
+			public const int peekHeight = 2131296468;
 			
 			// aapt resource value: 0x7F0900D5
-			public const int peekHeight = 2131296469;
+			public const int pin = 2131296469;
 			
 			// aapt resource value: 0x7F0900D6
-			public const int pin = 2131296470;
+			public const int progress_circular = 2131296470;
 			
 			// aapt resource value: 0x7F0900D7
-			public const int progress_circular = 2131296471;
+			public const int progress_horizontal = 2131296471;
 			
 			// aapt resource value: 0x7F0900D8
-			public const int progress_horizontal = 2131296472;
+			public const int radio = 2131296472;
 			
 			// aapt resource value: 0x7F0900D9
-			public const int radio = 2131296473;
+			public const int right = 2131296473;
 			
 			// aapt resource value: 0x7F0900DA
-			public const int right = 2131296474;
+			public const int right_icon = 2131296474;
 			
 			// aapt resource value: 0x7F0900DB
-			public const int right_icon = 2131296475;
+			public const int right_side = 2131296475;
 			
 			// aapt resource value: 0x7F0900DC
-			public const int right_side = 2131296476;
+			public const int rounded = 2131296476;
 			
 			// aapt resource value: 0x7F0900DD
-			public const int rounded = 2131296477;
+			public const int row_index_key = 2131296477;
 			
 			// aapt resource value: 0x7F0900DE
-			public const int row_index_key = 2131296478;
+			public const int save_non_transition_alpha = 2131296478;
 			
 			// aapt resource value: 0x7F0900DF
-			public const int save_non_transition_alpha = 2131296479;
+			public const int save_overlay_view = 2131296479;
 			
 			// aapt resource value: 0x7F0900E0
-			public const int save_overlay_view = 2131296480;
+			public const int scale = 2131296480;
 			
 			// aapt resource value: 0x7F0900E1
-			public const int scale = 2131296481;
+			public const int screen = 2131296481;
 			
 			// aapt resource value: 0x7F0900E2
-			public const int screen = 2131296482;
-			
-			// aapt resource value: 0x7F0900E3
-			public const int scroll = 2131296483;
-			
-			// aapt resource value: 0x7F0900E7
-			public const int scrollable = 2131296487;
-			
-			// aapt resource value: 0x7F0900E4
-			public const int scrollIndicatorDown = 2131296484;
-			
-			// aapt resource value: 0x7F0900E5
-			public const int scrollIndicatorUp = 2131296485;
+			public const int scroll = 2131296482;
 			
 			// aapt resource value: 0x7F0900E6
-			public const int scrollView = 2131296486;
+			public const int scrollable = 2131296486;
+			
+			// aapt resource value: 0x7F0900E3
+			public const int scrollIndicatorDown = 2131296483;
+			
+			// aapt resource value: 0x7F0900E4
+			public const int scrollIndicatorUp = 2131296484;
+			
+			// aapt resource value: 0x7F0900E5
+			public const int scrollView = 2131296485;
+			
+			// aapt resource value: 0x7F0900E7
+			public const int search_badge = 2131296487;
 			
 			// aapt resource value: 0x7F0900E8
-			public const int search_badge = 2131296488;
+			public const int search_bar = 2131296488;
 			
 			// aapt resource value: 0x7F0900E9
-			public const int search_bar = 2131296489;
+			public const int search_button = 2131296489;
 			
 			// aapt resource value: 0x7F0900EA
-			public const int search_button = 2131296490;
+			public const int search_close_btn = 2131296490;
 			
 			// aapt resource value: 0x7F0900EB
-			public const int search_close_btn = 2131296491;
+			public const int search_edit_frame = 2131296491;
 			
 			// aapt resource value: 0x7F0900EC
-			public const int search_edit_frame = 2131296492;
+			public const int search_go_btn = 2131296492;
 			
 			// aapt resource value: 0x7F0900ED
-			public const int search_go_btn = 2131296493;
+			public const int search_mag_icon = 2131296493;
 			
 			// aapt resource value: 0x7F0900EE
-			public const int search_mag_icon = 2131296494;
+			public const int search_plate = 2131296494;
 			
 			// aapt resource value: 0x7F0900EF
-			public const int search_plate = 2131296495;
+			public const int search_src_text = 2131296495;
 			
 			// aapt resource value: 0x7F0900F0
-			public const int search_src_text = 2131296496;
-			
-			// aapt resource value: 0x7F0900F1
-			public const int search_voice_btn = 2131296497;
-			
-			// aapt resource value: 0x7F0900F3
-			public const int selected = 2131296499;
+			public const int search_voice_btn = 2131296496;
 			
 			// aapt resource value: 0x7F0900F2
-			public const int select_dialog_listview = 2131296498;
+			public const int selected = 2131296498;
+			
+			// aapt resource value: 0x7F0900F1
+			public const int select_dialog_listview = 2131296497;
+			
+			// aapt resource value: 0x7F0900F3
+			public const int shellcontent_appbar = 2131296499;
 			
 			// aapt resource value: 0x7F0900F4
-			public const int shellcontent_appbar = 2131296500;
-			
-			// aapt resource value: 0x7F0900F5
-			public const int shellcontent_toolbar = 2131296501;
+			public const int shellcontent_toolbar = 2131296500;
 			
 			// aapt resource value: 0x7F090006
 			public const int SHIFT = 2131296262;
 			
+			// aapt resource value: 0x7F0900F5
+			public const int shortcut = 2131296501;
+			
 			// aapt resource value: 0x7F0900F6
-			public const int shortcut = 2131296502;
+			public const int showCustom = 2131296502;
 			
 			// aapt resource value: 0x7F0900F7
-			public const int showCustom = 2131296503;
+			public const int showHome = 2131296503;
 			
 			// aapt resource value: 0x7F0900F8
-			public const int showHome = 2131296504;
+			public const int showTitle = 2131296504;
 			
 			// aapt resource value: 0x7F0900F9
-			public const int showTitle = 2131296505;
+			public const int skipCollapsed = 2131296505;
 			
 			// aapt resource value: 0x7F0900FA
-			public const int skipCollapsed = 2131296506;
+			public const int slide = 2131296506;
 			
 			// aapt resource value: 0x7F0900FB
-			public const int slide = 2131296507;
+			public const int sliding_tabs = 2131296507;
 			
 			// aapt resource value: 0x7F0900FC
-			public const int sliding_tabs = 2131296508;
+			public const int smallLabel = 2131296508;
 			
 			// aapt resource value: 0x7F0900FD
-			public const int smallLabel = 2131296509;
+			public const int snackbar_action = 2131296509;
 			
 			// aapt resource value: 0x7F0900FE
-			public const int snackbar_action = 2131296510;
+			public const int snackbar_text = 2131296510;
 			
 			// aapt resource value: 0x7F0900FF
-			public const int snackbar_text = 2131296511;
+			public const int snap = 2131296511;
 			
 			// aapt resource value: 0x7F090100
-			public const int snap = 2131296512;
+			public const int snapMargins = 2131296512;
 			
 			// aapt resource value: 0x7F090101
-			public const int snapMargins = 2131296513;
+			public const int spacer = 2131296513;
 			
 			// aapt resource value: 0x7F090102
-			public const int spacer = 2131296514;
+			public const int split_action_bar = 2131296514;
 			
 			// aapt resource value: 0x7F090103
-			public const int split_action_bar = 2131296515;
+			public const int src_atop = 2131296515;
 			
 			// aapt resource value: 0x7F090104
-			public const int src_atop = 2131296516;
+			public const int src_in = 2131296516;
 			
 			// aapt resource value: 0x7F090105
-			public const int src_in = 2131296517;
+			public const int src_over = 2131296517;
 			
 			// aapt resource value: 0x7F090106
-			public const int src_over = 2131296518;
+			public const int start = 2131296518;
 			
 			// aapt resource value: 0x7F090107
-			public const int start = 2131296519;
+			public const int status_bar_latest_event_content = 2131296519;
 			
 			// aapt resource value: 0x7F090108
-			public const int status_bar_latest_event_content = 2131296520;
+			public const int stretch = 2131296520;
 			
 			// aapt resource value: 0x7F090109
-			public const int stretch = 2131296521;
+			public const int submenuarrow = 2131296521;
 			
 			// aapt resource value: 0x7F09010A
-			public const int submenuarrow = 2131296522;
-			
-			// aapt resource value: 0x7F09010B
-			public const int submit_area = 2131296523;
+			public const int submit_area = 2131296522;
 			
 			// aapt resource value: 0x7F090007
 			public const int SYM = 2131296263;
 			
+			// aapt resource value: 0x7F09010B
+			public const int tabMode = 2131296523;
+			
 			// aapt resource value: 0x7F09010C
-			public const int tabMode = 2131296524;
+			public const int tag_accessibility_actions = 2131296524;
 			
 			// aapt resource value: 0x7F09010D
-			public const int tag_accessibility_actions = 2131296525;
+			public const int tag_accessibility_clickable_spans = 2131296525;
 			
 			// aapt resource value: 0x7F09010E
-			public const int tag_accessibility_clickable_spans = 2131296526;
+			public const int tag_accessibility_heading = 2131296526;
 			
 			// aapt resource value: 0x7F09010F
-			public const int tag_accessibility_heading = 2131296527;
+			public const int tag_accessibility_pane_title = 2131296527;
 			
 			// aapt resource value: 0x7F090110
-			public const int tag_accessibility_pane_title = 2131296528;
+			public const int tag_screen_reader_focusable = 2131296528;
 			
 			// aapt resource value: 0x7F090111
-			public const int tag_screen_reader_focusable = 2131296529;
+			public const int tag_transition_group = 2131296529;
 			
 			// aapt resource value: 0x7F090112
-			public const int tag_transition_group = 2131296530;
+			public const int tag_unhandled_key_event_manager = 2131296530;
 			
 			// aapt resource value: 0x7F090113
-			public const int tag_unhandled_key_event_manager = 2131296531;
+			public const int tag_unhandled_key_listeners = 2131296531;
 			
 			// aapt resource value: 0x7F090114
-			public const int tag_unhandled_key_listeners = 2131296532;
+			public const int test_checkbox_android_button_tint = 2131296532;
 			
 			// aapt resource value: 0x7F090115
-			public const int test_checkbox_android_button_tint = 2131296533;
+			public const int test_checkbox_app_button_tint = 2131296533;
 			
 			// aapt resource value: 0x7F090116
-			public const int test_checkbox_app_button_tint = 2131296534;
+			public const int test_radiobutton_android_button_tint = 2131296534;
 			
 			// aapt resource value: 0x7F090117
-			public const int test_radiobutton_android_button_tint = 2131296535;
+			public const int test_radiobutton_app_button_tint = 2131296535;
 			
 			// aapt resource value: 0x7F090118
-			public const int test_radiobutton_app_button_tint = 2131296536;
+			public const int text = 2131296536;
 			
 			// aapt resource value: 0x7F090119
-			public const int text = 2131296537;
+			public const int text2 = 2131296537;
 			
 			// aapt resource value: 0x7F09011A
-			public const int text2 = 2131296538;
-			
-			// aapt resource value: 0x7F09011B
-			public const int textEnd = 2131296539;
-			
-			// aapt resource value: 0x7F090121
-			public const int textinput_counter = 2131296545;
-			
-			// aapt resource value: 0x7F090122
-			public const int textinput_error = 2131296546;
-			
-			// aapt resource value: 0x7F090123
-			public const int textinput_helper_text = 2131296547;
-			
-			// aapt resource value: 0x7F090124
-			public const int textinput_placeholder = 2131296548;
-			
-			// aapt resource value: 0x7F090125
-			public const int textinput_prefix_text = 2131296549;
-			
-			// aapt resource value: 0x7F090126
-			public const int textinput_suffix_text = 2131296550;
-			
-			// aapt resource value: 0x7F09011C
-			public const int textSpacerNoButtons = 2131296540;
-			
-			// aapt resource value: 0x7F09011D
-			public const int textSpacerNoTitle = 2131296541;
-			
-			// aapt resource value: 0x7F09011E
-			public const int textStart = 2131296542;
-			
-			// aapt resource value: 0x7F09011F
-			public const int text_input_end_icon = 2131296543;
+			public const int textEnd = 2131296538;
 			
 			// aapt resource value: 0x7F090120
-			public const int text_input_start_icon = 2131296544;
+			public const int textinput_counter = 2131296544;
+			
+			// aapt resource value: 0x7F090121
+			public const int textinput_error = 2131296545;
+			
+			// aapt resource value: 0x7F090122
+			public const int textinput_helper_text = 2131296546;
+			
+			// aapt resource value: 0x7F090123
+			public const int textinput_placeholder = 2131296547;
+			
+			// aapt resource value: 0x7F090124
+			public const int textinput_prefix_text = 2131296548;
+			
+			// aapt resource value: 0x7F090125
+			public const int textinput_suffix_text = 2131296549;
+			
+			// aapt resource value: 0x7F09011B
+			public const int textSpacerNoButtons = 2131296539;
+			
+			// aapt resource value: 0x7F09011C
+			public const int textSpacerNoTitle = 2131296540;
+			
+			// aapt resource value: 0x7F09011D
+			public const int textStart = 2131296541;
+			
+			// aapt resource value: 0x7F09011E
+			public const int text_input_end_icon = 2131296542;
+			
+			// aapt resource value: 0x7F09011F
+			public const int text_input_start_icon = 2131296543;
+			
+			// aapt resource value: 0x7F090126
+			public const int time = 2131296550;
 			
 			// aapt resource value: 0x7F090127
-			public const int time = 2131296551;
+			public const int title = 2131296551;
 			
 			// aapt resource value: 0x7F090128
-			public const int title = 2131296552;
+			public const int titleDividerNoCustom = 2131296552;
 			
 			// aapt resource value: 0x7F090129
-			public const int titleDividerNoCustom = 2131296553;
+			public const int title_template = 2131296553;
 			
 			// aapt resource value: 0x7F09012A
-			public const int title_template = 2131296554;
+			public const int toolbar = 2131296554;
 			
 			// aapt resource value: 0x7F09012B
-			public const int toolbar = 2131296555;
+			public const int top = 2131296555;
 			
 			// aapt resource value: 0x7F09012C
-			public const int top = 2131296556;
-			
-			// aapt resource value: 0x7F09012D
-			public const int topPanel = 2131296557;
+			public const int topPanel = 2131296556;
 			
 			// aapt resource value: 0x7F090008
 			public const int TOP_END = 2131296264;
@@ -12259,62 +14497,62 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0x7F090009
 			public const int TOP_START = 2131296265;
 			
+			// aapt resource value: 0x7F09012D
+			public const int touch_outside = 2131296557;
+			
 			// aapt resource value: 0x7F09012E
-			public const int touch_outside = 2131296558;
+			public const int transition_current_scene = 2131296558;
 			
 			// aapt resource value: 0x7F09012F
-			public const int transition_current_scene = 2131296559;
+			public const int transition_layout_save = 2131296559;
 			
 			// aapt resource value: 0x7F090130
-			public const int transition_layout_save = 2131296560;
+			public const int transition_position = 2131296560;
 			
 			// aapt resource value: 0x7F090131
-			public const int transition_position = 2131296561;
+			public const int transition_scene_layoutid_cache = 2131296561;
 			
 			// aapt resource value: 0x7F090132
-			public const int transition_scene_layoutid_cache = 2131296562;
+			public const int transition_transform = 2131296562;
 			
 			// aapt resource value: 0x7F090133
-			public const int transition_transform = 2131296563;
+			public const int @unchecked = 2131296563;
 			
 			// aapt resource value: 0x7F090134
-			public const int @unchecked = 2131296564;
+			public const int uniform = 2131296564;
 			
 			// aapt resource value: 0x7F090135
-			public const int uniform = 2131296565;
+			public const int unlabeled = 2131296565;
 			
 			// aapt resource value: 0x7F090136
-			public const int unlabeled = 2131296566;
+			public const int up = 2131296566;
 			
 			// aapt resource value: 0x7F090137
-			public const int up = 2131296567;
+			public const int useLogo = 2131296567;
 			
 			// aapt resource value: 0x7F090138
-			public const int useLogo = 2131296568;
+			public const int view_offset_helper = 2131296568;
 			
 			// aapt resource value: 0x7F090139
-			public const int view_offset_helper = 2131296569;
+			public const int view_tree_saved_state_registry_owner = 2131296569;
 			
 			// aapt resource value: 0x7F09013A
-			public const int view_tree_saved_state_registry_owner = 2131296570;
+			public const int visible = 2131296570;
 			
 			// aapt resource value: 0x7F09013B
-			public const int visible = 2131296571;
-			
-			// aapt resource value: 0x7F09013C
-			public const int visible_removing_fragment_view_tag = 2131296572;
-			
-			// aapt resource value: 0x7F09013E
-			public const int withinBounds = 2131296574;
+			public const int visible_removing_fragment_view_tag = 2131296571;
 			
 			// aapt resource value: 0x7F09013D
-			public const int withText = 2131296573;
+			public const int withinBounds = 2131296573;
+			
+			// aapt resource value: 0x7F09013C
+			public const int withText = 2131296572;
+			
+			// aapt resource value: 0x7F09013E
+			public const int wrap_content = 2131296574;
 			
 			// aapt resource value: 0x7F09013F
-			public const int wrap_content = 2131296575;
-			
-			// aapt resource value: 0x7F090140
-			public const int zero_corner_chip = 2131296576;
+			public const int zero_corner_chip = 2131296575;
 			
 			static Id()
 			{
@@ -12596,205 +14834,211 @@ namespace MoleWatchApp.Droid
 			public const int device_credential_handler_activity = 2131492911;
 			
 			// aapt resource value: 0x7F0C0030
-			public const int fingerprint_dialog_layout = 2131492912;
+			public const int FallbackTabbarDoNotUse = 2131492912;
 			
 			// aapt resource value: 0x7F0C0031
-			public const int FlyoutContent = 2131492913;
+			public const int FallbackToolbarDoNotUse = 2131492913;
 			
 			// aapt resource value: 0x7F0C0032
-			public const int mtrl_alert_dialog = 2131492914;
+			public const int fingerprint_dialog_layout = 2131492914;
 			
 			// aapt resource value: 0x7F0C0033
-			public const int mtrl_alert_dialog_actions = 2131492915;
+			public const int FlyoutContent = 2131492915;
 			
 			// aapt resource value: 0x7F0C0034
-			public const int mtrl_alert_dialog_title = 2131492916;
+			public const int mtrl_alert_dialog = 2131492916;
 			
 			// aapt resource value: 0x7F0C0035
-			public const int mtrl_alert_select_dialog_item = 2131492917;
+			public const int mtrl_alert_dialog_actions = 2131492917;
 			
 			// aapt resource value: 0x7F0C0036
-			public const int mtrl_alert_select_dialog_multichoice = 2131492918;
+			public const int mtrl_alert_dialog_title = 2131492918;
 			
 			// aapt resource value: 0x7F0C0037
-			public const int mtrl_alert_select_dialog_singlechoice = 2131492919;
+			public const int mtrl_alert_select_dialog_item = 2131492919;
 			
 			// aapt resource value: 0x7F0C0038
-			public const int mtrl_calendar_day = 2131492920;
-			
-			// aapt resource value: 0x7F0C003A
-			public const int mtrl_calendar_days_of_week = 2131492922;
+			public const int mtrl_alert_select_dialog_multichoice = 2131492920;
 			
 			// aapt resource value: 0x7F0C0039
-			public const int mtrl_calendar_day_of_week = 2131492921;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131492921;
 			
-			// aapt resource value: 0x7F0C003B
-			public const int mtrl_calendar_horizontal = 2131492923;
+			// aapt resource value: 0x7F0C003A
+			public const int mtrl_calendar_day = 2131492922;
 			
 			// aapt resource value: 0x7F0C003C
-			public const int mtrl_calendar_month = 2131492924;
+			public const int mtrl_calendar_days_of_week = 2131492924;
 			
-			// aapt resource value: 0x7F0C003F
-			public const int mtrl_calendar_months = 2131492927;
+			// aapt resource value: 0x7F0C003B
+			public const int mtrl_calendar_day_of_week = 2131492923;
 			
 			// aapt resource value: 0x7F0C003D
-			public const int mtrl_calendar_month_labeled = 2131492925;
+			public const int mtrl_calendar_horizontal = 2131492925;
 			
 			// aapt resource value: 0x7F0C003E
-			public const int mtrl_calendar_month_navigation = 2131492926;
-			
-			// aapt resource value: 0x7F0C0040
-			public const int mtrl_calendar_vertical = 2131492928;
+			public const int mtrl_calendar_month = 2131492926;
 			
 			// aapt resource value: 0x7F0C0041
-			public const int mtrl_calendar_year = 2131492929;
+			public const int mtrl_calendar_months = 2131492929;
+			
+			// aapt resource value: 0x7F0C003F
+			public const int mtrl_calendar_month_labeled = 2131492927;
+			
+			// aapt resource value: 0x7F0C0040
+			public const int mtrl_calendar_month_navigation = 2131492928;
 			
 			// aapt resource value: 0x7F0C0042
-			public const int mtrl_layout_snackbar = 2131492930;
+			public const int mtrl_calendar_vertical = 2131492930;
 			
 			// aapt resource value: 0x7F0C0043
-			public const int mtrl_layout_snackbar_include = 2131492931;
+			public const int mtrl_calendar_year = 2131492931;
 			
 			// aapt resource value: 0x7F0C0044
-			public const int mtrl_picker_actions = 2131492932;
+			public const int mtrl_layout_snackbar = 2131492932;
 			
 			// aapt resource value: 0x7F0C0045
-			public const int mtrl_picker_dialog = 2131492933;
+			public const int mtrl_layout_snackbar_include = 2131492933;
 			
 			// aapt resource value: 0x7F0C0046
-			public const int mtrl_picker_fullscreen = 2131492934;
+			public const int mtrl_picker_actions = 2131492934;
 			
 			// aapt resource value: 0x7F0C0047
-			public const int mtrl_picker_header_dialog = 2131492935;
+			public const int mtrl_picker_dialog = 2131492935;
 			
 			// aapt resource value: 0x7F0C0048
-			public const int mtrl_picker_header_fullscreen = 2131492936;
+			public const int mtrl_picker_fullscreen = 2131492936;
 			
 			// aapt resource value: 0x7F0C0049
-			public const int mtrl_picker_header_selection_text = 2131492937;
+			public const int mtrl_picker_header_dialog = 2131492937;
 			
 			// aapt resource value: 0x7F0C004A
-			public const int mtrl_picker_header_title_text = 2131492938;
+			public const int mtrl_picker_header_fullscreen = 2131492938;
 			
 			// aapt resource value: 0x7F0C004B
-			public const int mtrl_picker_header_toggle = 2131492939;
+			public const int mtrl_picker_header_selection_text = 2131492939;
 			
 			// aapt resource value: 0x7F0C004C
-			public const int mtrl_picker_text_input_date = 2131492940;
+			public const int mtrl_picker_header_title_text = 2131492940;
 			
 			// aapt resource value: 0x7F0C004D
-			public const int mtrl_picker_text_input_date_range = 2131492941;
+			public const int mtrl_picker_header_toggle = 2131492941;
 			
 			// aapt resource value: 0x7F0C004E
-			public const int notification_action = 2131492942;
+			public const int mtrl_picker_text_input_date = 2131492942;
 			
 			// aapt resource value: 0x7F0C004F
-			public const int notification_action_tombstone = 2131492943;
+			public const int mtrl_picker_text_input_date_range = 2131492943;
 			
 			// aapt resource value: 0x7F0C0050
-			public const int notification_media_action = 2131492944;
+			public const int notification_action = 2131492944;
 			
 			// aapt resource value: 0x7F0C0051
-			public const int notification_media_cancel_action = 2131492945;
+			public const int notification_action_tombstone = 2131492945;
 			
 			// aapt resource value: 0x7F0C0052
-			public const int notification_template_big_media = 2131492946;
+			public const int notification_media_action = 2131492946;
 			
 			// aapt resource value: 0x7F0C0053
-			public const int notification_template_big_media_custom = 2131492947;
+			public const int notification_media_cancel_action = 2131492947;
 			
 			// aapt resource value: 0x7F0C0054
-			public const int notification_template_big_media_narrow = 2131492948;
+			public const int notification_template_big_media = 2131492948;
 			
 			// aapt resource value: 0x7F0C0055
-			public const int notification_template_big_media_narrow_custom = 2131492949;
+			public const int notification_template_big_media_custom = 2131492949;
 			
 			// aapt resource value: 0x7F0C0056
-			public const int notification_template_custom_big = 2131492950;
+			public const int notification_template_big_media_narrow = 2131492950;
 			
 			// aapt resource value: 0x7F0C0057
-			public const int notification_template_icon_group = 2131492951;
+			public const int notification_template_big_media_narrow_custom = 2131492951;
 			
 			// aapt resource value: 0x7F0C0058
-			public const int notification_template_lines_media = 2131492952;
+			public const int notification_template_custom_big = 2131492952;
 			
 			// aapt resource value: 0x7F0C0059
-			public const int notification_template_media = 2131492953;
+			public const int notification_template_icon_group = 2131492953;
 			
 			// aapt resource value: 0x7F0C005A
-			public const int notification_template_media_custom = 2131492954;
+			public const int notification_template_lines_media = 2131492954;
 			
 			// aapt resource value: 0x7F0C005B
-			public const int notification_template_part_chronometer = 2131492955;
+			public const int notification_template_media = 2131492955;
 			
 			// aapt resource value: 0x7F0C005C
-			public const int notification_template_part_time = 2131492956;
+			public const int notification_template_media_custom = 2131492956;
 			
 			// aapt resource value: 0x7F0C005D
-			public const int RootLayout = 2131492957;
+			public const int notification_template_part_chronometer = 2131492957;
 			
 			// aapt resource value: 0x7F0C005E
-			public const int select_dialog_item_material = 2131492958;
+			public const int notification_template_part_time = 2131492958;
 			
 			// aapt resource value: 0x7F0C005F
-			public const int select_dialog_multichoice_material = 2131492959;
+			public const int RootLayout = 2131492959;
 			
 			// aapt resource value: 0x7F0C0060
-			public const int select_dialog_singlechoice_material = 2131492960;
+			public const int select_dialog_item_material = 2131492960;
 			
 			// aapt resource value: 0x7F0C0061
-			public const int ShellContent = 2131492961;
+			public const int select_dialog_multichoice_material = 2131492961;
 			
 			// aapt resource value: 0x7F0C0062
-			public const int support_simple_spinner_dropdown_item = 2131492962;
+			public const int select_dialog_singlechoice_material = 2131492962;
 			
 			// aapt resource value: 0x7F0C0063
-			public const int Tabbar = 2131492963;
+			public const int ShellContent = 2131492963;
 			
 			// aapt resource value: 0x7F0C0064
-			public const int test_action_chip = 2131492964;
+			public const int support_simple_spinner_dropdown_item = 2131492964;
 			
 			// aapt resource value: 0x7F0C0065
-			public const int test_chip_zero_corner_radius = 2131492965;
+			public const int Tabbar = 2131492965;
 			
 			// aapt resource value: 0x7F0C0066
-			public const int test_design_checkbox = 2131492966;
+			public const int test_action_chip = 2131492966;
 			
 			// aapt resource value: 0x7F0C0067
-			public const int test_design_radiobutton = 2131492967;
+			public const int test_chip_zero_corner_radius = 2131492967;
 			
 			// aapt resource value: 0x7F0C0068
-			public const int test_reflow_chipgroup = 2131492968;
+			public const int test_design_checkbox = 2131492968;
 			
 			// aapt resource value: 0x7F0C0069
-			public const int test_toolbar = 2131492969;
+			public const int test_design_radiobutton = 2131492969;
 			
 			// aapt resource value: 0x7F0C006A
-			public const int test_toolbar_custom_background = 2131492970;
+			public const int test_reflow_chipgroup = 2131492970;
 			
 			// aapt resource value: 0x7F0C006B
-			public const int test_toolbar_elevation = 2131492971;
+			public const int test_toolbar = 2131492971;
 			
 			// aapt resource value: 0x7F0C006C
-			public const int test_toolbar_surface = 2131492972;
-			
-			// aapt resource value: 0x7F0C0071
-			public const int text_view_without_line_height = 2131492977;
+			public const int test_toolbar_custom_background = 2131492972;
 			
 			// aapt resource value: 0x7F0C006D
-			public const int text_view_with_line_height_from_appearance = 2131492973;
+			public const int test_toolbar_elevation = 2131492973;
 			
 			// aapt resource value: 0x7F0C006E
-			public const int text_view_with_line_height_from_layout = 2131492974;
+			public const int test_toolbar_surface = 2131492974;
+			
+			// aapt resource value: 0x7F0C0073
+			public const int text_view_without_line_height = 2131492979;
 			
 			// aapt resource value: 0x7F0C006F
-			public const int text_view_with_line_height_from_style = 2131492975;
+			public const int text_view_with_line_height_from_appearance = 2131492975;
 			
 			// aapt resource value: 0x7F0C0070
-			public const int text_view_with_theme_line_height = 2131492976;
+			public const int text_view_with_line_height_from_layout = 2131492976;
+			
+			// aapt resource value: 0x7F0C0071
+			public const int text_view_with_line_height_from_style = 2131492977;
 			
 			// aapt resource value: 0x7F0C0072
-			public const int Toolbar = 2131492978;
+			public const int text_view_with_theme_line_height = 2131492978;
+			
+			// aapt resource value: 0x7F0C0074
+			public const int Toolbar = 2131492980;
 			
 			static Layout()
 			{

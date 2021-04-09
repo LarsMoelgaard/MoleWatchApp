@@ -19,6 +19,9 @@ namespace MoleWatchApp.Views
         {
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
+
+
+            //TODO gør således at Smart login kun kommer frem hvis man har logget ind på den telefon før.
             MessagingCenter.Subscribe<LoginViewModel,string>(this,"SmartLoginMessage", async (sender, arg) =>
             {
                 switch (arg)
