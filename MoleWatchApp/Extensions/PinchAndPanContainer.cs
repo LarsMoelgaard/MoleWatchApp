@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace MoleWatchApp.Extensions
 {
@@ -10,7 +11,6 @@ namespace MoleWatchApp.Extensions
 
     public class PinchAndPanContainer : ContentView
     {
-        double x, y;
         double currentScale = 1;
         double startScale = 1;
         double xOffset = 0;
@@ -160,6 +160,8 @@ namespace MoleWatchApp.Extensions
                     break;
             }
         }
+
+
     }
 }
 
