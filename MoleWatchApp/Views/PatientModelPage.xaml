@@ -4,7 +4,10 @@
              x:Class="MoleWatchApp.Views.PatientModelPage"
              xmlns:vm="clr-namespace:MoleWatchApp.ViewModels"
              xmlns:extensions="clr-namespace:MoleWatchApp.Extensions;assembly=MoleWatchApp"
+             xmlns:tt="clr-namespace:TouchTracking.Forms;assembly=TouchTracking.Forms"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
              Title="{Binding Title}">
+
     
     <ContentPage.BindingContext>
         <vm:PatientModelViewModel x:Name="PViewModel"/>
@@ -31,19 +34,24 @@
 
 
 
-            <extensions:PinchAndPanContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3" >
+        <extensions:PinchAndPanContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3">
             <extensions:PinchAndPanContainer.Content>
-                    <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
-                           Grid.ColumnSpan="3"
-                           Source="{Binding PatientPicture}"
-                           HorizontalOptions="FillAndExpand"
-                           WidthRequest="500"
-                           HeightRequest="1000"
-                           > 
-                    </Image>
 
-                </extensions:PinchAndPanContainer.Content>
-            </extensions:PinchAndPanContainer>
+                <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3"
+                       Source="{Binding PatientPicture}"
+                       HorizontalOptions="FillAndExpand"
+                       WidthRequest="500"
+                       HeightRequest="1000"
+                >
+                </Image>
+
+            </extensions:PinchAndPanContainer.Content>
+        </extensions:PinchAndPanContainer>
+
+
+
+
+
 
 
         <ImageButton Grid.Column="3" Grid.Row="2" Source="Plus_icon.png"            

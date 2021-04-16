@@ -55,11 +55,13 @@ namespace MoleWatchApp.ViewModels
         }
 
         public Command RotateClicked { get; }
+        public Command PatientClicked { get; }
+        public Command PlusClicked { get; }
 
         private bool isAnimationPlaying;
         private bool IsPatientMale;
         private bool IsPatientFrontFacing;
-
+        private bool AddCollectionInProgress;
 
 
         public PatientModelViewModel()
@@ -70,16 +72,42 @@ namespace MoleWatchApp.ViewModels
             RotatePlaceholder = "animated_rotate.gif";
 
 
-            PatientPicture = "MaleFrontCrop.png";
+            PatientPicture = "MaleFrontCrop.png"; //TODO skal ændres senere
             IsPatientFrontFacing = true;
             IsPatientMale = true;    //TODO skal ændres senere
+            AddCollectionInProgress = false;
 
-            //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart")); //TODO Skal evt. bruges til åbning af doctor info
             RotateClicked = new Command(FlipPatient);
+            PlusClicked = new Command(AddClicked);
+            PatientClicked = new Command(PatientModelClicked);
+
+
+        }
+
+        private void AddClicked()
+        {
+            if (AddCollectionInProgress)
+            {
+                AddCollectionInProgress = false;
+            }
+            else
+            {
+                AddCollectionInProgress = true;
+                Title = "Placér modermærke på kroppen";
+
+            }
+        }
+
+        public void PatientModelClicked()
+        {
+
+            // TODO find en måde at registrere koordinatet for touchet.
         }
 
         private async void FlipPatient(object obj)
         {
+            RotatePlaceholder = null;
 
             Task AnimationTask = new Task(AnimateRotation);
             AnimationTask.Start();
@@ -117,9 +145,11 @@ namespace MoleWatchApp.ViewModels
         private void AnimateRotation()
         {
             RotatePlaceholder = null;
+            Thread.Sleep(1);
             IsAnimationPlaying = true;
             Thread.Sleep(1180);
             IsAnimationPlaying = false;
+            Thread.Sleep(1);
             RotatePlaceholder = "animated_rotate.gif";
         }
         //public ICommand OpenWebCommand { get; }

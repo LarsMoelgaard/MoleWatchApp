@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
+using SkiaSharp;
+using SkiaSharp.Views.Forms;
+using ContentView = Xamarin.Forms.ContentView;
 
 namespace MoleWatchApp.Extensions
 {
@@ -10,11 +15,12 @@ namespace MoleWatchApp.Extensions
 
     public class PinchAndPanContainer : ContentView
     {
-        double x, y;
         double currentScale = 1;
         double startScale = 1;
         double xOffset = 0;
         double yOffset = 0;
+        private TimeSpan TimeBetweenGestures;
+        private DateTime TimeSinceLastGesture;
 
         private double ScreenWidth;
         private double ScreenHeight;
@@ -24,22 +30,16 @@ namespace MoleWatchApp.Extensions
             ScreenWidth = Application.Current.MainPage.Width;
             ScreenHeight = Application.Current.MainPage.Height;
 
-
-
             var pinchGesture = new PinchGestureRecognizer();
             pinchGesture.PinchUpdated += OnPinchUpdated;
             GestureRecognizers.Add(pinchGesture);
 
-
-
-
             var panGesture = new PanGestureRecognizer();
             panGesture.PanUpdated += OnPanUpdated;
             GestureRecognizers.Add(panGesture);
-
         }
 
-        void OnPinchUpdated(object sender, PinchGestureUpdatedEventArgs e)
+        public void OnPinchUpdated(object sender, PinchGestureUpdatedEventArgs e)
         {
             if (e.Status == GestureStatus.Started)
             {
@@ -80,6 +80,7 @@ namespace MoleWatchApp.Extensions
 
                 // Apply scale factor.
                 Content.Scale = currentScale;
+                TimeSinceLastGesture = DateTime.Now;
             }
 
             if (e.Status == GestureStatus.Completed)
@@ -87,79 +88,89 @@ namespace MoleWatchApp.Extensions
                 // Store the translation delta's of the wrapped user interface element.
                 xOffset = Content.TranslationX;
                 yOffset = Content.TranslationY;
+
+                TimeSinceLastGesture = DateTime.Now;
             }
         }
 
-        void OnPanUpdated(object sender, PanUpdatedEventArgs e)
+        public void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
-            if (Content.Scale == 1)
+            TimeBetweenGestures = DateTime.Now - TimeSinceLastGesture;
+            if (TimeBetweenGestures.Milliseconds>= 100)
             {
-                return;
+                if (Content.Scale == 1)
+                {
+                    return;
+                }
+
+                switch (e.StatusType)
+                {
+                    case GestureStatus.Running:
+                        double newX = (e.TotalX * Scale) + xOffset;
+                        double newY = (e.TotalY * Scale) + yOffset;
+
+                        double width = (Content.Width * Content.Scale);
+                        double height = (Content.Height * Content.Scale);
+
+                        bool canMoveX = width > ScreenWidth;
+                        bool canMoveY = height > ScreenHeight;
+
+                        if (canMoveX)
+                        {
+                            double minX = (width - (ScreenWidth / 2)) * -1;
+                            double maxX = Math.Min(ScreenWidth / 2, width / 2);
+
+                            if (newX < minX)
+                            {
+                                newX = minX;
+                            }
+
+                            if (newX > maxX)
+                            {
+                                newX = maxX;
+                            }
+                        }
+                        else
+                        {
+                            newX = 0;
+                        }
+
+                        if (canMoveY)
+                        {
+                            double minY = (height - (ScreenHeight / 2)) * -1;
+                            double maxY = Math.Min(ScreenHeight / 2, height / 2);
+
+                            if (newY < minY)
+                            {
+                                newY = minY;
+                            }
+
+                            if (newY > maxY)
+                            {
+                                newY = maxY;
+                            }
+                        }
+                        else
+                        {
+                            newY = 0;
+                        }
+
+                        Content.TranslationX = newX;
+                        Content.TranslationY = newY;
+                        break;
+
+                    case GestureStatus.Completed:
+                        // Store the translation applied during the pan
+                        xOffset = Content.TranslationX;
+                        yOffset = Content.TranslationY;
+                        break;
+                }
             }
-
-            switch (e.StatusType)
-            {
-                case GestureStatus.Running:
-                    double newX = (e.TotalX * Scale) + xOffset;
-                    double newY = (e.TotalY * Scale) + yOffset;
-
-                    double width = (Content.Width * Content.Scale);
-                    double height = (Content.Height * Content.Scale);
-
-                    bool canMoveX = width > ScreenWidth;
-                    bool canMoveY = height > ScreenHeight;
-
-                    if (canMoveX)
-                    {
-                        double minX = (width - (ScreenWidth / 2)) * -1;
-                        double maxX = Math.Min(ScreenWidth / 2, width / 2);
-
-                        if (newX < minX)
-                        {
-                            newX = minX;
-                        }
-
-                        if (newX > maxX)
-                        {
-                            newX = maxX;
-                        }
-                    }
-                    else
-                    {
-                        newX = 0;
-                    }
-
-                    if (canMoveY)
-                    {
-                        double minY = (height - (ScreenHeight / 2)) * -1;
-                        double maxY = Math.Min(ScreenHeight / 2, height / 2);
-
-                        if (newY < minY)
-                        {
-                            newY = minY;
-                        }
-
-                        if (newY > maxY)
-                        {
-                            newY = maxY;
-                        }
-                    }
-                    else
-                    {
-                        newY = 0;
-                    }
-
-                    Content.TranslationX = newX;
-                    Content.TranslationY = newY;
-                    break;
-
-                case GestureStatus.Completed:
-                    // Store the translation applied during the pan
-                    xOffset = Content.TranslationX;
-                    yOffset = Content.TranslationY;
-                    break;
-            }
+            
         }
+
+
+
     }
 }
 
