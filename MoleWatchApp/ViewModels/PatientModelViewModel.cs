@@ -13,6 +13,22 @@ namespace MoleWatchApp.ViewModels
 
         private string patientPicture;
         private string rotatePlaceholder;
+        private string newPinAdded;
+
+        public string NewPinAdded
+        {
+
+            get
+            {
+                return newPinAdded;
+            }
+            set
+            {
+                newPinAdded = value;
+                this.OnPropertyChanged();
+            }
+        }
+
 
         public string PatientPicture
         {
@@ -55,6 +71,7 @@ namespace MoleWatchApp.ViewModels
         }
 
         public Command RotateClicked { get; }
+        public Command PlusClicked { get; }
 
         private bool isAnimationPlaying;
         private bool IsPatientMale;
@@ -76,6 +93,7 @@ namespace MoleWatchApp.ViewModels
 
             //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             RotateClicked = new Command(FlipPatient);
+            PlusClicked = new Command(onPlusClicked);
         }
 
         private async void FlipPatient(object obj)
@@ -123,5 +141,10 @@ namespace MoleWatchApp.ViewModels
             RotatePlaceholder = "animated_rotate.gif";
         }
         //public ICommand OpenWebCommand { get; }
+
+        private void onPlusClicked()
+        {
+            NewPinAdded = "map_pin.png";
+        }
     }
 }
