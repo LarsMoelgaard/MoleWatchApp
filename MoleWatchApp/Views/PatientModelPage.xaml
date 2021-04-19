@@ -31,7 +31,7 @@
         </Grid.ColumnDefinitions>
 
 
-        <extensions:PinchAndPanContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >
+        <extensions:PinchAndPanContainer x:Name="PinchPanContainer" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >
             <extensions:PinchAndPanContainer.Content>
                     <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
                            Grid.ColumnSpan="4"

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using MoleWatchApp.Extensions;
 using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
@@ -15,7 +16,6 @@ namespace MoleWatchApp.Views
         public PatientModelPage() 
         {
             InitializeComponent();
-
         }
 
         private async void Checkmark_button_Clicked(object sender, EventArgs e)

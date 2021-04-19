@@ -10,14 +10,20 @@ namespace MoleWatchApp.Extensions
 
     public class PinchAndPanContainer : ContentView
     {
-        double x, y;
         double currentScale = 1;
         double startScale = 1;
         double xOffset = 0;
         double yOffset = 0;
-
+        
         private double ScreenWidth;
         private double ScreenHeight;
+
+        public List<double> getPinPlacement()
+        {
+            List<double> dataList = new List<double>{currentScale,xOffset,yOffset,ScreenHeight,ScreenWidth};
+            return dataList;
+        }
+
 
         public PinchAndPanContainer()
         {

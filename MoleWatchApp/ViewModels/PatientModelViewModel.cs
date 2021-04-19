@@ -9,8 +9,6 @@ namespace MoleWatchApp.ViewModels
 {
     public class PatientModelViewModel : BaseViewModel
     {
-
-
         private string patientPicture;
         private string rotatePlaceholder;
         private string newPinAdded;
@@ -130,7 +128,6 @@ namespace MoleWatchApp.ViewModels
             CreateCollectionInProgress = false;
 
 
-
             //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             RotateClicked = new Command(FlipPatient);
             PlusClicked = new Command(onPlusClicked);
@@ -206,6 +203,8 @@ namespace MoleWatchApp.ViewModels
             Checkmark = null;
             PlusIcon = "Plus_icon.png";
             CreateCollectionInProgress = false;
+
+            
 
             if (CollectionName == "")
             {
