@@ -14,6 +14,36 @@ namespace MoleWatchApp.ViewModels
         private string patientPicture;
         private string rotatePlaceholder;
         private string newPinAdded;
+        private string plusIcon;
+        private string checkmark;
+
+        public string Checkmark
+        {
+
+            get
+            {
+                return checkmark;
+            }
+            set
+            {
+                checkmark = value;
+                this.OnPropertyChanged();
+            }
+        }
+
+        public string PlusIcon
+        {
+
+            get
+            {
+                return plusIcon;
+            }
+            set
+            {
+                plusIcon = value;
+                this.OnPropertyChanged();
+            }
+        }
 
         public string NewPinAdded
         {
@@ -72,10 +102,12 @@ namespace MoleWatchApp.ViewModels
 
         public Command RotateClicked { get; }
         public Command PlusClicked { get; }
+        public Command CheckmarkClicked { get; }
 
         private bool isAnimationPlaying;
         private bool IsPatientMale;
         private bool IsPatientFrontFacing;
+        private bool CreateCollectionInProgress;
 
 
 
@@ -88,12 +120,17 @@ namespace MoleWatchApp.ViewModels
 
 
             PatientPicture = "MaleFrontCrop.png";
+            PlusIcon = "Plus_Icon.png";
             IsPatientFrontFacing = true;
             IsPatientMale = true;    //TODO skal ændres senere
+            CreateCollectionInProgress = false;
+
+
 
             //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             RotateClicked = new Command(FlipPatient);
             PlusClicked = new Command(onPlusClicked);
+            CheckmarkClicked = new Command(OnCheckmarkClicked);
         }
 
         private async void FlipPatient(object obj)
@@ -144,7 +181,25 @@ namespace MoleWatchApp.ViewModels
 
         private void onPlusClicked()
         {
-            NewPinAdded = "map_pin.png";
+            if (CreateCollectionInProgress == false)
+            {
+                NewPinAdded = "map_pin.png";
+                PlusIcon = "cancel.png";
+                Checkmark = "checkmark.png";
+                CreateCollectionInProgress = true;
+            }
+            else
+            {
+                NewPinAdded = null;
+                Checkmark = null;
+                PlusIcon = "Plus_icon.png";
+                CreateCollectionInProgress = false;
+            }
+        }
+
+        private void OnCheckmarkClicked()
+        {
+            
         }
     }
 }
