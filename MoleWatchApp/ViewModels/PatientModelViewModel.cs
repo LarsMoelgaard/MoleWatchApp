@@ -30,7 +30,6 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
-
         public string PlusIcon
         {
 
@@ -44,7 +43,6 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
-
         public string NewPinAdded
         {
 
@@ -58,8 +56,6 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
-
-
         public string PatientPicture
         {
         
@@ -102,7 +98,15 @@ namespace MoleWatchApp.ViewModels
 
         public Command RotateClicked { get; }
         public Command PlusClicked { get; }
-        public Command CheckmarkClicked { get; }
+
+        public ICommand CreateOkClicked
+        {
+            get
+            {
+                return new Command<string>((x)=> CreateCollection(x));
+            }
+        }
+
 
         private bool isAnimationPlaying;
         private bool IsPatientMale;
@@ -130,7 +134,6 @@ namespace MoleWatchApp.ViewModels
             //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             RotateClicked = new Command(FlipPatient);
             PlusClicked = new Command(onPlusClicked);
-            CheckmarkClicked = new Command(OnCheckmarkClicked);
         }
 
         private async void FlipPatient(object obj)
@@ -197,9 +200,21 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-        private void OnCheckmarkClicked()
+        private void CreateCollection(string CollectionName)
         {
-            
+            NewPinAdded = null;
+            Checkmark = null;
+            PlusIcon = "Plus_icon.png";
+            CreateCollectionInProgress = false;
+
+            if (CollectionName == "")
+            {
+                CollectionName = "AutoNavn";
+            }
+            else
+            {
+
+            }
         }
     }
 }

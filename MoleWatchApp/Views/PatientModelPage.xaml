@@ -63,9 +63,10 @@
                      
         ></ImageButton>
 
-        <ImageButton Grid.Column="3" Grid.Row="2" Source="{Binding Checkmark}"            
+        <ImageButton x:Name="Checkmark_button" Grid.Column="3" Grid.Row="2" Source="{Binding Checkmark}"            
                      HorizontalOptions="FillAndExpand" 
                      Command="{Binding CheckmarkClicked}"
+                     Clicked="Checkmark_button_Clicked"
                      VerticalOptions="FillAndExpand"
                      BackgroundColor="Transparent"
                      Grid.RowSpan="1"
