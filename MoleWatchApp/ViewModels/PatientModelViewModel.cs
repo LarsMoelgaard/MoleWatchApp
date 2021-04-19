@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -12,7 +10,6 @@ namespace MoleWatchApp.ViewModels
 
 
         private string patientPicture;
-        private string rotatePlaceholder;
 
         public string PatientPicture
         {
@@ -27,49 +24,19 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
-        public string RotatePlaceholder
-        {
-
-            get
-            {
-                return rotatePlaceholder;
-            }
-            set
-            {
-                rotatePlaceholder = value;
-                this.OnPropertyChanged();
-            }
-        }
-        public bool IsAnimationPlaying
-        {
-
-            get
-            {
-                return isAnimationPlaying;
-            }
-            set
-            {
-                isAnimationPlaying = value;
-                this.OnPropertyChanged();
-            }
-        }
 
         public Command RotateClicked { get; }
 
-        private bool isAnimationPlaying;
         private bool IsPatientMale;
         private bool IsPatientFrontFacing;
-
-
 
         public PatientModelViewModel()
         {
 
-            IsAnimationPlaying = false;
+
             Title = "Vælg Modermærke";
-            RotatePlaceholder = "animated_rotate.gif";
-
-
+            
+            
             PatientPicture = "MaleFrontCrop.png";
             IsPatientFrontFacing = true;
             IsPatientMale = true;    //TODO skal ændres senere
@@ -80,10 +47,6 @@ namespace MoleWatchApp.ViewModels
 
         private async void FlipPatient(object obj)
         {
-
-            Task AnimationTask = new Task(AnimateRotation);
-            AnimationTask.Start();
-
             if (IsPatientMale)
             {
                 if (IsPatientFrontFacing)
@@ -110,18 +73,11 @@ namespace MoleWatchApp.ViewModels
                     IsPatientFrontFacing = true;
                 }
             }
-           
+
 
         }
+        
 
-        private void AnimateRotation()
-        {
-            RotatePlaceholder = null;
-            IsAnimationPlaying = true;
-            Thread.Sleep(1180);
-            IsAnimationPlaying = false;
-            RotatePlaceholder = "animated_rotate.gif";
-        }
         //public ICommand OpenWebCommand { get; }
     }
 }

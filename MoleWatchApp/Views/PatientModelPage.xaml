@@ -7,7 +7,7 @@
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
-        <vm:PatientModelViewModel x:Name="PViewModel"/>
+        <vm:PatientModelViewModel />
     </ContentPage.BindingContext>
     
     <ContentPage.Resources>
@@ -30,9 +30,8 @@
         </Grid.ColumnDefinitions>
 
 
-
-            <extensions:PinchAndPanContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3" >
-            <extensions:PinchAndPanContainer.Content>
+            <extensions:PinchToZoomContainer Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3" >
+                <extensions:PinchToZoomContainer.Content>
                     <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
                            Grid.ColumnSpan="3"
                            Source="{Binding PatientPicture}"
@@ -42,8 +41,8 @@
                            > 
                     </Image>
 
-                </extensions:PinchAndPanContainer.Content>
-            </extensions:PinchAndPanContainer>
+                </extensions:PinchToZoomContainer.Content>
+            </extensions:PinchToZoomContainer>
 
 
         <ImageButton Grid.Column="3" Grid.Row="2" Source="Plus_icon.png"            
@@ -55,31 +54,14 @@
                      
         ></ImageButton>
 
-
-
-        <Image Grid.Column="1" Grid.Row="2"           
-               HorizontalOptions="FillAndExpand" 
-               VerticalOptions="FillAndExpand"
-               Source="animated_rotate.gif" >
-        </Image>
-
-
-        <Image x:Name="RotateButtonGif"  Grid.Column="1" Grid.Row="2"           
-               HorizontalOptions="FillAndExpand" 
-               VerticalOptions="FillAndExpand"
-               Source="animated_rotate.gif" IsAnimationPlaying="{Binding IsAnimationPlaying}">
-        </Image>
-
-
-
-        <Button x:Name="RotateImageButton"  Grid.Column="1" Grid.Row="2"            
+        <ImageButton Grid.Column="1" Grid.Row="2" Source="Rotate.png"            
                      HorizontalOptions="FillAndExpand" 
                      VerticalOptions="FillAndExpand"
                      BackgroundColor="Transparent"
+                     Grid.RowSpan="1"
+                     Grid.ColumnSpan="1"
                      Command="{Binding RotateClicked}"
-        ></Button>
-
-
+        ></ImageButton>
 
     </Grid>
 

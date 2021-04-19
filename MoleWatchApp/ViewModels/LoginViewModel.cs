@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
 using MoleWatchApp.Models;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
@@ -81,21 +80,6 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-        public bool BaseIsBusy
-        {
-            get
-            {
-                return base.IsBusy;
-            }
-            set
-            {
-                base.IsBusy = value;
-                OnPropertyChanged();
-
-            }
-
-        }
-
         public string UsernameLabel
         {
             get
@@ -155,7 +139,7 @@ namespace MoleWatchApp.ViewModels
             UsernameLabel = "Indtast CPR-nummer:";
             PasswordLabel = "Indtast password:";
 
-
+            
 
 
             LoginCommand = new Command(OnLoginClicked);
@@ -170,17 +154,9 @@ namespace MoleWatchApp.ViewModels
         private async void OnLoginClicked(object obj)
         {
             //TODO verify logininformation.
-            BaseIsBusy = true;
 
-            await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
-            
-            
-            bool LoginResult = loginModel.VerifyPassword(UsernameInput, Password);
-
-            if (LoginResult)
+            if (loginModel.VerifyPassword(UsernameInput, Password))
             {
-
-                BaseIsBusy = false;
                 await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
                 
             }
@@ -196,8 +172,6 @@ namespace MoleWatchApp.ViewModels
 
                 UsernameInput = "";
                 Password = "";
-
-                BaseIsBusy = false;
             }
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
 

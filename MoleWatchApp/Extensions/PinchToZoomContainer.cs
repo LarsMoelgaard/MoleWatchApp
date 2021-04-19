@@ -5,10 +5,7 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions
 {
-
-    //Inspiration til denne kode fundet på https://forums.xamarin.com/discussion/77726/how-to-mix-the-pinch-and-pan-gesture-for-image-control-together
-
-    public class PinchAndPanContainer : ContentView
+    public class PinchToZoomContainer : ContentView
     {
         double x, y;
         double currentScale = 1;
@@ -19,7 +16,7 @@ namespace MoleWatchApp.Extensions
         private double ScreenWidth;
         private double ScreenHeight;
 
-        public PinchAndPanContainer()
+        public PinchToZoomContainer()
         {
             ScreenWidth = Application.Current.MainPage.Width;
             ScreenHeight = Application.Current.MainPage.Height;
