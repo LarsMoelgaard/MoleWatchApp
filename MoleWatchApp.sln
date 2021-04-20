@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoleWatchApp.Android", "Mol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoleWatchApp", "MoleWatchApp\MoleWatchApp.csproj", "{C78589C6-98D1-47F1-862F-907BF69B02A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,18 +53,6 @@ Global
 		{C78589C6-98D1-47F1-862F-907BF69B02A2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{C78589C6-98D1-47F1-862F-907BF69B02A2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{C78589C6-98D1-47F1-862F-907BF69B02A2}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Release|iPhone.Build.0 = Release|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{B584594D-B42A-4A18-9EDC-5A6F04B86B9D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -206,6 +206,11 @@ namespace MoleWatchApp.ViewModels
 
         private async void AuthButton_OnClicked(object sender)
         {
+            BaseIsBusy = true;
+
+            await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
+
+
             bool isFingerprintAvailable = await CrossFingerprint.Current.IsAvailableAsync(false);
             if (!isFingerprintAvailable)
             {
@@ -218,11 +223,19 @@ namespace MoleWatchApp.ViewModels
                     "Authenticate access to your personal data");
 
             var authResult = await CrossFingerprint.Current.AuthenticateAsync(conf);
-            if (authResult.Authenticated)
+
+            bool SessionIdValidated = loginModel.VerifySmartLoginPassword();
+
+
+            if (authResult.Authenticated && SessionIdValidated)
             {
                 //Success  
                 //
                 //TODO benyt sessionID til at verificere brugeren af dette device.
+
+
+
+
                 MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
 
                 BaseIsBusy = false;
@@ -230,6 +243,7 @@ namespace MoleWatchApp.ViewModels
             }
             else
             {
+                BaseIsBusy = false;
                 MessagingCenter.Send(this,"SmartLoginMessage","BiometricFailed");
             }
         }

@@ -18,11 +18,17 @@ namespace MoleWatchApp.Models
 
         public bool VerifyPassword(string Username, string Password)
         {
-            // TODO indskriv kommunikationen med API-klassen her.
-
 
             bool LoginVerified = APIConnection.VerifyPasswordWithAPI(Username, Password);
 
+            return LoginVerified;
+
+        }
+
+        public bool VerifySmartLoginPassword()
+        {
+
+            bool LoginVerified = APIConnection.VerifySmartLogin();
             return LoginVerified;
 
         }

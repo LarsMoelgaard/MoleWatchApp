@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using DataClasses.DTO;
 using APIWebServiesConnector;
+using DataClasses.DataObjects.DTO;
+using DataClasses.DTO;
 
 
 namespace MoleWatchApp.Models
@@ -14,8 +15,13 @@ namespace MoleWatchApp.Models
 
         public APICommunication()
         {
-            //API = new ApiService(APIWebServiesConnector.APIStringFabrics.APIStringFabric.GetDeveloperAPIString());  // For at skifte API ændre getDevString til getProductionString
-            API = new StubApiService(); //Skal slettes til produktion
+            API = new ApiService(APIWebServiesConnector.APIStringFabrics.APIStringFabric.GetDeveloperAPIString(), 'm');
+            // Logintype == mobil
+            // For at skifte API ændre getDevString til getProductionString
+
+
+
+            //API = new StubApiService(); //Skal slettes til produktion
         }
 
         public bool VerifyPasswordWithAPI(string Username, string Password)
@@ -24,16 +30,17 @@ namespace MoleWatchApp.Models
             
             NewLogin.Password = Password;
             NewLogin.Username = Username;
-
+            
 
             try
             {
-                newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>("PatientLogin", NewLogin); //Skal hedde PostPatientLogin
+                newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>("PatientLogin", NewLogin);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw;
+                return false;
+
             }
 
             if (newPatientInfoDto != null)
@@ -44,6 +51,34 @@ namespace MoleWatchApp.Models
             {
                 return false;
             }
+
+        }
+
+        public bool VerifySmartLogin()
+        {
+           
+            try
+            {
+                newPatientInfoDto = API.GetObject<PatientInfoDTO, SessionInfoDTO>("PatientSmartLogin", new SessionInfoDTO()); //Login type == Mobil
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
+
+            }
+
+            if (newPatientInfoDto != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+
 
         }
     }
