@@ -36,28 +36,46 @@
 
         <extensions:PinchAndPanContainer x:Name="PinchPanContainer" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >
             <extensions:PinchAndPanContainer.Content>
-                    <Image x:Name="PatientModelImage" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" 
-                           Grid.ColumnSpan="4"
+
+                <Grid x:Name="PinchAndPanGrid" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"  Grid.ColumnSpan="4">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+
+                    <Image x:Name="PatientModelImage" 
+                          
                            Source="{Binding PatientPicture}"
                            HorizontalOptions="FillAndExpand"
 
                            WidthRequest="500"
                            HeightRequest="1000"
-                           > 
+                    > 
                     </Image>
 
-                </extensions:PinchAndPanContainer.Content>
+
+                    <Button x:Name="TestKnap" HeightRequest="5" WidthRequest="5" HorizontalOptions="Start" VerticalOptions="Start">
+
+                    </Button>
+
+
+                </Grid>
+            </extensions:PinchAndPanContainer.Content>
             </extensions:PinchAndPanContainer>
 
 
-        <Image Source="{Binding NewPinAdded}" Grid.Row="1" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="4"
+        <Image x:Name="PinImage"  Source="{Binding NewPinAdded}" Grid.Row="1" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="4"
                HorizontalOptions="Center"
                VerticalOptions="Center">
         </Image>
 
 
 
-        <ImageButton Grid.Column="4" Grid.Row="2" Source="{Binding PlusIcon}"            
+
+<ImageButton Grid.Column="4" Grid.Row="2" Source="{Binding PlusIcon}"            
                      HorizontalOptions="FillAndExpand" 
                      Command="{Binding PlusClicked}"
                      VerticalOptions="FillAndExpand"

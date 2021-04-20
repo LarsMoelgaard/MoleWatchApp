@@ -25,10 +25,23 @@ namespace MoleWatchApp.Views
 
             if (result == null)
             {
-                List<double> PinPlacement = PinchPanContainer.getPinPlacement();
+
             }
             else
             {
+
+                double YVal = PatientModelImage.Y + PinImage.Y + TestKnap.Height / 2; // De her virker!
+
+
+                double XVal =  PatientModelImage.X + PinImage.X; // De her virker Ca!!
+
+
+
+                double[] PinPlacement = PinchPanContainer.getPinPlacement(XVal,YVal);
+
+                TestKnap.TranslationX = PinPlacement[0];
+                TestKnap.TranslationY = PinPlacement[1];
+
                 PViewModel.CreateOkClicked.Execute(result);
             }
         }

@@ -18,12 +18,21 @@ namespace MoleWatchApp.Extensions
         private double ScreenWidth;
         private double ScreenHeight;
 
-        public List<double> getPinPlacement()
+        public double[] getPinPlacement(double Xpin, double Ypin)
         {
-            ScreenWidth = Application.Current.MainPage.Width;
-            ScreenHeight = Application.Current.MainPage.Height;
 
-            List<double> dataList = new List<double>{currentScale,xOffset,yOffset,ScreenHeight,ScreenWidth};
+            double TrueXPosition;
+            double TrueYPosition;
+
+
+            TrueXPosition = (Xpin - xOffset)/currentScale;
+            TrueYPosition = (Ypin - yOffset) / currentScale;
+
+
+
+
+
+            double[] dataList = new double[2] { TrueXPosition, TrueYPosition };
 
 
             return dataList;
