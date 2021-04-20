@@ -20,7 +20,12 @@ namespace MoleWatchApp.Extensions
 
         public List<double> getPinPlacement()
         {
+            ScreenWidth = Application.Current.MainPage.Width;
+            ScreenHeight = Application.Current.MainPage.Height;
+
             List<double> dataList = new List<double>{currentScale,xOffset,yOffset,ScreenHeight,ScreenWidth};
+
+
             return dataList;
         }
 
@@ -165,6 +170,12 @@ namespace MoleWatchApp.Extensions
                     yOffset = Content.TranslationY;
                     break;
             }
+        }
+
+        public void UpdateScreenSize()
+        {
+            ScreenWidth = Application.Current.MainPage.Width;
+            ScreenHeight = Application.Current.MainPage.Height;
         }
     }
 }

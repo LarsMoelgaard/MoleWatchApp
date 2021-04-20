@@ -224,6 +224,9 @@ namespace MoleWatchApp.ViewModels
                 //
                 //TODO benyt sessionID til at verificere brugeren af dette device.
                 MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
+
+                BaseIsBusy = false;
+                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
             }
             else
             {

@@ -4,10 +4,13 @@
              x:Class="MoleWatchApp.Views.PatientModelPage"
              xmlns:vm="clr-namespace:MoleWatchApp.ViewModels"
              xmlns:extensions="clr-namespace:MoleWatchApp.Extensions;assembly=MoleWatchApp"
-             Title="{Binding Title}">
+             Title="{Binding Title}" 
+             Appearing="PatientModelPage_OnAppearing">
+            
     
     <ContentPage.BindingContext>
-        <vm:PatientModelViewModel x:Name="PViewModel"/>
+        <vm:PatientModelViewModel x:Name="PViewModel" />
+
     </ContentPage.BindingContext>
     
     <ContentPage.Resources>
@@ -37,6 +40,7 @@
                            Grid.ColumnSpan="4"
                            Source="{Binding PatientPicture}"
                            HorizontalOptions="FillAndExpand"
+
                            WidthRequest="500"
                            HeightRequest="1000"
                            > 

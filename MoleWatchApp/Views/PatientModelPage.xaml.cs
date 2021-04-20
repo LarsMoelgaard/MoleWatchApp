@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using MoleWatchApp.Extensions;
@@ -24,12 +25,17 @@ namespace MoleWatchApp.Views
 
             if (result == null)
             {
-                
+                List<double> PinPlacement = PinchPanContainer.getPinPlacement();
             }
             else
             {
                 PViewModel.CreateOkClicked.Execute(result);
             }
+        }
+
+        private void PatientModelPage_OnAppearing(object sender, EventArgs e)
+        {
+            PinchPanContainer.UpdateScreenSize();
         }
     }
 }
