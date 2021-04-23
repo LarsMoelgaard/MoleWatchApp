@@ -1,36 +1,86 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using APIWebServiesConnector;
+using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
+using DataClasses.DTO.MISCDTOS;
+using MoleWatchApp.Interfaces;
 
 namespace MoleWatchApp.Models
 {
-    public class LoginModel
+    public class LoginModel: ILogin
     {
-        private APICommunication APIConnection;
+        private IAPIService API;
+
+        private PatientInfoDTO newPatientInfoDto;
+
+        public PatientDataDTO PatientData { get; private set; }
+
+
 
         public LoginModel()
         {
-            APIConnection = new APICommunication();
-
+            API = APIFactory.GetAPI();
         }
 
         public bool VerifyPassword(string Username, string Password)
         {
+            LoginInfoDTO NewLogin = new LoginInfoDTO();
 
-            bool LoginVerified = APIConnection.VerifyPasswordWithAPI(Username, Password);
+            NewLogin.Password = Password;
+            NewLogin.Username = Username;
 
-            return LoginVerified;
+
+            try
+            {
+                newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>
+                    ("PatientLogin", NewLogin);
+
+                PatientData = API.GetObject<PatientDataDTO, PatientInfoRequestDTO>
+                    ("GetPatientData", new PatientInfoRequestDTO() { LoginID = newPatientInfoDto.PatientID });
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw e;
+                return false;
+
+            }
+
+            if (newPatientInfoDto != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
 
         }
 
         public bool VerifySmartLoginPassword()
         {
+            try
+            {
+                newPatientInfoDto = API.GetObject<PatientInfoDTO, SessionInfoDTO>("PatientSmartLogin", new SessionInfoDTO()); //Login type == Mobil
 
-            bool LoginVerified = APIConnection.VerifySmartLogin();
-            return LoginVerified;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
 
+            }
+
+            if (newPatientInfoDto != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 

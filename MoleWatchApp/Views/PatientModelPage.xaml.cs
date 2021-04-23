@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using DataClasses.DTO;
+using DataClasses.DTO.MISCDTOS;
 using MoleWatchApp.Extensions;
 using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
@@ -12,11 +14,16 @@ namespace MoleWatchApp.Views
 {
     public partial class PatientModelPage : ContentPage
     {
+        public PatientDataDTO patientData { get; set; }
         private string result = "";
         
         public PatientModelPage() 
         {
             InitializeComponent();
+            //Shell.SetBackButtonBehavior(this, new BackButtonBehavior())
+            //{
+            //    Command = Binding = ""; //TODO find ud af hvordan man laver backbuttonbehaviour
+            //}
         }
 
         private async void Checkmark_button_Clicked(object sender, EventArgs e)
@@ -29,26 +36,42 @@ namespace MoleWatchApp.Views
             }
             else
             {
+                CollectionDTO newCollectionDto = new CollectionDTO();
+                newCollectionDto.CollectionName = result;
 
-                double YVal = PatientModelImage.Y + PinImage.Y + TestKnap.Height / 2; // De her virker!
-
-
+                LocationOnBodyDTO NewCollectionLocation = new LocationOnBodyDTO();
+                
+                double YVal = PatientModelImage.Y + PinImage.Y + 2.5; // De her virker!
                 double XVal =  PatientModelImage.X + PinImage.X; // De her virker Ca!!
 
 
 
-                double[] PinPlacement = PinchPanContainer.getPinPlacement(XVal,YVal);
+                int[] PinPlacement = PinchPanContainer.getPinPlacement(XVal,YVal);
 
-                TestKnap.TranslationX = PinPlacement[0];
-                TestKnap.TranslationY = PinPlacement[1];
+                NewCollectionLocation.xCoordinate = PinPlacement[0];
+                NewCollectionLocation.xCoordinate = PinPlacement[1];
 
-                PViewModel.CreateOkClicked.Execute(result);
+                ImageButton NewCollectionButton = new ImageButton();
+
+
+                PinchAndPanGrid.Children.Add(NewCollectionButton);
+
+                NewCollectionButton.VerticalOptions = LayoutOptions.Start;
+                NewCollectionButton.HorizontalOptions = LayoutOptions.Start;
+
+                NewCollectionButton.WidthRequest = 5;
+                NewCollectionButton.HeightRequest = 5;
+                NewCollectionButton.Source = "NotMarkedCollection.png";
+
+                NewCollectionButton.TranslationX = PinPlacement[0];
+                NewCollectionButton.TranslationY = PinPlacement[1];
+
+
+                newCollectionDto.Location = NewCollectionLocation;
+
+                PViewModel.CreateOkClicked.Execute(newCollectionDto);
             }
         }
 
-        private void PatientModelPage_OnAppearing(object sender, EventArgs e)
-        {
-            PinchPanContainer.UpdateScreenSize();
-        }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MoleWatchApp.ViewModels
 {
-    class CreateCollectionViewModel
+    public class CreateCollectionViewModel : BaseViewModel
     {
     }
 }

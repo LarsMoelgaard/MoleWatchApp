@@ -6,10 +6,46 @@
 
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <!--<StackLayout>-->
+
+            <Grid BackgroundColor="Gray">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                    
+
+                    <ImageButton Grid.Row="0" Grid.Column="0" 
+                                 Source="CameraIcon.png"
+                                 VerticalOptions="CenterAndExpand" 
+                                 BackgroundColor="Transparent"
+                                 HorizontalOptions="CenterAndExpand"
+                    />
+
+                    <ImageButton Grid.Row="0" Grid.Column="1" 
+                                 Source="GalleryIcon.png"
+                                 VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="CenterAndExpand"
+                                 BackgroundColor="Transparent"
+                    />
+
+            <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" BackgroundColor="White">
+
+                </Grid>
+            </Grid>
+
+
+        <!--</StackLayout>-->
+
+
+
+
+
+
+
     </ContentPage.Content>
 </ContentPage>

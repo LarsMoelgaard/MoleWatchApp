@@ -2,6 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using DataClasses.DTO;
+using MoleWatchApp.Models;
+using MoleWatchApp.Views;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -96,12 +99,12 @@ namespace MoleWatchApp.ViewModels
 
         public Command RotateClicked { get; }
         public Command PlusClicked { get; }
-
+        public Command BackCommand { get; }
         public ICommand CreateOkClicked
         {
             get
             {
-                return new Command<string>((x)=> CreateCollection(x));
+                return new Command<CollectionDTO>((x)=> CreateCollection(x));
             }
         }
 
@@ -131,6 +134,7 @@ namespace MoleWatchApp.ViewModels
             //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             RotateClicked = new Command(FlipPatient);
             PlusClicked = new Command(onPlusClicked);
+            BackCommand = new Command(OnBackButtonClicked);
         }
 
         private async void FlipPatient(object obj)
@@ -197,7 +201,7 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-        private void CreateCollection(string CollectionName)
+        private async void CreateCollection(CollectionDTO Collection)
         {
             NewPinAdded = null;
             Checkmark = null;
@@ -206,14 +210,20 @@ namespace MoleWatchApp.ViewModels
 
             
 
-            if (CollectionName == "")
+            if (Collection.CollectionName == "")
             {
-                CollectionName = "AutoNavn";
+                Collection.CollectionName = "AutoNavn"; //TODO insert generation of names
             }
-            else
-            {
 
-            }
+            await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage)}");
+
         }
+
+        private async void OnBackButtonClicked()
+        {
+            await Shell.Current.GoToAsync("..");
+        }
+
+
     }
 }

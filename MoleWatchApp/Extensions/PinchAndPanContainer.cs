@@ -18,7 +18,7 @@ namespace MoleWatchApp.Extensions
         private double ScreenWidth;
         private double ScreenHeight;
 
-        public double[] getPinPlacement(double Xpin, double Ypin)
+        public int[] getPinPlacement(double Xpin, double Ypin)
         {
 
             double TrueXPosition;
@@ -32,7 +32,7 @@ namespace MoleWatchApp.Extensions
 
 
 
-            double[] dataList = new double[2] { TrueXPosition, TrueYPosition };
+            int[] dataList = new int[2] { Convert.ToInt32(TrueXPosition), Convert.ToInt32(TrueYPosition) };
 
 
             return dataList;

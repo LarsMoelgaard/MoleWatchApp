@@ -5,9 +5,13 @@
              xmlns:vm="clr-namespace:MoleWatchApp.ViewModels"
              xmlns:extensions="clr-namespace:MoleWatchApp.Extensions;assembly=MoleWatchApp"
              Title="{Binding Title}" 
-             Appearing="PatientModelPage_OnAppearing">
-            
-    
+                         
+             >
+    <!--<Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand}"
+                            IconOverride="back.png" />
+    </Shell.BackButtonBehavior>-->
+
     <ContentPage.BindingContext>
         <vm:PatientModelViewModel x:Name="PViewModel" />
 
@@ -57,9 +61,6 @@
                     </Image>
 
 
-                    <Button x:Name="TestKnap" HeightRequest="5" WidthRequest="5" HorizontalOptions="Start" VerticalOptions="Start">
-
-                    </Button>
 
 
                 </Grid>

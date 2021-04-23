@@ -181,8 +181,8 @@ namespace MoleWatchApp.ViewModels
             {
 
                 BaseIsBusy = false;
-                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
-                
+                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}?patientData={loginModel.PatientData}");
+
             }
             else
             {
