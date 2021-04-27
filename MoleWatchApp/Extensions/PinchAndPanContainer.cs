@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions
@@ -14,7 +15,9 @@ namespace MoleWatchApp.Extensions
         double startScale = 1;
         double xOffset = 0;
         double yOffset = 0;
-        
+
+
+
         private double ScreenWidth;
         private double ScreenHeight;
 
@@ -107,15 +110,20 @@ namespace MoleWatchApp.Extensions
                 // Store the translation delta's of the wrapped user interface element.
                 xOffset = Content.TranslationX;
                 yOffset = Content.TranslationY;
+
+                Task.Delay(250);
             }
         }
 
         void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
-            if (Content.Scale == 1)
+           
+            if (Content.Scale == 1 )
             {
                 return;
             }
+
+            Task.Delay(250);
 
             switch (e.StatusType)
             {

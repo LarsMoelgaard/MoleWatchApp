@@ -1,26 +1,21 @@
-﻿using System;
+﻿using AppTest.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SlideOverKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MoleWatchApp.Views
+namespace AppTest.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CreateCollectionPage : ContentPage
+    public partial class LoginPage : ContentPage
     {
-        public CreateCollectionPage()
+        public LoginPage()
         {
             InitializeComponent();
-
-
-
-
+            this.BindingContext = new LoginViewModel();
         }
     }
-
-
 }

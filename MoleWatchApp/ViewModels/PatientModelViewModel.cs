@@ -215,7 +215,7 @@ namespace MoleWatchApp.ViewModels
                 Collection.CollectionName = "AutoNavn"; //TODO insert generation of names
             }
 
-            await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage)}");
+            await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
 
         }
 
@@ -223,7 +223,7 @@ namespace MoleWatchApp.ViewModels
         {
             await Shell.Current.GoToAsync("..");
         }
-
+            
 
     }
 }
