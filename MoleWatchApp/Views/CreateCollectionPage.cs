@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DataClasses.DTO;
 using MoleWatchApp.ViewModels;
 using SlideOverKit;
 using Xamarin.Essentials;
@@ -13,6 +14,7 @@ namespace MoleWatchApp.Views
         public CreateCollectionPage2()
         {
             this.BindingContext = new CreateCollectionViewModel();
+
 
 
             GridLengthTypeConverter gridLengthConverter = new GridLengthTypeConverter();
