@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using DataClasses.DTO;
+using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
 using MoleWatchApp.Views;
 using Xamarin.Essentials;
@@ -12,11 +15,27 @@ namespace MoleWatchApp.ViewModels
 {
     public class PatientModelViewModel : BaseViewModel
     {
+        private ILogin loginModel;
+
         private string patientPicture;
         private string rotatePlaceholder;
         private string newPinAdded;
         private string plusIcon;
         private string checkmark;
+        private List<CollectionDTO> patientCollection;
+
+        public List<CollectionDTO> PatientCollection
+        {
+            get
+            {
+                return patientCollection;
+            }
+            set
+            {
+                patientCollection = value;
+                this.OnPropertyChanged();
+            }
+        }
 
         public string Checkmark
         {
@@ -100,6 +119,7 @@ namespace MoleWatchApp.ViewModels
         public Command RotateClicked { get; }
         public Command PlusClicked { get; }
         public Command BackCommand { get; }
+        public Command OnPageAppearingCommand { get; }
         public ICommand CreateOkClicked
         {
             get
@@ -118,6 +138,7 @@ namespace MoleWatchApp.ViewModels
 
         public PatientModelViewModel()
         {
+            loginModel = LoginSingleton.GetLoginModel();
 
             IsAnimationPlaying = false;
             Title = "Vælg Modermærke";
@@ -125,6 +146,8 @@ namespace MoleWatchApp.ViewModels
 
 
             PatientPicture = "MaleFrontCrop.png";
+
+
             PlusIcon = "Plus_Icon.png";
             IsPatientFrontFacing = true;
             IsPatientMale = true;    //TODO skal ændres senere
@@ -135,6 +158,29 @@ namespace MoleWatchApp.ViewModels
             RotateClicked = new Command(FlipPatient);
             PlusClicked = new Command(onPlusClicked);
             BackCommand = new Command(OnBackButtonClicked);
+            OnPageAppearingCommand = new Command(LoadPatient);
+        }
+
+        private void LoadPatient()
+        {
+
+            if (loginModel.PatientData.PatientInfo.Gender.ToLower() == "b")
+            {
+                IsPatientMale = true;
+                PatientPicture = "MaleFrontCrop.png";
+            }
+            else if(loginModel.PatientData.PatientInfo.Gender.ToLower() == "g")
+            {
+                IsPatientMale = false;
+                PatientPicture = "FemaleFrontCrop.png";
+            }
+            else
+            {
+                PatientPicture = "MaleFrontCrop.png";
+                //throw new NotImplementedException("Køn ukendt.");
+            }
+
+            PatientCollection = loginModel.PatientData.CollectionList;
         }
 
         private async void FlipPatient(object obj)
@@ -203,6 +249,8 @@ namespace MoleWatchApp.ViewModels
 
         private async void CreateCollection(CollectionDTO Collection)
         {
+
+
             NewPinAdded = null;
             Checkmark = null;
             PlusIcon = "Plus_icon.png";
@@ -214,6 +262,8 @@ namespace MoleWatchApp.ViewModels
             {
                 Collection.CollectionName = "AutoNavn"; //TODO insert generation of names
             }
+
+            PatientCollection.Add(Collection);
 
             await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
 

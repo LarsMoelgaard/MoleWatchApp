@@ -21,7 +21,7 @@ namespace MoleWatchApp.Models
 
         public LoginModel()
         {
-            API = APIFactory.GetAPI();
+            API = APISingleton.GetAPI();
         }
 
         public bool VerifyPassword(string Username, string Password)
@@ -30,10 +30,12 @@ namespace MoleWatchApp.Models
 
             NewLogin.Password = Password;
             NewLogin.Username = Username;
+            
 
 
             try
             {
+                
                 newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>
                     ("PatientLogin", NewLogin);
 

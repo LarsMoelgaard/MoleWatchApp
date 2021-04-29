@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using DataClasses.DTO.MISCDTOS;
+using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
@@ -13,7 +15,7 @@ namespace MoleWatchApp.ViewModels
     public class LoginViewModel : BaseViewModel
     {
 
-        private LoginModel loginModel;
+        private ILogin loginModel;
 
         private Color passwordLabelColor;
         private Color usernameLabelColor;
@@ -160,7 +162,7 @@ namespace MoleWatchApp.ViewModels
 
             LoginCommand = new Command(OnLoginClicked);
             SmartLoginCommand = new Command(AuthButton_OnClicked);
-            loginModel = new LoginModel();
+            loginModel = LoginSingleton.GetLoginModel();
 
 
             UsernameInput = "12345";
@@ -181,7 +183,7 @@ namespace MoleWatchApp.ViewModels
             {
 
                 BaseIsBusy = false;
-                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}?patientData={loginModel.PatientData}");
+                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
 
             }
             else
