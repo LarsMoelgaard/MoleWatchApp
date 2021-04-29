@@ -14,20 +14,21 @@ namespace MoleWatchApp.Views
 {
     public partial class PatientModelPage : ContentPage
     {
-        public PatientDataDTO patientData { get; set; }
+        private bool IsVisible = false;
         private string result = "";
         
+
+
         public PatientModelPage() 
         {
             InitializeComponent();
-            //Shell.SetBackButtonBehavior(this, new BackButtonBehavior())
-            //{
-            //    Command = Binding = ""; //TODO find ud af hvordan man laver backbuttonbehaviour
-            //}
+            
+            
         }
 
         private async void Checkmark_button_Clicked(object sender, EventArgs e)
         {
+
             result = await DisplayPromptAsync("Opret ny samling for modermærke", "Indtast navn på det valgte modermærke");
 
             if (result == null)
@@ -51,27 +52,73 @@ namespace MoleWatchApp.Views
                 NewCollectionLocation.xCoordinate = PinPlacement[0];
                 NewCollectionLocation.xCoordinate = PinPlacement[1];
 
-                ImageButton NewCollectionButton = new ImageButton();
+                //ImageButton NewCollectionButton = new ImageButton();
 
 
-                PinchAndPanGrid.Children.Add(NewCollectionButton);
+                //PinchAndPanGrid.Children.Add(NewCollectionButton);
 
-                NewCollectionButton.VerticalOptions = LayoutOptions.Start;
-                NewCollectionButton.HorizontalOptions = LayoutOptions.Start;
+                //NewCollectionButton.VerticalOptions = LayoutOptions.Start;
+                //NewCollectionButton.HorizontalOptions = LayoutOptions.Start;
 
-                NewCollectionButton.WidthRequest = 5;
-                NewCollectionButton.HeightRequest = 5;
-                NewCollectionButton.Source = "NotMarkedCollection.png";
+                //NewCollectionButton.WidthRequest = 5;
+                //NewCollectionButton.HeightRequest = 5;
+                //NewCollectionButton.Source = "NotMarkedCollection.png";
 
-                NewCollectionButton.TranslationX = PinPlacement[0];
-                NewCollectionButton.TranslationY = PinPlacement[1];
+                //NewCollectionButton.TranslationX = PinPlacement[0];
+                //NewCollectionButton.TranslationY = PinPlacement[1];
 
 
-                newCollectionDto.Location = NewCollectionLocation;
+                //newCollectionDto.Location = NewCollectionLocation;
 
                 PViewModel.CreateOkClicked.Execute(newCollectionDto);
             }
         }
 
+
+        private void PatientModelPage_OnAppearing(object sender, EventArgs e)
+        {
+            if (IsVisible)
+            {
+                PViewModel.OnPageAppearingCommand.Execute(null);
+            }
+            else
+            {
+                IsVisible = true;
+            }
+            
+        }
+
+        private void BindableObject_OnPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            if (IsVisible)
+            {
+                if (HiddenListView.ItemsSource != null)
+                {
+                foreach (CollectionDTO item in HiddenListView.ItemsSource)
+                {
+                    ImageButton NewCollectionButton = new ImageButton();
+
+
+                    PinchAndPanGrid.Children.Add(NewCollectionButton);
+
+                    NewCollectionButton.VerticalOptions = LayoutOptions.Start;
+                    NewCollectionButton.HorizontalOptions = LayoutOptions.Start;
+
+                    NewCollectionButton.WidthRequest = 5;
+                    NewCollectionButton.HeightRequest = 5;
+                    NewCollectionButton.Source = "NotMarkedCollection.png";
+
+                    NewCollectionButton.TranslationX = item.Location.xCoordinate;
+                    NewCollectionButton.TranslationY = item.Location.yCoordinate;
+
+
+                    //TODO differntiere i mellem knapperne og gør at de kan starte en command
+
+                }
+                }
+                
+            }
+
+        }
     }
 }

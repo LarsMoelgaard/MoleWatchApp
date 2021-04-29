@@ -16,9 +16,6 @@ namespace MoleWatchApp.Views
         {
             InitializeComponent();
 
-
-
-
         }
     }
 

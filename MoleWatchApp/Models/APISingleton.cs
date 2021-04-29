@@ -5,7 +5,7 @@ using APIWebServiesConnector;
 
 namespace MoleWatchApp.Models
 {
-    public static class APIFactory
+    public static class APISingleton
     {
         private static IAPIService _api;
 
@@ -15,11 +15,16 @@ namespace MoleWatchApp.Models
             {
                 if (_api == null)
                 {
-                    // _api = new ApiService(APIWebServiesConnector.APIStringFabrics.APIStringFabric.GetDeveloperAPIString(), 'm');
+                    _api = new ApiService("https://moletrackerapiv2.azurewebsites.net/",'W');
+                    //_api = new ApiService(APIWebServiesConnector.APIStringFabrics.APIStringFabric.GetDeveloperAPIString(),'W');
                     // Logintype == mobil
                     // For at skifte API ændre getDevString til getProductionString
 
-                    _api = new StubApiService(); //Skal slettes til produktion
+                    // _api = new StubApiService(); //Skal slettes til produktion
+
+
+                    //
+
                 }
 
                 return _api;

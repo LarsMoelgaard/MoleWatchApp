@@ -4,8 +4,8 @@ using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
-using DataClasses.DTO.MISCDTOS;
 using MoleWatchApp.Interfaces;
+using PatientDataDTO = DataClasses.DTO.MISCDTOS.PatientDataDTO;
 
 namespace MoleWatchApp.Models
 {
@@ -21,7 +21,7 @@ namespace MoleWatchApp.Models
 
         public LoginModel()
         {
-            API = APIFactory.GetAPI();
+            API = APISingleton.GetAPI();
         }
 
         public bool VerifyPassword(string Username, string Password)
@@ -30,10 +30,12 @@ namespace MoleWatchApp.Models
 
             NewLogin.Password = Password;
             NewLogin.Username = Username;
+            
 
 
             try
             {
+                
                 newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>
                     ("PatientLogin", NewLogin);
 
@@ -50,12 +52,42 @@ namespace MoleWatchApp.Models
 
             if (newPatientInfoDto != null)
             {
+                
+                if (PatientData.PatientInfo == null) //TODO skal fjernes i produktion når API-virker
+                {
+                    PatientInfoDTO Patient = new PatientInfoDTO();
+                    Patient.Gender = "g";
+
+                    PatientData.PatientInfo = Patient;
+                    PatientData.CollectionList = new List<CollectionDTO>();
+
+                    CollectionDTO TestCollection = new CollectionDTO();
+                    TestCollection.CollectionName = "TestCollection";
+                    TestCollection.CollectionID = 1;
+
+
+                    LocationOnBodyDTO TestLocation = new LocationOnBodyDTO();
+                    TestLocation.BodyPart = "arm";
+                    TestLocation.BodyPartSide = "right";
+                    TestLocation.IsFrontFacing = true;
+                    TestLocation.xCoordinate = 200;
+                    TestLocation.yCoordinate = 100;
+
+                    TestCollection.Location = TestLocation;
+                    
+
+                    PatientData.CollectionList.Add(TestCollection);
+                }
+
+
                 return true;
             }
             else
             {
                 return false;
             }
+
+
 
         }
 

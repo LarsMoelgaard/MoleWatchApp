@@ -4,8 +4,9 @@
              x:Class="MoleWatchApp.Views.PatientModelPage"
              xmlns:vm="clr-namespace:MoleWatchApp.ViewModels"
              xmlns:extensions="clr-namespace:MoleWatchApp.Extensions;assembly=MoleWatchApp"
-             Title="{Binding Title}" 
-                         
+             Title="{Binding Title}"
+             Appearing="PatientModelPage_OnAppearing"
+                       
              >
     <!--<Shell.BackButtonBehavior>
         <BackButtonBehavior Command="{Binding BackCommand}"
@@ -17,9 +18,6 @@
 
     </ContentPage.BindingContext>
     
-    <ContentPage.Resources>
-        
-    </ContentPage.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -38,7 +36,12 @@
         </Grid.ColumnDefinitions>
 
 
-        <extensions:PinchAndPanContainer x:Name="PinchPanContainer" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >
+        <ListView IsVisible="False"
+                  ItemsSource="{Binding PatientCollection}"
+                  PropertyChanged="BindableObject_OnPropertyChanged"
+                  x:Name="HiddenListView"/>
+
+            <extensions:PinchAndPanContainer x:Name="PinchPanContainer" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >
             <extensions:PinchAndPanContainer.Content>
 
                 <Grid x:Name="PinchAndPanGrid" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"  Grid.ColumnSpan="4">
