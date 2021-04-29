@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
@@ -23,9 +24,9 @@ namespace MoleWatchApp.ViewModels
         private string newPinAdded;
         private string plusIcon;
         private string checkmark;
-        private List<CollectionDTO> patientCollection;
+        private ObservableCollection<CollectionDTO> patientCollection;
 
-        public List<CollectionDTO> PatientCollection
+        public ObservableCollection<CollectionDTO> PatientCollection
         {
             get
             {
@@ -140,7 +141,7 @@ namespace MoleWatchApp.ViewModels
         public PatientModelViewModel()
         {
             loginModel = LoginSingleton.GetLoginModel();
-
+            PatientCollection = new ObservableCollection<CollectionDTO>();
 
 
             IsAnimationPlaying = false;
@@ -183,7 +184,12 @@ namespace MoleWatchApp.ViewModels
                 //throw new NotImplementedException("Køn ukendt.");
             }
 
-            PatientCollection = loginModel.PatientData.CollectionList;
+
+            foreach (CollectionDTO ExistingCollectionDTO in loginModel.PatientData.CollectionList)
+            {
+                PatientCollection.Add(ExistingCollectionDTO);
+            }
+                
         }
 
         private async void FlipPatient(object obj)
@@ -266,8 +272,12 @@ namespace MoleWatchApp.ViewModels
                 Collection.CollectionName = "AutoNavn"; //TODO insert generation of names
             }
 
+            ObservableCollection<CollectionDTO> TempCollection = PatientCollection;
+            TempCollection.Add(Collection);
 
-            PatientCollection.Add(Collection);
+
+            PatientCollection = TempCollection;
+
 
             await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
 

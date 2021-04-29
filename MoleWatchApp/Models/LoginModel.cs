@@ -30,15 +30,15 @@ namespace MoleWatchApp.Models
 
             NewLogin.Password = Password;
             NewLogin.Username = Username;
-            
+
 
 
             try
             {
-                
                 newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>
                     ("PatientLogin", NewLogin);
 
+                //TODO Duer ikke medmindre det er stubben
                 PatientData = API.GetObject<PatientDataDTO, PatientInfoRequestDTO>
                     ("GetPatientData", new PatientInfoRequestDTO() { LoginID = newPatientInfoDto.PatientID });
             }

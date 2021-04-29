@@ -36,9 +36,9 @@
         </Grid.ColumnDefinitions>
 
 
-        <ListView IsVisible="False"
+        <ListView Grid.Row="1" Grid.Column="1" IsVisible="True"
                   ItemsSource="{Binding PatientCollection}"
-                  PropertyChanged="BindableObject_OnPropertyChanged"
+                  ItemAppearing="HiddenListView_OnItemAppearing"
                   x:Name="HiddenListView"/>
 
             <extensions:PinchAndPanContainer x:Name="PinchPanContainer" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >

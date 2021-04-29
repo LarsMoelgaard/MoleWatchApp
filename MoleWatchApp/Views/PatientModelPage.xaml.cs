@@ -50,7 +50,7 @@ namespace MoleWatchApp.Views
                 int[] PinPlacement = PinchPanContainer.getPinPlacement(XVal,YVal);
 
                 NewCollectionLocation.xCoordinate = PinPlacement[0];
-                NewCollectionLocation.xCoordinate = PinPlacement[1];
+                NewCollectionLocation.yCoordinate = PinPlacement[1];
 
                 //ImageButton NewCollectionButton = new ImageButton();
 
@@ -68,7 +68,7 @@ namespace MoleWatchApp.Views
                 //NewCollectionButton.TranslationY = PinPlacement[1];
 
 
-                //newCollectionDto.Location = NewCollectionLocation;
+                newCollectionDto.Location = NewCollectionLocation;
 
                 PViewModel.CreateOkClicked.Execute(newCollectionDto);
             }
@@ -88,12 +88,12 @@ namespace MoleWatchApp.Views
             
         }
 
-        private void BindableObject_OnPropertyChanged(object sender, PropertyChangedEventArgs e)
+
+
+        private void HiddenListView_OnItemAppearing(object sender, ItemVisibilityEventArgs e)
         {
-            if (IsVisible)
+            if (HiddenListView.ItemsSource != null)
             {
-                if (HiddenListView.ItemsSource != null)
-                {
                 foreach (CollectionDTO item in HiddenListView.ItemsSource)
                 {
                     ImageButton NewCollectionButton = new ImageButton();
@@ -115,10 +115,7 @@ namespace MoleWatchApp.Views
                     //TODO differntiere i mellem knapperne og gør at de kan starte en command
 
                 }
-                }
-                
             }
-
         }
     }
 }
