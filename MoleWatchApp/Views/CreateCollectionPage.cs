@@ -14,7 +14,7 @@ namespace MoleWatchApp.Views
         public CreateCollectionPage2()
         {
             this.BindingContext = new CreateCollectionViewModel();
-
+            this.SetBinding(TitleProperty, "CollectionTitle");
 
 
             GridLengthTypeConverter gridLengthConverter = new GridLengthTypeConverter();
@@ -49,12 +49,20 @@ namespace MoleWatchApp.Views
 
             #endregion
 
+            Image LastCollectionPhoto = new Image();
+            LastCollectionPhoto.SetBinding(Image.SourceProperty,"LastPhotoSource");
+            Grid.SetRow(LastCollectionPhoto, 0);
+            Grid.SetColumn(LastCollectionPhoto, 0);
+            Grid.SetColumnSpan(LastCollectionPhoto,2);
+            CreateCollectionSuperGrid.Children.Add(LastCollectionPhoto);
 
             ImageButton CameraButton = new ImageButton();
             CameraButton.Source = "CameraIcon.png";
             CameraButton.BackgroundColor = Color.Transparent;
             CameraButton.HorizontalOptions = LayoutOptions.CenterAndExpand;
             CameraButton.VerticalOptions = LayoutOptions.CenterAndExpand;
+            CameraButton.SetBinding(ImageButton.CommandProperty, "CameraButtonClicked");
+            CameraButton.SetBinding(ImageButton.IsEnabledProperty, "NoImagesInCollection");
             Grid.SetRow(CameraButton,0);
             Grid.SetColumn(CameraButton,0);
             CreateCollectionSuperGrid.Children.Add(CameraButton);
@@ -65,6 +73,7 @@ namespace MoleWatchApp.Views
             GalleryButton.BackgroundColor = Color.Transparent;
             GalleryButton.HorizontalOptions = LayoutOptions.CenterAndExpand;
             GalleryButton.VerticalOptions = LayoutOptions.CenterAndExpand;
+            GalleryButton.SetBinding(ImageButton.IsEnabledProperty, "NoImagesInCollection");
             Grid.SetRow(GalleryButton, 0);
             Grid.SetColumn(GalleryButton, 1);
             CreateCollectionSuperGrid.Children.Add(GalleryButton);
@@ -117,7 +126,6 @@ namespace MoleWatchApp.Views
 
             Label DateLabel = new Label();
             DateLabel.SetBinding(Label.TextProperty, "DateText");
-            DateLabel.Text = "Taget d. 26. Marts 2021";
             DateLabel.FontSize = 25;
             DateLabel.HorizontalTextAlignment = TextAlignment.Center;
 

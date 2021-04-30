@@ -13,6 +13,8 @@ namespace MoleWatchApp
         {
             InitializeComponent();
 
+            Plugin.Media.CrossMedia.Current.Initialize();
+
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }

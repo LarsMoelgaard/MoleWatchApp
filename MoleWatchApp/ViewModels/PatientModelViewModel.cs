@@ -17,7 +17,7 @@ namespace MoleWatchApp.ViewModels
     public class PatientModelViewModel : BaseViewModel
     {
         private ILogin loginModel;
-        private PatientModelModel patientModelClass;
+        private IPatientModel patientModelClass;
 
         private string patientPicture;
         private string rotatePlaceholder;
@@ -130,6 +130,13 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        public ICommand ExistingCollectionClicked
+        {
+            get
+            {
+                return new Command<CollectionDTO>((x) => GoToExistingCollection(x));
+            }
+        }
 
         private bool isAnimationPlaying;
         private bool IsPatientMale;
@@ -142,6 +149,8 @@ namespace MoleWatchApp.ViewModels
         {
             loginModel = LoginSingleton.GetLoginModel();
             PatientCollection = new ObservableCollection<CollectionDTO>();
+
+            patientModelClass = PatientModelSingleton.GetPatientModel();
 
 
             IsAnimationPlaying = false;
@@ -167,13 +176,14 @@ namespace MoleWatchApp.ViewModels
 
         private void LoadPatient()
         {
+            patientModelClass.CurrentPatient = loginModel.PatientData.PatientInfo;
 
-            if (loginModel.PatientData.PatientInfo.Gender.ToLower() == "b")
+            if (patientModelClass.CurrentPatient.Gender.ToLower() == "b")
             {
                 IsPatientMale = true;
                 PatientPicture = "MaleFrontCrop.png";
             }
-            else if(loginModel.PatientData.PatientInfo.Gender.ToLower() == "g")
+            else if(patientModelClass.CurrentPatient.Gender.ToLower() == "g")
             {
                 IsPatientMale = false;
                 PatientPicture = "FemaleFrontCrop.png";
@@ -184,15 +194,19 @@ namespace MoleWatchApp.ViewModels
                 //throw new NotImplementedException("Køn ukendt.");
             }
 
-
-            foreach (CollectionDTO ExistingCollectionDTO in loginModel.PatientData.CollectionList)
+            if (PatientCollection.Count == 0)
+            {
+                 foreach (CollectionDTO ExistingCollectionDTO in loginModel.PatientData.CollectionList)
             {
                 PatientCollection.Add(ExistingCollectionDTO);
             }
                 
+
+            }
+
         }
 
-        private async void FlipPatient(object obj)
+        private void FlipPatient(object obj)
         {
 
             Task AnimationTask = new Task(AnimateRotation);
@@ -238,6 +252,15 @@ namespace MoleWatchApp.ViewModels
         }
         //public ICommand OpenWebCommand { get; }
 
+        private async void GoToExistingCollection(CollectionDTO Collection)
+        {
+            patientModelClass.LoadExistingCollection(Collection);
+           
+            
+            await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
+        }
+
+
         private void onPlusClicked()
         {
             if (CreateCollectionInProgress == false)
@@ -272,12 +295,21 @@ namespace MoleWatchApp.ViewModels
                 Collection.CollectionName = "AutoNavn"; //TODO insert generation of names
             }
 
+
+
             ObservableCollection<CollectionDTO> TempCollection = PatientCollection;
             TempCollection.Add(Collection);
 
 
             PatientCollection = TempCollection;
 
+            Collection.Location.IsFrontFacing = IsPatientFrontFacing;
+
+            string[] BodyPartAndSide = GetBodyPart(Collection);
+            Collection.Location.BodyPart = BodyPartAndSide[0];
+            Collection.Location.BodyPartSide = BodyPartAndSide[1];
+
+            patientModelClass.LoadNewCollection(Collection);
 
             await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
 
@@ -287,7 +319,19 @@ namespace MoleWatchApp.ViewModels
         {
             await Shell.Current.GoToAsync("..");
         }
-            
+
+
+        private string[] GetBodyPart(CollectionDTO Collection)
+        {
+            string[] BodyPartAndSide = new string[2];
+            //TODO implementer udregning af bodypart og side.
+
+
+
+            BodyPartAndSide[0] = "TestBodyPart";
+            BodyPartAndSide[1] = "TestSide";
+            return BodyPartAndSide;
+        }
 
     }
 }

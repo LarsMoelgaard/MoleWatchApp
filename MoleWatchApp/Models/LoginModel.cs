@@ -38,7 +38,7 @@ namespace MoleWatchApp.Models
                 newPatientInfoDto = API.GetObject<PatientInfoDTO, LoginInfoDTO>
                     ("PatientLogin", NewLogin);
 
-                //TODO Duer ikke medmindre det er stubben
+                //    //TODO Duer ikke medmindre det er stubben
                 PatientData = API.GetObject<PatientDataDTO, PatientInfoRequestDTO>
                     ("GetPatientData", new PatientInfoRequestDTO() { LoginID = newPatientInfoDto.PatientID });
             }
@@ -53,31 +53,33 @@ namespace MoleWatchApp.Models
             if (newPatientInfoDto != null)
             {
                 
-                if (PatientData.PatientInfo == null) //TODO skal fjernes i produktion når API-virker
-                {
-                    PatientInfoDTO Patient = new PatientInfoDTO();
-                    Patient.Gender = "g";
+                //if (PatientData == null) //TODO skal fjernes i produktion når API-virker
+                //{
+                //    PatientData = new PatientDataDTO();
 
-                    PatientData.PatientInfo = Patient;
-                    PatientData.CollectionList = new List<CollectionDTO>();
+                //    PatientInfoDTO Patient = new PatientInfoDTO();
+                //    Patient.Gender = "g";
 
-                    CollectionDTO TestCollection = new CollectionDTO();
-                    TestCollection.CollectionName = "TestCollection";
-                    TestCollection.CollectionID = 1;
+                //    PatientData.PatientInfo = Patient;
+                //    PatientData.CollectionList = new List<CollectionDTO>();
+
+                //    CollectionDTO TestCollection = new CollectionDTO();
+                //    TestCollection.CollectionName = "TestCollection";
+                //    TestCollection.CollectionID = 1;
 
 
-                    LocationOnBodyDTO TestLocation = new LocationOnBodyDTO();
-                    TestLocation.BodyPart = "arm";
-                    TestLocation.BodyPartSide = "right";
-                    TestLocation.IsFrontFacing = true;
-                    TestLocation.xCoordinate = 200;
-                    TestLocation.yCoordinate = 100;
+                //    LocationOnBodyDTO TestLocation = new LocationOnBodyDTO();
+                //    TestLocation.BodyPart = "arm";
+                //    TestLocation.BodyPartSide = "right";
+                //    TestLocation.IsFrontFacing = true;
+                //    TestLocation.xCoordinate = 200;
+                //    TestLocation.yCoordinate = 100;
 
-                    TestCollection.Location = TestLocation;
+                //    TestCollection.Location = TestLocation;
                     
 
-                    PatientData.CollectionList.Add(TestCollection);
-                }
+                //    PatientData.CollectionList.Add(TestCollection);
+                //}
 
 
                 return true;
