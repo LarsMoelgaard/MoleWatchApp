@@ -50,7 +50,7 @@ namespace MoleWatchApp.Views
             #endregion
 
             Image LastCollectionPhoto = new Image();
-            LastCollectionPhoto.SetBinding(Image.SourceProperty,"LastPhotoSource");
+            LastCollectionPhoto.SetBinding(Image.SourceProperty, "LastCollectionPhoto");
             Grid.SetRow(LastCollectionPhoto, 0);
             Grid.SetColumn(LastCollectionPhoto, 0);
             Grid.SetColumnSpan(LastCollectionPhoto,2);

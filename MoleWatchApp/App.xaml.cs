@@ -19,6 +19,7 @@ namespace MoleWatchApp
             MainPage = new AppShell();
         }
 
+
         protected override void OnStart()
         {
             Shell.Current.GoToAsync("//LoginPage");
