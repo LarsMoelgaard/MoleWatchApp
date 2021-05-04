@@ -2,10 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 using DataClasses.DTO;
+using DLToolkit.Forms.Controls;
 using MoleWatchApp.ViewModels;
 using SlideOverKit;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using DLToolkit.Forms.Controls.Helpers.ImageCropView;
+using FFImageLoading.Forms;
+using FFImageLoading.Transformations;
+using FFImageLoading.Work;
 
 namespace MoleWatchApp.Views
 {
@@ -49,12 +54,17 @@ namespace MoleWatchApp.Views
 
             #endregion
 
-            Image LastCollectionPhoto = new Image();
-            LastCollectionPhoto.SetBinding(Image.SourceProperty, "LastCollectionPhoto");
+            ImageCropView LastCollectionPhoto = new ImageCropView();
+            LastCollectionPhoto.SetBinding(ImageCropView.SourceProperty, "LastCollectionPhoto");
+            LastCollectionPhoto.HeightRequest = 500;
+            LastCollectionPhoto.WidthRequest = 400;
+            //LastCollectionPhoto.PreviewTransformations = new List<ITransformation>() {new CircleTransformation()}; //TODO gør således man kan ændre croppet
             Grid.SetRow(LastCollectionPhoto, 0);
             Grid.SetColumn(LastCollectionPhoto, 0);
             Grid.SetColumnSpan(LastCollectionPhoto,2);
             CreateCollectionSuperGrid.Children.Add(LastCollectionPhoto);
+            
+           
 
             ImageButton CameraButton = new ImageButton();
             CameraButton.Source = "CameraIcon.png";
@@ -63,6 +73,7 @@ namespace MoleWatchApp.Views
             CameraButton.VerticalOptions = LayoutOptions.CenterAndExpand;
             CameraButton.SetBinding(ImageButton.CommandProperty, "CameraButtonClicked");
             CameraButton.SetBinding(ImageButton.IsEnabledProperty, "NoImagesInCollection");
+            CameraButton.SetBinding(ImageButton.IsVisibleProperty, "NoImagesInCollection");
             Grid.SetRow(CameraButton,0);
             Grid.SetColumn(CameraButton,0);
             CreateCollectionSuperGrid.Children.Add(CameraButton);
@@ -73,7 +84,9 @@ namespace MoleWatchApp.Views
             GalleryButton.BackgroundColor = Color.Transparent;
             GalleryButton.HorizontalOptions = LayoutOptions.CenterAndExpand;
             GalleryButton.VerticalOptions = LayoutOptions.CenterAndExpand;
+            GalleryButton.SetBinding(ImageButton.CommandProperty, "GalleryButtonClicked");
             GalleryButton.SetBinding(ImageButton.IsEnabledProperty, "NoImagesInCollection");
+            GalleryButton.SetBinding(ImageButton.IsVisibleProperty, "NoImagesInCollection");
             Grid.SetRow(GalleryButton, 0);
             Grid.SetColumn(GalleryButton, 1);
             CreateCollectionSuperGrid.Children.Add(GalleryButton);
@@ -83,15 +96,20 @@ namespace MoleWatchApp.Views
             Grid.SetColumn(OptionsGrid,0);
             Grid.SetRow(OptionsGrid,1);
             Grid.SetColumnSpan(OptionsGrid,2);
-
+            OptionsGrid.RowSpacing = 10;
 
             #region OptionRowAndColDef
             RowDefinition OptRowDef1 = new RowDefinition();
-            OptRowDef1.Height = new GridLength(1, GridUnitType.Star);
+            OptRowDef1.Height = new GridLength(0.5, GridUnitType.Star);
             RowDefinition OptRowDef2 = new RowDefinition();
-            OptRowDef2.Height = new GridLength(3, GridUnitType.Star);
             RowDefinition OptRowDef3 = new RowDefinition();
-            OptRowDef3.Height = new GridLength(2, GridUnitType.Star);
+            RowDefinition OptRowDef4 = new RowDefinition();
+            OptRowDef2.Height = new GridLength(1, GridUnitType.Star);
+            OptRowDef3.Height = new GridLength(1, GridUnitType.Star);
+            OptRowDef4.Height = new GridLength(2, GridUnitType.Star);
+
+            RowDefinition OptRowDef5 = new RowDefinition();
+            OptRowDef5.Height = new GridLength(0.5, GridUnitType.Star);
 
 
 
@@ -109,6 +127,8 @@ namespace MoleWatchApp.Views
             OptionsGrid.RowDefinitions.Add(OptRowDef1);
             OptionsGrid.RowDefinitions.Add(OptRowDef2);
             OptionsGrid.RowDefinitions.Add(OptRowDef3);
+            OptionsGrid.RowDefinitions.Add(OptRowDef4);
+            OptionsGrid.RowDefinitions.Add(OptRowDef5);
 
             OptionsGrid.ColumnDefinitions.Add(OptColDef1);
             OptionsGrid.ColumnDefinitions.Add(OptColDef2);
@@ -119,33 +139,54 @@ namespace MoleWatchApp.Views
 
             #endregion
 
-            StackLayout createCollectionLayout = new StackLayout();
-            Grid.SetColumn(createCollectionLayout, 0);
-            Grid.SetRow(createCollectionLayout, 0);
-            Grid.SetColumnSpan(createCollectionLayout, 5);
+            //StackLayout createCollectionLayout = new StackLayout();
+            //createCollectionLayout.Spacing = 5;
+            //createCollectionLayout.Margin = 10;
+            //Grid.SetColumn(createCollectionLayout, 0);
+            //Grid.SetRow(createCollectionLayout, 0);
+            //Grid.SetColumnSpan(createCollectionLayout, 5);
+
+
 
             Label DateLabel = new Label();
             DateLabel.SetBinding(Label.TextProperty, "DateText");
-            DateLabel.FontSize = 25;
+            DateLabel.FontSize = 20;
             DateLabel.HorizontalTextAlignment = TextAlignment.Center;
-
-            createCollectionLayout.Children.Add(DateLabel);
+            Grid.SetColumn(DateLabel, 0);
+            Grid.SetRow(DateLabel, 0);
+            Grid.SetColumnSpan(DateLabel, 5);
+            
+            OptionsGrid.Children.Add(DateLabel);
+            //createCollectionLayout.Children.Add(DateLabel);
 
 
             Button MarkCollectionButton = new Button();
             MarkCollectionButton.Text = "Markér samling";
             MarkCollectionButton.FontSize = 20;
+            MarkCollectionButton.HeightRequest = 50;
+            MarkCollectionButton.CornerRadius = 20;
+            MarkCollectionButton.VerticalOptions = LayoutOptions.FillAndExpand;
             MarkCollectionButton.SetBinding(Button.ImageSourceProperty, "MarkCollectionImage");
             MarkCollectionButton.SetBinding(Button.CommandProperty,"MarkCommand");
+            //createCollectionLayout.Children.Add(MarkCollectionButton);
+            Grid.SetColumn(MarkCollectionButton, 1);
+            Grid.SetRow(MarkCollectionButton, 2);
+            Grid.SetColumnSpan(MarkCollectionButton, 3);
 
-            createCollectionLayout.Children.Add(MarkCollectionButton);
+            OptionsGrid.Children.Add(MarkCollectionButton);
 
             Button ShowPicturesCollection = new Button();
+            ShowPicturesCollection.HeightRequest = 50;
+            ShowPicturesCollection.CornerRadius = 20;
             ShowPicturesCollection.Text = "Vis billeder for samlingen";
             ShowPicturesCollection.FontSize = 20;
             ShowPicturesCollection.SetBinding(Button.CommandProperty, "ShowPictureCollectionCommand");
+            Grid.SetColumn(ShowPicturesCollection, 1);
+            Grid.SetRow(ShowPicturesCollection, 1);
+            Grid.SetColumnSpan(ShowPicturesCollection, 3);
 
-            createCollectionLayout.Children.Add(ShowPicturesCollection);
+            OptionsGrid.Children.Add(ShowPicturesCollection);
+            //createCollectionLayout.Children.Add(ShowPicturesCollection);
 
 
 
@@ -157,7 +198,7 @@ namespace MoleWatchApp.Views
             SettingsButton.BackgroundColor = Color.Transparent;
             SettingsButton.Source = "settings.png";
             SettingsButton.Command = new Command(()=> ShowSettingsMenu());
-            Grid.SetRow(SettingsButton,2);
+            Grid.SetRow(SettingsButton,3);
             Grid.SetColumn(SettingsButton,1);
 
             
@@ -168,10 +209,10 @@ namespace MoleWatchApp.Views
             AddButton.WidthRequest = 100;
             AddButton.BackgroundColor = Color.Transparent;
             AddButton.Source = "Plus_icon.png";
-            Grid.SetRow(AddButton, 2);
+            Grid.SetRow(AddButton, 3);
             Grid.SetColumn(AddButton, 3);
 
-            OptionsGrid.Children.Add(createCollectionLayout);
+            //OptionsGrid.Children.Add(createCollectionLayout);
             OptionsGrid.Children.Add(SettingsButton);
             OptionsGrid.Children.Add(AddButton);
 

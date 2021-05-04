@@ -65,6 +65,7 @@ namespace MoleWatchApp.Views
             if (IsVisible)
             {
                 PViewModel.OnPageAppearingCommand.Execute(null);
+                UpdateButtonsOnPatientImage();
             }
             else
             {
