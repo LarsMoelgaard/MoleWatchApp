@@ -163,16 +163,23 @@ namespace MoleWatchApp.ViewModels
 
             if (photo != null)
             {
+                
                 LastCollectionPhoto = ImageSource.FromStream(() =>
                 {
                     Stream NewPhotoStream = photo.GetStream();
 
-                    byte[] imgByteArray = ConvertStreamToByteArray(NewPhotoStream);
+                    MemoryStream ms = new MemoryStream();
 
-                    collectionModel.UploadPictureToDatabase(imgByteArray,patientModelRef.CollectionOnPage.CollectionID);
+                        NewPhotoStream.CopyTo(ms);
 
-                    return NewPhotoStream;
+                        byte[] imgByteArray = ms.ToArray();
+
+                        NewPhotoStream.Seek(0, SeekOrigin.Begin);
+                        collectionModel.UploadPictureToDatabase(imgByteArray, patientModelRef.CollectionOnPage.CollectionID);
+
+                        return NewPhotoStream;
                 });
+
                 NoImagesInCollection = false;
             }
 
@@ -185,72 +192,79 @@ namespace MoleWatchApp.ViewModels
 
             if (photo != null)
             {
+
                 LastCollectionPhoto = ImageSource.FromStream(() =>
                 {
                     Stream NewPhotoStream = photo.GetStream();
 
-                    byte[] imgByteArray = ConvertStreamToByteArray(NewPhotoStream);
+                    MemoryStream ms = new MemoryStream();
 
+                    NewPhotoStream.CopyTo(ms);
+
+                    byte[] imgByteArray = ms.ToArray();
+
+                    NewPhotoStream.Seek(0, SeekOrigin.Begin);
                     collectionModel.UploadPictureToDatabase(imgByteArray, patientModelRef.CollectionOnPage.CollectionID);
 
                     return NewPhotoStream;
                 });
+
                 NoImagesInCollection = false;
             }
         }
 
 
         //Inspiration fundet på https://stackoverflow.com/questions/43499650/xamarin-convert-image-to-byte-array
-        public byte[] ConvertStreamToByteArray(System.IO.Stream stream)
-        {
-            long originalPosition = 0;
+        //public byte[] ConvertStreamToByteArray(System.IO.Stream stream)
+        //{
+        //    long originalPosition = 0;
 
-            if (stream.CanSeek)
-            {
-                originalPosition = stream.Position;
-                stream.Position = 0;
-            }
+        //    if (stream.CanSeek)
+        //    {
+        //        originalPosition = stream.Position;
+        //        stream.Position = 0;
+        //    }
 
-            try
-            {
-                byte[] readBuffer = new byte[4096];
+        //    try
+        //    {
+        //        byte[] readBuffer = new byte[4096];
 
-                int totalBytesRead = 0;
-                int bytesRead;
+        //        int totalBytesRead = 0;
+        //        int bytesRead;
 
-                while ((bytesRead = stream.Read(readBuffer, totalBytesRead, readBuffer.Length - totalBytesRead)) > 0)
-                {
-                    totalBytesRead += bytesRead;
+        //        while ((bytesRead = stream.Read(readBuffer, totalBytesRead, readBuffer.Length - totalBytesRead)) > 0)
+        //        {
+        //            totalBytesRead += bytesRead;
 
-                    if (totalBytesRead == readBuffer.Length)
-                    {
-                        int nextByte = stream.ReadByte();
-                        if (nextByte != -1)
-                        {
-                            byte[] temp = new byte[readBuffer.Length * 2];
-                            Buffer.BlockCopy(readBuffer, 0, temp, 0, readBuffer.Length);
-                            Buffer.SetByte(temp, totalBytesRead, (byte)nextByte);
-                            readBuffer = temp;
-                            totalBytesRead++;
-                        }
-                    }
-                }
+        //            if (totalBytesRead == readBuffer.Length)
+        //            {
+        //                int nextByte = stream.ReadByte();
+        //                if (nextByte != -1)
+        //                {
+        //                    byte[] temp = new byte[readBuffer.Length * 2];
+        //                    Buffer.BlockCopy(readBuffer, 0, temp, 0, readBuffer.Length);
+        //                    Buffer.SetByte(temp, totalBytesRead, (byte)nextByte);
+        //                    readBuffer = temp;
+        //                    totalBytesRead++;
+        //                }
+        //            }
+        //        }
 
-                byte[] buffer = readBuffer;
-                if (readBuffer.Length != totalBytesRead)
-                {
-                    buffer = new byte[totalBytesRead];
-                    Buffer.BlockCopy(readBuffer, 0, buffer, 0, totalBytesRead);
-                }
-                return buffer;
-            }
-            finally
-            {
-                if (stream.CanSeek)
-                {
-                    stream.Position = originalPosition;
-                }
-            }
+        //        byte[] buffer = readBuffer;
+        //        if (readBuffer.Length != totalBytesRead)
+        //        {
+        //            buffer = new byte[totalBytesRead];
+        //            Buffer.BlockCopy(readBuffer, 0, buffer, 0, totalBytesRead);
+        //        }
+        //        return buffer;
+        //    }
+        //    finally
+        //    {
+        //        if (stream.CanSeek)
+        //        {
+        //            stream.Position = originalPosition;
+        //        }
+        //    }
         }
     }
 }

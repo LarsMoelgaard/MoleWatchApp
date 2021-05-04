@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using APIWebServiesConnector;
+using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
 
 namespace MoleWatchApp.Models
@@ -27,12 +28,23 @@ namespace MoleWatchApp.Models
             NewPostPicture.Data = new PictureDataDTO();
 
             NewPostPicture.Data.PictureData = newDataBytes;
-            NewPostPicture.Info.DateOfUpload = DateTime.Now;
-            
-            NewPostPicture.Info.CollectionID = CollectionID;
-            
 
-            //TODO Upload NewPostPicture to API
+            NewPostPicture.Comment.Comment = "";
+
+            NewPostPicture.Info.DateOfUpload = DateTime.Now;
+            NewPostPicture.Info.CollectionID = CollectionID;
+
+
+            try
+            {
+                _api.PostObject<PostPictureDTO>("NewPicture", NewPostPicture);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw e;
+            }
+            //TODO indsæt try/catch
         }
 
         public void ChangeMarkingStatus(CollectionDTO CollectionToChange)
