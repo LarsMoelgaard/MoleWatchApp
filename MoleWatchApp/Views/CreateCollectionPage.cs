@@ -16,6 +16,10 @@ namespace MoleWatchApp.Views
 {
     public class CreateCollectionPage2 : MenuContainerPage
     {
+
+        /// <summary>
+        /// Oprettelse af createcollection siden med alle UI-elementer
+        /// </summary>
         public CreateCollectionPage2()
         {
             this.BindingContext = new CreateCollectionViewModel();
