@@ -20,7 +20,7 @@ namespace MoleWatchApp.Interfaces
         void LoadExistingCollection(CollectionDTO Collection);
 
 
-        void LoadNewCollection(CollectionDTO Collection);
+        int LoadNewCollection(CollectionDTO Collection);
 
 
     }

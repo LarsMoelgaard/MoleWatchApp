@@ -33,14 +33,19 @@ namespace MoleWatchApp.Models
 
         }
 
-        public void LoadNewCollection(CollectionDTO Collection)
+        public int LoadNewCollection(CollectionDTO Collection)
         {
-            //TODO POST NEW COLLECTION
+            
             Collection.PictureList = new List<PictureInfoDTO>();
 
-            api.PostObject<CollectionDTO>("NewCollection", Collection);
+            string ID = api.PostObject<CollectionDTO>("NewCollection", Collection);
+
+            //TODO gør således at vi får CollectionID tilbage fra Lasse-manden
+            Collection.CollectionID = Convert.ToInt32(ID);
 
             CollectionOnPage = Collection;
+
+            return Collection.CollectionID;
         }
 
     }

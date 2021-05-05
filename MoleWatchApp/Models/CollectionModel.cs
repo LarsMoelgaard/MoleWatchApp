@@ -18,22 +18,19 @@ namespace MoleWatchApp.Models
         }
 
 
-        public void UploadPictureToDatabase(byte[] newDataBytes, int CollectionID)
+        public void UploadPictureToDatabase(byte[] newDataBytes, PictureInfoDTO pictureInfo)
         {
 
 
             PostPictureDTO NewPostPicture = new PostPictureDTO();
             
             NewPostPicture.Comment = new PictureCommentDTO();
-            NewPostPicture.Info = new PictureInfoDTO();
+            NewPostPicture.Info = pictureInfo;
             NewPostPicture.Data = new PictureDataDTO();
 
             NewPostPicture.Data.PictureData = newDataBytes;
 
             NewPostPicture.Comment.Comment = "";
-
-            NewPostPicture.Info.DateOfUpload = DateTime.Now;
-            NewPostPicture.Info.CollectionID = CollectionID;
 
 
             try

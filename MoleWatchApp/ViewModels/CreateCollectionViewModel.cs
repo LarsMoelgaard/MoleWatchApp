@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Threading;
+using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
 using Plugin.Media.Abstractions;
@@ -119,14 +121,13 @@ namespace MoleWatchApp.ViewModels
 
            if (patientModelRef.CollectionOnPage.PictureList.Count != 0)
            {
-               
-
                DateText = patientModelRef.CollectionOnPage
                    .PictureList[patientModelRef.CollectionOnPage.PictureList.Count - 1]
-                   .DateOfUpload.ToString();
+                   .DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                       CultureInfo.CreateSpecificCulture("da-DA"));
 
 
-               LastPictureID = patientModelRef.CollectionOnPage
+                LastPictureID = patientModelRef.CollectionOnPage
                    .PictureList[patientModelRef.CollectionOnPage.PictureList.Count - 1].PictureID;
 
                 NoImagesInCollection = false;
@@ -177,6 +178,7 @@ namespace MoleWatchApp.ViewModels
 
             if (photo != null)
             {
+                PictureInfoDTO picToUpload = new PictureInfoDTO();
 
                 LastCollectionPhoto = ImageSource.FromStream(() =>
                 {
@@ -189,7 +191,16 @@ namespace MoleWatchApp.ViewModels
                     byte[] imgByteArray = ms.ToArray();
 
                     NewPhotoStream.Seek(0, SeekOrigin.Begin);
-                    collectionModel.UploadPictureToDatabase(imgByteArray, patientModelRef.CollectionOnPage.CollectionID);
+
+                    DateTime UploadTime = DateTime.Now;
+
+                    picToUpload.CollectionID = patientModelRef.CollectionOnPage.CollectionID;
+                    picToUpload.DateOfUpload = UploadTime;
+
+                    DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                        CultureInfo.CreateSpecificCulture("da-DA"));
+
+                    collectionModel.UploadPictureToDatabase(imgByteArray, picToUpload);
 
                     return NewPhotoStream;
                 });
@@ -206,6 +217,7 @@ namespace MoleWatchApp.ViewModels
 
             if (photo != null)
             {
+                PictureInfoDTO picToUpload = new PictureInfoDTO();
 
                 LastCollectionPhoto = ImageSource.FromStream(() =>
                 {
@@ -218,7 +230,16 @@ namespace MoleWatchApp.ViewModels
                     byte[] imgByteArray = ms.ToArray();
 
                     NewPhotoStream.Seek(0, SeekOrigin.Begin);
-                    collectionModel.UploadPictureToDatabase(imgByteArray, patientModelRef.CollectionOnPage.CollectionID);
+
+                    DateTime UploadTime = DateTime.Now;
+
+                    picToUpload.CollectionID = patientModelRef.CollectionOnPage.CollectionID;
+                    picToUpload.DateOfUpload = UploadTime;
+
+                    DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                        CultureInfo.CreateSpecificCulture("da-DA"));
+
+                    collectionModel.UploadPictureToDatabase(imgByteArray, picToUpload);
 
                     return NewPhotoStream;
                 });
@@ -226,6 +247,7 @@ namespace MoleWatchApp.ViewModels
                 NoImagesInCollection = false;
             }
         }
+
 
         private void LoadLastPicture()
         {

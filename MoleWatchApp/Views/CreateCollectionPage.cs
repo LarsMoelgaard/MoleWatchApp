@@ -209,6 +209,7 @@ namespace MoleWatchApp.Views
             AddButton.WidthRequest = 100;
             AddButton.BackgroundColor = Color.Transparent;
             AddButton.Source = "Plus_icon.png";
+            AddButton.Command = new Command(() => showAddPhotoMessage());
             Grid.SetRow(AddButton, 3);
             Grid.SetColumn(AddButton, 3);
 
@@ -225,6 +226,29 @@ namespace MoleWatchApp.Views
 
         }
 
+        private async void showAddPhotoMessage()
+        {
+            string action = await DisplayActionSheet("Vælg metode til upload af billede:", "Fortryd", null, "Galleri", "Kamera");
+           
+            var ViewModel = (CreateCollectionViewModel)this.BindingContext;
+
+            switch (action)
+            {
+                case "Kamera":
+
+                    ViewModel.CameraButtonClicked.Execute(null);
+
+                    break;
+                case "Galleri":
+                    
+                    ViewModel.GalleryButtonClicked.Execute(null);
+
+                    break;
+
+                default:
+                    break;
+            }
+        }
 
         private void ShowSettingsMenu()
         {

@@ -295,6 +295,13 @@ namespace MoleWatchApp.ViewModels
                 Collection.CollectionName = "AutoNavn"; //TODO insert generation of names
             }
 
+            Collection.Location.IsFrontFacing = IsPatientFrontFacing;
+
+            string[] BodyPartAndSide = GetBodyPart(Collection);
+            Collection.Location.BodyPart = BodyPartAndSide[0];
+            Collection.Location.BodyPartSide = BodyPartAndSide[1];
+
+            Collection.CollectionID = patientModelClass.LoadNewCollection(Collection);
 
 
             ObservableCollection<CollectionDTO> TempCollection = PatientCollection;
@@ -303,13 +310,7 @@ namespace MoleWatchApp.ViewModels
 
             PatientCollection = TempCollection;
 
-            Collection.Location.IsFrontFacing = IsPatientFrontFacing;
 
-            string[] BodyPartAndSide = GetBodyPart(Collection);
-            Collection.Location.BodyPart = BodyPartAndSide[0];
-            Collection.Location.BodyPartSide = BodyPartAndSide[1];
-
-            patientModelClass.LoadNewCollection(Collection);
 
             await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
 
