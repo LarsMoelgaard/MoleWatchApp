@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using APIWebServiesConnector;
+using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
 
@@ -22,7 +23,14 @@ namespace MoleWatchApp.Models
 
         public void LoadExistingCollection(CollectionDTO Collection)
         {
-            CollectionOnPage = Collection;
+            CollectionRequestDTO collectionRequest = new CollectionRequestDTO();
+
+            collectionRequest.CollectionID = Collection.CollectionID;
+
+            collectionRequest.PatientID = CurrentPatient.PatientID;
+
+            CollectionOnPage = api.GetObject<CollectionDTO, CollectionRequestDTO>("GetCollection",collectionRequest);
+
         }
 
         public void LoadNewCollection(CollectionDTO Collection)

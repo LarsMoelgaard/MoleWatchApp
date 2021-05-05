@@ -165,7 +165,7 @@ namespace MoleWatchApp.Views
             MarkCollectionButton.FontSize = 20;
             MarkCollectionButton.HeightRequest = 50;
             MarkCollectionButton.CornerRadius = 20;
-            MarkCollectionButton.VerticalOptions = LayoutOptions.FillAndExpand;
+            MarkCollectionButton.VerticalOptions = LayoutOptions.Center;
             MarkCollectionButton.SetBinding(Button.ImageSourceProperty, "MarkCollectionImage");
             MarkCollectionButton.SetBinding(Button.CommandProperty,"MarkCommand");
             //createCollectionLayout.Children.Add(MarkCollectionButton);

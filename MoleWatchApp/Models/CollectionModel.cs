@@ -4,6 +4,7 @@ using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
+using Xamarin.Forms;
 
 namespace MoleWatchApp.Models
 {
@@ -61,6 +62,16 @@ namespace MoleWatchApp.Models
         public void ChangeCollectionName(CollectionDTO CollectionToChange, string NewName)
         {
             throw new NotImplementedException("Få det lavet!");
+        }
+
+        public byte[] LoadLastPicutreFromApi(int PictureID)
+        {
+            PictureRequestDTO PictureRequest = new PictureRequestDTO();
+            PictureRequest.PictureID = PictureID;
+
+            PictureDataDTO  PictureFromApi = _api.GetObject<PictureDataDTO, PictureRequestDTO>("GetPictureData", PictureRequest);
+
+            return PictureFromApi.PictureData;
         }
 
 

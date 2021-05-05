@@ -175,22 +175,18 @@
     <AndroidResource Include="Resources\drawable\settings.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\NotFlagged.png" />
+    <AndroidResource Include="Resources\drawable\MarkedCollection.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\FlaggedCollection.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\CollectionFlagged.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\MarkedCollection.png" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
     <AndroidResource Include="Resources\xml\file_paths.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\NotFlagged.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
