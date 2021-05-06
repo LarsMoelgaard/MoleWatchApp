@@ -7,6 +7,7 @@ using System.Threading;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
+using MoleWatchApp.Views;
 using Plugin.Media.Abstractions;
 using Xamarin.Forms;
 
@@ -15,7 +16,7 @@ namespace MoleWatchApp.ViewModels
     public class CreateCollectionViewModel : BaseViewModel
     {
         private IPatientModel patientModelRef;
-        private CollectionModel collectionModel;
+        private ICollectionModel collectionModel;
         private string dateText;
         private string markCollectionImage;
         private string collectionTitle;
@@ -106,29 +107,36 @@ namespace MoleWatchApp.ViewModels
         public CreateCollectionViewModel()
         {
             patientModelRef = PatientModelSingleton.GetPatientModel();
-            collectionModel = new CollectionModel();
+
+
+            collectionModel = new CollectionModel(patientModelRef.CollectionOnPage);
 
             UpdateCollectionPage();
-
+            ShowPictureCollectionCommand = new Command(ShowPictureCollection);
             CameraButtonClicked = new Command(CameraButton_Clicked);
             GalleryButtonClicked = new Command(GalleryButton_Clicked);
             MarkCommand = new Command(MarkCollection);
         }
 
+        private async void ShowPictureCollection()
+        {
+            await Shell.Current.GoToAsync($"{nameof(PictureListView)}");
+        }
+
         private void UpdateCollectionPage()
         {
-           CollectionTitle = patientModelRef.CollectionOnPage.CollectionName;
+           CollectionTitle = collectionModel.CollectionOnPage.CollectionName;
 
-           if (patientModelRef.CollectionOnPage.PictureList.Count != 0)
+           if (collectionModel.CollectionOnPage.PictureList.Count != 0)
            {
-               DateText = patientModelRef.CollectionOnPage
-                   .PictureList[patientModelRef.CollectionOnPage.PictureList.Count - 1]
+               DateText = collectionModel.CollectionOnPage
+                   .PictureList[collectionModel.CollectionOnPage.PictureList.Count - 1]
                    .DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
                        CultureInfo.CreateSpecificCulture("da-DA"));
 
 
-                LastPictureID = patientModelRef.CollectionOnPage
-                   .PictureList[patientModelRef.CollectionOnPage.PictureList.Count - 1].PictureID;
+                LastPictureID = collectionModel.CollectionOnPage
+                   .PictureList[collectionModel.CollectionOnPage.PictureList.Count - 1].PictureID;
 
                 NoImagesInCollection = false;
 
@@ -143,7 +151,7 @@ namespace MoleWatchApp.ViewModels
            }
 
 
-           if (!patientModelRef.CollectionOnPage.IsMarked)
+           if (!collectionModel.CollectionOnPage.IsMarked)
            {
                MarkCollectionImage = "NotFlagged.png";
            }
@@ -156,19 +164,24 @@ namespace MoleWatchApp.ViewModels
 
         private void MarkCollection()
         {
-            if (patientModelRef.CollectionOnPage.IsMarked)
+            if (collectionModel.CollectionOnPage.IsMarked)
             {
-                patientModelRef.CollectionOnPage.IsMarked = false;
+                collectionModel.CollectionOnPage.IsMarked = false;
+                
+                collectionModel.ChangeMarkingStatus();
                 //TODO Send update til API vedrørende markering af samling.
                 MarkCollectionImage = "NotFlagged.png";
             }
             else
             {
-                patientModelRef.CollectionOnPage.IsMarked = true;
+                collectionModel.CollectionOnPage.IsMarked = true;
+
+                collectionModel.ChangeMarkingStatus();
                 //TODO Send update til API vedrørende markering af samling.
                 MarkCollectionImage = "FlaggedCollection.png";
             }
 
+            patientModelRef.UpdateCollection(collectionModel.CollectionOnPage);
         }
 
         private async void CameraButton_Clicked()
@@ -194,7 +207,7 @@ namespace MoleWatchApp.ViewModels
 
                     DateTime UploadTime = DateTime.Now;
 
-                    picToUpload.CollectionID = patientModelRef.CollectionOnPage.CollectionID;
+                    picToUpload.CollectionID = collectionModel.CollectionOnPage.CollectionID;
                     picToUpload.DateOfUpload = UploadTime;
 
                     DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",
@@ -233,7 +246,7 @@ namespace MoleWatchApp.ViewModels
 
                     DateTime UploadTime = DateTime.Now;
 
-                    picToUpload.CollectionID = patientModelRef.CollectionOnPage.CollectionID;
+                    picToUpload.CollectionID = collectionModel.CollectionOnPage.CollectionID;
                     picToUpload.DateOfUpload = UploadTime;
 
                     DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",

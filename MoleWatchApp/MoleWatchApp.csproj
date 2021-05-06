@@ -19,12 +19,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\PictureListView.xaml.cs">
+      <DependentUpon>PictureListView.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\PatientModelPage.xaml.cs">
       <DependentUpon>PatientModelPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Views\PictureListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\SlideUpMenuView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

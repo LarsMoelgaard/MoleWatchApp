@@ -10,6 +10,7 @@ namespace MoleWatchApp.Interfaces
     public interface IPatientModel
     {
          PatientInfoDTO CurrentPatient { get; set; }
+         PatientDataDTO CurrentPatientData { get; set; }
          CollectionDTO CollectionOnPage { get; }
 
 
@@ -22,6 +23,7 @@ namespace MoleWatchApp.Interfaces
 
         int LoadNewCollection(CollectionDTO Collection);
 
+        void UpdateCollection(CollectionDTO collection);
 
     }
 }

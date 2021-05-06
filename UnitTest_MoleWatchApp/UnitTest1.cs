@@ -27,24 +27,24 @@ namespace UnitTest_MoleWatchApp
         }
     }
 
-    public class FakeLoginModel : ILogin
-    {
-        private string username = "Test123";
-        private string password = "Test123";
+    //public class FakeLoginModel : ILogin
+    //{
+    //    private string username = "Test123";
+    //    private string password = "Test123";
 
 
-        public bool VerifyPassword(string Username, string Password)
-        {
-            if (Username == username && Password == password)
-            {
-                return true;
-            }
-            else return false;
-        }
+    //    public bool VerifyPassword(string Username, string Password)
+    //    {
+    //        if (Username == username && Password == password)
+    //        {
+    //            return true;
+    //        }
+    //        else return false;
+    //    }
 
-        public bool VerifySmartLoginPassword()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
+    //    public bool VerifySmartLoginPassword()
+    //    {
+    //        throw new System.NotImplementedException();
+    //    }
+    //}
 }

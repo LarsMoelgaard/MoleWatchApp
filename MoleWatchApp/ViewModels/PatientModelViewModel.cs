@@ -106,7 +106,6 @@ namespace MoleWatchApp.ViewModels
         }
         public bool IsAnimationPlaying
         {
-
             get
             {
                 return isAnimationPlaying;
@@ -163,7 +162,6 @@ namespace MoleWatchApp.ViewModels
 
             PlusIcon = "Plus_Icon.png";
             IsPatientFrontFacing = true;
-            IsPatientMale = true;    //TODO skal ændres senere
             CreateCollectionInProgress = false;
 
 
@@ -176,7 +174,14 @@ namespace MoleWatchApp.ViewModels
 
         private void LoadPatient()
         {
-            patientModelClass.CurrentPatient = loginModel.PatientData.PatientInfo;
+            if (!loginModel.IsPatientLoadedFromAPI)
+            {
+                patientModelClass.CurrentPatient = loginModel.PatientData.PatientInfo;
+                patientModelClass.CurrentPatientData = loginModel.PatientData;
+                loginModel.IsPatientLoadedFromAPI = true;
+            }
+
+            
 
             if (patientModelClass.CurrentPatient.Gender.ToLower() == "b")
             {
@@ -197,11 +202,14 @@ namespace MoleWatchApp.ViewModels
             if (PatientCollection.Count == 0)
             {
                  foreach (CollectionDTO ExistingCollectionDTO in loginModel.PatientData.CollectionList)
-            {
-                PatientCollection.Add(ExistingCollectionDTO);
+                 {
+                  PatientCollection.Add(ExistingCollectionDTO);
+                 }
             }
-                
-
+            else
+            {
+                ObservableCollection<CollectionDTO> tempCollection = new ObservableCollection<CollectionDTO>(patientModelClass.CurrentPatientData.CollectionList);
+                PatientCollection = tempCollection;
             }
 
         }
@@ -281,14 +289,11 @@ namespace MoleWatchApp.ViewModels
 
         private async void CreateCollection(CollectionDTO Collection)
         {
-
-
             NewPinAdded = null;
             Checkmark = null;
             PlusIcon = "Plus_icon.png";
             CreateCollectionInProgress = false;
 
-            
 
             if (Collection.CollectionName == "")
             {
@@ -303,17 +308,15 @@ namespace MoleWatchApp.ViewModels
 
             Collection.CollectionID = patientModelClass.LoadNewCollection(Collection);
 
+            patientModelClass.CurrentPatientData.CollectionList.Add(Collection);
+
 
             ObservableCollection<CollectionDTO> TempCollection = PatientCollection;
             TempCollection.Add(Collection);
-
-
             PatientCollection = TempCollection;
 
 
-
             await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
-
         }
 
         private async void OnBackButtonClicked()

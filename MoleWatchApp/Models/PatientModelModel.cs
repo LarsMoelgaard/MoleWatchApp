@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DataObjects.DTO;
@@ -11,6 +12,7 @@ namespace MoleWatchApp.Models
     public class PatientModelModel : IPatientModel
     {
         public PatientInfoDTO CurrentPatient { get; set; }
+        public PatientDataDTO CurrentPatientData { get; set; }
         public CollectionDTO CollectionOnPage { get; private set; }
         public IAPIService api { get; }
 
@@ -40,12 +42,22 @@ namespace MoleWatchApp.Models
 
             string ID = api.PostObject<CollectionDTO>("NewCollection", Collection);
 
-            //TODO gør således at vi får CollectionID tilbage fra Lasse-manden
+            
             Collection.CollectionID = Convert.ToInt32(ID);
 
             CollectionOnPage = Collection;
 
             return Collection.CollectionID;
+        }
+
+        public void UpdateCollection(CollectionDTO UpdatedCollection)
+        {
+            CollectionDTO OldCollectionDTO = CurrentPatientData.CollectionList.
+                Where(i => i.CollectionID == UpdatedCollection.CollectionID).First();
+
+            int indexPosition = CurrentPatientData.CollectionList.IndexOf(OldCollectionDTO);
+
+            CurrentPatientData.CollectionList[indexPosition] = UpdatedCollection;
         }
 
     }

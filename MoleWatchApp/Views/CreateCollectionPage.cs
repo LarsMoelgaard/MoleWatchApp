@@ -248,9 +248,6 @@ namespace MoleWatchApp.Views
                     ViewModel.GalleryButtonClicked.Execute(null);
 
                     break;
-
-                default:
-                    break;
             }
         }
 

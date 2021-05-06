@@ -4,17 +4,20 @@ using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
+using MoleWatchApp.Interfaces;
 using Xamarin.Forms;
 
 namespace MoleWatchApp.Models
 {
-    public class CollectionModel
+    public class CollectionModel : ICollectionModel
     {
         private IAPIService _api;
+        public CollectionDTO CollectionOnPage { get; private set; }
 
-        public CollectionModel()
+        public CollectionModel(CollectionDTO CollectionOnPage) 
         {
             _api = APISingleton.GetAPI();
+            this.CollectionOnPage = CollectionOnPage;
         }
 
 
@@ -45,9 +48,16 @@ namespace MoleWatchApp.Models
             //TODO indsæt try/catch
         }
 
-        public void ChangeMarkingStatus(CollectionDTO CollectionToChange)
+        public void ChangeMarkingStatus()
         {
-            throw new NotImplementedException("Få det lavet!");
+            ChangeCollectionMarkingDTO ChangeMarkingDTO = new ChangeCollectionMarkingDTO();
+            ChangeMarkingDTO.CollectionID = CollectionOnPage.CollectionID;
+            ChangeMarkingDTO.IsMarked = CollectionOnPage.IsMarked;
+
+            
+            string outputFromAPI =_api.PostObject<ChangeCollectionMarkingDTO>
+                ("ChangeCollectionMarking", ChangeMarkingDTO);
+
         }
 
         
@@ -59,6 +69,11 @@ namespace MoleWatchApp.Models
         public void ChangeCollectionName(CollectionDTO CollectionToChange, string NewName)
         {
             throw new NotImplementedException("Få det lavet!");
+        }
+
+        public void DeleteCollection(CollectionDTO CollectionToChange)
+        {
+            throw new NotImplementedException();
         }
 
         public byte[] LoadLastPicutreFromApi(int PictureID)
