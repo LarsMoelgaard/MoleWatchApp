@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:wheelPickerForms="clr-namespace:Vapolia.WheelPickerForms;assembly=Vapolia.WheelPickerForms"
+             xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
+             x:Class="MoleWatchApp.Views.NotificationView">
+
+    <ContentPage.BindingContext>
+        <viewModels:NotificationViewModel x:Name="NotificationViewModel"/>
+    </ContentPage.BindingContext>
+
+
+    
+    <ContentPage.Content>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="8*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+          
+            <wheelPickerForms:WheelPicker Grid.Row="1" Grid.Column="1" x:Name="WheelPicker" ItemsSourceSimple="{Binding NumberList}" ItemTextFont="Bold">
+                <wheelPickerForms:WheelDefinition Width="800" HorizontalOptions="Center"  Alignment="Center" IsCircular="False"/>
+            </wheelPickerForms:WheelPicker>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

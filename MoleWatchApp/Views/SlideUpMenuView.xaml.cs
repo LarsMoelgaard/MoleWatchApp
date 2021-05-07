@@ -11,6 +11,20 @@ namespace MoleWatchApp.Views
     public partial class SlideUpMenuView : SlideMenuView
     {
         private CreateCollectionView collection;
+        private bool hidePicker;
+
+        public bool HidePicker
+        {
+            get
+            {
+                return hidePicker;
+            }
+            set
+            {
+                hidePicker = value;
+                this.OnPropertyChanged();
+            }
+        }
 
         public SlideUpMenuView (CreateCollectionView CollectionView)
         {
@@ -42,9 +56,9 @@ namespace MoleWatchApp.Views
             collection.RenameButtonClicked();
         }
 
-        private void NotificationButton_OnClicked(object sender, EventArgs e)
+        private async void NotificationButton_OnClicked(object sender, EventArgs e)
         {
-            collection.NotificationClicked();
+            await Shell.Current.GoToAsync($"{nameof(NotificationView)}");
         }
 
         private void DeleteButton_OnClicked(object sender, EventArgs e)
