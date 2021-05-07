@@ -4,6 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
@@ -36,6 +37,19 @@ namespace MoleWatchApp.ViewModels
             {
                 lastCollectionPhoto = value;
                 this.OnPropertyChanged();
+            }
+        }
+
+        public bool BaseIsBusy
+        {
+            get
+            {
+                return base.IsBusy;
+            }
+            set
+            {
+                base.IsBusy = value;
+                OnPropertyChanged();
             }
         }
 
@@ -115,6 +129,7 @@ namespace MoleWatchApp.ViewModels
 
         public CreateCollectionViewModel()
         {
+            BaseIsBusy = false;
             patientModelRef = PatientModelSingleton.GetPatientModel();
 
 
@@ -135,7 +150,9 @@ namespace MoleWatchApp.ViewModels
 
         private void UpdateCollectionPage()
         {
-           CollectionTitle = collectionModel.CollectionOnPage.CollectionName;
+
+
+            CollectionTitle = collectionModel.CollectionOnPage.CollectionName;
 
            if (collectionModel.CollectionOnPage.PictureList.Count != 0)
            {
@@ -158,7 +175,8 @@ namespace MoleWatchApp.ViewModels
            {
                NoImagesInCollection = true;
                DateText = "Ingen billeder i samling";
-           }
+               BaseIsBusy = false;
+            }
 
 
            if (!collectionModel.CollectionOnPage.IsMarked)
@@ -170,6 +188,7 @@ namespace MoleWatchApp.ViewModels
                MarkCollectionImage = "FlaggedCollection.png";
            }
 
+           
         }
 
         private void MarkCollection()
@@ -278,9 +297,11 @@ namespace MoleWatchApp.ViewModels
         }
 
 
-        private void LoadLastPicture()
+        private async void LoadLastPicture()
         {
-            
+            BaseIsBusy = true;
+            await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
+
             LastCollectionPhoto = ImageSource.FromStream(() =>
             {
                 byte[] loadedBytes = collectionModel.LoadLastPicutreFromApi(LastPictureID);
@@ -289,6 +310,8 @@ namespace MoleWatchApp.ViewModels
 
                 return ms;
             });
+
+            BaseIsBusy = false;
         }
 
         private void ChangeNameOnCollection(string name)

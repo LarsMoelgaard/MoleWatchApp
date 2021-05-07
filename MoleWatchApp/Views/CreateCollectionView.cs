@@ -72,8 +72,14 @@ namespace MoleWatchApp.Views
             Grid.SetColumn(LastCollectionPhoto, 0);
             Grid.SetColumnSpan(LastCollectionPhoto,2);
             CreateCollectionSuperGrid.Children.Add(LastCollectionPhoto);
-            
-           
+             
+            ActivityIndicator activityIndicator = new ActivityIndicator();
+            activityIndicator.SetBinding(ActivityIndicator.IsRunningProperty, "BaseIsBusy");
+            Grid.SetRow(activityIndicator, 0);
+            Grid.SetColumn(activityIndicator, 0);
+            Grid.SetColumnSpan(activityIndicator, 2);
+            CreateCollectionSuperGrid.Children.Add(activityIndicator);
+
 
             ImageButton CameraButton = new ImageButton();
             CameraButton.Source = "CameraIcon.png";
