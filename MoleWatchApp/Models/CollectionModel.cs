@@ -67,14 +67,22 @@ namespace MoleWatchApp.Models
             throw new NotImplementedException("Få det lavet!");
         }
 
-        public void ChangeCollectionName(CollectionDTO CollectionToChange, string NewName)
+        public void ChangeCollectionName(string NewName)
         {
-            throw new NotImplementedException("Få det lavet!");
+            ChangeCollectionNameDTO NameChangeDTO = new ChangeCollectionNameDTO();
+            NameChangeDTO.CollectionName = NewName;
+            NameChangeDTO.CollectionID = CollectionOnPage.CollectionID;
+            _api.PostObject<ChangeCollectionNameDTO>
+                ("ChangeCollectionName", NameChangeDTO);
         }
 
-        public void DeleteCollection(CollectionDTO CollectionToChange)
+        public void DeleteCollection(CollectionDTO CollectionToChange, PatientInfoDTO patient)
         {
-            throw new NotImplementedException();
+            CollectionRequestDTO DeleteCollectionRequest = new CollectionRequestDTO();
+            DeleteCollectionRequest.CollectionID = CollectionToChange.CollectionID;
+            DeleteCollectionRequest.PatientID = patient.PatientID;
+
+           string result = _api.PostObject<CollectionRequestDTO>("DeleteCollection", DeleteCollectionRequest);
         }
 
         public byte[] LoadLastPicutreFromApi(int PictureID)

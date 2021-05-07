@@ -60,6 +60,14 @@ namespace MoleWatchApp.Models
             CurrentPatientData.CollectionList[indexPosition] = UpdatedCollection;
         }
 
+        public void RemoveCollection()
+        {
+            CollectionDTO OldCollectionDTO = CurrentPatientData.CollectionList.
+                Where(i => i.CollectionID == CollectionOnPage.CollectionID).First();
+
+            int indexPosition = CurrentPatientData.CollectionList.IndexOf(OldCollectionDTO);
+            CurrentPatientData.CollectionList.RemoveAt(indexPosition);
+        }
     }
 
 }

@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using MoleWatchApp.ViewModels;
 using SlideOverKit;
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 
 namespace MoleWatchApp.Views
 {
     public partial class SlideUpMenuView : SlideMenuView
     {
-        public SlideUpMenuView ()
+        private CreateCollectionView collection;
+
+        public SlideUpMenuView (CreateCollectionView CollectionView)
         {
             InitializeComponent();
             // You must set HeightRequest in this case
@@ -28,7 +33,26 @@ namespace MoleWatchApp.Views
             // In this case we need to set different size for Android.
             if (Device.RuntimePlatform == Device.Android)
                 this.HeightRequest += 50;
+
+            this.collection = CollectionView;
         }
+
+        private async void RenameButton_OnClicked(object sender, EventArgs e)
+        {
+            collection.RenameButtonClicked();
+        }
+
+        private void NotificationButton_OnClicked(object sender, EventArgs e)
+        {
+            collection.NotificationClicked();
+        }
+
+        private void DeleteButton_OnClicked(object sender, EventArgs e)
+        {
+            
+            collection.DeleteButtonClicked();
+        }
+
     }
 }
 

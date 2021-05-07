@@ -25,5 +25,7 @@ namespace MoleWatchApp.Interfaces
 
         void UpdateCollection(CollectionDTO collection);
 
+        void RemoveCollection();
+
     }
 }

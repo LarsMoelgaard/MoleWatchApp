@@ -4,6 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Threading;
+using System.Windows.Input;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
@@ -102,7 +103,15 @@ namespace MoleWatchApp.ViewModels
 
         public Command ShowPictureCollectionCommand { get; }
 
+        public Command DeleteCollectionCommand { get; }
 
+        public ICommand ChangeNameCommand
+        {
+            get
+            {
+                return new Command<string>((x) => ChangeNameOnCollection(x));
+            }
+        }
 
         public CreateCollectionViewModel()
         {
@@ -116,6 +125,7 @@ namespace MoleWatchApp.ViewModels
             CameraButtonClicked = new Command(CameraButton_Clicked);
             GalleryButtonClicked = new Command(GalleryButton_Clicked);
             MarkCommand = new Command(MarkCollection);
+            DeleteCollectionCommand = new Command(DeleteCollection);
         }
 
         private async void ShowPictureCollection()
@@ -275,6 +285,21 @@ namespace MoleWatchApp.ViewModels
             });
         }
 
+        private void ChangeNameOnCollection(string name)
+        {
+            CollectionDTO tempCollection = collectionModel.CollectionOnPage;
+            tempCollection.CollectionName = name;
+            patientModelRef.UpdateCollection(tempCollection);
+            CollectionTitle = name;
+            collectionModel.ChangeCollectionName(name);
         }
+
+        private async void DeleteCollection()
+        {
+            collectionModel.DeleteCollection(patientModelRef.CollectionOnPage, patientModelRef.CurrentPatient);
+            patientModelRef.RemoveCollection();
+            await Shell.Current.GoToAsync("..");
+        }
+       }
     }
 

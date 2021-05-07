@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <slideOverKit:SlideMenuView  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:t="clr-namespace:SlideOverKit"
                   xmlns:slideOverKit="clr-namespace:SlideOverKit;assembly=SlideOverKit"
-                  x:Class="MoleWatchApp.Views.SlideUpMenuView">
-	<Grid Padding="10, 30, 10, 10">
+                  x:Class="MoleWatchApp.Views.SlideUpMenuView"
+                  BackgroundColor="LightSlateGray">
+
+    <Grid Padding="10, 30, 10, 10">
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="1*" />
 			<ColumnDefinition Width="9*" />
@@ -12,15 +14,14 @@
 			<RowDefinition Height="*" />
 			<RowDefinition Height="*" />
 			<RowDefinition Height="*" />
-			<RowDefinition Height="*" />
+			
 		</Grid.RowDefinitions>
-		<Label Text="Slide Up Menu" FontSize="24" Grid.ColumnSpan="2" XAlign="Center" YAlign="Center" TextColor="White" />
-		<Image Grid.Column="0" Grid.Row="1" Source="Home.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/> 
-		<Label Text="Go home now?" Grid.Column="1" Grid.Row="1" XAlign="Start" YAlign="Center" TextColor="White"/>
-		<Image Grid.Column="0" Grid.Row="2" Source="Pencil.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/> 
-		<Label Text="Set destination" Grid.Column="1" Grid.Row="2" XAlign="Start" YAlign="Center" TextColor="White"/>
-		<Image Grid.Column="0" Grid.Row="3" Source="Settings.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/> 
-		<Label Text="Navigation settings" Grid.Column="1" Grid.Row="3" XAlign="Start" YAlign="Center" TextColor="White"/>
-		<Button Grid.ColumnSpan="2" Grid.Row="4" Text="Start" TextColor="White" FontSize="24" BorderRadius="5" BorderWidth="1" BackgroundColor="#2E3332"/>
-	</Grid>
+		<Label Text="INDSTILLING FOR MODERMÆRKE" FontSize="24" Grid.ColumnSpan="2" XAlign="Center" YAlign="Center" TextColor="White" />
+		<Image Grid.Column="0" Grid.Row="1" Source="renameCollection.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/> 
+		<Button x:Name="renameButton" Text="Ændre navn" Grid.Column="1" Grid.Row="1" HorizontalOptions="Start" TextColor="White" FontSize="20" BackgroundColor="Transparent" Clicked="RenameButton_OnClicked" />
+        <Image Grid.Column="0" Grid.Row="2" Source="Settings.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/>
+        <Button x:Name="NotificationButton" Text="Tilpas notifikation" Grid.Column="1" Grid.Row="2" HorizontalOptions="Start" TextColor="White" FontSize="20" BackgroundColor="Transparent" Clicked="NotificationButton_OnClicked"/>
+        <Image Grid.Column="0" Grid.Row="3" Source="DeleteIcon.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/>
+        <Button x:Name="DeleteButton" Text="Slet modermærke" Grid.Column="1" Grid.Row="3" HorizontalOptions="Start" TextColor="DarkRed" FontSize="20" BackgroundColor="Transparent" Clicked="DeleteButton_OnClicked"/>
+    </Grid>
 </slideOverKit:SlideMenuView >

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Text;
 using DataClasses.DTO;
 using DLToolkit.Forms.Controls;
@@ -14,15 +16,18 @@ using FFImageLoading.Work;
 
 namespace MoleWatchApp.Views
 {
-    public class CreateCollectionPage2 : MenuContainerPage
+    public class CreateCollectionView : MenuContainerPage
     {
+
+        private CreateCollectionViewModel CCVM;
 
         /// <summary>
         /// Oprettelse af createcollection siden med alle UI-elementer
         /// </summary>
-        public CreateCollectionPage2()
+        public CreateCollectionView()
         {
-            this.BindingContext = new CreateCollectionViewModel();
+            CCVM = new CreateCollectionViewModel();
+            this.BindingContext = CCVM;
             this.SetBinding(TitleProperty, "CollectionTitle");
 
 
@@ -226,7 +231,7 @@ namespace MoleWatchApp.Views
 
             Content = CreateCollectionSuperGrid;
 
-            this.SlideMenu = new SlideUpMenuView();
+            this.SlideMenu = new SlideUpMenuView(this);
 
         }
 
@@ -254,6 +259,30 @@ namespace MoleWatchApp.Views
         private void ShowSettingsMenu()
         {
             this.ShowMenu();
+        }
+
+        public async void DeleteButtonClicked()
+        {
+            bool answer = await DisplayAlert("Slet modermærke", "Ønsker du at slette modermærket?", "Ja", "Nej");
+            Debug.WriteLine("Answer: " + answer);
+            if (answer == true)
+            {
+                CCVM.DeleteCollectionCommand.Execute(null);
+            }
+        }
+
+        public async void RenameButtonClicked()
+        {
+            string result = await DisplayPromptAsync("Ændre navn for modermærke", "Angiv navn på modermærke:");
+            if (!string.IsNullOrEmpty(result))
+            {
+                CCVM.ChangeNameCommand.Execute(result);
+            }
+        }
+
+        public async void NotificationClicked()
+        {
+
         }
 
     }

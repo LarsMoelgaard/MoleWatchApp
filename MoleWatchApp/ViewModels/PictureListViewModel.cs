@@ -7,6 +7,7 @@ using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
+using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {

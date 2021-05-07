@@ -12,9 +12,9 @@ namespace MoleWatchApp.Interfaces
 
         void ChangeNotificationStatus(CollectionDTO CollectionToChange);
 
-        void ChangeCollectionName(CollectionDTO CollectionToChange, string NewName);
+        void ChangeCollectionName(string NewName);
 
-        void DeleteCollection(CollectionDTO CollectionToChange);
+        void DeleteCollection(CollectionDTO CollectionToChange, PatientInfoDTO patient);
 
         byte[] LoadLastPicutreFromApi(int PictureID);
     }
