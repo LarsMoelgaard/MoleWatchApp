@@ -41,7 +41,7 @@
                   ItemAppearing="HiddenListView_OnItemAppearing"
                   x:Name="HiddenListView"/>
 
-            <extensions:PinchAndPanContainer x:Name="PinchPanContainer" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >
+        <extensions:PinchAndPanContainer x:Name="PinchPanContainer" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" >
             <extensions:PinchAndPanContainer.Content>
 
                 <Grid x:Name="PinchAndPanGrid" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"  Grid.ColumnSpan="4">
@@ -63,13 +63,14 @@
                     > 
                     </Image>
 
-
-
-
                 </Grid>
             </extensions:PinchAndPanContainer.Content>
             </extensions:PinchAndPanContainer>
 
+
+        <ActivityIndicator Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"  Grid.ColumnSpan="4"
+                           IsRunning="{Binding BaseIsBusy}">
+        </ActivityIndicator>
 
         <Image x:Name="PinImage"  Source="{Binding NewPinAdded}" Grid.Row="1" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="4"
                HorizontalOptions="Center"

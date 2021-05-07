@@ -180,7 +180,7 @@ namespace MoleWatchApp.ViewModels
                 collectionModel.CollectionOnPage.IsMarked = false;
                 
                 collectionModel.ChangeMarkingStatus();
-                //TODO Send update til API vedrørende markering af samling.
+                
                 MarkCollectionImage = "NotFlagged.png";
             }
             else
@@ -188,7 +188,7 @@ namespace MoleWatchApp.ViewModels
                 collectionModel.CollectionOnPage.IsMarked = true;
 
                 collectionModel.ChangeMarkingStatus();
-                //TODO Send update til API vedrørende markering af samling.
+                
                 MarkCollectionImage = "FlaggedCollection.png";
             }
 
@@ -204,32 +204,35 @@ namespace MoleWatchApp.ViewModels
             {
                 PictureInfoDTO picToUpload = new PictureInfoDTO();
 
-                LastCollectionPhoto = ImageSource.FromStream(() =>
-                {
-                    Stream NewPhotoStream = photo.GetStream();
+                byte[] imgByteArray = new byte[0];
 
-                    MemoryStream ms = new MemoryStream();
+                Stream NewPhotoStream = photo.GetStream();
 
-                    NewPhotoStream.CopyTo(ms);
+                MemoryStream ms = new MemoryStream();
 
-                    byte[] imgByteArray = ms.ToArray();
+                NewPhotoStream.CopyTo(ms);
 
-                    NewPhotoStream.Seek(0, SeekOrigin.Begin);
+                imgByteArray = ms.ToArray();
 
-                    DateTime UploadTime = DateTime.Now;
+                NewPhotoStream.Seek(0, SeekOrigin.Begin);
 
-                    picToUpload.CollectionID = collectionModel.CollectionOnPage.CollectionID;
-                    picToUpload.DateOfUpload = UploadTime;
+                DateTime UploadTime = DateTime.Now;
 
-                    DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",
-                        CultureInfo.CreateSpecificCulture("da-DA"));
+                picToUpload.CollectionID = collectionModel.CollectionOnPage.CollectionID;
+                picToUpload.DateOfUpload = UploadTime;
 
-                    collectionModel.UploadPictureToDatabase(imgByteArray, picToUpload);
+                DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                    CultureInfo.CreateSpecificCulture("da-DA"));
 
-                    return NewPhotoStream;
-                });
+
+                collectionModel.UploadPictureToDatabase(imgByteArray, picToUpload);
 
                 NoImagesInCollection = false;
+
+                LastCollectionPhoto = ImageSource.FromStream(() =>
+                {
+                    return new MemoryStream(imgByteArray);
+                });
             }
 
         }
@@ -243,32 +246,35 @@ namespace MoleWatchApp.ViewModels
             {
                 PictureInfoDTO picToUpload = new PictureInfoDTO();
 
-                LastCollectionPhoto = ImageSource.FromStream(() =>
-                {
-                    Stream NewPhotoStream = photo.GetStream();
+                byte[] imgByteArray = new byte[0];
 
-                    MemoryStream ms = new MemoryStream();
+                Stream NewPhotoStream = photo.GetStream();
 
-                    NewPhotoStream.CopyTo(ms);
+                MemoryStream ms = new MemoryStream();
 
-                    byte[] imgByteArray = ms.ToArray();
+                NewPhotoStream.CopyTo(ms);
 
-                    NewPhotoStream.Seek(0, SeekOrigin.Begin);
+                imgByteArray = ms.ToArray();
 
-                    DateTime UploadTime = DateTime.Now;
+                NewPhotoStream.Seek(0, SeekOrigin.Begin);
 
-                    picToUpload.CollectionID = collectionModel.CollectionOnPage.CollectionID;
-                    picToUpload.DateOfUpload = UploadTime;
+                DateTime UploadTime = DateTime.Now;
 
-                    DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",
-                        CultureInfo.CreateSpecificCulture("da-DA"));
+                picToUpload.CollectionID = collectionModel.CollectionOnPage.CollectionID;
+                picToUpload.DateOfUpload = UploadTime;
 
-                    collectionModel.UploadPictureToDatabase(imgByteArray, picToUpload);
+                DateText = UploadTime.ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                    CultureInfo.CreateSpecificCulture("da-DA"));
 
-                    return NewPhotoStream;
-                });
+
+                collectionModel.UploadPictureToDatabase(imgByteArray, picToUpload);
 
                 NoImagesInCollection = false;
+
+                LastCollectionPhoto = ImageSource.FromStream(() =>
+                {
+                    return new MemoryStream(imgByteArray);
+                });
             }
         }
 
