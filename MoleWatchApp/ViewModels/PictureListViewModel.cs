@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
@@ -15,6 +16,9 @@ namespace MoleWatchApp.ViewModels
     {
         private IPatientModel patientModelRef;
         private PictureListModel PictureListModel;
+        private bool isPicturesFullyLoaded;
+
+
 
         private ObservableCollection<CompletePicture> completePictureList;
         public ObservableCollection<CompletePicture> CompletePictureList
@@ -29,7 +33,18 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
-
+        public bool IsPicturesFullyLoaded
+        {
+            get
+            {
+                return isPicturesFullyLoaded;
+            }
+            set
+            {
+                isPicturesFullyLoaded = value;
+                OnPropertyChanged();
+            }
+        }
 
 
 
@@ -37,6 +52,7 @@ namespace MoleWatchApp.ViewModels
         {
             PictureListModel = new PictureListModel();
             patientModelRef = PatientModelSingleton.GetPatientModel();
+            IsPicturesFullyLoaded = false;
 
             CompletePictureList = new ObservableCollection<CompletePicture>();
 
@@ -48,18 +64,31 @@ namespace MoleWatchApp.ViewModels
 
             CompletePictureList = TempPictureList;
 
-            Thread CollectPictureDataThread = new Thread(LoadPictureData);
-            CollectPictureDataThread.Start();
+
+            Thread t1 = new Thread(LoadPictureData);
+            t1.Start();
         }
 
         public void LoadPictureData()
         {
-            foreach (CompletePicture PictureInCollection in CompletePictureList)
+
+            ObservableCollection<CompletePicture> tempCollection = new ObservableCollection<CompletePicture>();
+
+            foreach (var VARIABLE in CompletePictureList)
+            {
+                tempCollection.Add(VARIABLE);
+            }
+
+            foreach (CompletePicture PictureInCollection in tempCollection)
             {
                byte[] PictureData = PictureListModel.LoadSpecificPicture(PictureInCollection.PictureID);
 
                PictureInCollection.PictureData = PictureData;
             }
+
+            
+            CompletePictureList = tempCollection;
         }
+
     }
 }

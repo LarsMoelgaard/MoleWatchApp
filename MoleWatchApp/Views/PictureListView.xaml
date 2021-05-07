@@ -18,8 +18,11 @@
                 <TableView x:Name="PictureListTableView" Intent="Form" >
 
                 </TableView>
-                <ListView x:Name="HiddenPictureListView" ItemsSource="{Binding CompletePictureList}"
-                          ChildAdded="HiddenPictureListView_OnChildAdded"/>
+                <ListView x:Name="HiddenPictureListView" 
+                          ItemsSource="{Binding CompletePictureList}"
+                          IsEnabled="{Binding PicturesFullyLoaded}"
+                          PropertyChanged="HiddenPictureListView_OnPropertyChanged" 
+                          ItemAppearing="HiddenPictureListView_OnItemAppearing"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
