@@ -265,7 +265,7 @@ namespace MoleWatchApp.ViewModels
             patientModelClass.LoadExistingCollection(Collection);
            
             
-            await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
+            await Shell.Current.GoToAsync($"{nameof(CreateCollectionView)}");
         }
 
 
@@ -316,7 +316,7 @@ namespace MoleWatchApp.ViewModels
             PatientCollection = TempCollection;
 
 
-            await Shell.Current.GoToAsync($"{nameof(CreateCollectionPage2)}");
+            await Shell.Current.GoToAsync($"{nameof(CreateCollectionView)}");
         }
 
         private async void OnBackButtonClicked()

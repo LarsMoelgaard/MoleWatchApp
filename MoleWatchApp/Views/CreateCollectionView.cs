@@ -14,13 +14,13 @@ using FFImageLoading.Work;
 
 namespace MoleWatchApp.Views
 {
-    public class CreateCollectionPage2 : MenuContainerPage
+    public class CreateCollectionView : MenuContainerPage
     {
 
         /// <summary>
         /// Oprettelse af createcollection siden med alle UI-elementer
         /// </summary>
-        public CreateCollectionPage2()
+        public CreateCollectionView()
         {
             this.BindingContext = new CreateCollectionViewModel();
             this.SetBinding(TitleProperty, "CollectionTitle");
