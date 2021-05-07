@@ -1,22 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions
 {
     public class PinchToZoomContainer : ContentView
     {
-        double x, y;
         double currentScale = 1;
         double startScale = 1;
         double xOffset = 0;
         double yOffset = 0;
 
+
+
         private double ScreenWidth;
         private double ScreenHeight;
 
-        public PinchToZoomContainer()
+        public int[] getPinPlacement(double Xpin, double Ypin)
+        {
+
+            double TrueXPosition;
+            double TrueYPosition;
+
+
+            TrueXPosition = (Xpin - xOffset)/currentScale;
+            TrueYPosition = (Ypin - yOffset) / currentScale;
+
+
+
+
+
+            int[] dataList = new int[2] { Convert.ToInt32(TrueXPosition), Convert.ToInt32(TrueYPosition) };
+
+
+            return dataList;
+        }
+
+
+        public PinchAndPanContainer()
         {
             ScreenWidth = Application.Current.MainPage.Width;
             ScreenHeight = Application.Current.MainPage.Height;
@@ -84,15 +107,20 @@ namespace MoleWatchApp.Extensions
                 // Store the translation delta's of the wrapped user interface element.
                 xOffset = Content.TranslationX;
                 yOffset = Content.TranslationY;
+
+                Task.Delay(250);
             }
         }
 
         void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
-            if (Content.Scale == 1)
+           
+            if (Content.Scale == 1 )
             {
                 return;
             }
+
+            Task.Delay(250);
 
             switch (e.StatusType)
             {
@@ -156,6 +184,12 @@ namespace MoleWatchApp.Extensions
                     yOffset = Content.TranslationY;
                     break;
             }
+        }
+
+        public void UpdateScreenSize()
+        {
+            ScreenWidth = Application.Current.MainPage.Width;
+            ScreenHeight = Application.Current.MainPage.Height;
         }
     }
 }

@@ -1751,6 +1751,228 @@ namespace MoleWatchApp.Droid
 			global::Plugin.Fingerprint.Resource.Styleable.View_paddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingEnd;
 			global::Plugin.Fingerprint.Resource.Styleable.View_paddingStart = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingStart;
 			global::Plugin.Fingerprint.Resource.Styleable.View_theme = global::MoleWatchApp.Droid.Resource.Styleable.View_theme;
+			global::Plugin.Media.Resource.Attribute.alpha = global::MoleWatchApp.Droid.Resource.Attribute.alpha;
+			global::Plugin.Media.Resource.Attribute.coordinatorLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.Media.Resource.Attribute.font = global::MoleWatchApp.Droid.Resource.Attribute.font;
+			global::Plugin.Media.Resource.Attribute.fontProviderAuthority = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.Media.Resource.Attribute.fontProviderCerts = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchStrategy = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchTimeout = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Attribute.fontProviderPackage = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.Media.Resource.Attribute.fontProviderQuery = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.Media.Resource.Attribute.fontStyle = global::MoleWatchApp.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.Media.Resource.Attribute.fontVariationSettings = global::MoleWatchApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.Media.Resource.Attribute.fontWeight = global::MoleWatchApp.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.Media.Resource.Attribute.keylines = global::MoleWatchApp.Droid.Resource.Attribute.keylines;
+			global::Plugin.Media.Resource.Attribute.layout_anchor = global::MoleWatchApp.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.Media.Resource.Attribute.layout_anchorGravity = global::MoleWatchApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.Media.Resource.Attribute.layout_behavior = global::MoleWatchApp.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.Media.Resource.Attribute.layout_dodgeInsetEdges = global::MoleWatchApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.Media.Resource.Attribute.layout_insetEdge = global::MoleWatchApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.Media.Resource.Attribute.layout_keyline = global::MoleWatchApp.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.Media.Resource.Attribute.statusBarBackground = global::MoleWatchApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.Media.Resource.Attribute.ttcIndex = global::MoleWatchApp.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.Media.Resource.Color.browser_actions_bg_grey = global::MoleWatchApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.Media.Resource.Color.browser_actions_divider_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.Media.Resource.Color.browser_actions_text_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.Media.Resource.Color.browser_actions_title_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.Media.Resource.Color.notification_action_color_filter = global::MoleWatchApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.Media.Resource.Color.notification_icon_bg_color = global::MoleWatchApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.Media.Resource.Color.ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.Media.Resource.Color.secondary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_max_width = global::MoleWatchApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_min_padding = global::MoleWatchApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_vertical_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_vertical_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_control_corner_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_height = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_width = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.Media.Resource.Dimension.notification_action_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_action_text_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.Media.Resource.Dimension.notification_big_circle_margin = global::MoleWatchApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.Media.Resource.Dimension.notification_content_margin_start = global::MoleWatchApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_height = global::MoleWatchApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_width = global::MoleWatchApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.Media.Resource.Dimension.notification_main_column_padding_top = global::MoleWatchApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_media_narrow_margin = global::MoleWatchApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.Media.Resource.Dimension.notification_right_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_right_side_padding_top = global::MoleWatchApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_background_padding = global::MoleWatchApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_size_as_large = global::MoleWatchApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.Media.Resource.Dimension.notification_subtext_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad_large_text = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.Media.Resource.Drawable.notification_action_background = global::MoleWatchApp.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.Media.Resource.Drawable.notification_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_normal = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_pressed = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal_pressed = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_icon_background = global::MoleWatchApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_low_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.Media.Resource.Drawable.notification_tile_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.Media.Resource.Drawable.notify_panel_notification_icon_bg = global::MoleWatchApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Media.Resource.Id.accessibility_action_clickable_span = global::MoleWatchApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_0 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_1 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_10 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_11 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_12 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_13 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_14 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_15 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_16 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_17 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_18 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_19 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_2 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_20 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_21 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_22 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_23 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_24 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_25 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_26 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_27 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_28 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_29 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_3 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_30 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_31 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_4 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_5 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_6 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_7 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_8 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_9 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Plugin.Media.Resource.Id.actions = global::MoleWatchApp.Droid.Resource.Id.actions;
+			global::Plugin.Media.Resource.Id.action_container = global::MoleWatchApp.Droid.Resource.Id.action_container;
+			global::Plugin.Media.Resource.Id.action_divider = global::MoleWatchApp.Droid.Resource.Id.action_divider;
+			global::Plugin.Media.Resource.Id.action_image = global::MoleWatchApp.Droid.Resource.Id.action_image;
+			global::Plugin.Media.Resource.Id.action_text = global::MoleWatchApp.Droid.Resource.Id.action_text;
+			global::Plugin.Media.Resource.Id.all = global::MoleWatchApp.Droid.Resource.Id.all;
+			global::Plugin.Media.Resource.Id.async = global::MoleWatchApp.Droid.Resource.Id.async;
+			global::Plugin.Media.Resource.Id.blocking = global::MoleWatchApp.Droid.Resource.Id.blocking;
+			global::Plugin.Media.Resource.Id.bottom = global::MoleWatchApp.Droid.Resource.Id.bottom;
+			global::Plugin.Media.Resource.Id.browser_actions_header_text = global::MoleWatchApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_items = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_icon = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_text = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_view = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.Media.Resource.Id.center = global::MoleWatchApp.Droid.Resource.Id.center;
+			global::Plugin.Media.Resource.Id.center_horizontal = global::MoleWatchApp.Droid.Resource.Id.center_horizontal;
+			global::Plugin.Media.Resource.Id.center_vertical = global::MoleWatchApp.Droid.Resource.Id.center_vertical;
+			global::Plugin.Media.Resource.Id.chronometer = global::MoleWatchApp.Droid.Resource.Id.chronometer;
+			global::Plugin.Media.Resource.Id.clip_horizontal = global::MoleWatchApp.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.Media.Resource.Id.clip_vertical = global::MoleWatchApp.Droid.Resource.Id.clip_vertical;
+			global::Plugin.Media.Resource.Id.dialog_button = global::MoleWatchApp.Droid.Resource.Id.dialog_button;
+			global::Plugin.Media.Resource.Id.end = global::MoleWatchApp.Droid.Resource.Id.end;
+			global::Plugin.Media.Resource.Id.fill = global::MoleWatchApp.Droid.Resource.Id.fill;
+			global::Plugin.Media.Resource.Id.fill_horizontal = global::MoleWatchApp.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.Media.Resource.Id.fill_vertical = global::MoleWatchApp.Droid.Resource.Id.fill_vertical;
+			global::Plugin.Media.Resource.Id.forever = global::MoleWatchApp.Droid.Resource.Id.forever;
+			global::Plugin.Media.Resource.Id.icon = global::MoleWatchApp.Droid.Resource.Id.icon;
+			global::Plugin.Media.Resource.Id.icon_group = global::MoleWatchApp.Droid.Resource.Id.icon_group;
+			global::Plugin.Media.Resource.Id.info = global::MoleWatchApp.Droid.Resource.Id.info;
+			global::Plugin.Media.Resource.Id.italic = global::MoleWatchApp.Droid.Resource.Id.italic;
+			global::Plugin.Media.Resource.Id.left = global::MoleWatchApp.Droid.Resource.Id.left;
+			global::Plugin.Media.Resource.Id.line1 = global::MoleWatchApp.Droid.Resource.Id.line1;
+			global::Plugin.Media.Resource.Id.line3 = global::MoleWatchApp.Droid.Resource.Id.line3;
+			global::Plugin.Media.Resource.Id.none = global::MoleWatchApp.Droid.Resource.Id.none;
+			global::Plugin.Media.Resource.Id.normal = global::MoleWatchApp.Droid.Resource.Id.normal;
+			global::Plugin.Media.Resource.Id.notification_background = global::MoleWatchApp.Droid.Resource.Id.notification_background;
+			global::Plugin.Media.Resource.Id.notification_main_column = global::MoleWatchApp.Droid.Resource.Id.notification_main_column;
+			global::Plugin.Media.Resource.Id.notification_main_column_container = global::MoleWatchApp.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.Media.Resource.Id.right = global::MoleWatchApp.Droid.Resource.Id.right;
+			global::Plugin.Media.Resource.Id.right_icon = global::MoleWatchApp.Droid.Resource.Id.right_icon;
+			global::Plugin.Media.Resource.Id.right_side = global::MoleWatchApp.Droid.Resource.Id.right_side;
+			global::Plugin.Media.Resource.Id.start = global::MoleWatchApp.Droid.Resource.Id.start;
+			global::Plugin.Media.Resource.Id.tag_accessibility_actions = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.Media.Resource.Id.tag_accessibility_clickable_spans = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.Media.Resource.Id.tag_accessibility_heading = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.Media.Resource.Id.tag_accessibility_pane_title = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.Media.Resource.Id.tag_screen_reader_focusable = global::MoleWatchApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.Media.Resource.Id.tag_transition_group = global::MoleWatchApp.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_event_manager = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_listeners = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.Media.Resource.Id.text = global::MoleWatchApp.Droid.Resource.Id.text;
+			global::Plugin.Media.Resource.Id.text2 = global::MoleWatchApp.Droid.Resource.Id.text2;
+			global::Plugin.Media.Resource.Id.time = global::MoleWatchApp.Droid.Resource.Id.time;
+			global::Plugin.Media.Resource.Id.title = global::MoleWatchApp.Droid.Resource.Id.title;
+			global::Plugin.Media.Resource.Id.top = global::MoleWatchApp.Droid.Resource.Id.top;
+			global::Plugin.Media.Resource.Integer.status_bar_notification_info_maxnum = global::MoleWatchApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_page = global::MoleWatchApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_row = global::MoleWatchApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.Media.Resource.Layout.custom_dialog = global::MoleWatchApp.Droid.Resource.Layout.custom_dialog;
+			global::Plugin.Media.Resource.Layout.notification_action = global::MoleWatchApp.Droid.Resource.Layout.notification_action;
+			global::Plugin.Media.Resource.Layout.notification_action_tombstone = global::MoleWatchApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.Media.Resource.Layout.notification_template_custom_big = global::MoleWatchApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.Media.Resource.Layout.notification_template_icon_group = global::MoleWatchApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.Media.Resource.Layout.notification_template_part_chronometer = global::MoleWatchApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.Media.Resource.Layout.notification_template_part_time = global::MoleWatchApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.Media.Resource.String.status_bar_notification_info_overflow = global::MoleWatchApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Info = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Time = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionContainer = global::MoleWatchApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionText = global::MoleWatchApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.Media.Resource.Style.Widget_Support_CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_alpha = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_alpha = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_keylines = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.Media.Resource.Styleable.FontFamily = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_font = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_font = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontStyle = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontWeight = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_ttcIndex = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderAuthority = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderCerts = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderPackage = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderQuery = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.Media.Resource.Styleable.GradientColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_offset = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerX = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endX = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_gradientRadius = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startX = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_tileMode = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_type = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Media.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::MoleWatchApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MoleWatchApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MoleWatchApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -13420,166 +13642,196 @@ namespace MoleWatchApp.Droid
 			public const int design_bottom_navigation_item_background = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int design_fab_background = 2131230934;
+			public const int CameraIcon = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int design_ic_visibility = 2131230935;
+			public const int cancel = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int design_ic_visibility_off = 2131230936;
+			public const int checkmark = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int design_password_eye = 2131230937;
+			public const int design_bottom_navigation_item_background = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int design_snackbar_background = 2131230938;
+			public const int design_fab_background = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int FemaleBackCrop = 2131230939;
+			public const int design_ic_visibility = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int FemaleFrontCrop = 2131230940;
+			public const int design_ic_visibility_off = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int fingerprint_dialog_error_to_fp = 2131230941;
+			public const int design_password_eye = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int fingerprint_dialog_fp_to_error = 2131230942;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int icon_about = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int icon_feed = 2131230948;
+			public const int design_snackbar_background = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int ic_mtrl_checked_circle = 2131230943;
+			public const int FemaleBackCrop = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int ic_mtrl_chip_checked_black = 2131230944;
+			public const int FemaleFrontCrop = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int ic_mtrl_chip_checked_circle = 2131230945;
+			public const int fingerprint_dialog_error_to_fp = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int ic_mtrl_chip_close_circle = 2131230946;
+			public const int fingerprint_dialog_fp_to_error = 2131230946;
 			
-			// aapt resource value: 0x7F0800E5
-			public const int MaleBackCrop = 2131230949;
+			// aapt resource value: 0x7F0800E3
+			public const int FlaggedCollection = 2131230947;
 			
-			// aapt resource value: 0x7F0800E6
-			public const int MaleFrontCrop = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int material_ic_calendar_black_24dp = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int material_ic_clear_black_24dp = 2131230952;
+			// aapt resource value: 0x7F0800E4
+			public const int GalleryIcon = 2131230948;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int material_ic_edit_black_24dp = 2131230953;
+			public const int icon_about = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131230954;
+			public const int icon_feed = 2131230954;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int ic_mtrl_checked_circle = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int ic_mtrl_chip_checked_black = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int ic_mtrl_chip_checked_circle = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int ic_mtrl_chip_close_circle = 2131230952;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131230955;
+			public const int MaleBackCrop = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int material_ic_menu_arrow_down_black_24dp = 2131230956;
+			public const int MaleFrontCrop = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int material_ic_menu_arrow_up_black_24dp = 2131230957;
+			public const int map_pin = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int mtrl_dialog_background = 2131230958;
+			public const int MarkedCollection = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int mtrl_dropdown_arrow = 2131230959;
+			public const int material_ic_calendar_black_24dp = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int mtrl_ic_arrow_drop_down = 2131230960;
+			public const int material_ic_clear_black_24dp = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int mtrl_ic_arrow_drop_up = 2131230961;
+			public const int material_ic_edit_black_24dp = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int mtrl_ic_cancel = 2131230962;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int mtrl_ic_error = 2131230963;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int mtrl_popupmenu_background = 2131230964;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int mtrl_popupmenu_background_dark = 2131230965;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int mtrl_tabs_default_indicator = 2131230966;
+			public const int mtrl_dialog_background = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int navigation_empty_icon = 2131230967;
+			public const int mtrl_dropdown_arrow = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int notification_action_background = 2131230968;
+			public const int mtrl_ic_arrow_drop_down = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int notification_bg = 2131230969;
+			public const int mtrl_ic_arrow_drop_up = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int notification_bg_low = 2131230970;
+			public const int mtrl_ic_cancel = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int notification_bg_low_normal = 2131230971;
+			public const int mtrl_ic_error = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int notification_bg_low_pressed = 2131230972;
+			public const int mtrl_popupmenu_background = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int notification_bg_normal = 2131230973;
+			public const int mtrl_popupmenu_background_dark = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int notification_bg_normal_pressed = 2131230974;
+			public const int mtrl_tabs_default_indicator = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int notification_icon_background = 2131230975;
+			public const int navigation_empty_icon = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int notification_template_icon_bg = 2131230976;
+			public const int NotFlagged = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int notification_template_icon_low_bg = 2131230977;
+			public const int notification_action_background = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int notification_tile_bg = 2131230978;
+			public const int notification_bg = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int notify_panel_notification_icon_bg = 2131230979;
+			public const int notification_bg_low = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int Plus_icon = 2131230980;
+			public const int notification_bg_low_normal = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int Rotate = 2131230981;
+			public const int notification_bg_low_pressed = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int test_custom_background = 2131230982;
+			public const int notification_bg_normal = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int tooltip_frame_dark = 2131230983;
+			public const int notification_bg_normal_pressed = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int tooltip_frame_light = 2131230984;
+			public const int notification_icon_background = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int touch_id_240 = 2131230985;
+			public const int notification_template_icon_bg = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int touch_id_96 = 2131230986;
+			public const int notification_template_icon_low_bg = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int xamarin_logo = 2131230987;
+			public const int notification_tile_bg = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int notify_panel_notification_icon_bg = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int NotMarkedCollection = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int Plus_icon = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int settings = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int test_custom_background = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int tooltip_frame_dark = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int tooltip_frame_light = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int touch_id_240 = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int touch_id_96 = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int xamarin_logo = 2131230997;
 			
 			static Drawable()
 			{
@@ -21323,25 +21575,28 @@ namespace MoleWatchApp.Droid
 		{
 			
 			// aapt resource value: 0x7F120000
-			public const int image_share_filepaths = 2131886080;
+			public const int file_paths = 2131886080;
 			
 			// aapt resource value: 0x7F120001
-			public const int standalone_badge = 2131886081;
+			public const int image_share_filepaths = 2131886081;
 			
 			// aapt resource value: 0x7F120002
-			public const int standalone_badge_gravity_bottom_end = 2131886082;
+			public const int standalone_badge = 2131886082;
 			
 			// aapt resource value: 0x7F120003
-			public const int standalone_badge_gravity_bottom_start = 2131886083;
+			public const int standalone_badge_gravity_bottom_end = 2131886083;
 			
 			// aapt resource value: 0x7F120004
-			public const int standalone_badge_gravity_top_start = 2131886084;
+			public const int standalone_badge_gravity_bottom_start = 2131886084;
 			
 			// aapt resource value: 0x7F120005
-			public const int standalone_badge_offset = 2131886085;
+			public const int standalone_badge_gravity_top_start = 2131886085;
 			
 			// aapt resource value: 0x7F120006
-			public const int xamarin_essentials_fileprovider_file_paths = 2131886086;
+			public const int standalone_badge_offset = 2131886086;
+			
+			// aapt resource value: 0x7F120007
+			public const int xamarin_essentials_fileprovider_file_paths = 2131886087;
 			
 			static Xml()
 			{

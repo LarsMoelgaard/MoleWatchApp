@@ -2,6 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
+using DataClasses.DTO.MISCDTOS;
+using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
@@ -12,7 +15,7 @@ namespace MoleWatchApp.ViewModels
     public class LoginViewModel : BaseViewModel
     {
 
-        private LoginModel loginModel;
+        private ILogin loginModel;
 
         private Color passwordLabelColor;
         private Color usernameLabelColor;
@@ -144,7 +147,7 @@ namespace MoleWatchApp.ViewModels
 
             LoginCommand = new Command(OnLoginClicked);
             SmartLoginCommand = new Command(AuthButton_OnClicked);
-            loginModel = new LoginModel();
+            loginModel = LoginSingleton.GetLoginModel();
 
 
             UsernameInput = "12345";
@@ -158,7 +161,7 @@ namespace MoleWatchApp.ViewModels
             if (loginModel.VerifyPassword(UsernameInput, Password))
             {
                 await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
-                
+
             }
             else
             {
@@ -180,6 +183,11 @@ namespace MoleWatchApp.ViewModels
 
         private async void AuthButton_OnClicked(object sender)
         {
+            BaseIsBusy = true;
+
+            await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
+
+
             bool isFingerprintAvailable = await CrossFingerprint.Current.IsAvailableAsync(false);
             if (!isFingerprintAvailable)
             {
@@ -192,15 +200,27 @@ namespace MoleWatchApp.ViewModels
                     "Authenticate access to your personal data");
 
             var authResult = await CrossFingerprint.Current.AuthenticateAsync(conf);
-            if (authResult.Authenticated)
+
+            bool SessionIdValidated = loginModel.VerifySmartLoginPassword();
+
+
+            if (authResult.Authenticated && SessionIdValidated)
             {
                 //Success  
                 //
                 //TODO benyt sessionID til at verificere brugeren af dette device.
+
+
+
+
                 MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
+
+                BaseIsBusy = false;
+                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
             }
             else
             {
+                BaseIsBusy = false;
                 MessagingCenter.Send(this,"SmartLoginMessage","BiometricFailed");
             }
         }

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
+             x:Class="MoleWatchApp.Views.PictureListView"
+             x:Name="PictureListPage">
+
+
+    <ContentPage.BindingContext>
+        <viewModels:PictureListViewModel x:Name="PictureViewModel" />
+        
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout x:Name="PictureStackLayout">
+                <TableView x:Name="PictureListTableView" Intent="Form" >
+
+                </TableView>
+                <ListView x:Name="HiddenPictureListView" ItemsSource="{Binding CompletePictureList}"
+                          ChildAdded="HiddenPictureListView_OnChildAdded"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -5,6 +5,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using FFImageLoading.Forms;
+using FFImageLoading.Forms.Platform;
+using Plugin.CurrentActivity;
 using Plugin.Fingerprint;
 
 namespace MoleWatchApp.Droid
@@ -21,6 +24,8 @@ namespace MoleWatchApp.Droid
 
             base.OnCreate(savedInstanceState);
 
+            CrossCurrentActivity.Current.Init(this,savedInstanceState);
+            CachedImageRenderer.Init(false);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
