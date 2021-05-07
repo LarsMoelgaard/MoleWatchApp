@@ -18,6 +18,7 @@ namespace MoleWatchApp.Models
         {
             _api = APISingleton.GetAPI();
             this.CollectionOnPage = CollectionOnPage;
+            
         }
 
 
