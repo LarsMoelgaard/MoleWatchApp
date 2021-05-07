@@ -15,8 +15,8 @@ namespace MoleWatchApp
             Routing.RegisterRoute(nameof(PictureListView), typeof(PictureListView));
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
-            
-            
+            Routing.RegisterRoute(nameof(NotificationView), typeof(NotificationView));
+
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

@@ -105,6 +105,7 @@ namespace MoleWatchApp.ViewModels
 
         public Command DeleteCollectionCommand { get; }
 
+
         public ICommand ChangeNameCommand
         {
             get
@@ -300,6 +301,8 @@ namespace MoleWatchApp.ViewModels
             patientModelRef.RemoveCollection();
             await Shell.Current.GoToAsync("..");
         }
+
+
        }
     }
 

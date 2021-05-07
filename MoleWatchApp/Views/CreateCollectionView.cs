@@ -164,7 +164,8 @@ namespace MoleWatchApp.Views
             Grid.SetColumn(DateLabel, 0);
             Grid.SetRow(DateLabel, 0);
             Grid.SetColumnSpan(DateLabel, 5);
-            
+
+
             OptionsGrid.Children.Add(DateLabel);
             //createCollectionLayout.Children.Add(DateLabel);
 
@@ -221,6 +222,7 @@ namespace MoleWatchApp.Views
             AddButton.Command = new Command(() => showAddPhotoMessage());
             Grid.SetRow(AddButton, 3);
             Grid.SetColumn(AddButton, 3);
+
 
             //OptionsGrid.Children.Add(createCollectionLayout);
             OptionsGrid.Children.Add(SettingsButton);
@@ -282,7 +284,7 @@ namespace MoleWatchApp.Views
 
         public async void NotificationClicked()
         {
-
+            
         }
 
     }
