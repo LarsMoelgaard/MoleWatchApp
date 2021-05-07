@@ -171,7 +171,7 @@ namespace MoleWatchApp.ViewModels
 
         private async void OnLoginClicked(object obj)
         {
-            //TODO verify logininformation.
+            
             BaseIsBusy = true;
 
             await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
@@ -231,14 +231,8 @@ namespace MoleWatchApp.ViewModels
 
             if (authResult.Authenticated && SessionIdValidated)
             {
-                //Success  
-                //
-                //TODO benyt sessionID til at verificere brugeren af dette device.
-
-
-
-
-                MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
+              //TODO benyt sessionID til at verificere brugeren af dette device.
+               MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
 
                 BaseIsBusy = false;
                 await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");

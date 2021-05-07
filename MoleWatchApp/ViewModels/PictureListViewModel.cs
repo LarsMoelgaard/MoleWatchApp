@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -74,9 +75,9 @@ namespace MoleWatchApp.ViewModels
 
             ObservableCollection<CompletePicture> tempCollection = new ObservableCollection<CompletePicture>();
 
-            foreach (var VARIABLE in CompletePictureList)
+            foreach (var ExistingPicture in CompletePictureList)
             {
-                tempCollection.Add(VARIABLE);
+                tempCollection.Add(ExistingPicture);
             }
 
             foreach (CompletePicture PictureInCollection in tempCollection)
@@ -86,7 +87,6 @@ namespace MoleWatchApp.ViewModels
                PictureInCollection.PictureData = PictureData;
             }
 
-            
             CompletePictureList = tempCollection;
         }
 

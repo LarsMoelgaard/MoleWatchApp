@@ -117,6 +117,21 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        public bool BaseIsBusy
+        {
+            get
+            {
+                return base.IsBusy;
+            }
+            set
+            {
+                base.IsBusy = value;
+                OnPropertyChanged();
+
+            }
+
+        }
+
         public Command RotateClicked { get; }
         public Command PlusClicked { get; }
         public Command BackCommand { get; }
@@ -262,10 +277,17 @@ namespace MoleWatchApp.ViewModels
 
         private async void GoToExistingCollection(CollectionDTO Collection)
         {
-            patientModelClass.LoadExistingCollection(Collection);
-           
-            
-            await Shell.Current.GoToAsync($"{nameof(CreateCollectionView)}");
+            if (!BaseIsBusy)
+            {
+                BaseIsBusy = true;
+                await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
+
+                patientModelClass.LoadExistingCollection(Collection);
+
+                BaseIsBusy = false;
+                await Shell.Current.GoToAsync($"{nameof(CreateCollectionView)}");
+            }
+
         }
 
 
