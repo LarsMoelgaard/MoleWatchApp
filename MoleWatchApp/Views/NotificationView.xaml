@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:wheelPickerForms="clr-namespace:Vapolia.WheelPickerForms;assembly=Vapolia.WheelPickerForms"
              xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
+             xmlns:collections="clr-namespace:System.Collections;assembly=netstandard"
+             xmlns:models="clr-namespace:MoleWatchApp.Models;assembly=MoleWatchApp"
              x:Class="MoleWatchApp.Views.NotificationView">
 
     <ContentPage.BindingContext>
@@ -10,25 +12,50 @@
     </ContentPage.BindingContext>
 
 
-    
-    <ContentPage.Content>
+
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions ="Center">
+
+        <Label Text="Notifikationsindstilling" FontSize="30" TextColor="DarkBlue" HorizontalTextAlignment="Center">
+
+        </Label>
+        <Label>
+
+        </Label>
+
+        <Label >
+        </Label>
+
+        <Label x:Name="NextDateLabel">
+            Vælg næste notification
+        </Label>
+
+        <DatePicker MinimumDate="{Binding DateToday}" DateSelected="DatePicker_OnDateSelected">
+        </DatePicker>
 
 
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="10*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="8*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-          
-            <wheelPickerForms:WheelPicker Grid.Row="1" Grid.Column="1" x:Name="WheelPicker" ItemsSourceSimple="{Binding NumberList}" ItemTextFont="Bold">
-                <wheelPickerForms:WheelDefinition Width="800" HorizontalOptions="Center"  Alignment="Center" IsCircular="False"/>
-            </wheelPickerForms:WheelPicker>
-        </Grid>
-    </ContentPage.Content>
+        <Label x:Name="RepeatReminder">
+            Gentag notification: 
+        </Label>
+
+
+        <Picker x:Name="NotificationPicker" Title="Gentag notifikation" SelectedIndexChanged="NotificationPicker_OnSelectedIndexChanged">
+            <Picker.ItemsSource>
+                <x:Array Type="{Type x:String}">
+                    <x:String>Ingen gentagelse</x:String>
+                    <x:String> Hver Uge</x:String>
+                    <x:String>Hver 2. Uge</x:String>
+                    <x:String>Hver måned</x:String>
+                    <x:String>Hver 3. måned</x:String>
+                    <x:String>Hvert halve år</x:String>
+                    <x:String>Hvert år</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button x:Name="SaveNotificationButton" Text="Gem notifikation for modermærke" Clicked="SaveNotificationButton_OnClicked">
+        </Button>
+
+    </StackLayout>
+
 </ContentPage>

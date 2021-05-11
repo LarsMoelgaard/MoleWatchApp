@@ -6,30 +6,53 @@ namespace MoleWatchApp.ViewModels
 {
     class NotificationViewModel : BaseViewModel
     {
-        private List<string> numberList;
+        private DateTime dateToday;
+        private DateTime pickedDate;
+        private int pickedIndex;
 
-        public NotificationViewModel()
-        {
-            NumberList = new List<string>();
-            NumberList.Add("1");
-            NumberList.Add("2");
-            NumberList.Add("3");
-            NumberList.Add("4");
-        }
-
-        public List<string> NumberList
+        public int PickedIndex
         {
             get
             {
-                return numberList;
+                return pickedIndex;
             }
             set
             {
-                numberList = value;
+                pickedIndex = value;
                 this.OnPropertyChanged();
             }
         }
 
+        public DateTime PickedDate
+        {
+            get
+            {
+                return pickedDate;
+            }
+            set
+            {
+                pickedDate = value;
+                this.OnPropertyChanged();
+            }
+        }
 
+        public DateTime DateToday
+        {
+            get
+            {
+                return dateToday;
+            }
+            set
+            {
+                dateToday = value;
+                this.OnPropertyChanged();
+            }
+        }
+
+      
+        public NotificationViewModel()
+        {
+            DateToday = DateTime.Now;
+        }
     }
 }

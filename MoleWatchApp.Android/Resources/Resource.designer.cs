@@ -1973,2747 +1973,6 @@ namespace MoleWatchApp.Droid
 			global::Plugin.Media.Resource.Styleable.GradientColor_android_tileMode = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Plugin.Media.Resource.Styleable.GradientColor_android_type = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Plugin.Media.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::MoleWatchApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
-			global::Vapolia.WheelPickerCore.Resource.Array.days = global::MoleWatchApp.Droid.Resource.Array.days;
-			global::Vapolia.WheelPickerCore.Resource.Array.months = global::MoleWatchApp.Droid.Resource.Array.months;
-			global::Vapolia.WheelPickerCore.Resource.Array.wheelDefaultItems = global::MoleWatchApp.Droid.Resource.Array.wheelDefaultItems;
-			global::Vapolia.WheelPickerCore.Resource.Array.wheelDefaultItems2 = global::MoleWatchApp.Droid.Resource.Array.wheelDefaultItems2;
-			global::Vapolia.WheelPickerCore.Resource.Array.years = global::MoleWatchApp.Droid.Resource.Array.years;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.enableTrace = global::MoleWatchApp.Droid.Resource.Attribute.enableTrace;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.fadingItems = global::MoleWatchApp.Droid.Resource.Attribute.fadingItems;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.horizontalSpaceBetweenWheels = global::MoleWatchApp.Droid.Resource.Attribute.horizontalSpaceBetweenWheels;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.isCurved = global::MoleWatchApp.Droid.Resource.Attribute.isCurved;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.itemAlign = global::MoleWatchApp.Droid.Resource.Attribute.itemAlign;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.itemAligns = global::MoleWatchApp.Droid.Resource.Attribute.itemAligns;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.itemHeights = global::MoleWatchApp.Droid.Resource.Attribute.itemHeights;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.itemsSource = global::MoleWatchApp.Droid.Resource.Attribute.itemsSource;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.itemTextSize = global::MoleWatchApp.Droid.Resource.Attribute.itemTextSize;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.itemWidths = global::MoleWatchApp.Droid.Resource.Attribute.itemWidths;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.selectedItem = global::MoleWatchApp.Droid.Resource.Attribute.selectedItem;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.selectedItemTextColor = global::MoleWatchApp.Droid.Resource.Attribute.selectedItemTextColor;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.selectionLinesColor = global::MoleWatchApp.Droid.Resource.Attribute.selectionLinesColor;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.selectionLinesThickness = global::MoleWatchApp.Droid.Resource.Attribute.selectionLinesThickness;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.showSelectionLines = global::MoleWatchApp.Droid.Resource.Attribute.showSelectionLines;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.verticalSpaceBetweenItems = global::MoleWatchApp.Droid.Resource.Attribute.verticalSpaceBetweenItems;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.visibleItemCount = global::MoleWatchApp.Droid.Resource.Attribute.visibleItemCount;
-			global::Vapolia.WheelPickerCore.Resource.Attribute.wp_itemTextColor = global::MoleWatchApp.Droid.Resource.Attribute.wp_itemTextColor;
-			global::Vapolia.WheelPickerCore.Resource.Id.center = global::MoleWatchApp.Droid.Resource.Id.center;
-			global::Vapolia.WheelPickerCore.Resource.Id.left = global::MoleWatchApp.Droid.Resource.Id.left;
-			global::Vapolia.WheelPickerCore.Resource.Id.right = global::MoleWatchApp.Droid.Resource.Id.right;
-			global::Vapolia.WheelPickerCore.Resource.Style.WheelPickerStyle = global::MoleWatchApp.Droid.Resource.Style.WheelPickerStyle;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_android_gravity = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_android_gravity;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_enableTrace = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_enableTrace;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_fadingItems = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_fadingItems;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_horizontalSpaceBetweenWheels = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_horizontalSpaceBetweenWheels;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_isCurved = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_isCurved;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_itemAlign = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemAlign;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_itemAligns = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemAligns;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_itemHeights = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemHeights;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_itemsSource = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemsSource;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_itemTextSize = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemTextSize;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_itemWidths = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemWidths;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_selectedItem = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectedItem;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_selectedItemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectedItemTextColor;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_selectionLinesColor = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectionLinesColor;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_selectionLinesThickness = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectionLinesThickness;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_showSelectionLines = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_showSelectionLines;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_verticalSpaceBetweenItems = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_verticalSpaceBetweenItems;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_visibleItemCount = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_visibleItemCount;
-			global::Vapolia.WheelPickerCore.Resource.Styleable.WheelPicker_wp_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_wp_itemTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_fade_in = global::MoleWatchApp.Droid.Resource.Animation.abc_fade_in;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_fade_out = global::MoleWatchApp.Droid.Resource.Animation.abc_fade_out;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_grow_fade_in_from_bottom = global::MoleWatchApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_popup_enter = global::MoleWatchApp.Droid.Resource.Animation.abc_popup_enter;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_popup_exit = global::MoleWatchApp.Droid.Resource.Animation.abc_popup_exit;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MoleWatchApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_slide_in_bottom = global::MoleWatchApp.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_slide_in_top = global::MoleWatchApp.Droid.Resource.Animation.abc_slide_in_top;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_slide_out_bottom = global::MoleWatchApp.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_slide_out_top = global::MoleWatchApp.Droid.Resource.Animation.abc_slide_out_top;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_tooltip_enter = global::MoleWatchApp.Droid.Resource.Animation.abc_tooltip_enter;
-			global::Vapolia.WheelPickerForms.Resource.Animation.abc_tooltip_exit = global::MoleWatchApp.Droid.Resource.Animation.abc_tooltip_exit;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::MoleWatchApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
-			global::Vapolia.WheelPickerForms.Resource.Animation.design_bottom_sheet_slide_in = global::MoleWatchApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Vapolia.WheelPickerForms.Resource.Animation.design_bottom_sheet_slide_out = global::MoleWatchApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Vapolia.WheelPickerForms.Resource.Animation.design_snackbar_in = global::MoleWatchApp.Droid.Resource.Animation.design_snackbar_in;
-			global::Vapolia.WheelPickerForms.Resource.Animation.design_snackbar_out = global::MoleWatchApp.Droid.Resource.Animation.design_snackbar_out;
-			global::Vapolia.WheelPickerForms.Resource.Animation.EnterFromLeft = global::MoleWatchApp.Droid.Resource.Animation.EnterFromLeft;
-			global::Vapolia.WheelPickerForms.Resource.Animation.EnterFromRight = global::MoleWatchApp.Droid.Resource.Animation.EnterFromRight;
-			global::Vapolia.WheelPickerForms.Resource.Animation.ExitToLeft = global::MoleWatchApp.Droid.Resource.Animation.ExitToLeft;
-			global::Vapolia.WheelPickerForms.Resource.Animation.ExitToRight = global::MoleWatchApp.Droid.Resource.Animation.ExitToRight;
-			global::Vapolia.WheelPickerForms.Resource.Animator.design_appbar_state_list_animator = global::MoleWatchApp.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Vapolia.WheelPickerForms.Resource.Animator.design_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
-			global::Vapolia.WheelPickerForms.Resource.Animator.design_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.design_fab_show_motion_spec;
-			global::Vapolia.WheelPickerForms.Resource.Animator.mtrl_btn_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
-			global::Vapolia.WheelPickerForms.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
-			global::Vapolia.WheelPickerForms.Resource.Animator.mtrl_chip_state_list_anim = global::MoleWatchApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Vapolia.WheelPickerForms.Resource.Animator.mtrl_fab_hide_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
-			global::Vapolia.WheelPickerForms.Resource.Animator.mtrl_fab_show_motion_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
-			global::Vapolia.WheelPickerForms.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
-			global::Vapolia.WheelPickerForms.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::MoleWatchApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
-			global::Vapolia.WheelPickerForms.Resource.Array.days = global::MoleWatchApp.Droid.Resource.Array.days;
-			global::Vapolia.WheelPickerForms.Resource.Array.months = global::MoleWatchApp.Droid.Resource.Array.months;
-			global::Vapolia.WheelPickerForms.Resource.Array.wheelDefaultItems = global::MoleWatchApp.Droid.Resource.Array.wheelDefaultItems;
-			global::Vapolia.WheelPickerForms.Resource.Array.wheelDefaultItems2 = global::MoleWatchApp.Droid.Resource.Array.wheelDefaultItems2;
-			global::Vapolia.WheelPickerForms.Resource.Array.years = global::MoleWatchApp.Droid.Resource.Array.years;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarDivider = global::MoleWatchApp.Droid.Resource.Attribute.actionBarDivider;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarItemBackground = global::MoleWatchApp.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarPopupTheme = global::MoleWatchApp.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarSize = global::MoleWatchApp.Droid.Resource.Attribute.actionBarSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarSplitStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarTabBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarTabStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarTabTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarTheme = global::MoleWatchApp.Droid.Resource.Attribute.actionBarTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionBarWidgetTheme = global::MoleWatchApp.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionDropDownStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionLayout = global::MoleWatchApp.Droid.Resource.Attribute.actionLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionMenuTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionMenuTextColor = global::MoleWatchApp.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeBackground = global::MoleWatchApp.Droid.Resource.Attribute.actionModeBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeCloseButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeCloseDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeCopyDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeCutDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeFindDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModePasteDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModePopupWindowStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeSelectAllDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeShareDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeSplitBackground = global::MoleWatchApp.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionModeStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionModeWebSearchDrawable = global::MoleWatchApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionOverflowButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionOverflowMenuStyle = global::MoleWatchApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionProviderClass = global::MoleWatchApp.Droid.Resource.Attribute.actionProviderClass;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.actionViewClass = global::MoleWatchApp.Droid.Resource.Attribute.actionViewClass;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.activityChooserViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.alertDialogButtonGroupStyle = global::MoleWatchApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.alertDialogCenterButtons = global::MoleWatchApp.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.alertDialogStyle = global::MoleWatchApp.Droid.Resource.Attribute.alertDialogStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.alertDialogTheme = global::MoleWatchApp.Droid.Resource.Attribute.alertDialogTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.allowStacking = global::MoleWatchApp.Droid.Resource.Attribute.allowStacking;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.alpha = global::MoleWatchApp.Droid.Resource.Attribute.alpha;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.alphabeticModifiers = global::MoleWatchApp.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.arrowHeadLength = global::MoleWatchApp.Droid.Resource.Attribute.arrowHeadLength;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.arrowShaftLength = global::MoleWatchApp.Droid.Resource.Attribute.arrowShaftLength;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.autoCompleteTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.autoSizeMaxTextSize = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.autoSizeMinTextSize = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.autoSizePresetSizes = global::MoleWatchApp.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.autoSizeStepGranularity = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.autoSizeTextType = global::MoleWatchApp.Droid.Resource.Attribute.autoSizeTextType;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.background = global::MoleWatchApp.Droid.Resource.Attribute.background;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.backgroundSplit = global::MoleWatchApp.Droid.Resource.Attribute.backgroundSplit;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.backgroundStacked = global::MoleWatchApp.Droid.Resource.Attribute.backgroundStacked;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.backgroundTint = global::MoleWatchApp.Droid.Resource.Attribute.backgroundTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.backgroundTintMode = global::MoleWatchApp.Droid.Resource.Attribute.backgroundTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.barLength = global::MoleWatchApp.Droid.Resource.Attribute.barLength;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.behavior_autoHide = global::MoleWatchApp.Droid.Resource.Attribute.behavior_autoHide;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.behavior_fitToContents = global::MoleWatchApp.Droid.Resource.Attribute.behavior_fitToContents;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.behavior_hideable = global::MoleWatchApp.Droid.Resource.Attribute.behavior_hideable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.behavior_overlapTop = global::MoleWatchApp.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.behavior_peekHeight = global::MoleWatchApp.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.behavior_skipCollapsed = global::MoleWatchApp.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.borderlessButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.borderWidth = global::MoleWatchApp.Droid.Resource.Attribute.borderWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.bottomAppBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.bottomAppBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.bottomNavigationStyle = global::MoleWatchApp.Droid.Resource.Attribute.bottomNavigationStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.bottomSheetDialogTheme = global::MoleWatchApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.bottomSheetStyle = global::MoleWatchApp.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxBackgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.boxBackgroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxBackgroundMode = global::MoleWatchApp.Droid.Resource.Attribute.boxBackgroundMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxCollapsedPaddingTop = global::MoleWatchApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxCornerRadiusBottomEnd = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxCornerRadiusBottomStart = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxCornerRadiusTopEnd = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxCornerRadiusTopStart = global::MoleWatchApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.boxStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.boxStrokeWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonBarButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonBarNegativeButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonBarNeutralButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonBarPositiveButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonCompat = global::MoleWatchApp.Droid.Resource.Attribute.buttonCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonGravity = global::MoleWatchApp.Droid.Resource.Attribute.buttonGravity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonIconDimen = global::MoleWatchApp.Droid.Resource.Attribute.buttonIconDimen;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonPanelSideLayout = global::MoleWatchApp.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonStyle = global::MoleWatchApp.Droid.Resource.Attribute.buttonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonStyleSmall = global::MoleWatchApp.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonTint = global::MoleWatchApp.Droid.Resource.Attribute.buttonTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.buttonTintMode = global::MoleWatchApp.Droid.Resource.Attribute.buttonTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cardBackgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cardCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.cardCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cardElevation = global::MoleWatchApp.Droid.Resource.Attribute.cardElevation;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cardMaxElevation = global::MoleWatchApp.Droid.Resource.Attribute.cardMaxElevation;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cardPreventCornerOverlap = global::MoleWatchApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cardUseCompatPadding = global::MoleWatchApp.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cardViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.cardViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.checkboxStyle = global::MoleWatchApp.Droid.Resource.Attribute.checkboxStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.checkedChip = global::MoleWatchApp.Droid.Resource.Attribute.checkedChip;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.checkedIcon = global::MoleWatchApp.Droid.Resource.Attribute.checkedIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.checkedIconEnabled = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.checkedIconVisible = global::MoleWatchApp.Droid.Resource.Attribute.checkedIconVisible;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.checkedTextViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipBackgroundColor = global::MoleWatchApp.Droid.Resource.Attribute.chipBackgroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.chipCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.chipEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipGroupStyle = global::MoleWatchApp.Droid.Resource.Attribute.chipGroupStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipIcon = global::MoleWatchApp.Droid.Resource.Attribute.chipIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipIconEnabled = global::MoleWatchApp.Droid.Resource.Attribute.chipIconEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipIconSize = global::MoleWatchApp.Droid.Resource.Attribute.chipIconSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipIconTint = global::MoleWatchApp.Droid.Resource.Attribute.chipIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipIconVisible = global::MoleWatchApp.Droid.Resource.Attribute.chipIconVisible;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipMinHeight = global::MoleWatchApp.Droid.Resource.Attribute.chipMinHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipSpacing = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipSpacingHorizontal = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacingHorizontal;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipSpacingVertical = global::MoleWatchApp.Droid.Resource.Attribute.chipSpacingVertical;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipStandaloneStyle = global::MoleWatchApp.Droid.Resource.Attribute.chipStandaloneStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipStartPadding = global::MoleWatchApp.Droid.Resource.Attribute.chipStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipStrokeColor = global::MoleWatchApp.Droid.Resource.Attribute.chipStrokeColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipStrokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.chipStrokeWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.chipStyle = global::MoleWatchApp.Droid.Resource.Attribute.chipStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeIcon = global::MoleWatchApp.Droid.Resource.Attribute.closeIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeIconEnabled = global::MoleWatchApp.Droid.Resource.Attribute.closeIconEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeIconEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.closeIconEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeIconSize = global::MoleWatchApp.Droid.Resource.Attribute.closeIconSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeIconStartPadding = global::MoleWatchApp.Droid.Resource.Attribute.closeIconStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeIconTint = global::MoleWatchApp.Droid.Resource.Attribute.closeIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeIconVisible = global::MoleWatchApp.Droid.Resource.Attribute.closeIconVisible;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.closeItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.closeItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.collapseContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.collapseContentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.collapsedTitleGravity = global::MoleWatchApp.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.collapsedTitleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.collapseIcon = global::MoleWatchApp.Droid.Resource.Attribute.collapseIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.collectionViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.collectionViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.color = global::MoleWatchApp.Droid.Resource.Attribute.color;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorAccent = global::MoleWatchApp.Droid.Resource.Attribute.colorAccent;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorBackgroundFloating = global::MoleWatchApp.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorButtonNormal = global::MoleWatchApp.Droid.Resource.Attribute.colorButtonNormal;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorControlActivated = global::MoleWatchApp.Droid.Resource.Attribute.colorControlActivated;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorControlHighlight = global::MoleWatchApp.Droid.Resource.Attribute.colorControlHighlight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorControlNormal = global::MoleWatchApp.Droid.Resource.Attribute.colorControlNormal;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorError = global::MoleWatchApp.Droid.Resource.Attribute.colorError;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorPrimary = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimary;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorPrimaryDark = global::MoleWatchApp.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorSecondary = global::MoleWatchApp.Droid.Resource.Attribute.colorSecondary;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.colorSwitchThumbNormal = global::MoleWatchApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.commitIcon = global::MoleWatchApp.Droid.Resource.Attribute.commitIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentDescription = global::MoleWatchApp.Droid.Resource.Attribute.contentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentInsetEnd = global::MoleWatchApp.Droid.Resource.Attribute.contentInsetEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentInsetEndWithActions = global::MoleWatchApp.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentInsetLeft = global::MoleWatchApp.Droid.Resource.Attribute.contentInsetLeft;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentInsetRight = global::MoleWatchApp.Droid.Resource.Attribute.contentInsetRight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentInsetStart = global::MoleWatchApp.Droid.Resource.Attribute.contentInsetStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentInsetStartWithNavigation = global::MoleWatchApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentPadding = global::MoleWatchApp.Droid.Resource.Attribute.contentPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentPaddingBottom = global::MoleWatchApp.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentPaddingLeft = global::MoleWatchApp.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentPaddingRight = global::MoleWatchApp.Droid.Resource.Attribute.contentPaddingRight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentPaddingTop = global::MoleWatchApp.Droid.Resource.Attribute.contentPaddingTop;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.contentScrim = global::MoleWatchApp.Droid.Resource.Attribute.contentScrim;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.controlBackground = global::MoleWatchApp.Droid.Resource.Attribute.controlBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.coordinatorLayoutStyle = global::MoleWatchApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.cornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.cornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.counterEnabled = global::MoleWatchApp.Droid.Resource.Attribute.counterEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.counterMaxLength = global::MoleWatchApp.Droid.Resource.Attribute.counterMaxLength;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.counterOverflowTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.counterTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.counterTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.customNavigationLayout = global::MoleWatchApp.Droid.Resource.Attribute.customNavigationLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.defaultQueryHint = global::MoleWatchApp.Droid.Resource.Attribute.defaultQueryHint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dialogCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.dialogCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dialogPreferredPadding = global::MoleWatchApp.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dialogTheme = global::MoleWatchApp.Droid.Resource.Attribute.dialogTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.displayOptions = global::MoleWatchApp.Droid.Resource.Attribute.displayOptions;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.divider = global::MoleWatchApp.Droid.Resource.Attribute.divider;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dividerHorizontal = global::MoleWatchApp.Droid.Resource.Attribute.dividerHorizontal;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dividerPadding = global::MoleWatchApp.Droid.Resource.Attribute.dividerPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dividerVertical = global::MoleWatchApp.Droid.Resource.Attribute.dividerVertical;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableBottomCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableBottomCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableEndCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableEndCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableLeftCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableLeftCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableRightCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableRightCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableSize = global::MoleWatchApp.Droid.Resource.Attribute.drawableSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableStartCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableStartCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableTint = global::MoleWatchApp.Droid.Resource.Attribute.drawableTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableTintMode = global::MoleWatchApp.Droid.Resource.Attribute.drawableTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawableTopCompat = global::MoleWatchApp.Droid.Resource.Attribute.drawableTopCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.drawerArrowStyle = global::MoleWatchApp.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dropdownListPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.dropDownListViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.editTextBackground = global::MoleWatchApp.Droid.Resource.Attribute.editTextBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.editTextColor = global::MoleWatchApp.Droid.Resource.Attribute.editTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.editTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.editTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.elevation = global::MoleWatchApp.Droid.Resource.Attribute.elevation;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.enableTrace = global::MoleWatchApp.Droid.Resource.Attribute.enableTrace;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.enforceMaterialTheme = global::MoleWatchApp.Droid.Resource.Attribute.enforceMaterialTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.enforceTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.enforceTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.errorEnabled = global::MoleWatchApp.Droid.Resource.Attribute.errorEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.errorTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.errorTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MoleWatchApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expanded = global::MoleWatchApp.Droid.Resource.Attribute.expanded;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandedTitleGravity = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandedTitleMargin = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandedTitleMarginBottom = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandedTitleMarginEnd = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandedTitleMarginStart = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandedTitleMarginTop = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.expandedTitleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fabAlignmentMode = global::MoleWatchApp.Droid.Resource.Attribute.fabAlignmentMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fabCradleMargin = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleMargin;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fabCradleRoundedCornerRadius = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fabCradleVerticalOffset = global::MoleWatchApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fabCustomSize = global::MoleWatchApp.Droid.Resource.Attribute.fabCustomSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fabSize = global::MoleWatchApp.Droid.Resource.Attribute.fabSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fadingItems = global::MoleWatchApp.Droid.Resource.Attribute.fadingItems;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fastScrollEnabled = global::MoleWatchApp.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::MoleWatchApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::MoleWatchApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fastScrollVerticalThumbDrawable = global::MoleWatchApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fastScrollVerticalTrackDrawable = global::MoleWatchApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.firstBaselineToTopHeight = global::MoleWatchApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.floatingActionButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.font = global::MoleWatchApp.Droid.Resource.Attribute.font;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontFamily = global::MoleWatchApp.Droid.Resource.Attribute.fontFamily;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontProviderAuthority = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontProviderCerts = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderCerts;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontProviderFetchStrategy = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontProviderFetchTimeout = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontProviderPackage = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderPackage;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontProviderQuery = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderQuery;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontStyle = global::MoleWatchApp.Droid.Resource.Attribute.fontStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontVariationSettings = global::MoleWatchApp.Droid.Resource.Attribute.fontVariationSettings;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.fontWeight = global::MoleWatchApp.Droid.Resource.Attribute.fontWeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.foregroundInsidePadding = global::MoleWatchApp.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.gapBetweenBars = global::MoleWatchApp.Droid.Resource.Attribute.gapBetweenBars;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.goIcon = global::MoleWatchApp.Droid.Resource.Attribute.goIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.headerLayout = global::MoleWatchApp.Droid.Resource.Attribute.headerLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.height = global::MoleWatchApp.Droid.Resource.Attribute.height;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.helperText = global::MoleWatchApp.Droid.Resource.Attribute.helperText;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.helperTextEnabled = global::MoleWatchApp.Droid.Resource.Attribute.helperTextEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.helperTextTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.helperTextTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.hideMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.hideMotionSpec;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.hideOnContentScroll = global::MoleWatchApp.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.hideOnScroll = global::MoleWatchApp.Droid.Resource.Attribute.hideOnScroll;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.hintAnimationEnabled = global::MoleWatchApp.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.hintEnabled = global::MoleWatchApp.Droid.Resource.Attribute.hintEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.hintTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.hintTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.homeAsUpIndicator = global::MoleWatchApp.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.homeLayout = global::MoleWatchApp.Droid.Resource.Attribute.homeLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.horizontalSpaceBetweenWheels = global::MoleWatchApp.Droid.Resource.Attribute.horizontalSpaceBetweenWheels;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.hoveredFocusedTranslationZ = global::MoleWatchApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.icon = global::MoleWatchApp.Droid.Resource.Attribute.icon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.iconEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconGravity = global::MoleWatchApp.Droid.Resource.Attribute.iconGravity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconifiedByDefault = global::MoleWatchApp.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconPadding = global::MoleWatchApp.Droid.Resource.Attribute.iconPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconSize = global::MoleWatchApp.Droid.Resource.Attribute.iconSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconStartPadding = global::MoleWatchApp.Droid.Resource.Attribute.iconStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconTint = global::MoleWatchApp.Droid.Resource.Attribute.iconTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.iconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.iconTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.imageButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.imageButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.indeterminateProgressStyle = global::MoleWatchApp.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.initialActivityCount = global::MoleWatchApp.Droid.Resource.Attribute.initialActivityCount;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.insetForeground = global::MoleWatchApp.Droid.Resource.Attribute.insetForeground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.isCurved = global::MoleWatchApp.Droid.Resource.Attribute.isCurved;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.isLightTheme = global::MoleWatchApp.Droid.Resource.Attribute.isLightTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemAlign = global::MoleWatchApp.Droid.Resource.Attribute.itemAlign;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemAligns = global::MoleWatchApp.Droid.Resource.Attribute.itemAligns;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemBackground = global::MoleWatchApp.Droid.Resource.Attribute.itemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemHeights = global::MoleWatchApp.Droid.Resource.Attribute.itemHeights;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemHorizontalPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemHorizontalPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemHorizontalTranslationEnabled = global::MoleWatchApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemIconPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemIconPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemIconSize = global::MoleWatchApp.Droid.Resource.Attribute.itemIconSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemIconTint = global::MoleWatchApp.Droid.Resource.Attribute.itemIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemPadding = global::MoleWatchApp.Droid.Resource.Attribute.itemPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemSpacing = global::MoleWatchApp.Droid.Resource.Attribute.itemSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemsSource = global::MoleWatchApp.Droid.Resource.Attribute.itemsSource;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemTextAppearanceActive = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearanceActive;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemTextAppearanceInactive = global::MoleWatchApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemTextColor = global::MoleWatchApp.Droid.Resource.Attribute.itemTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemTextSize = global::MoleWatchApp.Droid.Resource.Attribute.itemTextSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.itemWidths = global::MoleWatchApp.Droid.Resource.Attribute.itemWidths;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.keylines = global::MoleWatchApp.Droid.Resource.Attribute.keylines;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.labelVisibilityMode = global::MoleWatchApp.Droid.Resource.Attribute.labelVisibilityMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.lastBaselineToBottomHeight = global::MoleWatchApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout = global::MoleWatchApp.Droid.Resource.Attribute.layout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layoutManager = global::MoleWatchApp.Droid.Resource.Attribute.layoutManager;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_anchor = global::MoleWatchApp.Droid.Resource.Attribute.layout_anchor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_anchorGravity = global::MoleWatchApp.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_behavior = global::MoleWatchApp.Droid.Resource.Attribute.layout_behavior;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_collapseMode = global::MoleWatchApp.Droid.Resource.Attribute.layout_collapseMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_collapseParallaxMultiplier = global::MoleWatchApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_dodgeInsetEdges = global::MoleWatchApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_insetEdge = global::MoleWatchApp.Droid.Resource.Attribute.layout_insetEdge;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_keyline = global::MoleWatchApp.Droid.Resource.Attribute.layout_keyline;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_scrollFlags = global::MoleWatchApp.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.layout_scrollInterpolator = global::MoleWatchApp.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.liftOnScroll = global::MoleWatchApp.Droid.Resource.Attribute.liftOnScroll;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.lineHeight = global::MoleWatchApp.Droid.Resource.Attribute.lineHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.lineSpacing = global::MoleWatchApp.Droid.Resource.Attribute.lineSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listChoiceBackgroundIndicator = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::MoleWatchApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listDividerAlertDialog = global::MoleWatchApp.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.listItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listLayout = global::MoleWatchApp.Droid.Resource.Attribute.listLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listMenuViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPopupWindowStyle = global::MoleWatchApp.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPreferredItemHeightLarge = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPreferredItemHeightSmall = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPreferredItemPaddingEnd = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPreferredItemPaddingLeft = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPreferredItemPaddingRight = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.listPreferredItemPaddingStart = global::MoleWatchApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.logo = global::MoleWatchApp.Droid.Resource.Attribute.logo;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.logoDescription = global::MoleWatchApp.Droid.Resource.Attribute.logoDescription;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.materialButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.materialCardViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.maxActionInlineWidth = global::MoleWatchApp.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.maxButtonHeight = global::MoleWatchApp.Droid.Resource.Attribute.maxButtonHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.maxImageSize = global::MoleWatchApp.Droid.Resource.Attribute.maxImageSize;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.measureWithLargestChild = global::MoleWatchApp.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.menu = global::MoleWatchApp.Droid.Resource.Attribute.menu;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.multiChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.navigationContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.navigationContentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.navigationIcon = global::MoleWatchApp.Droid.Resource.Attribute.navigationIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.navigationMode = global::MoleWatchApp.Droid.Resource.Attribute.navigationMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.navigationViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.navigationViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.numericModifiers = global::MoleWatchApp.Droid.Resource.Attribute.numericModifiers;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.overlapAnchor = global::MoleWatchApp.Droid.Resource.Attribute.overlapAnchor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.paddingBottomNoButtons = global::MoleWatchApp.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.paddingEnd = global::MoleWatchApp.Droid.Resource.Attribute.paddingEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.paddingStart = global::MoleWatchApp.Droid.Resource.Attribute.paddingStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.paddingTopNoTitle = global::MoleWatchApp.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.panelBackground = global::MoleWatchApp.Droid.Resource.Attribute.panelBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.panelMenuListTheme = global::MoleWatchApp.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.panelMenuListWidth = global::MoleWatchApp.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.passwordToggleContentDescription = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.passwordToggleDrawable = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.passwordToggleEnabled = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.passwordToggleTint = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.passwordToggleTintMode = global::MoleWatchApp.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.popupMenuStyle = global::MoleWatchApp.Droid.Resource.Attribute.popupMenuStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.popupTheme = global::MoleWatchApp.Droid.Resource.Attribute.popupTheme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.popupWindowStyle = global::MoleWatchApp.Droid.Resource.Attribute.popupWindowStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.preserveIconSpacing = global::MoleWatchApp.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.pressedTranslationZ = global::MoleWatchApp.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.progressBarPadding = global::MoleWatchApp.Droid.Resource.Attribute.progressBarPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.progressBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.progressBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.queryBackground = global::MoleWatchApp.Droid.Resource.Attribute.queryBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.queryHint = global::MoleWatchApp.Droid.Resource.Attribute.queryHint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.radioButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.radioButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.ratingBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.ratingBarStyleIndicator = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.ratingBarStyleSmall = global::MoleWatchApp.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.recyclerViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.recyclerViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.reverseLayout = global::MoleWatchApp.Droid.Resource.Attribute.reverseLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.rippleColor = global::MoleWatchApp.Droid.Resource.Attribute.rippleColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.scrimAnimationDuration = global::MoleWatchApp.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.scrimBackground = global::MoleWatchApp.Droid.Resource.Attribute.scrimBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.scrimVisibleHeightTrigger = global::MoleWatchApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.scrollViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.scrollViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.searchHintIcon = global::MoleWatchApp.Droid.Resource.Attribute.searchHintIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.searchIcon = global::MoleWatchApp.Droid.Resource.Attribute.searchIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.searchViewStyle = global::MoleWatchApp.Droid.Resource.Attribute.searchViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.seekBarStyle = global::MoleWatchApp.Droid.Resource.Attribute.seekBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.selectableItemBackground = global::MoleWatchApp.Droid.Resource.Attribute.selectableItemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.selectableItemBackgroundBorderless = global::MoleWatchApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.selectedItem = global::MoleWatchApp.Droid.Resource.Attribute.selectedItem;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.selectedItemTextColor = global::MoleWatchApp.Droid.Resource.Attribute.selectedItemTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.selectionLinesColor = global::MoleWatchApp.Droid.Resource.Attribute.selectionLinesColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.selectionLinesThickness = global::MoleWatchApp.Droid.Resource.Attribute.selectionLinesThickness;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.showAsAction = global::MoleWatchApp.Droid.Resource.Attribute.showAsAction;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.showDividers = global::MoleWatchApp.Droid.Resource.Attribute.showDividers;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.showMotionSpec = global::MoleWatchApp.Droid.Resource.Attribute.showMotionSpec;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.showSelectionLines = global::MoleWatchApp.Droid.Resource.Attribute.showSelectionLines;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.showText = global::MoleWatchApp.Droid.Resource.Attribute.showText;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.showTitle = global::MoleWatchApp.Droid.Resource.Attribute.showTitle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.singleChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.singleLine = global::MoleWatchApp.Droid.Resource.Attribute.singleLine;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.singleSelection = global::MoleWatchApp.Droid.Resource.Attribute.singleSelection;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.snackbarButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.snackbarStyle = global::MoleWatchApp.Droid.Resource.Attribute.snackbarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.spanCount = global::MoleWatchApp.Droid.Resource.Attribute.spanCount;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.spinBars = global::MoleWatchApp.Droid.Resource.Attribute.spinBars;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.spinnerDropDownItemStyle = global::MoleWatchApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.spinnerStyle = global::MoleWatchApp.Droid.Resource.Attribute.spinnerStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.splitTrack = global::MoleWatchApp.Droid.Resource.Attribute.splitTrack;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.srcCompat = global::MoleWatchApp.Droid.Resource.Attribute.srcCompat;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.stackFromEnd = global::MoleWatchApp.Droid.Resource.Attribute.stackFromEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.state_above_anchor = global::MoleWatchApp.Droid.Resource.Attribute.state_above_anchor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.state_collapsed = global::MoleWatchApp.Droid.Resource.Attribute.state_collapsed;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.state_collapsible = global::MoleWatchApp.Droid.Resource.Attribute.state_collapsible;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.state_liftable = global::MoleWatchApp.Droid.Resource.Attribute.state_liftable;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.state_lifted = global::MoleWatchApp.Droid.Resource.Attribute.state_lifted;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.statusBarBackground = global::MoleWatchApp.Droid.Resource.Attribute.statusBarBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.statusBarScrim = global::MoleWatchApp.Droid.Resource.Attribute.statusBarScrim;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.strokeColor = global::MoleWatchApp.Droid.Resource.Attribute.strokeColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.strokeWidth = global::MoleWatchApp.Droid.Resource.Attribute.strokeWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.subMenuArrow = global::MoleWatchApp.Droid.Resource.Attribute.subMenuArrow;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.submitBackground = global::MoleWatchApp.Droid.Resource.Attribute.submitBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.subtitle = global::MoleWatchApp.Droid.Resource.Attribute.subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.subtitleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.subtitleTextColor = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.subtitleTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.suggestionRowLayout = global::MoleWatchApp.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.switchMinWidth = global::MoleWatchApp.Droid.Resource.Attribute.switchMinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.switchPadding = global::MoleWatchApp.Droid.Resource.Attribute.switchPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.switchStyle = global::MoleWatchApp.Droid.Resource.Attribute.switchStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.switchTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.switchTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabBackground = global::MoleWatchApp.Droid.Resource.Attribute.tabBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabContentStart = global::MoleWatchApp.Droid.Resource.Attribute.tabContentStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabGravity = global::MoleWatchApp.Droid.Resource.Attribute.tabGravity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIconTint = global::MoleWatchApp.Droid.Resource.Attribute.tabIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIconTintMode = global::MoleWatchApp.Droid.Resource.Attribute.tabIconTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIndicator = global::MoleWatchApp.Droid.Resource.Attribute.tabIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIndicatorAnimationDuration = global::MoleWatchApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIndicatorColor = global::MoleWatchApp.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIndicatorFullWidth = global::MoleWatchApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIndicatorGravity = global::MoleWatchApp.Droid.Resource.Attribute.tabIndicatorGravity;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabIndicatorHeight = global::MoleWatchApp.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabInlineLabel = global::MoleWatchApp.Droid.Resource.Attribute.tabInlineLabel;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabMaxWidth = global::MoleWatchApp.Droid.Resource.Attribute.tabMaxWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabMinWidth = global::MoleWatchApp.Droid.Resource.Attribute.tabMinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabMode = global::MoleWatchApp.Droid.Resource.Attribute.tabMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabPadding = global::MoleWatchApp.Droid.Resource.Attribute.tabPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabPaddingBottom = global::MoleWatchApp.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabPaddingEnd = global::MoleWatchApp.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabPaddingStart = global::MoleWatchApp.Droid.Resource.Attribute.tabPaddingStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabPaddingTop = global::MoleWatchApp.Droid.Resource.Attribute.tabPaddingTop;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabRippleColor = global::MoleWatchApp.Droid.Resource.Attribute.tabRippleColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabSelectedTextColor = global::MoleWatchApp.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabStyle = global::MoleWatchApp.Droid.Resource.Attribute.tabStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.tabTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabTextColor = global::MoleWatchApp.Droid.Resource.Attribute.tabTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tabUnboundedRipple = global::MoleWatchApp.Droid.Resource.Attribute.tabUnboundedRipple;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAllCaps = global::MoleWatchApp.Droid.Resource.Attribute.textAllCaps;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceBody1 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceBody1;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceBody2 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceBody2;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceButton = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceButton;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceCaption = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceCaption;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceHeadline1 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline1;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceHeadline2 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline2;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceHeadline3 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline3;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceHeadline4 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline4;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceHeadline5 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline5;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceHeadline6 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceHeadline6;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceLargePopupMenu = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceListItem = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceListItemSecondary = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceListItemSmall = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceOverline = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceOverline;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearancePopupMenuHeader = global::MoleWatchApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceSearchResultTitle = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceSmallPopupMenu = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceSubtitle1 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textAppearanceSubtitle2 = global::MoleWatchApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textColorAlertDialogListItem = global::MoleWatchApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textColorSearchUrl = global::MoleWatchApp.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textEndPadding = global::MoleWatchApp.Droid.Resource.Attribute.textEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textInputStyle = global::MoleWatchApp.Droid.Resource.Attribute.textInputStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textLocale = global::MoleWatchApp.Droid.Resource.Attribute.textLocale;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.textStartPadding = global::MoleWatchApp.Droid.Resource.Attribute.textStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.theme = global::MoleWatchApp.Droid.Resource.Attribute.theme;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.thickness = global::MoleWatchApp.Droid.Resource.Attribute.thickness;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.thumbTextPadding = global::MoleWatchApp.Droid.Resource.Attribute.thumbTextPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.thumbTint = global::MoleWatchApp.Droid.Resource.Attribute.thumbTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.thumbTintMode = global::MoleWatchApp.Droid.Resource.Attribute.thumbTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tickMark = global::MoleWatchApp.Droid.Resource.Attribute.tickMark;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tickMarkTint = global::MoleWatchApp.Droid.Resource.Attribute.tickMarkTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tickMarkTintMode = global::MoleWatchApp.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tint = global::MoleWatchApp.Droid.Resource.Attribute.tint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tintMode = global::MoleWatchApp.Droid.Resource.Attribute.tintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.title = global::MoleWatchApp.Droid.Resource.Attribute.title;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleEnabled = global::MoleWatchApp.Droid.Resource.Attribute.titleEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleMargin = global::MoleWatchApp.Droid.Resource.Attribute.titleMargin;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleMarginBottom = global::MoleWatchApp.Droid.Resource.Attribute.titleMarginBottom;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleMarginEnd = global::MoleWatchApp.Droid.Resource.Attribute.titleMarginEnd;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleMargins = global::MoleWatchApp.Droid.Resource.Attribute.titleMargins;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleMarginStart = global::MoleWatchApp.Droid.Resource.Attribute.titleMarginStart;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleMarginTop = global::MoleWatchApp.Droid.Resource.Attribute.titleMarginTop;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleTextAppearance = global::MoleWatchApp.Droid.Resource.Attribute.titleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleTextColor = global::MoleWatchApp.Droid.Resource.Attribute.titleTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.titleTextStyle = global::MoleWatchApp.Droid.Resource.Attribute.titleTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.toolbarId = global::MoleWatchApp.Droid.Resource.Attribute.toolbarId;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.toolbarNavigationButtonStyle = global::MoleWatchApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.toolbarStyle = global::MoleWatchApp.Droid.Resource.Attribute.toolbarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tooltipForegroundColor = global::MoleWatchApp.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tooltipFrameBackground = global::MoleWatchApp.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.tooltipText = global::MoleWatchApp.Droid.Resource.Attribute.tooltipText;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.track = global::MoleWatchApp.Droid.Resource.Attribute.track;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.trackTint = global::MoleWatchApp.Droid.Resource.Attribute.trackTint;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.trackTintMode = global::MoleWatchApp.Droid.Resource.Attribute.trackTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.ttcIndex = global::MoleWatchApp.Droid.Resource.Attribute.ttcIndex;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.useCompatPadding = global::MoleWatchApp.Droid.Resource.Attribute.useCompatPadding;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.verticalSpaceBetweenItems = global::MoleWatchApp.Droid.Resource.Attribute.verticalSpaceBetweenItems;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.viewInflaterClass = global::MoleWatchApp.Droid.Resource.Attribute.viewInflaterClass;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.visibleItemCount = global::MoleWatchApp.Droid.Resource.Attribute.visibleItemCount;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.voiceIcon = global::MoleWatchApp.Droid.Resource.Attribute.voiceIcon;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowActionBar = global::MoleWatchApp.Droid.Resource.Attribute.windowActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowActionBarOverlay = global::MoleWatchApp.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowActionModeOverlay = global::MoleWatchApp.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowFixedHeightMajor = global::MoleWatchApp.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowFixedHeightMinor = global::MoleWatchApp.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowFixedWidthMajor = global::MoleWatchApp.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowFixedWidthMinor = global::MoleWatchApp.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowMinWidthMajor = global::MoleWatchApp.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowMinWidthMinor = global::MoleWatchApp.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.windowNoTitle = global::MoleWatchApp.Droid.Resource.Attribute.windowNoTitle;
-			global::Vapolia.WheelPickerForms.Resource.Attribute.wp_itemTextColor = global::MoleWatchApp.Droid.Resource.Attribute.wp_itemTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Boolean.abc_action_bar_embed_tabs = global::MoleWatchApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Vapolia.WheelPickerForms.Resource.Boolean.abc_allow_stacked_button_bar = global::MoleWatchApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Vapolia.WheelPickerForms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MoleWatchApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Vapolia.WheelPickerForms.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::MoleWatchApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_background_cache_hint_selector_material_light = global::MoleWatchApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_btn_colored_borderless_text_material = global::MoleWatchApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_btn_colored_text_material = global::MoleWatchApp.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_color_highlight_material = global::MoleWatchApp.Droid.Resource.Color.abc_color_highlight_material;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_hint_foreground_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_hint_foreground_material_light = global::MoleWatchApp.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_primary_text_disable_only_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_primary_text_disable_only_material_light = global::MoleWatchApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_primary_text_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_primary_text_material_light = global::MoleWatchApp.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_search_url_text = global::MoleWatchApp.Droid.Resource.Color.abc_search_url_text;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_search_url_text_normal = global::MoleWatchApp.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_search_url_text_pressed = global::MoleWatchApp.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_search_url_text_selected = global::MoleWatchApp.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_secondary_text_material_dark = global::MoleWatchApp.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_secondary_text_material_light = global::MoleWatchApp.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_tint_btn_checkable = global::MoleWatchApp.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_tint_default = global::MoleWatchApp.Droid.Resource.Color.abc_tint_default;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_tint_edittext = global::MoleWatchApp.Droid.Resource.Color.abc_tint_edittext;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_tint_seek_thumb = global::MoleWatchApp.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_tint_spinner = global::MoleWatchApp.Droid.Resource.Color.abc_tint_spinner;
-			global::Vapolia.WheelPickerForms.Resource.Color.abc_tint_switch_track = global::MoleWatchApp.Droid.Resource.Color.abc_tint_switch_track;
-			global::Vapolia.WheelPickerForms.Resource.Color.accent_material_dark = global::MoleWatchApp.Droid.Resource.Color.accent_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.accent_material_light = global::MoleWatchApp.Droid.Resource.Color.accent_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.background_floating_material_dark = global::MoleWatchApp.Droid.Resource.Color.background_floating_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.background_floating_material_light = global::MoleWatchApp.Droid.Resource.Color.background_floating_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.background_material_dark = global::MoleWatchApp.Droid.Resource.Color.background_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.background_material_light = global::MoleWatchApp.Droid.Resource.Color.background_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.bright_foreground_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.bright_foreground_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.bright_foreground_inverse_material_dark = global::MoleWatchApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.bright_foreground_inverse_material_light = global::MoleWatchApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.bright_foreground_material_dark = global::MoleWatchApp.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.bright_foreground_material_light = global::MoleWatchApp.Droid.Resource.Color.bright_foreground_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.browser_actions_bg_grey = global::MoleWatchApp.Droid.Resource.Color.browser_actions_bg_grey;
-			global::Vapolia.WheelPickerForms.Resource.Color.browser_actions_divider_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_divider_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.browser_actions_text_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_text_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.browser_actions_title_color = global::MoleWatchApp.Droid.Resource.Color.browser_actions_title_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.button_material_dark = global::MoleWatchApp.Droid.Resource.Color.button_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.button_material_light = global::MoleWatchApp.Droid.Resource.Color.button_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.cardview_dark_background = global::MoleWatchApp.Droid.Resource.Color.cardview_dark_background;
-			global::Vapolia.WheelPickerForms.Resource.Color.cardview_light_background = global::MoleWatchApp.Droid.Resource.Color.cardview_light_background;
-			global::Vapolia.WheelPickerForms.Resource.Color.cardview_shadow_end_color = global::MoleWatchApp.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.cardview_shadow_start_color = global::MoleWatchApp.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_bottom_navigation_shadow_color = global::MoleWatchApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_default_color_primary = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_default_color_primary_dark = global::MoleWatchApp.Droid.Resource.Color.design_default_color_primary_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_error = global::MoleWatchApp.Droid.Resource.Color.design_error;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_fab_shadow_end_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_fab_shadow_mid_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_fab_shadow_start_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_fab_stroke_end_inner_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_fab_stroke_end_outer_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_fab_stroke_top_inner_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_fab_stroke_top_outer_color = global::MoleWatchApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.design_snackbar_background_color = global::MoleWatchApp.Droid.Resource.Color.design_snackbar_background_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.dim_foreground_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.dim_foreground_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.dim_foreground_material_dark = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.dim_foreground_material_light = global::MoleWatchApp.Droid.Resource.Color.dim_foreground_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.error_color_material_dark = global::MoleWatchApp.Droid.Resource.Color.error_color_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.error_color_material_light = global::MoleWatchApp.Droid.Resource.Color.error_color_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.foreground_material_dark = global::MoleWatchApp.Droid.Resource.Color.foreground_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.foreground_material_light = global::MoleWatchApp.Droid.Resource.Color.foreground_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.highlighted_text_material_dark = global::MoleWatchApp.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.highlighted_text_material_light = global::MoleWatchApp.Droid.Resource.Color.highlighted_text_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_blue_grey_800 = global::MoleWatchApp.Droid.Resource.Color.material_blue_grey_800;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_blue_grey_900 = global::MoleWatchApp.Droid.Resource.Color.material_blue_grey_900;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_blue_grey_950 = global::MoleWatchApp.Droid.Resource.Color.material_blue_grey_950;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_deep_teal_200 = global::MoleWatchApp.Droid.Resource.Color.material_deep_teal_200;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_deep_teal_500 = global::MoleWatchApp.Droid.Resource.Color.material_deep_teal_500;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_grey_100 = global::MoleWatchApp.Droid.Resource.Color.material_grey_100;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_grey_300 = global::MoleWatchApp.Droid.Resource.Color.material_grey_300;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_grey_50 = global::MoleWatchApp.Droid.Resource.Color.material_grey_50;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_grey_600 = global::MoleWatchApp.Droid.Resource.Color.material_grey_600;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_grey_800 = global::MoleWatchApp.Droid.Resource.Color.material_grey_800;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_grey_850 = global::MoleWatchApp.Droid.Resource.Color.material_grey_850;
-			global::Vapolia.WheelPickerForms.Resource.Color.material_grey_900 = global::MoleWatchApp.Droid.Resource.Color.material_grey_900;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_bottom_nav_item_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_btn_bg_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_btn_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_ripple_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_btn_stroke_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_btn_text_btn_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_btn_text_color_disabled = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_btn_transparent_bg_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_chip_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_background_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_chip_close_icon_tint = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_chip_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_ripple_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_chip_text_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_chip_text_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_fab_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_fab_ripple_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_scrim_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_scrim_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_tabs_colored_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_tabs_icon_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_tabs_ripple_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_textinput_default_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_textinput_disabled_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::MoleWatchApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.mtrl_text_btn_text_color_selector = global::MoleWatchApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
-			global::Vapolia.WheelPickerForms.Resource.Color.notification_action_color_filter = global::MoleWatchApp.Droid.Resource.Color.notification_action_color_filter;
-			global::Vapolia.WheelPickerForms.Resource.Color.notification_icon_bg_color = global::MoleWatchApp.Droid.Resource.Color.notification_icon_bg_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.notification_material_background_media_default_color = global::MoleWatchApp.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_dark_material_dark = global::MoleWatchApp.Droid.Resource.Color.primary_dark_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_dark_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_dark_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_material_dark = global::MoleWatchApp.Droid.Resource.Color.primary_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_text_default_material_dark = global::MoleWatchApp.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_text_default_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_text_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.primary_text_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.ripple_material_dark = global::MoleWatchApp.Droid.Resource.Color.ripple_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.ripple_material_light = global::MoleWatchApp.Droid.Resource.Color.ripple_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.secondary_text_default_material_dark = global::MoleWatchApp.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.secondary_text_default_material_light = global::MoleWatchApp.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.secondary_text_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.secondary_text_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.switch_thumb_disabled_material_dark = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.switch_thumb_disabled_material_light = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.switch_thumb_material_dark = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.switch_thumb_material_light = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.switch_thumb_normal_material_dark = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.switch_thumb_normal_material_light = global::MoleWatchApp.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Color.tooltip_background_dark = global::MoleWatchApp.Droid.Resource.Color.tooltip_background_dark;
-			global::Vapolia.WheelPickerForms.Resource.Color.tooltip_background_light = global::MoleWatchApp.Droid.Resource.Color.tooltip_background_light;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_content_inset_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_default_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_elevation_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_stacked_max_height = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_button_min_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_button_min_width_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MoleWatchApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_alert_dialog_button_dimen = global::MoleWatchApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_button_inset_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_button_inset_vertical_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_button_padding_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_button_padding_vertical_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MoleWatchApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_config_prefDialogWidth = global::MoleWatchApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_control_corner_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_control_inset_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_control_padding_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_corner_radius_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_fixed_height_major = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_fixed_height_minor = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_fixed_width_major = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_fixed_width_minor = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_min_width_major = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_min_width_minor = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_padding_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_padding_top_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dialog_title_divider_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_disabled_alpha_material_dark = global::MoleWatchApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_disabled_alpha_material_light = global::MoleWatchApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dropdownitem_icon_width = global::MoleWatchApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MoleWatchApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MoleWatchApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_edit_text_inset_top_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_floating_window_z = global::MoleWatchApp.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_list_item_height_large_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_list_item_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_list_item_height_small_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_panel_menu_list_width = global::MoleWatchApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_progress_bar_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_search_view_preferred_height = global::MoleWatchApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_search_view_preferred_width = global::MoleWatchApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_seekbar_track_background_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_select_dialog_padding_start_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_switch_padding = global::MoleWatchApp.Droid.Resource.Dimension.abc_switch_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_body_1_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_body_2_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_button_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_caption_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_display_1_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_display_2_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_display_3_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_display_4_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_headline_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_large_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_medium_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_menu_header_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_menu_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_small_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_subhead_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_title_material = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.abc_text_size_title_material_toolbar = global::MoleWatchApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.browser_actions_context_menu_max_width = global::MoleWatchApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.browser_actions_context_menu_min_padding = global::MoleWatchApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.cardview_compat_inset_shadow = global::MoleWatchApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.cardview_default_elevation = global::MoleWatchApp.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.cardview_default_radius = global::MoleWatchApp.Droid.Resource.Dimension.cardview_default_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.compat_button_inset_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.compat_button_inset_vertical_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.compat_button_padding_horizontal_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.compat_button_padding_vertical_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.compat_control_corner_material = global::MoleWatchApp.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.compat_notification_large_icon_max_height = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.compat_notification_large_icon_max_width = global::MoleWatchApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_appbar_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_active_text_size = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_height = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_item_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_item_min_width = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_margin = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_shadow_height = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_navigation_text_size = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MoleWatchApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_fab_border_width = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_border_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_fab_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_fab_image_size = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_image_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_fab_size_mini = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_fab_size_normal = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_fab_translation_z_hovered_focused = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_fab_translation_z_pressed = global::MoleWatchApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_icon_padding = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_item_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_item_icon_padding = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_padding_bottom = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_navigation_separator_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_action_inline_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_background_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_elevation = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_min_width = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_padding_horizontal = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_padding_vertical = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_snackbar_text_size = global::MoleWatchApp.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_tab_max_width = global::MoleWatchApp.Droid.Resource.Dimension.design_tab_max_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_tab_scrollable_min_width = global::MoleWatchApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_tab_text_size = global::MoleWatchApp.Droid.Resource.Dimension.design_tab_text_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_tab_text_size_2line = global::MoleWatchApp.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.design_textinput_caption_translate_y = global::MoleWatchApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.disabled_alpha_material_dark = global::MoleWatchApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.disabled_alpha_material_light = global::MoleWatchApp.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.fastscroll_default_thickness = global::MoleWatchApp.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.fastscroll_margin = global::MoleWatchApp.Droid.Resource.Dimension.fastscroll_margin;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.fastscroll_minimum_range = global::MoleWatchApp.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.highlight_alpha_material_colored = global::MoleWatchApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.highlight_alpha_material_dark = global::MoleWatchApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.highlight_alpha_material_light = global::MoleWatchApp.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.hint_alpha_material_dark = global::MoleWatchApp.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.hint_alpha_material_light = global::MoleWatchApp.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.hint_pressed_alpha_material_dark = global::MoleWatchApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.hint_pressed_alpha_material_light = global::MoleWatchApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MoleWatchApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_bottomappbar_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_disabled_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_disabled_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_focused_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_hovered_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_icon_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_inset = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_inset;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_letter_spacing = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_padding_bottom = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_padding_left = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_padding_right = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_padding_top = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_pressed_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_stroke_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_text_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_btn_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_btn_z;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_card_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_card_spacing = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_card_spacing;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_chip_pressed_translation_z = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_chip_text_size = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_fab_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_fab_translation_z_pressed = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_navigation_elevation = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_navigation_item_icon_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_snackbar_margin = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.mtrl_toolbar_default_height = global::MoleWatchApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_action_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_action_text_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_action_text_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_big_circle_margin = global::MoleWatchApp.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_content_margin_start = global::MoleWatchApp.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_large_icon_height = global::MoleWatchApp.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_large_icon_width = global::MoleWatchApp.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_main_column_padding_top = global::MoleWatchApp.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_media_narrow_margin = global::MoleWatchApp.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_right_icon_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_right_side_padding_top = global::MoleWatchApp.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_small_icon_background_padding = global::MoleWatchApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_small_icon_size_as_large = global::MoleWatchApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_subtext_size = global::MoleWatchApp.Droid.Resource.Dimension.notification_subtext_size;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_top_pad = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.notification_top_pad_large_text = global::MoleWatchApp.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.subtitle_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.subtitle_outline_width = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.subtitle_shadow_offset = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.subtitle_shadow_radius = global::MoleWatchApp.Droid.Resource.Dimension.subtitle_shadow_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_corner_radius = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_horizontal_padding = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_margin = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_margin;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_precise_anchor_threshold = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_vertical_padding = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_y_offset_non_touch = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Vapolia.WheelPickerForms.Resource.Dimension.tooltip_y_offset_touch = global::MoleWatchApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_action_bar_item_background_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_borderless_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_check_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_check_material_anim = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_colored_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_default_mtrl_shape = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_radio_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_radio_material_anim = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MoleWatchApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_cab_background_internal_bg = global::MoleWatchApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_cab_background_top_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_control_background_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_control_background_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_dialog_material_background = global::MoleWatchApp.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_edit_text_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_ab_back_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_clear_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_go_search_api_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_menu_overflow_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_search_api_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_star_black_16dp = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_star_black_36dp = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_star_black_48dp = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_star_half_black_16dp = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_star_half_black_36dp = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_star_half_black_48dp = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ic_voice_search_api_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_item_background_holo_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_item_background_holo_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_divider_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_divider_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_focused_holo = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_longpressed_holo = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_pressed_holo_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_pressed_holo_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_selector_holo_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_list_selector_holo_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MoleWatchApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_popup_background_mtrl_mult = global::MoleWatchApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ratingbar_indicator_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ratingbar_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_ratingbar_small_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MoleWatchApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MoleWatchApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_seekbar_thumb_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_seekbar_tick_mark_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_seekbar_track_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_spinner_textfield_background_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_switch_thumb_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_tab_indicator_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MoleWatchApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_textfield_search_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_text_cursor_material = global::MoleWatchApp.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MoleWatchApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MoleWatchApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.abc_vector_test = global::MoleWatchApp.Droid.Resource.Drawable.abc_vector_test;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.avd_hide_password = global::MoleWatchApp.Droid.Resource.Drawable.avd_hide_password;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.avd_show_password = global::MoleWatchApp.Droid.Resource.Drawable.avd_show_password;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_checkbox_checked_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_radio_off_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_radio_on_mtrl = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::MoleWatchApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.design_bottom_navigation_item_background = global::MoleWatchApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.design_fab_background = global::MoleWatchApp.Droid.Resource.Drawable.design_fab_background;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.design_ic_visibility = global::MoleWatchApp.Droid.Resource.Drawable.design_ic_visibility;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.design_ic_visibility_off = global::MoleWatchApp.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.design_password_eye = global::MoleWatchApp.Droid.Resource.Drawable.design_password_eye;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.design_snackbar_background = global::MoleWatchApp.Droid.Resource.Drawable.design_snackbar_background;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.ic_mtrl_chip_checked_black = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.ic_mtrl_chip_checked_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.ic_mtrl_chip_close_circle = global::MoleWatchApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.mtrl_tabs_default_indicator = global::MoleWatchApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.navigation_empty_icon = global::MoleWatchApp.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_action_background = global::MoleWatchApp.Droid.Resource.Drawable.notification_action_background;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_bg_low = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_low;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_bg_low_normal = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_bg_low_pressed = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_bg_normal = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_normal;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_bg_normal_pressed = global::MoleWatchApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_icon_background = global::MoleWatchApp.Droid.Resource.Drawable.notification_icon_background;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_template_icon_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_template_icon_low_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notification_tile_bg = global::MoleWatchApp.Droid.Resource.Drawable.notification_tile_bg;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.notify_panel_notification_icon_bg = global::MoleWatchApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.tooltip_frame_dark = global::MoleWatchApp.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Vapolia.WheelPickerForms.Resource.Drawable.tooltip_frame_light = global::MoleWatchApp.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_action_clickable_span = global::MoleWatchApp.Droid.Resource.Id.accessibility_action_clickable_span;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_0 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_0;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_1 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_1;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_10 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_10;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_11 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_11;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_12 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_12;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_13 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_13;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_14 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_14;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_15 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_15;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_16 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_16;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_17 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_17;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_18 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_18;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_19 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_19;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_2 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_2;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_20 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_20;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_21 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_21;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_22 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_22;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_23 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_23;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_24 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_24;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_25 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_25;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_26 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_26;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_27 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_27;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_28 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_28;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_29 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_29;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_3 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_3;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_30 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_30;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_31 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_31;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_4 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_4;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_5 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_5;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_6 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_6;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_7 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_7;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_8 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_8;
-			global::Vapolia.WheelPickerForms.Resource.Id.accessibility_custom_action_9 = global::MoleWatchApp.Droid.Resource.Id.accessibility_custom_action_9;
-			global::Vapolia.WheelPickerForms.Resource.Id.action0 = global::MoleWatchApp.Droid.Resource.Id.action0;
-			global::Vapolia.WheelPickerForms.Resource.Id.actions = global::MoleWatchApp.Droid.Resource.Id.actions;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_bar = global::MoleWatchApp.Droid.Resource.Id.action_bar;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_bar_activity_content = global::MoleWatchApp.Droid.Resource.Id.action_bar_activity_content;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_bar_container = global::MoleWatchApp.Droid.Resource.Id.action_bar_container;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_bar_root = global::MoleWatchApp.Droid.Resource.Id.action_bar_root;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_bar_spinner = global::MoleWatchApp.Droid.Resource.Id.action_bar_spinner;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_bar_subtitle = global::MoleWatchApp.Droid.Resource.Id.action_bar_subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_bar_title = global::MoleWatchApp.Droid.Resource.Id.action_bar_title;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_container = global::MoleWatchApp.Droid.Resource.Id.action_container;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_context_bar = global::MoleWatchApp.Droid.Resource.Id.action_context_bar;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_divider = global::MoleWatchApp.Droid.Resource.Id.action_divider;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_image = global::MoleWatchApp.Droid.Resource.Id.action_image;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_menu_divider = global::MoleWatchApp.Droid.Resource.Id.action_menu_divider;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_menu_presenter = global::MoleWatchApp.Droid.Resource.Id.action_menu_presenter;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_mode_bar = global::MoleWatchApp.Droid.Resource.Id.action_mode_bar;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_mode_bar_stub = global::MoleWatchApp.Droid.Resource.Id.action_mode_bar_stub;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_mode_close_button = global::MoleWatchApp.Droid.Resource.Id.action_mode_close_button;
-			global::Vapolia.WheelPickerForms.Resource.Id.action_text = global::MoleWatchApp.Droid.Resource.Id.action_text;
-			global::Vapolia.WheelPickerForms.Resource.Id.activity_chooser_view_content = global::MoleWatchApp.Droid.Resource.Id.activity_chooser_view_content;
-			global::Vapolia.WheelPickerForms.Resource.Id.add = global::MoleWatchApp.Droid.Resource.Id.add;
-			global::Vapolia.WheelPickerForms.Resource.Id.alertTitle = global::MoleWatchApp.Droid.Resource.Id.alertTitle;
-			global::Vapolia.WheelPickerForms.Resource.Id.all = global::MoleWatchApp.Droid.Resource.Id.all;
-			global::Vapolia.WheelPickerForms.Resource.Id.ALT = global::MoleWatchApp.Droid.Resource.Id.ALT;
-			global::Vapolia.WheelPickerForms.Resource.Id.always = global::MoleWatchApp.Droid.Resource.Id.always;
-			global::Vapolia.WheelPickerForms.Resource.Id.async = global::MoleWatchApp.Droid.Resource.Id.async;
-			global::Vapolia.WheelPickerForms.Resource.Id.auto = global::MoleWatchApp.Droid.Resource.Id.auto;
-			global::Vapolia.WheelPickerForms.Resource.Id.beginning = global::MoleWatchApp.Droid.Resource.Id.beginning;
-			global::Vapolia.WheelPickerForms.Resource.Id.blocking = global::MoleWatchApp.Droid.Resource.Id.blocking;
-			global::Vapolia.WheelPickerForms.Resource.Id.bottom = global::MoleWatchApp.Droid.Resource.Id.bottom;
-			global::Vapolia.WheelPickerForms.Resource.Id.bottomtab_navarea = global::MoleWatchApp.Droid.Resource.Id.bottomtab_navarea;
-			global::Vapolia.WheelPickerForms.Resource.Id.bottomtab_tabbar = global::MoleWatchApp.Droid.Resource.Id.bottomtab_tabbar;
-			global::Vapolia.WheelPickerForms.Resource.Id.browser_actions_header_text = global::MoleWatchApp.Droid.Resource.Id.browser_actions_header_text;
-			global::Vapolia.WheelPickerForms.Resource.Id.browser_actions_menu_items = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_items;
-			global::Vapolia.WheelPickerForms.Resource.Id.browser_actions_menu_item_icon = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_item_icon;
-			global::Vapolia.WheelPickerForms.Resource.Id.browser_actions_menu_item_text = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Vapolia.WheelPickerForms.Resource.Id.browser_actions_menu_view = global::MoleWatchApp.Droid.Resource.Id.browser_actions_menu_view;
-			global::Vapolia.WheelPickerForms.Resource.Id.buttonPanel = global::MoleWatchApp.Droid.Resource.Id.buttonPanel;
-			global::Vapolia.WheelPickerForms.Resource.Id.cancel_action = global::MoleWatchApp.Droid.Resource.Id.cancel_action;
-			global::Vapolia.WheelPickerForms.Resource.Id.center = global::MoleWatchApp.Droid.Resource.Id.center;
-			global::Vapolia.WheelPickerForms.Resource.Id.center_horizontal = global::MoleWatchApp.Droid.Resource.Id.center_horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Id.center_vertical = global::MoleWatchApp.Droid.Resource.Id.center_vertical;
-			global::Vapolia.WheelPickerForms.Resource.Id.checkbox = global::MoleWatchApp.Droid.Resource.Id.checkbox;
-			global::Vapolia.WheelPickerForms.Resource.Id.@checked = global::MoleWatchApp.Droid.Resource.Id.@checked;
-			global::Vapolia.WheelPickerForms.Resource.Id.chronometer = global::MoleWatchApp.Droid.Resource.Id.chronometer;
-			global::Vapolia.WheelPickerForms.Resource.Id.clip_horizontal = global::MoleWatchApp.Droid.Resource.Id.clip_horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Id.clip_vertical = global::MoleWatchApp.Droid.Resource.Id.clip_vertical;
-			global::Vapolia.WheelPickerForms.Resource.Id.collapseActionView = global::MoleWatchApp.Droid.Resource.Id.collapseActionView;
-			global::Vapolia.WheelPickerForms.Resource.Id.container = global::MoleWatchApp.Droid.Resource.Id.container;
-			global::Vapolia.WheelPickerForms.Resource.Id.content = global::MoleWatchApp.Droid.Resource.Id.content;
-			global::Vapolia.WheelPickerForms.Resource.Id.contentPanel = global::MoleWatchApp.Droid.Resource.Id.contentPanel;
-			global::Vapolia.WheelPickerForms.Resource.Id.coordinator = global::MoleWatchApp.Droid.Resource.Id.coordinator;
-			global::Vapolia.WheelPickerForms.Resource.Id.CTRL = global::MoleWatchApp.Droid.Resource.Id.CTRL;
-			global::Vapolia.WheelPickerForms.Resource.Id.custom = global::MoleWatchApp.Droid.Resource.Id.custom;
-			global::Vapolia.WheelPickerForms.Resource.Id.customPanel = global::MoleWatchApp.Droid.Resource.Id.customPanel;
-			global::Vapolia.WheelPickerForms.Resource.Id.decor_content_parent = global::MoleWatchApp.Droid.Resource.Id.decor_content_parent;
-			global::Vapolia.WheelPickerForms.Resource.Id.default_activity_button = global::MoleWatchApp.Droid.Resource.Id.default_activity_button;
-			global::Vapolia.WheelPickerForms.Resource.Id.design_bottom_sheet = global::MoleWatchApp.Droid.Resource.Id.design_bottom_sheet;
-			global::Vapolia.WheelPickerForms.Resource.Id.design_menu_item_action_area = global::MoleWatchApp.Droid.Resource.Id.design_menu_item_action_area;
-			global::Vapolia.WheelPickerForms.Resource.Id.design_menu_item_action_area_stub = global::MoleWatchApp.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Vapolia.WheelPickerForms.Resource.Id.design_menu_item_text = global::MoleWatchApp.Droid.Resource.Id.design_menu_item_text;
-			global::Vapolia.WheelPickerForms.Resource.Id.design_navigation_view = global::MoleWatchApp.Droid.Resource.Id.design_navigation_view;
-			global::Vapolia.WheelPickerForms.Resource.Id.dialog_button = global::MoleWatchApp.Droid.Resource.Id.dialog_button;
-			global::Vapolia.WheelPickerForms.Resource.Id.disableHome = global::MoleWatchApp.Droid.Resource.Id.disableHome;
-			global::Vapolia.WheelPickerForms.Resource.Id.edit_query = global::MoleWatchApp.Droid.Resource.Id.edit_query;
-			global::Vapolia.WheelPickerForms.Resource.Id.end = global::MoleWatchApp.Droid.Resource.Id.end;
-			global::Vapolia.WheelPickerForms.Resource.Id.end_padder = global::MoleWatchApp.Droid.Resource.Id.end_padder;
-			global::Vapolia.WheelPickerForms.Resource.Id.enterAlways = global::MoleWatchApp.Droid.Resource.Id.enterAlways;
-			global::Vapolia.WheelPickerForms.Resource.Id.enterAlwaysCollapsed = global::MoleWatchApp.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Vapolia.WheelPickerForms.Resource.Id.exitUntilCollapsed = global::MoleWatchApp.Droid.Resource.Id.exitUntilCollapsed;
-			global::Vapolia.WheelPickerForms.Resource.Id.expanded_menu = global::MoleWatchApp.Droid.Resource.Id.expanded_menu;
-			global::Vapolia.WheelPickerForms.Resource.Id.expand_activities_button = global::MoleWatchApp.Droid.Resource.Id.expand_activities_button;
-			global::Vapolia.WheelPickerForms.Resource.Id.fill = global::MoleWatchApp.Droid.Resource.Id.fill;
-			global::Vapolia.WheelPickerForms.Resource.Id.filled = global::MoleWatchApp.Droid.Resource.Id.filled;
-			global::Vapolia.WheelPickerForms.Resource.Id.fill_horizontal = global::MoleWatchApp.Droid.Resource.Id.fill_horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Id.fill_vertical = global::MoleWatchApp.Droid.Resource.Id.fill_vertical;
-			global::Vapolia.WheelPickerForms.Resource.Id.@fixed = global::MoleWatchApp.Droid.Resource.Id.@fixed;
-			global::Vapolia.WheelPickerForms.Resource.Id.flyoutcontent_appbar = global::MoleWatchApp.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Vapolia.WheelPickerForms.Resource.Id.forever = global::MoleWatchApp.Droid.Resource.Id.forever;
-			global::Vapolia.WheelPickerForms.Resource.Id.FUNCTION = global::MoleWatchApp.Droid.Resource.Id.FUNCTION;
-			global::Vapolia.WheelPickerForms.Resource.Id.ghost_view = global::MoleWatchApp.Droid.Resource.Id.ghost_view;
-			global::Vapolia.WheelPickerForms.Resource.Id.ghost_view_holder = global::MoleWatchApp.Droid.Resource.Id.ghost_view_holder;
-			global::Vapolia.WheelPickerForms.Resource.Id.group_divider = global::MoleWatchApp.Droid.Resource.Id.group_divider;
-			global::Vapolia.WheelPickerForms.Resource.Id.home = global::MoleWatchApp.Droid.Resource.Id.home;
-			global::Vapolia.WheelPickerForms.Resource.Id.homeAsUp = global::MoleWatchApp.Droid.Resource.Id.homeAsUp;
-			global::Vapolia.WheelPickerForms.Resource.Id.icon = global::MoleWatchApp.Droid.Resource.Id.icon;
-			global::Vapolia.WheelPickerForms.Resource.Id.icon_group = global::MoleWatchApp.Droid.Resource.Id.icon_group;
-			global::Vapolia.WheelPickerForms.Resource.Id.ifRoom = global::MoleWatchApp.Droid.Resource.Id.ifRoom;
-			global::Vapolia.WheelPickerForms.Resource.Id.image = global::MoleWatchApp.Droid.Resource.Id.image;
-			global::Vapolia.WheelPickerForms.Resource.Id.info = global::MoleWatchApp.Droid.Resource.Id.info;
-			global::Vapolia.WheelPickerForms.Resource.Id.italic = global::MoleWatchApp.Droid.Resource.Id.italic;
-			global::Vapolia.WheelPickerForms.Resource.Id.item_touch_helper_previous_elevation = global::MoleWatchApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Id.labeled = global::MoleWatchApp.Droid.Resource.Id.labeled;
-			global::Vapolia.WheelPickerForms.Resource.Id.largeLabel = global::MoleWatchApp.Droid.Resource.Id.largeLabel;
-			global::Vapolia.WheelPickerForms.Resource.Id.left = global::MoleWatchApp.Droid.Resource.Id.left;
-			global::Vapolia.WheelPickerForms.Resource.Id.line1 = global::MoleWatchApp.Droid.Resource.Id.line1;
-			global::Vapolia.WheelPickerForms.Resource.Id.line3 = global::MoleWatchApp.Droid.Resource.Id.line3;
-			global::Vapolia.WheelPickerForms.Resource.Id.listMode = global::MoleWatchApp.Droid.Resource.Id.listMode;
-			global::Vapolia.WheelPickerForms.Resource.Id.list_item = global::MoleWatchApp.Droid.Resource.Id.list_item;
-			global::Vapolia.WheelPickerForms.Resource.Id.main_appbar = global::MoleWatchApp.Droid.Resource.Id.main_appbar;
-			global::Vapolia.WheelPickerForms.Resource.Id.main_tablayout = global::MoleWatchApp.Droid.Resource.Id.main_tablayout;
-			global::Vapolia.WheelPickerForms.Resource.Id.main_toolbar = global::MoleWatchApp.Droid.Resource.Id.main_toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Id.main_viewpager = global::MoleWatchApp.Droid.Resource.Id.main_viewpager;
-			global::Vapolia.WheelPickerForms.Resource.Id.masked = global::MoleWatchApp.Droid.Resource.Id.masked;
-			global::Vapolia.WheelPickerForms.Resource.Id.media_actions = global::MoleWatchApp.Droid.Resource.Id.media_actions;
-			global::Vapolia.WheelPickerForms.Resource.Id.message = global::MoleWatchApp.Droid.Resource.Id.message;
-			global::Vapolia.WheelPickerForms.Resource.Id.META = global::MoleWatchApp.Droid.Resource.Id.META;
-			global::Vapolia.WheelPickerForms.Resource.Id.middle = global::MoleWatchApp.Droid.Resource.Id.middle;
-			global::Vapolia.WheelPickerForms.Resource.Id.mini = global::MoleWatchApp.Droid.Resource.Id.mini;
-			global::Vapolia.WheelPickerForms.Resource.Id.mtrl_child_content_container = global::MoleWatchApp.Droid.Resource.Id.mtrl_child_content_container;
-			global::Vapolia.WheelPickerForms.Resource.Id.mtrl_internal_children_alpha_tag = global::MoleWatchApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
-			global::Vapolia.WheelPickerForms.Resource.Id.multiply = global::MoleWatchApp.Droid.Resource.Id.multiply;
-			global::Vapolia.WheelPickerForms.Resource.Id.navigation_header_container = global::MoleWatchApp.Droid.Resource.Id.navigation_header_container;
-			global::Vapolia.WheelPickerForms.Resource.Id.never = global::MoleWatchApp.Droid.Resource.Id.never;
-			global::Vapolia.WheelPickerForms.Resource.Id.none = global::MoleWatchApp.Droid.Resource.Id.none;
-			global::Vapolia.WheelPickerForms.Resource.Id.normal = global::MoleWatchApp.Droid.Resource.Id.normal;
-			global::Vapolia.WheelPickerForms.Resource.Id.notification_background = global::MoleWatchApp.Droid.Resource.Id.notification_background;
-			global::Vapolia.WheelPickerForms.Resource.Id.notification_main_column = global::MoleWatchApp.Droid.Resource.Id.notification_main_column;
-			global::Vapolia.WheelPickerForms.Resource.Id.notification_main_column_container = global::MoleWatchApp.Droid.Resource.Id.notification_main_column_container;
-			global::Vapolia.WheelPickerForms.Resource.Id.off = global::MoleWatchApp.Droid.Resource.Id.off;
-			global::Vapolia.WheelPickerForms.Resource.Id.on = global::MoleWatchApp.Droid.Resource.Id.on;
-			global::Vapolia.WheelPickerForms.Resource.Id.outline = global::MoleWatchApp.Droid.Resource.Id.outline;
-			global::Vapolia.WheelPickerForms.Resource.Id.parallax = global::MoleWatchApp.Droid.Resource.Id.parallax;
-			global::Vapolia.WheelPickerForms.Resource.Id.parentPanel = global::MoleWatchApp.Droid.Resource.Id.parentPanel;
-			global::Vapolia.WheelPickerForms.Resource.Id.parent_matrix = global::MoleWatchApp.Droid.Resource.Id.parent_matrix;
-			global::Vapolia.WheelPickerForms.Resource.Id.pin = global::MoleWatchApp.Droid.Resource.Id.pin;
-			global::Vapolia.WheelPickerForms.Resource.Id.progress_circular = global::MoleWatchApp.Droid.Resource.Id.progress_circular;
-			global::Vapolia.WheelPickerForms.Resource.Id.progress_horizontal = global::MoleWatchApp.Droid.Resource.Id.progress_horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Id.radio = global::MoleWatchApp.Droid.Resource.Id.radio;
-			global::Vapolia.WheelPickerForms.Resource.Id.right = global::MoleWatchApp.Droid.Resource.Id.right;
-			global::Vapolia.WheelPickerForms.Resource.Id.right_icon = global::MoleWatchApp.Droid.Resource.Id.right_icon;
-			global::Vapolia.WheelPickerForms.Resource.Id.right_side = global::MoleWatchApp.Droid.Resource.Id.right_side;
-			global::Vapolia.WheelPickerForms.Resource.Id.save_non_transition_alpha = global::MoleWatchApp.Droid.Resource.Id.save_non_transition_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Id.save_overlay_view = global::MoleWatchApp.Droid.Resource.Id.save_overlay_view;
-			global::Vapolia.WheelPickerForms.Resource.Id.screen = global::MoleWatchApp.Droid.Resource.Id.screen;
-			global::Vapolia.WheelPickerForms.Resource.Id.scroll = global::MoleWatchApp.Droid.Resource.Id.scroll;
-			global::Vapolia.WheelPickerForms.Resource.Id.scrollable = global::MoleWatchApp.Droid.Resource.Id.scrollable;
-			global::Vapolia.WheelPickerForms.Resource.Id.scrollIndicatorDown = global::MoleWatchApp.Droid.Resource.Id.scrollIndicatorDown;
-			global::Vapolia.WheelPickerForms.Resource.Id.scrollIndicatorUp = global::MoleWatchApp.Droid.Resource.Id.scrollIndicatorUp;
-			global::Vapolia.WheelPickerForms.Resource.Id.scrollView = global::MoleWatchApp.Droid.Resource.Id.scrollView;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_badge = global::MoleWatchApp.Droid.Resource.Id.search_badge;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_bar = global::MoleWatchApp.Droid.Resource.Id.search_bar;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_button = global::MoleWatchApp.Droid.Resource.Id.search_button;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_close_btn = global::MoleWatchApp.Droid.Resource.Id.search_close_btn;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_edit_frame = global::MoleWatchApp.Droid.Resource.Id.search_edit_frame;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_go_btn = global::MoleWatchApp.Droid.Resource.Id.search_go_btn;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_mag_icon = global::MoleWatchApp.Droid.Resource.Id.search_mag_icon;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_plate = global::MoleWatchApp.Droid.Resource.Id.search_plate;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_src_text = global::MoleWatchApp.Droid.Resource.Id.search_src_text;
-			global::Vapolia.WheelPickerForms.Resource.Id.search_voice_btn = global::MoleWatchApp.Droid.Resource.Id.search_voice_btn;
-			global::Vapolia.WheelPickerForms.Resource.Id.selected = global::MoleWatchApp.Droid.Resource.Id.selected;
-			global::Vapolia.WheelPickerForms.Resource.Id.select_dialog_listview = global::MoleWatchApp.Droid.Resource.Id.select_dialog_listview;
-			global::Vapolia.WheelPickerForms.Resource.Id.shellcontent_appbar = global::MoleWatchApp.Droid.Resource.Id.shellcontent_appbar;
-			global::Vapolia.WheelPickerForms.Resource.Id.shellcontent_toolbar = global::MoleWatchApp.Droid.Resource.Id.shellcontent_toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Id.SHIFT = global::MoleWatchApp.Droid.Resource.Id.SHIFT;
-			global::Vapolia.WheelPickerForms.Resource.Id.shortcut = global::MoleWatchApp.Droid.Resource.Id.shortcut;
-			global::Vapolia.WheelPickerForms.Resource.Id.showCustom = global::MoleWatchApp.Droid.Resource.Id.showCustom;
-			global::Vapolia.WheelPickerForms.Resource.Id.showHome = global::MoleWatchApp.Droid.Resource.Id.showHome;
-			global::Vapolia.WheelPickerForms.Resource.Id.showTitle = global::MoleWatchApp.Droid.Resource.Id.showTitle;
-			global::Vapolia.WheelPickerForms.Resource.Id.sliding_tabs = global::MoleWatchApp.Droid.Resource.Id.sliding_tabs;
-			global::Vapolia.WheelPickerForms.Resource.Id.smallLabel = global::MoleWatchApp.Droid.Resource.Id.smallLabel;
-			global::Vapolia.WheelPickerForms.Resource.Id.snackbar_action = global::MoleWatchApp.Droid.Resource.Id.snackbar_action;
-			global::Vapolia.WheelPickerForms.Resource.Id.snackbar_text = global::MoleWatchApp.Droid.Resource.Id.snackbar_text;
-			global::Vapolia.WheelPickerForms.Resource.Id.snap = global::MoleWatchApp.Droid.Resource.Id.snap;
-			global::Vapolia.WheelPickerForms.Resource.Id.snapMargins = global::MoleWatchApp.Droid.Resource.Id.snapMargins;
-			global::Vapolia.WheelPickerForms.Resource.Id.spacer = global::MoleWatchApp.Droid.Resource.Id.spacer;
-			global::Vapolia.WheelPickerForms.Resource.Id.split_action_bar = global::MoleWatchApp.Droid.Resource.Id.split_action_bar;
-			global::Vapolia.WheelPickerForms.Resource.Id.src_atop = global::MoleWatchApp.Droid.Resource.Id.src_atop;
-			global::Vapolia.WheelPickerForms.Resource.Id.src_in = global::MoleWatchApp.Droid.Resource.Id.src_in;
-			global::Vapolia.WheelPickerForms.Resource.Id.src_over = global::MoleWatchApp.Droid.Resource.Id.src_over;
-			global::Vapolia.WheelPickerForms.Resource.Id.start = global::MoleWatchApp.Droid.Resource.Id.start;
-			global::Vapolia.WheelPickerForms.Resource.Id.status_bar_latest_event_content = global::MoleWatchApp.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Vapolia.WheelPickerForms.Resource.Id.stretch = global::MoleWatchApp.Droid.Resource.Id.stretch;
-			global::Vapolia.WheelPickerForms.Resource.Id.submenuarrow = global::MoleWatchApp.Droid.Resource.Id.submenuarrow;
-			global::Vapolia.WheelPickerForms.Resource.Id.submit_area = global::MoleWatchApp.Droid.Resource.Id.submit_area;
-			global::Vapolia.WheelPickerForms.Resource.Id.SYM = global::MoleWatchApp.Droid.Resource.Id.SYM;
-			global::Vapolia.WheelPickerForms.Resource.Id.tabMode = global::MoleWatchApp.Droid.Resource.Id.tabMode;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_accessibility_actions = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_actions;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_accessibility_clickable_spans = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_accessibility_heading = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_heading;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_accessibility_pane_title = global::MoleWatchApp.Droid.Resource.Id.tag_accessibility_pane_title;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_screen_reader_focusable = global::MoleWatchApp.Droid.Resource.Id.tag_screen_reader_focusable;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_transition_group = global::MoleWatchApp.Droid.Resource.Id.tag_transition_group;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_unhandled_key_event_manager = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Vapolia.WheelPickerForms.Resource.Id.tag_unhandled_key_listeners = global::MoleWatchApp.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Vapolia.WheelPickerForms.Resource.Id.text = global::MoleWatchApp.Droid.Resource.Id.text;
-			global::Vapolia.WheelPickerForms.Resource.Id.text2 = global::MoleWatchApp.Droid.Resource.Id.text2;
-			global::Vapolia.WheelPickerForms.Resource.Id.textinput_counter = global::MoleWatchApp.Droid.Resource.Id.textinput_counter;
-			global::Vapolia.WheelPickerForms.Resource.Id.textinput_error = global::MoleWatchApp.Droid.Resource.Id.textinput_error;
-			global::Vapolia.WheelPickerForms.Resource.Id.textinput_helper_text = global::MoleWatchApp.Droid.Resource.Id.textinput_helper_text;
-			global::Vapolia.WheelPickerForms.Resource.Id.textSpacerNoButtons = global::MoleWatchApp.Droid.Resource.Id.textSpacerNoButtons;
-			global::Vapolia.WheelPickerForms.Resource.Id.textSpacerNoTitle = global::MoleWatchApp.Droid.Resource.Id.textSpacerNoTitle;
-			global::Vapolia.WheelPickerForms.Resource.Id.textStart = global::MoleWatchApp.Droid.Resource.Id.textStart;
-			global::Vapolia.WheelPickerForms.Resource.Id.time = global::MoleWatchApp.Droid.Resource.Id.time;
-			global::Vapolia.WheelPickerForms.Resource.Id.title = global::MoleWatchApp.Droid.Resource.Id.title;
-			global::Vapolia.WheelPickerForms.Resource.Id.titleDividerNoCustom = global::MoleWatchApp.Droid.Resource.Id.titleDividerNoCustom;
-			global::Vapolia.WheelPickerForms.Resource.Id.title_template = global::MoleWatchApp.Droid.Resource.Id.title_template;
-			global::Vapolia.WheelPickerForms.Resource.Id.toolbar = global::MoleWatchApp.Droid.Resource.Id.toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Id.top = global::MoleWatchApp.Droid.Resource.Id.top;
-			global::Vapolia.WheelPickerForms.Resource.Id.topPanel = global::MoleWatchApp.Droid.Resource.Id.topPanel;
-			global::Vapolia.WheelPickerForms.Resource.Id.touch_outside = global::MoleWatchApp.Droid.Resource.Id.touch_outside;
-			global::Vapolia.WheelPickerForms.Resource.Id.transition_current_scene = global::MoleWatchApp.Droid.Resource.Id.transition_current_scene;
-			global::Vapolia.WheelPickerForms.Resource.Id.transition_layout_save = global::MoleWatchApp.Droid.Resource.Id.transition_layout_save;
-			global::Vapolia.WheelPickerForms.Resource.Id.transition_position = global::MoleWatchApp.Droid.Resource.Id.transition_position;
-			global::Vapolia.WheelPickerForms.Resource.Id.transition_scene_layoutid_cache = global::MoleWatchApp.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Vapolia.WheelPickerForms.Resource.Id.transition_transform = global::MoleWatchApp.Droid.Resource.Id.transition_transform;
-			global::Vapolia.WheelPickerForms.Resource.Id.@unchecked = global::MoleWatchApp.Droid.Resource.Id.@unchecked;
-			global::Vapolia.WheelPickerForms.Resource.Id.uniform = global::MoleWatchApp.Droid.Resource.Id.uniform;
-			global::Vapolia.WheelPickerForms.Resource.Id.unlabeled = global::MoleWatchApp.Droid.Resource.Id.unlabeled;
-			global::Vapolia.WheelPickerForms.Resource.Id.up = global::MoleWatchApp.Droid.Resource.Id.up;
-			global::Vapolia.WheelPickerForms.Resource.Id.useLogo = global::MoleWatchApp.Droid.Resource.Id.useLogo;
-			global::Vapolia.WheelPickerForms.Resource.Id.view_offset_helper = global::MoleWatchApp.Droid.Resource.Id.view_offset_helper;
-			global::Vapolia.WheelPickerForms.Resource.Id.visible = global::MoleWatchApp.Droid.Resource.Id.visible;
-			global::Vapolia.WheelPickerForms.Resource.Id.withText = global::MoleWatchApp.Droid.Resource.Id.withText;
-			global::Vapolia.WheelPickerForms.Resource.Id.wrap_content = global::MoleWatchApp.Droid.Resource.Id.wrap_content;
-			global::Vapolia.WheelPickerForms.Resource.Integer.abc_config_activityDefaultDur = global::MoleWatchApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Vapolia.WheelPickerForms.Resource.Integer.abc_config_activityShortDur = global::MoleWatchApp.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Vapolia.WheelPickerForms.Resource.Integer.app_bar_elevation_anim_duration = global::MoleWatchApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Vapolia.WheelPickerForms.Resource.Integer.bottom_sheet_slide_duration = global::MoleWatchApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Vapolia.WheelPickerForms.Resource.Integer.cancel_button_image_alpha = global::MoleWatchApp.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Integer.config_tooltipAnimTime = global::MoleWatchApp.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Vapolia.WheelPickerForms.Resource.Integer.design_snackbar_text_max_lines = global::MoleWatchApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Vapolia.WheelPickerForms.Resource.Integer.design_tab_indicator_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
-			global::Vapolia.WheelPickerForms.Resource.Integer.hide_password_duration = global::MoleWatchApp.Droid.Resource.Integer.hide_password_duration;
-			global::Vapolia.WheelPickerForms.Resource.Integer.mtrl_btn_anim_delay_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
-			global::Vapolia.WheelPickerForms.Resource.Integer.mtrl_btn_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
-			global::Vapolia.WheelPickerForms.Resource.Integer.mtrl_chip_anim_duration = global::MoleWatchApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
-			global::Vapolia.WheelPickerForms.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::MoleWatchApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
-			global::Vapolia.WheelPickerForms.Resource.Integer.show_password_duration = global::MoleWatchApp.Droid.Resource.Integer.show_password_duration;
-			global::Vapolia.WheelPickerForms.Resource.Integer.status_bar_notification_info_maxnum = global::MoleWatchApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::MoleWatchApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.fast_out_slow_in = global::MoleWatchApp.Droid.Resource.Interpolator.fast_out_slow_in;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.mtrl_fast_out_linear_in = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.mtrl_fast_out_slow_in = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.mtrl_linear = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_linear;
-			global::Vapolia.WheelPickerForms.Resource.Interpolator.mtrl_linear_out_slow_in = global::MoleWatchApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_action_bar_title_item = global::MoleWatchApp.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_action_bar_up_container = global::MoleWatchApp.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_action_menu_item_layout = global::MoleWatchApp.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_action_menu_layout = global::MoleWatchApp.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_action_mode_bar = global::MoleWatchApp.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_action_mode_close_item_material = global::MoleWatchApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_activity_chooser_view = global::MoleWatchApp.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_activity_chooser_view_list_item = global::MoleWatchApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_alert_dialog_button_bar_material = global::MoleWatchApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_alert_dialog_material = global::MoleWatchApp.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_alert_dialog_title_material = global::MoleWatchApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_cascading_menu_item_layout = global::MoleWatchApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_dialog_title_material = global::MoleWatchApp.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_expanded_menu_layout = global::MoleWatchApp.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_list_menu_item_checkbox = global::MoleWatchApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_list_menu_item_icon = global::MoleWatchApp.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_list_menu_item_layout = global::MoleWatchApp.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_list_menu_item_radio = global::MoleWatchApp.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_popup_menu_header_item_layout = global::MoleWatchApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_popup_menu_item_layout = global::MoleWatchApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_screen_content_include = global::MoleWatchApp.Droid.Resource.Layout.abc_screen_content_include;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_screen_simple = global::MoleWatchApp.Droid.Resource.Layout.abc_screen_simple;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MoleWatchApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_screen_toolbar = global::MoleWatchApp.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MoleWatchApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_search_view = global::MoleWatchApp.Droid.Resource.Layout.abc_search_view;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_select_dialog_material = global::MoleWatchApp.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.abc_tooltip = global::MoleWatchApp.Droid.Resource.Layout.abc_tooltip;
-			global::Vapolia.WheelPickerForms.Resource.Layout.BottomTabLayout = global::MoleWatchApp.Droid.Resource.Layout.BottomTabLayout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.browser_actions_context_menu_page = global::MoleWatchApp.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Vapolia.WheelPickerForms.Resource.Layout.browser_actions_context_menu_row = global::MoleWatchApp.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Vapolia.WheelPickerForms.Resource.Layout.custom_dialog = global::MoleWatchApp.Droid.Resource.Layout.custom_dialog;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_bottom_navigation_item = global::MoleWatchApp.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_bottom_sheet_dialog = global::MoleWatchApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_layout_snackbar = global::MoleWatchApp.Droid.Resource.Layout.design_layout_snackbar;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_layout_snackbar_include = global::MoleWatchApp.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_layout_tab_icon = global::MoleWatchApp.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_layout_tab_text = global::MoleWatchApp.Droid.Resource.Layout.design_layout_tab_text;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_menu_item_action_area = global::MoleWatchApp.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_navigation_item = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_item;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_navigation_item_header = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_item_header;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_navigation_item_separator = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_navigation_item_subheader = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_navigation_menu = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_menu;
-			global::Vapolia.WheelPickerForms.Resource.Layout.design_navigation_menu_item = global::MoleWatchApp.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Vapolia.WheelPickerForms.Resource.Layout.FallbackTabbarDoNotUse = global::MoleWatchApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
-			global::Vapolia.WheelPickerForms.Resource.Layout.FallbackToolbarDoNotUse = global::MoleWatchApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
-			global::Vapolia.WheelPickerForms.Resource.Layout.FlyoutContent = global::MoleWatchApp.Droid.Resource.Layout.FlyoutContent;
-			global::Vapolia.WheelPickerForms.Resource.Layout.mtrl_layout_snackbar = global::MoleWatchApp.Droid.Resource.Layout.mtrl_layout_snackbar;
-			global::Vapolia.WheelPickerForms.Resource.Layout.mtrl_layout_snackbar_include = global::MoleWatchApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_action = global::MoleWatchApp.Droid.Resource.Layout.notification_action;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_action_tombstone = global::MoleWatchApp.Droid.Resource.Layout.notification_action_tombstone;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_media_action = global::MoleWatchApp.Droid.Resource.Layout.notification_media_action;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_media_cancel_action = global::MoleWatchApp.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_big_media = global::MoleWatchApp.Droid.Resource.Layout.notification_template_big_media;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_big_media_custom = global::MoleWatchApp.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_big_media_narrow = global::MoleWatchApp.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_big_media_narrow_custom = global::MoleWatchApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_custom_big = global::MoleWatchApp.Droid.Resource.Layout.notification_template_custom_big;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_icon_group = global::MoleWatchApp.Droid.Resource.Layout.notification_template_icon_group;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_lines_media = global::MoleWatchApp.Droid.Resource.Layout.notification_template_lines_media;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_media = global::MoleWatchApp.Droid.Resource.Layout.notification_template_media;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_media_custom = global::MoleWatchApp.Droid.Resource.Layout.notification_template_media_custom;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_part_chronometer = global::MoleWatchApp.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Vapolia.WheelPickerForms.Resource.Layout.notification_template_part_time = global::MoleWatchApp.Droid.Resource.Layout.notification_template_part_time;
-			global::Vapolia.WheelPickerForms.Resource.Layout.RootLayout = global::MoleWatchApp.Droid.Resource.Layout.RootLayout;
-			global::Vapolia.WheelPickerForms.Resource.Layout.select_dialog_item_material = global::MoleWatchApp.Droid.Resource.Layout.select_dialog_item_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.select_dialog_multichoice_material = global::MoleWatchApp.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.select_dialog_singlechoice_material = global::MoleWatchApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Vapolia.WheelPickerForms.Resource.Layout.ShellContent = global::MoleWatchApp.Droid.Resource.Layout.ShellContent;
-			global::Vapolia.WheelPickerForms.Resource.Layout.support_simple_spinner_dropdown_item = global::MoleWatchApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Vapolia.WheelPickerForms.Resource.Layout.Tabbar = global::MoleWatchApp.Droid.Resource.Layout.Tabbar;
-			global::Vapolia.WheelPickerForms.Resource.Layout.Toolbar = global::MoleWatchApp.Droid.Resource.Layout.Toolbar;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_action_bar_home_description = global::MoleWatchApp.Droid.Resource.String.abc_action_bar_home_description;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_action_bar_up_description = global::MoleWatchApp.Droid.Resource.String.abc_action_bar_up_description;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_action_menu_overflow_description = global::MoleWatchApp.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_action_mode_done = global::MoleWatchApp.Droid.Resource.String.abc_action_mode_done;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_activitychooserview_choose_application = global::MoleWatchApp.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_activity_chooser_view_see_all = global::MoleWatchApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_capital_off = global::MoleWatchApp.Droid.Resource.String.abc_capital_off;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_capital_on = global::MoleWatchApp.Droid.Resource.String.abc_capital_on;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_alt_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_ctrl_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_delete_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_enter_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_function_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_function_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_meta_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_shift_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_space_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_space_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_menu_sym_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_prepend_shortcut_label = global::MoleWatchApp.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_searchview_description_clear = global::MoleWatchApp.Droid.Resource.String.abc_searchview_description_clear;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_searchview_description_query = global::MoleWatchApp.Droid.Resource.String.abc_searchview_description_query;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_searchview_description_search = global::MoleWatchApp.Droid.Resource.String.abc_searchview_description_search;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_searchview_description_submit = global::MoleWatchApp.Droid.Resource.String.abc_searchview_description_submit;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_searchview_description_voice = global::MoleWatchApp.Droid.Resource.String.abc_searchview_description_voice;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_search_hint = global::MoleWatchApp.Droid.Resource.String.abc_search_hint;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_shareactionprovider_share_with = global::MoleWatchApp.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_shareactionprovider_share_with_application = global::MoleWatchApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Vapolia.WheelPickerForms.Resource.String.abc_toolbar_collapse_description = global::MoleWatchApp.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Vapolia.WheelPickerForms.Resource.String.appbar_scrolling_view_behavior = global::MoleWatchApp.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Vapolia.WheelPickerForms.Resource.String.bottom_sheet_behavior = global::MoleWatchApp.Droid.Resource.String.bottom_sheet_behavior;
-			global::Vapolia.WheelPickerForms.Resource.String.character_counter_content_description = global::MoleWatchApp.Droid.Resource.String.character_counter_content_description;
-			global::Vapolia.WheelPickerForms.Resource.String.character_counter_pattern = global::MoleWatchApp.Droid.Resource.String.character_counter_pattern;
-			global::Vapolia.WheelPickerForms.Resource.String.fab_transformation_scrim_behavior = global::MoleWatchApp.Droid.Resource.String.fab_transformation_scrim_behavior;
-			global::Vapolia.WheelPickerForms.Resource.String.fab_transformation_sheet_behavior = global::MoleWatchApp.Droid.Resource.String.fab_transformation_sheet_behavior;
-			global::Vapolia.WheelPickerForms.Resource.String.hide_bottom_view_on_scroll_behavior = global::MoleWatchApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
-			global::Vapolia.WheelPickerForms.Resource.String.mtrl_chip_close_icon_content_description = global::MoleWatchApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
-			global::Vapolia.WheelPickerForms.Resource.String.overflow_tab_title = global::MoleWatchApp.Droid.Resource.String.overflow_tab_title;
-			global::Vapolia.WheelPickerForms.Resource.String.password_toggle_content_description = global::MoleWatchApp.Droid.Resource.String.password_toggle_content_description;
-			global::Vapolia.WheelPickerForms.Resource.String.path_password_eye = global::MoleWatchApp.Droid.Resource.String.path_password_eye;
-			global::Vapolia.WheelPickerForms.Resource.String.path_password_eye_mask_strike_through = global::MoleWatchApp.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Vapolia.WheelPickerForms.Resource.String.path_password_eye_mask_visible = global::MoleWatchApp.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Vapolia.WheelPickerForms.Resource.String.path_password_strike_through = global::MoleWatchApp.Droid.Resource.String.path_password_strike_through;
-			global::Vapolia.WheelPickerForms.Resource.String.search_menu_title = global::MoleWatchApp.Droid.Resource.String.search_menu_title;
-			global::Vapolia.WheelPickerForms.Resource.String.status_bar_notification_info_overflow = global::MoleWatchApp.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.AlertDialog_AppCompat = global::MoleWatchApp.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.AlertDialog_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Animation_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Animation_AppCompat_DropDownUp = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Vapolia.WheelPickerForms.Resource.Style.Animation_AppCompat_Tooltip = global::MoleWatchApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Vapolia.WheelPickerForms.Resource.Style.Animation_Design_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.AppCompatDialogStyle = global::MoleWatchApp.Droid.Resource.Style.AppCompatDialogStyle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_AlertDialog_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Animation_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MoleWatchApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Animation_AppCompat_Tooltip = global::MoleWatchApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_CardView = global::MoleWatchApp.Droid.Resource.Style.Base_CardView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MoleWatchApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_Theme_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V21_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V22_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V23_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V26_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V26_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V28_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V28_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MoleWatchApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Button = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_EditText = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ListView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_SearchView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Spinner = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_TextView = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_Design_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_MaterialComponents_Chip = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::MoleWatchApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
-			global::Vapolia.WheelPickerForms.Resource.Style.CardView = global::MoleWatchApp.Droid.Resource.Style.CardView;
-			global::Vapolia.WheelPickerForms.Resource.Style.CardView_Dark = global::MoleWatchApp.Droid.Resource.Style.CardView_Dark;
-			global::Vapolia.WheelPickerForms.Resource.Style.CardView_Light = global::MoleWatchApp.Droid.Resource.Style.CardView_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.collectionViewTheme = global::MoleWatchApp.Droid.Resource.Style.collectionViewTheme;
-			global::Vapolia.WheelPickerForms.Resource.Style.MainTheme = global::MoleWatchApp.Droid.Resource.Style.MainTheme;
-			global::Vapolia.WheelPickerForms.Resource.Style.MainTheme_Base = global::MoleWatchApp.Droid.Resource.Style.MainTheme_Base;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Platform_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Platform_MaterialComponents;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MoleWatchApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_V21_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_V21_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_V25_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_V25_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MoleWatchApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MoleWatchApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MoleWatchApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MoleWatchApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.scrollViewScrollBars = global::MoleWatchApp.Droid.Resource.Style.scrollViewScrollBars;
-			global::Vapolia.WheelPickerForms.Resource.Style.scrollViewTheme = global::MoleWatchApp.Droid.Resource.Style.scrollViewTheme;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Body1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Body2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Button = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Caption = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Display1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Display2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Display3 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Display4 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Headline = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Large = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Medium = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Menu = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Small = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Subhead = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Tooltip = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Info = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Media = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Time = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_Counter = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_Error = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_HelperText = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_Hint = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Design_Tab = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Caption = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Chip = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Overline = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MoleWatchApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DayNight = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Light = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_AppCompat_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_Design = global::MoleWatchApp.Droid.Resource.Style.Theme_Design;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_Design_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_Design_Light = global::MoleWatchApp.Droid.Resource.Style.Theme_Design_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_Design_Light_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_Design_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_CompactMenu = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_NoActionBar = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::MoleWatchApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-			global::Vapolia.WheelPickerForms.Resource.Style.WheelPickerStyle = global::MoleWatchApp.Droid.Resource.Style.WheelPickerStyle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActionMode = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Button = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ButtonBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Button_Borderless = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Button_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Button_Small = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_EditText = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ImageButton = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_SearchView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ListMenuView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ListView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ListView_Menu = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_PopupMenu = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_PopupWindow = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ProgressBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_RatingBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_SearchView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_SeekBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Spinner = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_TextView = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_TextView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MoleWatchApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Compat_NotificationActionContainer = global::MoleWatchApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Compat_NotificationActionText = global::MoleWatchApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_AppBarLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_BottomNavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_BottomSheet_Modal = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_CollapsingToolbar = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_FloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_NavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Design_TextInputLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_CardView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_ChipGroup = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Chip_Action = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_NavigationView = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Snackbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TabLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_MaterialComponents_Toolbar = global::MoleWatchApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Style.Widget_Support_CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBarLayout = global::MoleWatchApp.Droid.Resource.Styleable.ActionBarLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MoleWatchApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_background = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_background;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_backgroundSplit = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_backgroundStacked = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_contentInsetEnd = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_contentInsetLeft = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_contentInsetRight = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_contentInsetStart = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_customNavigationLayout = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_displayOptions = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_divider = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_divider;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_elevation = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_height = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_height;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_hideOnContentScroll = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_homeLayout = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_icon = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_icon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_itemPadding = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_logo = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_logo;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_navigationMode = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_popupTheme = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_progressBarPadding = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_progressBarStyle = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_subtitle = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_subtitleTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_title = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_title;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionBar_titleTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMenuItemView = global::MoleWatchApp.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MoleWatchApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMenuView = global::MoleWatchApp.Droid.Resource.Styleable.ActionMenuView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMode = global::MoleWatchApp.Droid.Resource.Styleable.ActionMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMode_background = global::MoleWatchApp.Droid.Resource.Styleable.ActionMode_background;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMode_backgroundSplit = global::MoleWatchApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMode_closeItemLayout = global::MoleWatchApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMode_height = global::MoleWatchApp.Droid.Resource.Styleable.ActionMode_height;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMode_subtitleTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActionMode_titleTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActivityChooserView = global::MoleWatchApp.Droid.Resource.Styleable.ActivityChooserView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MoleWatchApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MoleWatchApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_android_layout = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_buttonIconDimen = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_listItemLayout = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_listLayout = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_showTitle = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MoleWatchApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableCompat = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableItem = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableTransition = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::MoleWatchApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayoutStates = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayoutStates_state_liftable = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayoutStates_state_lifted = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_android_background = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_elevation = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_expanded = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_Layout = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppBarLayout_liftOnScroll = global::MoleWatchApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatImageView = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatImageView_android_src = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatImageView_srcCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatImageView_tint = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatImageView_tintMode = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatSeekBar = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatSeekBar_tickMark = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableTint = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableTintMode = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_fontFamily = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_lineHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_textAllCaps = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTextView_textLocale = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarSize = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_buttonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorAccent = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorError = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorPrimary = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_controlBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_dialogTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_dividerVertical = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_editTextBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_editTextColor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_editTextStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_panelBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_switchStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowActionBar = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MoleWatchApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomAppBar = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomAppBar_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomAppBar_fabCradleMargin = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomAppBar_hideOnScroll = global::MoleWatchApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_elevation = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_itemBackground = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_itemIconSize = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_itemIconTint = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomNavigationView_menu = global::MoleWatchApp.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomSheetBehavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MoleWatchApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ButtonBarLayout = global::MoleWatchApp.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ButtonBarLayout_allowStacking = global::MoleWatchApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView = global::MoleWatchApp.Droid.Resource.Styleable.CardView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_android_minHeight = global::MoleWatchApp.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_android_minWidth = global::MoleWatchApp.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_cardBackgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_cardCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_cardElevation = global::MoleWatchApp.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_cardMaxElevation = global::MoleWatchApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MoleWatchApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_cardUseCompatPadding = global::MoleWatchApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_contentPadding = global::MoleWatchApp.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_contentPaddingBottom = global::MoleWatchApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_contentPaddingLeft = global::MoleWatchApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_contentPaddingRight = global::MoleWatchApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CardView_contentPaddingTop = global::MoleWatchApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip = global::MoleWatchApp.Droid.Resource.Styleable.Chip;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ChipGroup = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ChipGroup_checkedChip = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ChipGroup_chipSpacing = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ChipGroup_chipSpacingVertical = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ChipGroup_singleLine = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_singleLine;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ChipGroup_singleSelection = global::MoleWatchApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_checkable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_android_ellipsize = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_ellipsize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_maxWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_android_text = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_text;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Chip_android_textAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_checkedIcon = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_checkedIconEnabled = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_checkedIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipBackgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipCornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipIcon = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipIconEnabled = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipIconSize = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipIconVisible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipMinHeight = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipMinHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_chipStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_closeIcon = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_closeIconEnabled = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_closeIconEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_closeIconSize = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_closeIconStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_closeIconTint = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_closeIconVisible = global::MoleWatchApp.Droid.Resource.Styleable.Chip_closeIconVisible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_iconEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_iconEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_iconStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_iconStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.Chip_rippleColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.Chip_showMotionSpec;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_textEndPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_textEndPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Chip_textStartPadding = global::MoleWatchApp.Droid.Resource.Styleable.Chip_textStartPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_title = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MoleWatchApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ColorStateListItem = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ColorStateListItem_alpha = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ColorStateListItem_android_alpha = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ColorStateListItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CompoundButton = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CompoundButton_android_button = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CompoundButton_buttonCompat = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CompoundButton_buttonTint = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CompoundButton_buttonTintMode = global::MoleWatchApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_keylines = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MoleWatchApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_barLength = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_color = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_spinBars = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.DrawerArrowToggle_thickness = global::MoleWatchApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_borderWidth = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_elevation = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_fabCustomSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_fabSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_maxImageSize = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_showMotionSpec = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MoleWatchApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FlowLayout = global::MoleWatchApp.Droid.Resource.Styleable.FlowLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FlowLayout_itemSpacing = global::MoleWatchApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FlowLayout_lineSpacing = global::MoleWatchApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamily = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_android_font = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_font = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_fontStyle = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_fontWeight = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamilyFont_ttcIndex = global::MoleWatchApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamily_fontProviderAuthority = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamily_fontProviderCerts = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamily_fontProviderPackage = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.FontFamily_fontProviderQuery = global::MoleWatchApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ForegroundLinearLayout = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MoleWatchApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColorItem = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColorItem_android_color = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColorItem_android_offset = global::MoleWatchApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_centerColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_centerX = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_centerY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_endColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_endX = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_endY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_gradientRadius = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_startColor = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_startX = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_startY = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_tileMode = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.GradientColor_android_type = global::MoleWatchApp.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ItemsViewRendererTheme = global::MoleWatchApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_divider = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_Layout = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.LinearLayoutCompat_showDividers = global::MoleWatchApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ListPopupWindow = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MoleWatchApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_android_insetBottom = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_android_insetLeft = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_android_insetRight = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_android_insetTop = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_cornerRadius = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_icon = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_icon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_iconGravity = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_iconPadding = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_iconSize = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_iconTint = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_iconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_rippleColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialButton_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialCardView = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialCardView_strokeColor = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MaterialCardView_strokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuGroup = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuGroup_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuGroup_android_id = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuGroup_android_menuCategory = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuGroup_android_orderInCategory = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuGroup_android_visible = global::MoleWatchApp.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_actionLayout = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_actionProviderClass = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_actionViewClass = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_alphabeticModifiers = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_checkable = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_checked = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_enabled = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_icon = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_id = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_menuCategory = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_numericShortcut = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_onClick = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_orderInCategory = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_title = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_titleCondensed = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_android_visible = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_contentDescription = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_iconTint = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_iconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_numericModifiers = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_showAsAction = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuItem_tooltipText = global::MoleWatchApp.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView = global::MoleWatchApp.Droid.Resource.Styleable.MenuView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_android_headerBackground = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_android_horizontalDivider = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_android_itemBackground = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_android_itemTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_android_verticalDivider = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_preserveIconSpacing = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.MenuView_subMenuArrow = global::MoleWatchApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_android_background = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_elevation = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_headerLayout = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_itemBackground = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_itemHorizontalPadding = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_itemIconPadding = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_itemIconTint = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_itemTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.NavigationView_menu = global::MoleWatchApp.Droid.Resource.Styleable.NavigationView_menu;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.PopupWindow = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.PopupWindowBackgroundState = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.PopupWindow_android_popupBackground = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.PopupWindow_overlapAnchor = global::MoleWatchApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecycleListView = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MoleWatchApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_android_clipToPadding = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_android_orientation = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_layoutManager = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_reverseLayout = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_spanCount = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.RecyclerView_stackFromEnd = global::MoleWatchApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ScrimInsetsFrameLayout = global::MoleWatchApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MoleWatchApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ScrollingViewBehavior_Layout = global::MoleWatchApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MoleWatchApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ScrollViewRendererTheme = global::MoleWatchApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::MoleWatchApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView = global::MoleWatchApp.Droid.Resource.Styleable.SearchView;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_android_focusable = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_android_imeOptions = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_android_inputType = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_closeIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_commitIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_defaultQueryHint = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_goIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_iconifiedByDefault = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_layout = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_queryBackground = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_queryHint = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_searchHintIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_searchIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_submitBackground = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_suggestionRowLayout = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SearchView_voiceIcon = global::MoleWatchApp.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Snackbar = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SnackbarLayout = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SnackbarLayout_elevation = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MoleWatchApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Snackbar_snackbarButtonStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Snackbar_snackbarStyle = global::MoleWatchApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Spinner = global::MoleWatchApp.Droid.Resource.Styleable.Spinner;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Spinner_android_dropDownWidth = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Spinner_android_entries = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Spinner_android_popupBackground = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Spinner_android_prompt = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Spinner_popupTheme = global::MoleWatchApp.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawable = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawableItem = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawableItem_android_drawable = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawable_android_constantSize = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawable_android_dither = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawable_android_variablePadding = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.StateListDrawable_android_visible = global::MoleWatchApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_android_textOff = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_android_textOn = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_android_thumb = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_showText = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_splitTrack = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_switchMinWidth = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_switchPadding = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_thumbTint = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_thumbTintMode = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_track = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_trackTint = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.SwitchCompat_trackTintMode = global::MoleWatchApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabItem = global::MoleWatchApp.Droid.Resource.Styleable.TabItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabItem_android_icon = global::MoleWatchApp.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabItem_android_layout = global::MoleWatchApp.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabItem_android_text = global::MoleWatchApp.Droid.Resource.Styleable.TabItem_android_text;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabBackground = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabContentStart = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabGravity = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIconTint = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIconTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIndicator = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIndicatorColor = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIndicatorGravity = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabInlineLabel = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabMaxWidth = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabMinWidth = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabMode = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabPadding = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabPaddingBottom = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabPaddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabPaddingStart = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabPaddingTop = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabRippleColor = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabTextColor = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TabLayout_tabUnboundedRipple = global::MoleWatchApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_fontFamily = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_shadowColor = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_shadowDx = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_shadowDy = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_shadowRadius = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_textColor = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_textColorHint = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_textColorLink = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_textFontWeight = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_textSize = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_textStyle = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_android_typeface = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_fontFamily = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_fontVariationSettings = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_textAllCaps = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextAppearance_textLocale = global::MoleWatchApp.Droid.Resource.Styleable.TextAppearance_textLocale;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_android_hint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_android_textColorHint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxStrokeColor = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_counterEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_counterMaxLength = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_errorEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_helperText = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperText;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_helperTextEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_hintEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MoleWatchApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ThemeEnforcement = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_android_gravity = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_android_minHeight = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_buttonGravity = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_collapseContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_collapseIcon = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_contentInsetEnd = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_contentInsetLeft = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_contentInsetRight = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_contentInsetStart = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_logo = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_logo;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_logoDescription = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_maxButtonHeight = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_menu = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_menu;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_navigationContentDescription = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_navigationIcon = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_popupTheme = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_subtitle = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_subtitleTextColor = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_title = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_title;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleMargin = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleMarginBottom = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleMarginEnd = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleMargins = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleMarginStart = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleMarginTop = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleTextAppearance = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.Toolbar_titleTextColor = global::MoleWatchApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.View = global::MoleWatchApp.Droid.Resource.Styleable.View;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewBackgroundHelper = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewBackgroundHelper_android_background = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MoleWatchApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewStubCompat = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewStubCompat_android_id = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.ViewStubCompat_android_layout = global::MoleWatchApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.View_android_focusable = global::MoleWatchApp.Droid.Resource.Styleable.View_android_focusable;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.View_android_theme = global::MoleWatchApp.Droid.Resource.Styleable.View_android_theme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.View_paddingEnd = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingEnd;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.View_paddingStart = global::MoleWatchApp.Droid.Resource.Styleable.View_paddingStart;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.View_theme = global::MoleWatchApp.Droid.Resource.Styleable.View_theme;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_android_gravity = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_android_gravity;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_enableTrace = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_enableTrace;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_fadingItems = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_fadingItems;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_horizontalSpaceBetweenWheels = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_horizontalSpaceBetweenWheels;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_isCurved = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_isCurved;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_itemAlign = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemAlign;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_itemAligns = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemAligns;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_itemHeights = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemHeights;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_itemsSource = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemsSource;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_itemTextSize = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemTextSize;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_itemWidths = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_itemWidths;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_selectedItem = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectedItem;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_selectedItemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectedItemTextColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_selectionLinesColor = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectionLinesColor;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_selectionLinesThickness = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_selectionLinesThickness;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_showSelectionLines = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_showSelectionLines;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_verticalSpaceBetweenItems = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_verticalSpaceBetweenItems;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_visibleItemCount = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_visibleItemCount;
-			global::Vapolia.WheelPickerForms.Resource.Styleable.WheelPicker_wp_itemTextColor = global::MoleWatchApp.Droid.Resource.Styleable.WheelPicker_wp_itemTextColor;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MoleWatchApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MoleWatchApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::MoleWatchApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -12355,22 +9614,7 @@ namespace MoleWatchApp.Droid
 			public const int crypto_fingerprint_fallback_vendors = 2130903041;
 			
 			// aapt resource value: 0x7F030002
-			public const int days = 2130903042;
-			
-			// aapt resource value: 0x7F030003
-			public const int hide_fingerprint_instantly_prefixes = 2130903043;
-			
-			// aapt resource value: 0x7F030004
-			public const int months = 2130903044;
-			
-			// aapt resource value: 0x7F030005
-			public const int wheelDefaultItems = 2130903045;
-			
-			// aapt resource value: 0x7F030006
-			public const int wheelDefaultItems2 = 2130903046;
-			
-			// aapt resource value: 0x7F030007
-			public const int years = 2130903047;
+			public const int hide_fingerprint_instantly_prefixes = 2130903042;
 			
 			static Array()
 			{
@@ -13121,1294 +10365,1240 @@ namespace MoleWatchApp.Droid
 			public const int elevationOverlayEnabled = 2130968820;
 			
 			// aapt resource value: 0x7F0400F5
-			public const int enableTrace = 2130968821;
+			public const int endIconCheckable = 2130968821;
 			
 			// aapt resource value: 0x7F0400F6
-			public const int endIconCheckable = 2130968822;
+			public const int endIconContentDescription = 2130968822;
 			
 			// aapt resource value: 0x7F0400F7
-			public const int endIconContentDescription = 2130968823;
+			public const int endIconDrawable = 2130968823;
 			
 			// aapt resource value: 0x7F0400F8
-			public const int endIconDrawable = 2130968824;
+			public const int endIconMode = 2130968824;
 			
 			// aapt resource value: 0x7F0400F9
-			public const int endIconMode = 2130968825;
+			public const int endIconTint = 2130968825;
 			
 			// aapt resource value: 0x7F0400FA
-			public const int endIconTint = 2130968826;
+			public const int endIconTintMode = 2130968826;
 			
 			// aapt resource value: 0x7F0400FB
-			public const int endIconTintMode = 2130968827;
+			public const int enforceMaterialTheme = 2130968827;
 			
 			// aapt resource value: 0x7F0400FC
-			public const int enforceMaterialTheme = 2130968828;
+			public const int enforceTextAppearance = 2130968828;
 			
 			// aapt resource value: 0x7F0400FD
-			public const int enforceTextAppearance = 2130968829;
+			public const int ensureMinTouchTargetSize = 2130968829;
 			
 			// aapt resource value: 0x7F0400FE
-			public const int ensureMinTouchTargetSize = 2130968830;
+			public const int errorContentDescription = 2130968830;
 			
 			// aapt resource value: 0x7F0400FF
-			public const int errorContentDescription = 2130968831;
+			public const int errorEnabled = 2130968831;
 			
 			// aapt resource value: 0x7F040100
-			public const int errorEnabled = 2130968832;
+			public const int errorIconDrawable = 2130968832;
 			
 			// aapt resource value: 0x7F040101
-			public const int errorIconDrawable = 2130968833;
+			public const int errorIconTint = 2130968833;
 			
 			// aapt resource value: 0x7F040102
-			public const int errorIconTint = 2130968834;
+			public const int errorIconTintMode = 2130968834;
 			
 			// aapt resource value: 0x7F040103
-			public const int errorIconTintMode = 2130968835;
+			public const int errorTextAppearance = 2130968835;
 			
 			// aapt resource value: 0x7F040104
-			public const int errorTextAppearance = 2130968836;
+			public const int errorTextColor = 2130968836;
 			
 			// aapt resource value: 0x7F040105
-			public const int errorTextColor = 2130968837;
+			public const int expandActivityOverflowButtonDrawable = 2130968837;
 			
 			// aapt resource value: 0x7F040106
-			public const int expandActivityOverflowButtonDrawable = 2130968838;
+			public const int expanded = 2130968838;
 			
 			// aapt resource value: 0x7F040107
-			public const int expanded = 2130968839;
+			public const int expandedTitleGravity = 2130968839;
 			
 			// aapt resource value: 0x7F040108
-			public const int expandedTitleGravity = 2130968840;
+			public const int expandedTitleMargin = 2130968840;
 			
 			// aapt resource value: 0x7F040109
-			public const int expandedTitleMargin = 2130968841;
+			public const int expandedTitleMarginBottom = 2130968841;
 			
 			// aapt resource value: 0x7F04010A
-			public const int expandedTitleMarginBottom = 2130968842;
+			public const int expandedTitleMarginEnd = 2130968842;
 			
 			// aapt resource value: 0x7F04010B
-			public const int expandedTitleMarginEnd = 2130968843;
+			public const int expandedTitleMarginStart = 2130968843;
 			
 			// aapt resource value: 0x7F04010C
-			public const int expandedTitleMarginStart = 2130968844;
+			public const int expandedTitleMarginTop = 2130968844;
 			
 			// aapt resource value: 0x7F04010D
-			public const int expandedTitleMarginTop = 2130968845;
-			
-			// aapt resource value: 0x7F04010E
-			public const int expandedTitleTextAppearance = 2130968846;
-			
-			// aapt resource value: 0x7F040110
-			public const int extendedFloatingActionButtonStyle = 2130968848;
+			public const int expandedTitleTextAppearance = 2130968845;
 			
 			// aapt resource value: 0x7F04010F
-			public const int extendMotionSpec = 2130968847;
+			public const int extendedFloatingActionButtonStyle = 2130968847;
+			
+			// aapt resource value: 0x7F04010E
+			public const int extendMotionSpec = 2130968846;
+			
+			// aapt resource value: 0x7F040110
+			public const int fabAlignmentMode = 2130968848;
 			
 			// aapt resource value: 0x7F040111
-			public const int fabAlignmentMode = 2130968849;
+			public const int fabAnimationMode = 2130968849;
 			
 			// aapt resource value: 0x7F040112
-			public const int fabAnimationMode = 2130968850;
+			public const int fabCradleMargin = 2130968850;
 			
 			// aapt resource value: 0x7F040113
-			public const int fabCradleMargin = 2130968851;
+			public const int fabCradleRoundedCornerRadius = 2130968851;
 			
 			// aapt resource value: 0x7F040114
-			public const int fabCradleRoundedCornerRadius = 2130968852;
+			public const int fabCradleVerticalOffset = 2130968852;
 			
 			// aapt resource value: 0x7F040115
-			public const int fabCradleVerticalOffset = 2130968853;
+			public const int fabCustomSize = 2130968853;
 			
 			// aapt resource value: 0x7F040116
-			public const int fabCustomSize = 2130968854;
+			public const int fabSize = 2130968854;
 			
 			// aapt resource value: 0x7F040117
-			public const int fabSize = 2130968855;
+			public const int fastScrollEnabled = 2130968855;
 			
 			// aapt resource value: 0x7F040118
-			public const int fadingItems = 2130968856;
+			public const int fastScrollHorizontalThumbDrawable = 2130968856;
 			
 			// aapt resource value: 0x7F040119
-			public const int fastScrollEnabled = 2130968857;
+			public const int fastScrollHorizontalTrackDrawable = 2130968857;
 			
 			// aapt resource value: 0x7F04011A
-			public const int fastScrollHorizontalThumbDrawable = 2130968858;
+			public const int fastScrollVerticalThumbDrawable = 2130968858;
 			
 			// aapt resource value: 0x7F04011B
-			public const int fastScrollHorizontalTrackDrawable = 2130968859;
+			public const int fastScrollVerticalTrackDrawable = 2130968859;
 			
 			// aapt resource value: 0x7F04011C
-			public const int fastScrollVerticalThumbDrawable = 2130968860;
+			public const int firstBaselineToTopHeight = 2130968860;
 			
 			// aapt resource value: 0x7F04011D
-			public const int fastScrollVerticalTrackDrawable = 2130968861;
+			public const int floatingActionButtonStyle = 2130968861;
 			
 			// aapt resource value: 0x7F04011E
-			public const int firstBaselineToTopHeight = 2130968862;
+			public const int font = 2130968862;
 			
 			// aapt resource value: 0x7F04011F
-			public const int floatingActionButtonStyle = 2130968863;
+			public const int fontFamily = 2130968863;
 			
 			// aapt resource value: 0x7F040120
-			public const int font = 2130968864;
+			public const int fontProviderAuthority = 2130968864;
 			
 			// aapt resource value: 0x7F040121
-			public const int fontFamily = 2130968865;
+			public const int fontProviderCerts = 2130968865;
 			
 			// aapt resource value: 0x7F040122
-			public const int fontProviderAuthority = 2130968866;
+			public const int fontProviderFetchStrategy = 2130968866;
 			
 			// aapt resource value: 0x7F040123
-			public const int fontProviderCerts = 2130968867;
+			public const int fontProviderFetchTimeout = 2130968867;
 			
 			// aapt resource value: 0x7F040124
-			public const int fontProviderFetchStrategy = 2130968868;
+			public const int fontProviderPackage = 2130968868;
 			
 			// aapt resource value: 0x7F040125
-			public const int fontProviderFetchTimeout = 2130968869;
+			public const int fontProviderQuery = 2130968869;
 			
 			// aapt resource value: 0x7F040126
-			public const int fontProviderPackage = 2130968870;
+			public const int fontStyle = 2130968870;
 			
 			// aapt resource value: 0x7F040127
-			public const int fontProviderQuery = 2130968871;
+			public const int fontVariationSettings = 2130968871;
 			
 			// aapt resource value: 0x7F040128
-			public const int fontStyle = 2130968872;
+			public const int fontWeight = 2130968872;
 			
 			// aapt resource value: 0x7F040129
-			public const int fontVariationSettings = 2130968873;
+			public const int foregroundInsidePadding = 2130968873;
 			
 			// aapt resource value: 0x7F04012A
-			public const int fontWeight = 2130968874;
+			public const int gapBetweenBars = 2130968874;
 			
 			// aapt resource value: 0x7F04012B
-			public const int foregroundInsidePadding = 2130968875;
+			public const int gestureInsetBottomIgnored = 2130968875;
 			
 			// aapt resource value: 0x7F04012C
-			public const int gapBetweenBars = 2130968876;
+			public const int goIcon = 2130968876;
 			
 			// aapt resource value: 0x7F04012D
-			public const int gestureInsetBottomIgnored = 2130968877;
+			public const int haloColor = 2130968877;
 			
 			// aapt resource value: 0x7F04012E
-			public const int goIcon = 2130968878;
+			public const int haloRadius = 2130968878;
 			
 			// aapt resource value: 0x7F04012F
-			public const int haloColor = 2130968879;
+			public const int headerLayout = 2130968879;
 			
 			// aapt resource value: 0x7F040130
-			public const int haloRadius = 2130968880;
+			public const int height = 2130968880;
 			
 			// aapt resource value: 0x7F040131
-			public const int headerLayout = 2130968881;
+			public const int helperText = 2130968881;
 			
 			// aapt resource value: 0x7F040132
-			public const int height = 2130968882;
+			public const int helperTextEnabled = 2130968882;
 			
 			// aapt resource value: 0x7F040133
-			public const int helperText = 2130968883;
+			public const int helperTextTextAppearance = 2130968883;
 			
 			// aapt resource value: 0x7F040134
-			public const int helperTextEnabled = 2130968884;
+			public const int helperTextTextColor = 2130968884;
 			
 			// aapt resource value: 0x7F040135
-			public const int helperTextTextAppearance = 2130968885;
+			public const int hideMotionSpec = 2130968885;
 			
 			// aapt resource value: 0x7F040136
-			public const int helperTextTextColor = 2130968886;
+			public const int hideOnContentScroll = 2130968886;
 			
 			// aapt resource value: 0x7F040137
-			public const int hideMotionSpec = 2130968887;
+			public const int hideOnScroll = 2130968887;
 			
 			// aapt resource value: 0x7F040138
-			public const int hideOnContentScroll = 2130968888;
+			public const int hintAnimationEnabled = 2130968888;
 			
 			// aapt resource value: 0x7F040139
-			public const int hideOnScroll = 2130968889;
+			public const int hintEnabled = 2130968889;
 			
 			// aapt resource value: 0x7F04013A
-			public const int hintAnimationEnabled = 2130968890;
+			public const int hintTextAppearance = 2130968890;
 			
 			// aapt resource value: 0x7F04013B
-			public const int hintEnabled = 2130968891;
+			public const int hintTextColor = 2130968891;
 			
 			// aapt resource value: 0x7F04013C
-			public const int hintTextAppearance = 2130968892;
+			public const int homeAsUpIndicator = 2130968892;
 			
 			// aapt resource value: 0x7F04013D
-			public const int hintTextColor = 2130968893;
+			public const int homeLayout = 2130968893;
 			
 			// aapt resource value: 0x7F04013E
-			public const int homeAsUpIndicator = 2130968894;
+			public const int horizontalOffset = 2130968894;
 			
 			// aapt resource value: 0x7F04013F
-			public const int homeLayout = 2130968895;
+			public const int hoveredFocusedTranslationZ = 2130968895;
 			
 			// aapt resource value: 0x7F040140
-			public const int horizontalOffset = 2130968896;
+			public const int icon = 2130968896;
 			
 			// aapt resource value: 0x7F040141
-			public const int horizontalSpaceBetweenWheels = 2130968897;
+			public const int iconEndPadding = 2130968897;
 			
 			// aapt resource value: 0x7F040142
-			public const int hoveredFocusedTranslationZ = 2130968898;
-			
-			// aapt resource value: 0x7F040143
-			public const int icon = 2130968899;
-			
-			// aapt resource value: 0x7F040144
-			public const int iconEndPadding = 2130968900;
-			
-			// aapt resource value: 0x7F040145
-			public const int iconGravity = 2130968901;
-			
-			// aapt resource value: 0x7F04014B
-			public const int iconifiedByDefault = 2130968907;
-			
-			// aapt resource value: 0x7F040146
-			public const int iconPadding = 2130968902;
-			
-			// aapt resource value: 0x7F040147
-			public const int iconSize = 2130968903;
+			public const int iconGravity = 2130968898;
 			
 			// aapt resource value: 0x7F040148
-			public const int iconStartPadding = 2130968904;
+			public const int iconifiedByDefault = 2130968904;
+			
+			// aapt resource value: 0x7F040143
+			public const int iconPadding = 2130968899;
+			
+			// aapt resource value: 0x7F040144
+			public const int iconSize = 2130968900;
+			
+			// aapt resource value: 0x7F040145
+			public const int iconStartPadding = 2130968901;
+			
+			// aapt resource value: 0x7F040146
+			public const int iconTint = 2130968902;
+			
+			// aapt resource value: 0x7F040147
+			public const int iconTintMode = 2130968903;
 			
 			// aapt resource value: 0x7F040149
-			public const int iconTint = 2130968905;
+			public const int imageButtonStyle = 2130968905;
 			
 			// aapt resource value: 0x7F04014A
-			public const int iconTintMode = 2130968906;
+			public const int indeterminateProgressStyle = 2130968906;
+			
+			// aapt resource value: 0x7F04014B
+			public const int initialActivityCount = 2130968907;
 			
 			// aapt resource value: 0x7F04014C
-			public const int imageButtonStyle = 2130968908;
+			public const int insetForeground = 2130968908;
 			
 			// aapt resource value: 0x7F04014D
-			public const int indeterminateProgressStyle = 2130968909;
+			public const int isLightTheme = 2130968909;
 			
 			// aapt resource value: 0x7F04014E
-			public const int initialActivityCount = 2130968910;
+			public const int isMaterialTheme = 2130968910;
 			
 			// aapt resource value: 0x7F04014F
-			public const int insetForeground = 2130968911;
+			public const int itemBackground = 2130968911;
 			
 			// aapt resource value: 0x7F040150
-			public const int isCurved = 2130968912;
+			public const int itemFillColor = 2130968912;
 			
 			// aapt resource value: 0x7F040151
-			public const int isLightTheme = 2130968913;
+			public const int itemHorizontalPadding = 2130968913;
 			
 			// aapt resource value: 0x7F040152
-			public const int isMaterialTheme = 2130968914;
+			public const int itemHorizontalTranslationEnabled = 2130968914;
 			
 			// aapt resource value: 0x7F040153
-			public const int itemAlign = 2130968915;
+			public const int itemIconPadding = 2130968915;
 			
 			// aapt resource value: 0x7F040154
-			public const int itemAligns = 2130968916;
+			public const int itemIconSize = 2130968916;
 			
 			// aapt resource value: 0x7F040155
-			public const int itemBackground = 2130968917;
+			public const int itemIconTint = 2130968917;
 			
 			// aapt resource value: 0x7F040156
-			public const int itemFillColor = 2130968918;
+			public const int itemMaxLines = 2130968918;
 			
 			// aapt resource value: 0x7F040157
-			public const int itemHeights = 2130968919;
+			public const int itemPadding = 2130968919;
 			
 			// aapt resource value: 0x7F040158
-			public const int itemHorizontalPadding = 2130968920;
+			public const int itemRippleColor = 2130968920;
 			
 			// aapt resource value: 0x7F040159
-			public const int itemHorizontalTranslationEnabled = 2130968921;
+			public const int itemShapeAppearance = 2130968921;
 			
 			// aapt resource value: 0x7F04015A
-			public const int itemIconPadding = 2130968922;
+			public const int itemShapeAppearanceOverlay = 2130968922;
 			
 			// aapt resource value: 0x7F04015B
-			public const int itemIconSize = 2130968923;
+			public const int itemShapeFillColor = 2130968923;
 			
 			// aapt resource value: 0x7F04015C
-			public const int itemIconTint = 2130968924;
+			public const int itemShapeInsetBottom = 2130968924;
 			
 			// aapt resource value: 0x7F04015D
-			public const int itemMaxLines = 2130968925;
+			public const int itemShapeInsetEnd = 2130968925;
 			
 			// aapt resource value: 0x7F04015E
-			public const int itemPadding = 2130968926;
+			public const int itemShapeInsetStart = 2130968926;
 			
 			// aapt resource value: 0x7F04015F
-			public const int itemRippleColor = 2130968927;
+			public const int itemShapeInsetTop = 2130968927;
 			
 			// aapt resource value: 0x7F040160
-			public const int itemShapeAppearance = 2130968928;
+			public const int itemSpacing = 2130968928;
 			
 			// aapt resource value: 0x7F040161
-			public const int itemShapeAppearanceOverlay = 2130968929;
+			public const int itemStrokeColor = 2130968929;
 			
 			// aapt resource value: 0x7F040162
-			public const int itemShapeFillColor = 2130968930;
+			public const int itemStrokeWidth = 2130968930;
 			
 			// aapt resource value: 0x7F040163
-			public const int itemShapeInsetBottom = 2130968931;
+			public const int itemTextAppearance = 2130968931;
 			
 			// aapt resource value: 0x7F040164
-			public const int itemShapeInsetEnd = 2130968932;
+			public const int itemTextAppearanceActive = 2130968932;
 			
 			// aapt resource value: 0x7F040165
-			public const int itemShapeInsetStart = 2130968933;
+			public const int itemTextAppearanceInactive = 2130968933;
 			
 			// aapt resource value: 0x7F040166
-			public const int itemShapeInsetTop = 2130968934;
+			public const int itemTextColor = 2130968934;
 			
 			// aapt resource value: 0x7F040167
-			public const int itemSpacing = 2130968935;
-			
-			// aapt resource value: 0x7F040170
-			public const int itemsSource = 2130968944;
+			public const int keylines = 2130968935;
 			
 			// aapt resource value: 0x7F040168
-			public const int itemStrokeColor = 2130968936;
+			public const int labelBehavior = 2130968936;
 			
 			// aapt resource value: 0x7F040169
-			public const int itemStrokeWidth = 2130968937;
+			public const int labelStyle = 2130968937;
 			
 			// aapt resource value: 0x7F04016A
-			public const int itemTextAppearance = 2130968938;
+			public const int labelVisibilityMode = 2130968938;
 			
 			// aapt resource value: 0x7F04016B
-			public const int itemTextAppearanceActive = 2130968939;
+			public const int lastBaselineToBottomHeight = 2130968939;
 			
 			// aapt resource value: 0x7F04016C
-			public const int itemTextAppearanceInactive = 2130968940;
+			public const int layout = 2130968940;
 			
 			// aapt resource value: 0x7F04016D
-			public const int itemTextColor = 2130968941;
+			public const int layoutManager = 2130968941;
 			
 			// aapt resource value: 0x7F04016E
-			public const int itemTextSize = 2130968942;
+			public const int layout_anchor = 2130968942;
 			
 			// aapt resource value: 0x7F04016F
-			public const int itemWidths = 2130968943;
+			public const int layout_anchorGravity = 2130968943;
+			
+			// aapt resource value: 0x7F040170
+			public const int layout_behavior = 2130968944;
 			
 			// aapt resource value: 0x7F040171
-			public const int keylines = 2130968945;
+			public const int layout_collapseMode = 2130968945;
 			
 			// aapt resource value: 0x7F040172
-			public const int labelBehavior = 2130968946;
+			public const int layout_collapseParallaxMultiplier = 2130968946;
 			
 			// aapt resource value: 0x7F040173
-			public const int labelStyle = 2130968947;
+			public const int layout_dodgeInsetEdges = 2130968947;
 			
 			// aapt resource value: 0x7F040174
-			public const int labelVisibilityMode = 2130968948;
+			public const int layout_insetEdge = 2130968948;
 			
 			// aapt resource value: 0x7F040175
-			public const int lastBaselineToBottomHeight = 2130968949;
+			public const int layout_keyline = 2130968949;
 			
 			// aapt resource value: 0x7F040176
-			public const int layout = 2130968950;
+			public const int layout_scrollFlags = 2130968950;
 			
 			// aapt resource value: 0x7F040177
-			public const int layoutManager = 2130968951;
+			public const int layout_scrollInterpolator = 2130968951;
 			
 			// aapt resource value: 0x7F040178
-			public const int layout_anchor = 2130968952;
+			public const int liftOnScroll = 2130968952;
 			
 			// aapt resource value: 0x7F040179
-			public const int layout_anchorGravity = 2130968953;
+			public const int liftOnScrollTargetViewId = 2130968953;
 			
 			// aapt resource value: 0x7F04017A
-			public const int layout_behavior = 2130968954;
+			public const int lineHeight = 2130968954;
 			
 			// aapt resource value: 0x7F04017B
-			public const int layout_collapseMode = 2130968955;
+			public const int lineSpacing = 2130968955;
 			
 			// aapt resource value: 0x7F04017C
-			public const int layout_collapseParallaxMultiplier = 2130968956;
+			public const int listChoiceBackgroundIndicator = 2130968956;
 			
 			// aapt resource value: 0x7F04017D
-			public const int layout_dodgeInsetEdges = 2130968957;
+			public const int listChoiceIndicatorMultipleAnimated = 2130968957;
 			
 			// aapt resource value: 0x7F04017E
-			public const int layout_insetEdge = 2130968958;
+			public const int listChoiceIndicatorSingleAnimated = 2130968958;
 			
 			// aapt resource value: 0x7F04017F
-			public const int layout_keyline = 2130968959;
+			public const int listDividerAlertDialog = 2130968959;
 			
 			// aapt resource value: 0x7F040180
-			public const int layout_scrollFlags = 2130968960;
+			public const int listItemLayout = 2130968960;
 			
 			// aapt resource value: 0x7F040181
-			public const int layout_scrollInterpolator = 2130968961;
+			public const int listLayout = 2130968961;
 			
 			// aapt resource value: 0x7F040182
-			public const int liftOnScroll = 2130968962;
+			public const int listMenuViewStyle = 2130968962;
 			
 			// aapt resource value: 0x7F040183
-			public const int liftOnScrollTargetViewId = 2130968963;
+			public const int listPopupWindowStyle = 2130968963;
 			
 			// aapt resource value: 0x7F040184
-			public const int lineHeight = 2130968964;
+			public const int listPreferredItemHeight = 2130968964;
 			
 			// aapt resource value: 0x7F040185
-			public const int lineSpacing = 2130968965;
+			public const int listPreferredItemHeightLarge = 2130968965;
 			
 			// aapt resource value: 0x7F040186
-			public const int listChoiceBackgroundIndicator = 2130968966;
+			public const int listPreferredItemHeightSmall = 2130968966;
 			
 			// aapt resource value: 0x7F040187
-			public const int listChoiceIndicatorMultipleAnimated = 2130968967;
+			public const int listPreferredItemPaddingEnd = 2130968967;
 			
 			// aapt resource value: 0x7F040188
-			public const int listChoiceIndicatorSingleAnimated = 2130968968;
+			public const int listPreferredItemPaddingLeft = 2130968968;
 			
 			// aapt resource value: 0x7F040189
-			public const int listDividerAlertDialog = 2130968969;
+			public const int listPreferredItemPaddingRight = 2130968969;
 			
 			// aapt resource value: 0x7F04018A
-			public const int listItemLayout = 2130968970;
+			public const int listPreferredItemPaddingStart = 2130968970;
 			
 			// aapt resource value: 0x7F04018B
-			public const int listLayout = 2130968971;
+			public const int logo = 2130968971;
 			
 			// aapt resource value: 0x7F04018C
-			public const int listMenuViewStyle = 2130968972;
+			public const int logoDescription = 2130968972;
 			
 			// aapt resource value: 0x7F04018D
-			public const int listPopupWindowStyle = 2130968973;
+			public const int materialAlertDialogBodyTextStyle = 2130968973;
 			
 			// aapt resource value: 0x7F04018E
-			public const int listPreferredItemHeight = 2130968974;
+			public const int materialAlertDialogTheme = 2130968974;
 			
 			// aapt resource value: 0x7F04018F
-			public const int listPreferredItemHeightLarge = 2130968975;
+			public const int materialAlertDialogTitleIconStyle = 2130968975;
 			
 			// aapt resource value: 0x7F040190
-			public const int listPreferredItemHeightSmall = 2130968976;
+			public const int materialAlertDialogTitlePanelStyle = 2130968976;
 			
 			// aapt resource value: 0x7F040191
-			public const int listPreferredItemPaddingEnd = 2130968977;
+			public const int materialAlertDialogTitleTextStyle = 2130968977;
 			
 			// aapt resource value: 0x7F040192
-			public const int listPreferredItemPaddingLeft = 2130968978;
+			public const int materialButtonOutlinedStyle = 2130968978;
 			
 			// aapt resource value: 0x7F040193
-			public const int listPreferredItemPaddingRight = 2130968979;
+			public const int materialButtonStyle = 2130968979;
 			
 			// aapt resource value: 0x7F040194
-			public const int listPreferredItemPaddingStart = 2130968980;
+			public const int materialButtonToggleGroupStyle = 2130968980;
 			
 			// aapt resource value: 0x7F040195
-			public const int logo = 2130968981;
+			public const int materialCalendarDay = 2130968981;
 			
 			// aapt resource value: 0x7F040196
-			public const int logoDescription = 2130968982;
+			public const int materialCalendarFullscreenTheme = 2130968982;
 			
 			// aapt resource value: 0x7F040197
-			public const int materialAlertDialogBodyTextStyle = 2130968983;
+			public const int materialCalendarHeaderConfirmButton = 2130968983;
 			
 			// aapt resource value: 0x7F040198
-			public const int materialAlertDialogTheme = 2130968984;
+			public const int materialCalendarHeaderDivider = 2130968984;
 			
 			// aapt resource value: 0x7F040199
-			public const int materialAlertDialogTitleIconStyle = 2130968985;
+			public const int materialCalendarHeaderLayout = 2130968985;
 			
 			// aapt resource value: 0x7F04019A
-			public const int materialAlertDialogTitlePanelStyle = 2130968986;
+			public const int materialCalendarHeaderSelection = 2130968986;
 			
 			// aapt resource value: 0x7F04019B
-			public const int materialAlertDialogTitleTextStyle = 2130968987;
+			public const int materialCalendarHeaderTitle = 2130968987;
 			
 			// aapt resource value: 0x7F04019C
-			public const int materialButtonOutlinedStyle = 2130968988;
+			public const int materialCalendarHeaderToggleButton = 2130968988;
 			
 			// aapt resource value: 0x7F04019D
-			public const int materialButtonStyle = 2130968989;
+			public const int materialCalendarStyle = 2130968989;
 			
 			// aapt resource value: 0x7F04019E
-			public const int materialButtonToggleGroupStyle = 2130968990;
+			public const int materialCalendarTheme = 2130968990;
 			
 			// aapt resource value: 0x7F04019F
-			public const int materialCalendarDay = 2130968991;
+			public const int materialCardViewStyle = 2130968991;
 			
 			// aapt resource value: 0x7F0401A0
-			public const int materialCalendarFullscreenTheme = 2130968992;
+			public const int materialThemeOverlay = 2130968992;
 			
 			// aapt resource value: 0x7F0401A1
-			public const int materialCalendarHeaderConfirmButton = 2130968993;
+			public const int maxActionInlineWidth = 2130968993;
 			
 			// aapt resource value: 0x7F0401A2
-			public const int materialCalendarHeaderDivider = 2130968994;
+			public const int maxButtonHeight = 2130968994;
 			
 			// aapt resource value: 0x7F0401A3
-			public const int materialCalendarHeaderLayout = 2130968995;
+			public const int maxCharacterCount = 2130968995;
 			
 			// aapt resource value: 0x7F0401A4
-			public const int materialCalendarHeaderSelection = 2130968996;
+			public const int maxImageSize = 2130968996;
 			
 			// aapt resource value: 0x7F0401A5
-			public const int materialCalendarHeaderTitle = 2130968997;
+			public const int maxLines = 2130968997;
 			
 			// aapt resource value: 0x7F0401A6
-			public const int materialCalendarHeaderToggleButton = 2130968998;
+			public const int measureWithLargestChild = 2130968998;
 			
 			// aapt resource value: 0x7F0401A7
-			public const int materialCalendarStyle = 2130968999;
+			public const int menu = 2130968999;
 			
 			// aapt resource value: 0x7F0401A8
-			public const int materialCalendarTheme = 2130969000;
+			public const int minTouchTargetSize = 2130969000;
 			
 			// aapt resource value: 0x7F0401A9
-			public const int materialCardViewStyle = 2130969001;
+			public const int multiChoiceItemLayout = 2130969001;
 			
 			// aapt resource value: 0x7F0401AA
-			public const int materialThemeOverlay = 2130969002;
+			public const int navigationContentDescription = 2130969002;
 			
 			// aapt resource value: 0x7F0401AB
-			public const int maxActionInlineWidth = 2130969003;
+			public const int navigationIcon = 2130969003;
 			
 			// aapt resource value: 0x7F0401AC
-			public const int maxButtonHeight = 2130969004;
+			public const int navigationMode = 2130969004;
 			
 			// aapt resource value: 0x7F0401AD
-			public const int maxCharacterCount = 2130969005;
+			public const int navigationViewStyle = 2130969005;
 			
 			// aapt resource value: 0x7F0401AE
-			public const int maxImageSize = 2130969006;
+			public const int number = 2130969006;
 			
 			// aapt resource value: 0x7F0401AF
-			public const int maxLines = 2130969007;
+			public const int numericModifiers = 2130969007;
 			
 			// aapt resource value: 0x7F0401B0
-			public const int measureWithLargestChild = 2130969008;
+			public const int overlapAnchor = 2130969008;
 			
 			// aapt resource value: 0x7F0401B1
-			public const int menu = 2130969009;
+			public const int paddingBottomNoButtons = 2130969009;
 			
 			// aapt resource value: 0x7F0401B2
-			public const int minTouchTargetSize = 2130969010;
+			public const int paddingBottomSystemWindowInsets = 2130969010;
 			
 			// aapt resource value: 0x7F0401B3
-			public const int multiChoiceItemLayout = 2130969011;
+			public const int paddingEnd = 2130969011;
 			
 			// aapt resource value: 0x7F0401B4
-			public const int navigationContentDescription = 2130969012;
+			public const int paddingLeftSystemWindowInsets = 2130969012;
 			
 			// aapt resource value: 0x7F0401B5
-			public const int navigationIcon = 2130969013;
+			public const int paddingRightSystemWindowInsets = 2130969013;
 			
 			// aapt resource value: 0x7F0401B6
-			public const int navigationMode = 2130969014;
+			public const int paddingStart = 2130969014;
 			
 			// aapt resource value: 0x7F0401B7
-			public const int navigationViewStyle = 2130969015;
+			public const int paddingTopNoTitle = 2130969015;
 			
 			// aapt resource value: 0x7F0401B8
-			public const int number = 2130969016;
+			public const int panelBackground = 2130969016;
 			
 			// aapt resource value: 0x7F0401B9
-			public const int numericModifiers = 2130969017;
+			public const int panelMenuListTheme = 2130969017;
 			
 			// aapt resource value: 0x7F0401BA
-			public const int overlapAnchor = 2130969018;
+			public const int panelMenuListWidth = 2130969018;
 			
 			// aapt resource value: 0x7F0401BB
-			public const int paddingBottomNoButtons = 2130969019;
+			public const int passwordToggleContentDescription = 2130969019;
 			
 			// aapt resource value: 0x7F0401BC
-			public const int paddingBottomSystemWindowInsets = 2130969020;
+			public const int passwordToggleDrawable = 2130969020;
 			
 			// aapt resource value: 0x7F0401BD
-			public const int paddingEnd = 2130969021;
+			public const int passwordToggleEnabled = 2130969021;
 			
 			// aapt resource value: 0x7F0401BE
-			public const int paddingLeftSystemWindowInsets = 2130969022;
+			public const int passwordToggleTint = 2130969022;
 			
 			// aapt resource value: 0x7F0401BF
-			public const int paddingRightSystemWindowInsets = 2130969023;
+			public const int passwordToggleTintMode = 2130969023;
 			
 			// aapt resource value: 0x7F0401C0
-			public const int paddingStart = 2130969024;
+			public const int placeholderText = 2130969024;
 			
 			// aapt resource value: 0x7F0401C1
-			public const int paddingTopNoTitle = 2130969025;
+			public const int placeholderTextAppearance = 2130969025;
 			
 			// aapt resource value: 0x7F0401C2
-			public const int panelBackground = 2130969026;
+			public const int placeholderTextColor = 2130969026;
 			
 			// aapt resource value: 0x7F0401C3
-			public const int panelMenuListTheme = 2130969027;
+			public const int popupMenuBackground = 2130969027;
 			
 			// aapt resource value: 0x7F0401C4
-			public const int panelMenuListWidth = 2130969028;
+			public const int popupMenuStyle = 2130969028;
 			
 			// aapt resource value: 0x7F0401C5
-			public const int passwordToggleContentDescription = 2130969029;
+			public const int popupTheme = 2130969029;
 			
 			// aapt resource value: 0x7F0401C6
-			public const int passwordToggleDrawable = 2130969030;
+			public const int popupWindowStyle = 2130969030;
 			
 			// aapt resource value: 0x7F0401C7
-			public const int passwordToggleEnabled = 2130969031;
+			public const int prefixText = 2130969031;
 			
 			// aapt resource value: 0x7F0401C8
-			public const int passwordToggleTint = 2130969032;
+			public const int prefixTextAppearance = 2130969032;
 			
 			// aapt resource value: 0x7F0401C9
-			public const int passwordToggleTintMode = 2130969033;
+			public const int prefixTextColor = 2130969033;
 			
 			// aapt resource value: 0x7F0401CA
-			public const int placeholderText = 2130969034;
+			public const int preserveIconSpacing = 2130969034;
 			
 			// aapt resource value: 0x7F0401CB
-			public const int placeholderTextAppearance = 2130969035;
+			public const int pressedTranslationZ = 2130969035;
 			
 			// aapt resource value: 0x7F0401CC
-			public const int placeholderTextColor = 2130969036;
+			public const int progressBarPadding = 2130969036;
 			
 			// aapt resource value: 0x7F0401CD
-			public const int popupMenuBackground = 2130969037;
+			public const int progressBarStyle = 2130969037;
 			
 			// aapt resource value: 0x7F0401CE
-			public const int popupMenuStyle = 2130969038;
+			public const int queryBackground = 2130969038;
 			
 			// aapt resource value: 0x7F0401CF
-			public const int popupTheme = 2130969039;
+			public const int queryHint = 2130969039;
 			
 			// aapt resource value: 0x7F0401D0
-			public const int popupWindowStyle = 2130969040;
+			public const int radioButtonStyle = 2130969040;
 			
 			// aapt resource value: 0x7F0401D1
-			public const int prefixText = 2130969041;
+			public const int rangeFillColor = 2130969041;
 			
 			// aapt resource value: 0x7F0401D2
-			public const int prefixTextAppearance = 2130969042;
+			public const int ratingBarStyle = 2130969042;
 			
 			// aapt resource value: 0x7F0401D3
-			public const int prefixTextColor = 2130969043;
+			public const int ratingBarStyleIndicator = 2130969043;
 			
 			// aapt resource value: 0x7F0401D4
-			public const int preserveIconSpacing = 2130969044;
+			public const int ratingBarStyleSmall = 2130969044;
 			
 			// aapt resource value: 0x7F0401D5
-			public const int pressedTranslationZ = 2130969045;
+			public const int recyclerViewStyle = 2130969045;
 			
 			// aapt resource value: 0x7F0401D6
-			public const int progressBarPadding = 2130969046;
+			public const int reverseLayout = 2130969046;
 			
 			// aapt resource value: 0x7F0401D7
-			public const int progressBarStyle = 2130969047;
+			public const int rippleColor = 2130969047;
 			
 			// aapt resource value: 0x7F0401D8
-			public const int queryBackground = 2130969048;
+			public const int scrimAnimationDuration = 2130969048;
 			
 			// aapt resource value: 0x7F0401D9
-			public const int queryHint = 2130969049;
+			public const int scrimBackground = 2130969049;
 			
 			// aapt resource value: 0x7F0401DA
-			public const int radioButtonStyle = 2130969050;
+			public const int scrimVisibleHeightTrigger = 2130969050;
 			
 			// aapt resource value: 0x7F0401DB
-			public const int rangeFillColor = 2130969051;
+			public const int scrollViewStyle = 2130969051;
 			
 			// aapt resource value: 0x7F0401DC
-			public const int ratingBarStyle = 2130969052;
+			public const int searchHintIcon = 2130969052;
 			
 			// aapt resource value: 0x7F0401DD
-			public const int ratingBarStyleIndicator = 2130969053;
+			public const int searchIcon = 2130969053;
 			
 			// aapt resource value: 0x7F0401DE
-			public const int ratingBarStyleSmall = 2130969054;
+			public const int searchViewStyle = 2130969054;
 			
 			// aapt resource value: 0x7F0401DF
-			public const int recyclerViewStyle = 2130969055;
+			public const int seekBarStyle = 2130969055;
 			
 			// aapt resource value: 0x7F0401E0
-			public const int reverseLayout = 2130969056;
+			public const int selectableItemBackground = 2130969056;
 			
 			// aapt resource value: 0x7F0401E1
-			public const int rippleColor = 2130969057;
+			public const int selectableItemBackgroundBorderless = 2130969057;
 			
 			// aapt resource value: 0x7F0401E2
-			public const int scrimAnimationDuration = 2130969058;
+			public const int selectionRequired = 2130969058;
 			
 			// aapt resource value: 0x7F0401E3
-			public const int scrimBackground = 2130969059;
+			public const int shapeAppearance = 2130969059;
 			
 			// aapt resource value: 0x7F0401E4
-			public const int scrimVisibleHeightTrigger = 2130969060;
+			public const int shapeAppearanceLargeComponent = 2130969060;
 			
 			// aapt resource value: 0x7F0401E5
-			public const int scrollViewStyle = 2130969061;
+			public const int shapeAppearanceMediumComponent = 2130969061;
 			
 			// aapt resource value: 0x7F0401E6
-			public const int searchHintIcon = 2130969062;
+			public const int shapeAppearanceOverlay = 2130969062;
 			
 			// aapt resource value: 0x7F0401E7
-			public const int searchIcon = 2130969063;
+			public const int shapeAppearanceSmallComponent = 2130969063;
 			
 			// aapt resource value: 0x7F0401E8
-			public const int searchViewStyle = 2130969064;
+			public const int showAsAction = 2130969064;
 			
 			// aapt resource value: 0x7F0401E9
-			public const int seekBarStyle = 2130969065;
+			public const int showDividers = 2130969065;
 			
 			// aapt resource value: 0x7F0401EA
-			public const int selectableItemBackground = 2130969066;
+			public const int showMotionSpec = 2130969066;
 			
 			// aapt resource value: 0x7F0401EB
-			public const int selectableItemBackgroundBorderless = 2130969067;
+			public const int showText = 2130969067;
 			
 			// aapt resource value: 0x7F0401EC
-			public const int selectedItem = 2130969068;
+			public const int showTitle = 2130969068;
 			
 			// aapt resource value: 0x7F0401ED
-			public const int selectedItemTextColor = 2130969069;
+			public const int shrinkMotionSpec = 2130969069;
 			
 			// aapt resource value: 0x7F0401EE
-			public const int selectionLinesColor = 2130969070;
+			public const int singleChoiceItemLayout = 2130969070;
 			
 			// aapt resource value: 0x7F0401EF
-			public const int selectionLinesThickness = 2130969071;
+			public const int singleLine = 2130969071;
 			
 			// aapt resource value: 0x7F0401F0
-			public const int selectionRequired = 2130969072;
+			public const int singleSelection = 2130969072;
 			
 			// aapt resource value: 0x7F0401F1
-			public const int shapeAppearance = 2130969073;
+			public const int sliderStyle = 2130969073;
 			
 			// aapt resource value: 0x7F0401F2
-			public const int shapeAppearanceLargeComponent = 2130969074;
+			public const int snackbarButtonStyle = 2130969074;
 			
 			// aapt resource value: 0x7F0401F3
-			public const int shapeAppearanceMediumComponent = 2130969075;
+			public const int snackbarStyle = 2130969075;
 			
 			// aapt resource value: 0x7F0401F4
-			public const int shapeAppearanceOverlay = 2130969076;
+			public const int snackbarTextViewStyle = 2130969076;
 			
 			// aapt resource value: 0x7F0401F5
-			public const int shapeAppearanceSmallComponent = 2130969077;
+			public const int spanCount = 2130969077;
 			
 			// aapt resource value: 0x7F0401F6
-			public const int showAsAction = 2130969078;
+			public const int spinBars = 2130969078;
 			
 			// aapt resource value: 0x7F0401F7
-			public const int showDividers = 2130969079;
+			public const int spinnerDropDownItemStyle = 2130969079;
 			
 			// aapt resource value: 0x7F0401F8
-			public const int showMotionSpec = 2130969080;
+			public const int spinnerStyle = 2130969080;
 			
 			// aapt resource value: 0x7F0401F9
-			public const int showSelectionLines = 2130969081;
+			public const int splitTrack = 2130969081;
 			
 			// aapt resource value: 0x7F0401FA
-			public const int showText = 2130969082;
+			public const int srcCompat = 2130969082;
 			
 			// aapt resource value: 0x7F0401FB
-			public const int showTitle = 2130969083;
+			public const int stackFromEnd = 2130969083;
 			
 			// aapt resource value: 0x7F0401FC
-			public const int shrinkMotionSpec = 2130969084;
+			public const int startIconCheckable = 2130969084;
 			
 			// aapt resource value: 0x7F0401FD
-			public const int singleChoiceItemLayout = 2130969085;
+			public const int startIconContentDescription = 2130969085;
 			
 			// aapt resource value: 0x7F0401FE
-			public const int singleLine = 2130969086;
+			public const int startIconDrawable = 2130969086;
 			
 			// aapt resource value: 0x7F0401FF
-			public const int singleSelection = 2130969087;
+			public const int startIconTint = 2130969087;
 			
 			// aapt resource value: 0x7F040200
-			public const int sliderStyle = 2130969088;
+			public const int startIconTintMode = 2130969088;
 			
 			// aapt resource value: 0x7F040201
-			public const int snackbarButtonStyle = 2130969089;
+			public const int state_above_anchor = 2130969089;
 			
 			// aapt resource value: 0x7F040202
-			public const int snackbarStyle = 2130969090;
+			public const int state_collapsed = 2130969090;
 			
 			// aapt resource value: 0x7F040203
-			public const int snackbarTextViewStyle = 2130969091;
+			public const int state_collapsible = 2130969091;
 			
 			// aapt resource value: 0x7F040204
-			public const int spanCount = 2130969092;
+			public const int state_dragged = 2130969092;
 			
 			// aapt resource value: 0x7F040205
-			public const int spinBars = 2130969093;
+			public const int state_liftable = 2130969093;
 			
 			// aapt resource value: 0x7F040206
-			public const int spinnerDropDownItemStyle = 2130969094;
+			public const int state_lifted = 2130969094;
 			
 			// aapt resource value: 0x7F040207
-			public const int spinnerStyle = 2130969095;
+			public const int statusBarBackground = 2130969095;
 			
 			// aapt resource value: 0x7F040208
-			public const int splitTrack = 2130969096;
+			public const int statusBarForeground = 2130969096;
 			
 			// aapt resource value: 0x7F040209
-			public const int srcCompat = 2130969097;
+			public const int statusBarScrim = 2130969097;
 			
 			// aapt resource value: 0x7F04020A
-			public const int stackFromEnd = 2130969098;
+			public const int strokeColor = 2130969098;
 			
 			// aapt resource value: 0x7F04020B
-			public const int startIconCheckable = 2130969099;
+			public const int strokeWidth = 2130969099;
 			
 			// aapt resource value: 0x7F04020C
-			public const int startIconContentDescription = 2130969100;
+			public const int subMenuArrow = 2130969100;
 			
 			// aapt resource value: 0x7F04020D
-			public const int startIconDrawable = 2130969101;
+			public const int submitBackground = 2130969101;
 			
 			// aapt resource value: 0x7F04020E
-			public const int startIconTint = 2130969102;
+			public const int subtitle = 2130969102;
 			
 			// aapt resource value: 0x7F04020F
-			public const int startIconTintMode = 2130969103;
+			public const int subtitleTextAppearance = 2130969103;
 			
 			// aapt resource value: 0x7F040210
-			public const int state_above_anchor = 2130969104;
+			public const int subtitleTextColor = 2130969104;
 			
 			// aapt resource value: 0x7F040211
-			public const int state_collapsed = 2130969105;
+			public const int subtitleTextStyle = 2130969105;
 			
 			// aapt resource value: 0x7F040212
-			public const int state_collapsible = 2130969106;
+			public const int suffixText = 2130969106;
 			
 			// aapt resource value: 0x7F040213
-			public const int state_dragged = 2130969107;
+			public const int suffixTextAppearance = 2130969107;
 			
 			// aapt resource value: 0x7F040214
-			public const int state_liftable = 2130969108;
+			public const int suffixTextColor = 2130969108;
 			
 			// aapt resource value: 0x7F040215
-			public const int state_lifted = 2130969109;
+			public const int suggestionRowLayout = 2130969109;
 			
 			// aapt resource value: 0x7F040216
-			public const int statusBarBackground = 2130969110;
+			public const int switchMinWidth = 2130969110;
 			
 			// aapt resource value: 0x7F040217
-			public const int statusBarForeground = 2130969111;
+			public const int switchPadding = 2130969111;
 			
 			// aapt resource value: 0x7F040218
-			public const int statusBarScrim = 2130969112;
+			public const int switchStyle = 2130969112;
 			
 			// aapt resource value: 0x7F040219
-			public const int strokeColor = 2130969113;
+			public const int switchTextAppearance = 2130969113;
 			
 			// aapt resource value: 0x7F04021A
-			public const int strokeWidth = 2130969114;
+			public const int tabBackground = 2130969114;
 			
 			// aapt resource value: 0x7F04021B
-			public const int subMenuArrow = 2130969115;
+			public const int tabContentStart = 2130969115;
 			
 			// aapt resource value: 0x7F04021C
-			public const int submitBackground = 2130969116;
+			public const int tabGravity = 2130969116;
 			
 			// aapt resource value: 0x7F04021D
-			public const int subtitle = 2130969117;
+			public const int tabIconTint = 2130969117;
 			
 			// aapt resource value: 0x7F04021E
-			public const int subtitleTextAppearance = 2130969118;
+			public const int tabIconTintMode = 2130969118;
 			
 			// aapt resource value: 0x7F04021F
-			public const int subtitleTextColor = 2130969119;
+			public const int tabIndicator = 2130969119;
 			
 			// aapt resource value: 0x7F040220
-			public const int subtitleTextStyle = 2130969120;
+			public const int tabIndicatorAnimationDuration = 2130969120;
 			
 			// aapt resource value: 0x7F040221
-			public const int suffixText = 2130969121;
+			public const int tabIndicatorColor = 2130969121;
 			
 			// aapt resource value: 0x7F040222
-			public const int suffixTextAppearance = 2130969122;
+			public const int tabIndicatorFullWidth = 2130969122;
 			
 			// aapt resource value: 0x7F040223
-			public const int suffixTextColor = 2130969123;
+			public const int tabIndicatorGravity = 2130969123;
 			
 			// aapt resource value: 0x7F040224
-			public const int suggestionRowLayout = 2130969124;
+			public const int tabIndicatorHeight = 2130969124;
 			
 			// aapt resource value: 0x7F040225
-			public const int switchMinWidth = 2130969125;
+			public const int tabInlineLabel = 2130969125;
 			
 			// aapt resource value: 0x7F040226
-			public const int switchPadding = 2130969126;
+			public const int tabMaxWidth = 2130969126;
 			
 			// aapt resource value: 0x7F040227
-			public const int switchStyle = 2130969127;
+			public const int tabMinWidth = 2130969127;
 			
 			// aapt resource value: 0x7F040228
-			public const int switchTextAppearance = 2130969128;
+			public const int tabMode = 2130969128;
 			
 			// aapt resource value: 0x7F040229
-			public const int tabBackground = 2130969129;
+			public const int tabPadding = 2130969129;
 			
 			// aapt resource value: 0x7F04022A
-			public const int tabContentStart = 2130969130;
+			public const int tabPaddingBottom = 2130969130;
 			
 			// aapt resource value: 0x7F04022B
-			public const int tabGravity = 2130969131;
+			public const int tabPaddingEnd = 2130969131;
 			
 			// aapt resource value: 0x7F04022C
-			public const int tabIconTint = 2130969132;
+			public const int tabPaddingStart = 2130969132;
 			
 			// aapt resource value: 0x7F04022D
-			public const int tabIconTintMode = 2130969133;
+			public const int tabPaddingTop = 2130969133;
 			
 			// aapt resource value: 0x7F04022E
-			public const int tabIndicator = 2130969134;
+			public const int tabRippleColor = 2130969134;
 			
 			// aapt resource value: 0x7F04022F
-			public const int tabIndicatorAnimationDuration = 2130969135;
+			public const int tabSelectedTextColor = 2130969135;
 			
 			// aapt resource value: 0x7F040230
-			public const int tabIndicatorColor = 2130969136;
+			public const int tabStyle = 2130969136;
 			
 			// aapt resource value: 0x7F040231
-			public const int tabIndicatorFullWidth = 2130969137;
+			public const int tabTextAppearance = 2130969137;
 			
 			// aapt resource value: 0x7F040232
-			public const int tabIndicatorGravity = 2130969138;
+			public const int tabTextColor = 2130969138;
 			
 			// aapt resource value: 0x7F040233
-			public const int tabIndicatorHeight = 2130969139;
+			public const int tabUnboundedRipple = 2130969139;
 			
 			// aapt resource value: 0x7F040234
-			public const int tabInlineLabel = 2130969140;
+			public const int textAllCaps = 2130969140;
 			
 			// aapt resource value: 0x7F040235
-			public const int tabMaxWidth = 2130969141;
+			public const int textAppearanceBody1 = 2130969141;
 			
 			// aapt resource value: 0x7F040236
-			public const int tabMinWidth = 2130969142;
+			public const int textAppearanceBody2 = 2130969142;
 			
 			// aapt resource value: 0x7F040237
-			public const int tabMode = 2130969143;
+			public const int textAppearanceButton = 2130969143;
 			
 			// aapt resource value: 0x7F040238
-			public const int tabPadding = 2130969144;
+			public const int textAppearanceCaption = 2130969144;
 			
 			// aapt resource value: 0x7F040239
-			public const int tabPaddingBottom = 2130969145;
+			public const int textAppearanceHeadline1 = 2130969145;
 			
 			// aapt resource value: 0x7F04023A
-			public const int tabPaddingEnd = 2130969146;
+			public const int textAppearanceHeadline2 = 2130969146;
 			
 			// aapt resource value: 0x7F04023B
-			public const int tabPaddingStart = 2130969147;
+			public const int textAppearanceHeadline3 = 2130969147;
 			
 			// aapt resource value: 0x7F04023C
-			public const int tabPaddingTop = 2130969148;
+			public const int textAppearanceHeadline4 = 2130969148;
 			
 			// aapt resource value: 0x7F04023D
-			public const int tabRippleColor = 2130969149;
+			public const int textAppearanceHeadline5 = 2130969149;
 			
 			// aapt resource value: 0x7F04023E
-			public const int tabSelectedTextColor = 2130969150;
+			public const int textAppearanceHeadline6 = 2130969150;
 			
 			// aapt resource value: 0x7F04023F
-			public const int tabStyle = 2130969151;
+			public const int textAppearanceLargePopupMenu = 2130969151;
 			
 			// aapt resource value: 0x7F040240
-			public const int tabTextAppearance = 2130969152;
+			public const int textAppearanceLineHeightEnabled = 2130969152;
 			
 			// aapt resource value: 0x7F040241
-			public const int tabTextColor = 2130969153;
+			public const int textAppearanceListItem = 2130969153;
 			
 			// aapt resource value: 0x7F040242
-			public const int tabUnboundedRipple = 2130969154;
+			public const int textAppearanceListItemSecondary = 2130969154;
 			
 			// aapt resource value: 0x7F040243
-			public const int textAllCaps = 2130969155;
+			public const int textAppearanceListItemSmall = 2130969155;
 			
 			// aapt resource value: 0x7F040244
-			public const int textAppearanceBody1 = 2130969156;
+			public const int textAppearanceOverline = 2130969156;
 			
 			// aapt resource value: 0x7F040245
-			public const int textAppearanceBody2 = 2130969157;
+			public const int textAppearancePopupMenuHeader = 2130969157;
 			
 			// aapt resource value: 0x7F040246
-			public const int textAppearanceButton = 2130969158;
+			public const int textAppearanceSearchResultSubtitle = 2130969158;
 			
 			// aapt resource value: 0x7F040247
-			public const int textAppearanceCaption = 2130969159;
+			public const int textAppearanceSearchResultTitle = 2130969159;
 			
 			// aapt resource value: 0x7F040248
-			public const int textAppearanceHeadline1 = 2130969160;
+			public const int textAppearanceSmallPopupMenu = 2130969160;
 			
 			// aapt resource value: 0x7F040249
-			public const int textAppearanceHeadline2 = 2130969161;
+			public const int textAppearanceSubtitle1 = 2130969161;
 			
 			// aapt resource value: 0x7F04024A
-			public const int textAppearanceHeadline3 = 2130969162;
+			public const int textAppearanceSubtitle2 = 2130969162;
 			
 			// aapt resource value: 0x7F04024B
-			public const int textAppearanceHeadline4 = 2130969163;
+			public const int textColorAlertDialogListItem = 2130969163;
 			
 			// aapt resource value: 0x7F04024C
-			public const int textAppearanceHeadline5 = 2130969164;
+			public const int textColorSearchUrl = 2130969164;
 			
 			// aapt resource value: 0x7F04024D
-			public const int textAppearanceHeadline6 = 2130969165;
+			public const int textEndPadding = 2130969165;
 			
 			// aapt resource value: 0x7F04024E
-			public const int textAppearanceLargePopupMenu = 2130969166;
+			public const int textInputLayoutFocusedRectEnabled = 2130969166;
 			
 			// aapt resource value: 0x7F04024F
-			public const int textAppearanceLineHeightEnabled = 2130969167;
+			public const int textInputStyle = 2130969167;
 			
 			// aapt resource value: 0x7F040250
-			public const int textAppearanceListItem = 2130969168;
+			public const int textLocale = 2130969168;
 			
 			// aapt resource value: 0x7F040251
-			public const int textAppearanceListItemSecondary = 2130969169;
+			public const int textStartPadding = 2130969169;
 			
 			// aapt resource value: 0x7F040252
-			public const int textAppearanceListItemSmall = 2130969170;
+			public const int theme = 2130969170;
 			
 			// aapt resource value: 0x7F040253
-			public const int textAppearanceOverline = 2130969171;
+			public const int themeLineHeight = 2130969171;
 			
 			// aapt resource value: 0x7F040254
-			public const int textAppearancePopupMenuHeader = 2130969172;
+			public const int thickness = 2130969172;
 			
 			// aapt resource value: 0x7F040255
-			public const int textAppearanceSearchResultSubtitle = 2130969173;
+			public const int thumbColor = 2130969173;
 			
 			// aapt resource value: 0x7F040256
-			public const int textAppearanceSearchResultTitle = 2130969174;
+			public const int thumbElevation = 2130969174;
 			
 			// aapt resource value: 0x7F040257
-			public const int textAppearanceSmallPopupMenu = 2130969175;
+			public const int thumbRadius = 2130969175;
 			
 			// aapt resource value: 0x7F040258
-			public const int textAppearanceSubtitle1 = 2130969176;
+			public const int thumbTextPadding = 2130969176;
 			
 			// aapt resource value: 0x7F040259
-			public const int textAppearanceSubtitle2 = 2130969177;
+			public const int thumbTint = 2130969177;
 			
 			// aapt resource value: 0x7F04025A
-			public const int textColorAlertDialogListItem = 2130969178;
+			public const int thumbTintMode = 2130969178;
 			
 			// aapt resource value: 0x7F04025B
-			public const int textColorSearchUrl = 2130969179;
+			public const int tickColor = 2130969179;
 			
 			// aapt resource value: 0x7F04025C
-			public const int textEndPadding = 2130969180;
+			public const int tickColorActive = 2130969180;
 			
 			// aapt resource value: 0x7F04025D
-			public const int textInputLayoutFocusedRectEnabled = 2130969181;
+			public const int tickColorInactive = 2130969181;
 			
 			// aapt resource value: 0x7F04025E
-			public const int textInputStyle = 2130969182;
+			public const int tickMark = 2130969182;
 			
 			// aapt resource value: 0x7F04025F
-			public const int textLocale = 2130969183;
+			public const int tickMarkTint = 2130969183;
 			
 			// aapt resource value: 0x7F040260
-			public const int textStartPadding = 2130969184;
+			public const int tickMarkTintMode = 2130969184;
 			
 			// aapt resource value: 0x7F040261
-			public const int theme = 2130969185;
+			public const int tint = 2130969185;
 			
 			// aapt resource value: 0x7F040262
-			public const int themeLineHeight = 2130969186;
+			public const int tintMode = 2130969186;
 			
 			// aapt resource value: 0x7F040263
-			public const int thickness = 2130969187;
+			public const int title = 2130969187;
 			
 			// aapt resource value: 0x7F040264
-			public const int thumbColor = 2130969188;
+			public const int titleEnabled = 2130969188;
 			
 			// aapt resource value: 0x7F040265
-			public const int thumbElevation = 2130969189;
+			public const int titleMargin = 2130969189;
 			
 			// aapt resource value: 0x7F040266
-			public const int thumbRadius = 2130969190;
+			public const int titleMarginBottom = 2130969190;
 			
 			// aapt resource value: 0x7F040267
-			public const int thumbTextPadding = 2130969191;
-			
-			// aapt resource value: 0x7F040268
-			public const int thumbTint = 2130969192;
-			
-			// aapt resource value: 0x7F040269
-			public const int thumbTintMode = 2130969193;
+			public const int titleMarginEnd = 2130969191;
 			
 			// aapt resource value: 0x7F04026A
-			public const int tickColor = 2130969194;
+			public const int titleMargins = 2130969194;
+			
+			// aapt resource value: 0x7F040268
+			public const int titleMarginStart = 2130969192;
+			
+			// aapt resource value: 0x7F040269
+			public const int titleMarginTop = 2130969193;
 			
 			// aapt resource value: 0x7F04026B
-			public const int tickColorActive = 2130969195;
+			public const int titleTextAppearance = 2130969195;
 			
 			// aapt resource value: 0x7F04026C
-			public const int tickColorInactive = 2130969196;
+			public const int titleTextColor = 2130969196;
 			
 			// aapt resource value: 0x7F04026D
-			public const int tickMark = 2130969197;
+			public const int titleTextStyle = 2130969197;
 			
 			// aapt resource value: 0x7F04026E
-			public const int tickMarkTint = 2130969198;
+			public const int toolbarId = 2130969198;
 			
 			// aapt resource value: 0x7F04026F
-			public const int tickMarkTintMode = 2130969199;
+			public const int toolbarNavigationButtonStyle = 2130969199;
 			
 			// aapt resource value: 0x7F040270
-			public const int tint = 2130969200;
+			public const int toolbarStyle = 2130969200;
 			
 			// aapt resource value: 0x7F040271
-			public const int tintMode = 2130969201;
+			public const int tooltipForegroundColor = 2130969201;
 			
 			// aapt resource value: 0x7F040272
-			public const int title = 2130969202;
+			public const int tooltipFrameBackground = 2130969202;
 			
 			// aapt resource value: 0x7F040273
-			public const int titleEnabled = 2130969203;
+			public const int tooltipStyle = 2130969203;
 			
 			// aapt resource value: 0x7F040274
-			public const int titleMargin = 2130969204;
+			public const int tooltipText = 2130969204;
 			
 			// aapt resource value: 0x7F040275
-			public const int titleMarginBottom = 2130969205;
+			public const int track = 2130969205;
 			
 			// aapt resource value: 0x7F040276
-			public const int titleMarginEnd = 2130969206;
-			
-			// aapt resource value: 0x7F040279
-			public const int titleMargins = 2130969209;
+			public const int trackColor = 2130969206;
 			
 			// aapt resource value: 0x7F040277
-			public const int titleMarginStart = 2130969207;
+			public const int trackColorActive = 2130969207;
 			
 			// aapt resource value: 0x7F040278
-			public const int titleMarginTop = 2130969208;
+			public const int trackColorInactive = 2130969208;
+			
+			// aapt resource value: 0x7F040279
+			public const int trackHeight = 2130969209;
 			
 			// aapt resource value: 0x7F04027A
-			public const int titleTextAppearance = 2130969210;
+			public const int trackTint = 2130969210;
 			
 			// aapt resource value: 0x7F04027B
-			public const int titleTextColor = 2130969211;
+			public const int trackTintMode = 2130969211;
 			
 			// aapt resource value: 0x7F04027C
-			public const int titleTextStyle = 2130969212;
+			public const int transitionShapeAppearance = 2130969212;
 			
 			// aapt resource value: 0x7F04027D
-			public const int toolbarId = 2130969213;
+			public const int ttcIndex = 2130969213;
 			
 			// aapt resource value: 0x7F04027E
-			public const int toolbarNavigationButtonStyle = 2130969214;
+			public const int useCompatPadding = 2130969214;
 			
 			// aapt resource value: 0x7F04027F
-			public const int toolbarStyle = 2130969215;
+			public const int useMaterialThemeColors = 2130969215;
 			
 			// aapt resource value: 0x7F040280
-			public const int tooltipForegroundColor = 2130969216;
+			public const int values = 2130969216;
 			
 			// aapt resource value: 0x7F040281
-			public const int tooltipFrameBackground = 2130969217;
+			public const int verticalOffset = 2130969217;
 			
 			// aapt resource value: 0x7F040282
-			public const int tooltipStyle = 2130969218;
+			public const int viewInflaterClass = 2130969218;
 			
 			// aapt resource value: 0x7F040283
-			public const int tooltipText = 2130969219;
+			public const int voiceIcon = 2130969219;
 			
 			// aapt resource value: 0x7F040284
-			public const int track = 2130969220;
+			public const int windowActionBar = 2130969220;
 			
 			// aapt resource value: 0x7F040285
-			public const int trackColor = 2130969221;
+			public const int windowActionBarOverlay = 2130969221;
 			
 			// aapt resource value: 0x7F040286
-			public const int trackColorActive = 2130969222;
+			public const int windowActionModeOverlay = 2130969222;
 			
 			// aapt resource value: 0x7F040287
-			public const int trackColorInactive = 2130969223;
+			public const int windowFixedHeightMajor = 2130969223;
 			
 			// aapt resource value: 0x7F040288
-			public const int trackHeight = 2130969224;
+			public const int windowFixedHeightMinor = 2130969224;
 			
 			// aapt resource value: 0x7F040289
-			public const int trackTint = 2130969225;
+			public const int windowFixedWidthMajor = 2130969225;
 			
 			// aapt resource value: 0x7F04028A
-			public const int trackTintMode = 2130969226;
+			public const int windowFixedWidthMinor = 2130969226;
 			
 			// aapt resource value: 0x7F04028B
-			public const int transitionShapeAppearance = 2130969227;
+			public const int windowMinWidthMajor = 2130969227;
 			
 			// aapt resource value: 0x7F04028C
-			public const int ttcIndex = 2130969228;
+			public const int windowMinWidthMinor = 2130969228;
 			
 			// aapt resource value: 0x7F04028D
-			public const int useCompatPadding = 2130969229;
+			public const int windowNoTitle = 2130969229;
 			
 			// aapt resource value: 0x7F04028E
-			public const int useMaterialThemeColors = 2130969230;
+			public const int yearSelectedStyle = 2130969230;
 			
 			// aapt resource value: 0x7F04028F
-			public const int values = 2130969231;
+			public const int yearStyle = 2130969231;
 			
 			// aapt resource value: 0x7F040290
-			public const int verticalOffset = 2130969232;
-			
-			// aapt resource value: 0x7F040291
-			public const int verticalSpaceBetweenItems = 2130969233;
-			
-			// aapt resource value: 0x7F040292
-			public const int viewInflaterClass = 2130969234;
-			
-			// aapt resource value: 0x7F040293
-			public const int visibleItemCount = 2130969235;
-			
-			// aapt resource value: 0x7F040294
-			public const int voiceIcon = 2130969236;
-			
-			// aapt resource value: 0x7F040295
-			public const int windowActionBar = 2130969237;
-			
-			// aapt resource value: 0x7F040296
-			public const int windowActionBarOverlay = 2130969238;
-			
-			// aapt resource value: 0x7F040297
-			public const int windowActionModeOverlay = 2130969239;
-			
-			// aapt resource value: 0x7F040298
-			public const int windowFixedHeightMajor = 2130969240;
-			
-			// aapt resource value: 0x7F040299
-			public const int windowFixedHeightMinor = 2130969241;
-			
-			// aapt resource value: 0x7F04029A
-			public const int windowFixedWidthMajor = 2130969242;
-			
-			// aapt resource value: 0x7F04029B
-			public const int windowFixedWidthMinor = 2130969243;
-			
-			// aapt resource value: 0x7F04029C
-			public const int windowMinWidthMajor = 2130969244;
-			
-			// aapt resource value: 0x7F04029D
-			public const int windowMinWidthMinor = 2130969245;
-			
-			// aapt resource value: 0x7F04029E
-			public const int windowNoTitle = 2130969246;
-			
-			// aapt resource value: 0x7F04029F
-			public const int wp_itemTextColor = 2130969247;
-			
-			// aapt resource value: 0x7F0402A0
-			public const int yearSelectedStyle = 2130969248;
-			
-			// aapt resource value: 0x7F0402A1
-			public const int yearStyle = 2130969249;
-			
-			// aapt resource value: 0x7F0402A2
-			public const int yearTodayStyle = 2130969250;
+			public const int yearTodayStyle = 2130969232;
 			
 			static Attribute()
 			{
@@ -19159,8 +16349,8 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0x7F1000E3
 			public const int CardView_Light = 2131755235;
 			
-			// aapt resource value: 0x7F1002BF
-			public const int collectionViewTheme = 2131755711;
+			// aapt resource value: 0x7F1002BE
+			public const int collectionViewTheme = 2131755710;
 			
 			// aapt resource value: 0x7F1000E4
 			public const int DeviceCredentialHandlerTheme = 2131755236;
@@ -19297,11 +16487,11 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0x7F100110
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131755280;
 			
-			// aapt resource value: 0x7F1002C0
-			public const int scrollViewScrollBars = 2131755712;
+			// aapt resource value: 0x7F1002BF
+			public const int scrollViewScrollBars = 2131755711;
 			
-			// aapt resource value: 0x7F1002C1
-			public const int scrollViewTheme = 2131755713;
+			// aapt resource value: 0x7F1002C0
+			public const int scrollViewTheme = 2131755712;
 			
 			// aapt resource value: 0x7F100117
 			public const int ShapeAppearanceOverlay = 2131755287;
@@ -20042,556 +17232,553 @@ namespace MoleWatchApp.Droid
 			public const int TransparentStyle = 2131755526;
 			
 			// aapt resource value: 0x7F100207
-			public const int WheelPickerStyle = 2131755527;
+			public const int Widget_AppCompat_ActionBar = 2131755527;
 			
 			// aapt resource value: 0x7F100208
-			public const int Widget_AppCompat_ActionBar = 2131755528;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131755528;
 			
 			// aapt resource value: 0x7F100209
-			public const int Widget_AppCompat_ActionBar_Solid = 2131755529;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131755529;
 			
 			// aapt resource value: 0x7F10020A
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131755530;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131755530;
 			
 			// aapt resource value: 0x7F10020B
-			public const int Widget_AppCompat_ActionBar_TabText = 2131755531;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131755531;
 			
 			// aapt resource value: 0x7F10020C
-			public const int Widget_AppCompat_ActionBar_TabView = 2131755532;
+			public const int Widget_AppCompat_ActionButton = 2131755532;
 			
 			// aapt resource value: 0x7F10020D
-			public const int Widget_AppCompat_ActionButton = 2131755533;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131755533;
 			
 			// aapt resource value: 0x7F10020E
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131755534;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131755534;
 			
 			// aapt resource value: 0x7F10020F
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131755535;
+			public const int Widget_AppCompat_ActionMode = 2131755535;
 			
 			// aapt resource value: 0x7F100210
-			public const int Widget_AppCompat_ActionMode = 2131755536;
+			public const int Widget_AppCompat_ActivityChooserView = 2131755536;
 			
 			// aapt resource value: 0x7F100211
-			public const int Widget_AppCompat_ActivityChooserView = 2131755537;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131755537;
 			
 			// aapt resource value: 0x7F100212
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131755538;
-			
-			// aapt resource value: 0x7F100213
-			public const int Widget_AppCompat_Button = 2131755539;
-			
-			// aapt resource value: 0x7F100219
-			public const int Widget_AppCompat_ButtonBar = 2131755545;
-			
-			// aapt resource value: 0x7F10021A
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131755546;
-			
-			// aapt resource value: 0x7F100214
-			public const int Widget_AppCompat_Button_Borderless = 2131755540;
-			
-			// aapt resource value: 0x7F100215
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131755541;
-			
-			// aapt resource value: 0x7F100216
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131755542;
-			
-			// aapt resource value: 0x7F100217
-			public const int Widget_AppCompat_Button_Colored = 2131755543;
+			public const int Widget_AppCompat_Button = 2131755538;
 			
 			// aapt resource value: 0x7F100218
-			public const int Widget_AppCompat_Button_Small = 2131755544;
+			public const int Widget_AppCompat_ButtonBar = 2131755544;
+			
+			// aapt resource value: 0x7F100219
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131755545;
+			
+			// aapt resource value: 0x7F100213
+			public const int Widget_AppCompat_Button_Borderless = 2131755539;
+			
+			// aapt resource value: 0x7F100214
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131755540;
+			
+			// aapt resource value: 0x7F100215
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131755541;
+			
+			// aapt resource value: 0x7F100216
+			public const int Widget_AppCompat_Button_Colored = 2131755542;
+			
+			// aapt resource value: 0x7F100217
+			public const int Widget_AppCompat_Button_Small = 2131755543;
+			
+			// aapt resource value: 0x7F10021A
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131755546;
 			
 			// aapt resource value: 0x7F10021B
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131755547;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131755547;
 			
 			// aapt resource value: 0x7F10021C
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131755548;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131755548;
 			
 			// aapt resource value: 0x7F10021D
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131755549;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131755549;
 			
 			// aapt resource value: 0x7F10021E
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131755550;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131755550;
 			
 			// aapt resource value: 0x7F10021F
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131755551;
+			public const int Widget_AppCompat_EditText = 2131755551;
 			
 			// aapt resource value: 0x7F100220
-			public const int Widget_AppCompat_EditText = 2131755552;
+			public const int Widget_AppCompat_ImageButton = 2131755552;
 			
 			// aapt resource value: 0x7F100221
-			public const int Widget_AppCompat_ImageButton = 2131755553;
+			public const int Widget_AppCompat_Light_ActionBar = 2131755553;
 			
 			// aapt resource value: 0x7F100222
-			public const int Widget_AppCompat_Light_ActionBar = 2131755554;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131755554;
 			
 			// aapt resource value: 0x7F100223
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131755555;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131755555;
 			
 			// aapt resource value: 0x7F100224
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131755556;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131755556;
 			
 			// aapt resource value: 0x7F100225
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131755557;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131755557;
 			
 			// aapt resource value: 0x7F100226
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131755558;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131755558;
 			
 			// aapt resource value: 0x7F100227
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131755559;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131755559;
 			
 			// aapt resource value: 0x7F100228
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131755560;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131755560;
 			
 			// aapt resource value: 0x7F100229
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131755561;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131755561;
 			
 			// aapt resource value: 0x7F10022A
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131755562;
+			public const int Widget_AppCompat_Light_ActionButton = 2131755562;
 			
 			// aapt resource value: 0x7F10022B
-			public const int Widget_AppCompat_Light_ActionButton = 2131755563;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131755563;
 			
 			// aapt resource value: 0x7F10022C
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131755564;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131755564;
 			
 			// aapt resource value: 0x7F10022D
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131755565;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131755565;
 			
 			// aapt resource value: 0x7F10022E
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131755566;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131755566;
 			
 			// aapt resource value: 0x7F10022F
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131755567;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131755567;
 			
 			// aapt resource value: 0x7F100230
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131755568;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131755568;
 			
 			// aapt resource value: 0x7F100231
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131755569;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131755569;
 			
 			// aapt resource value: 0x7F100232
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131755570;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131755570;
 			
 			// aapt resource value: 0x7F100233
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131755571;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131755571;
 			
 			// aapt resource value: 0x7F100234
-			public const int Widget_AppCompat_Light_PopupMenu = 2131755572;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131755572;
 			
 			// aapt resource value: 0x7F100235
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131755573;
+			public const int Widget_AppCompat_Light_SearchView = 2131755573;
 			
 			// aapt resource value: 0x7F100236
-			public const int Widget_AppCompat_Light_SearchView = 2131755574;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131755574;
 			
 			// aapt resource value: 0x7F100237
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131755575;
+			public const int Widget_AppCompat_ListMenuView = 2131755575;
 			
 			// aapt resource value: 0x7F100238
-			public const int Widget_AppCompat_ListMenuView = 2131755576;
+			public const int Widget_AppCompat_ListPopupWindow = 2131755576;
 			
 			// aapt resource value: 0x7F100239
-			public const int Widget_AppCompat_ListPopupWindow = 2131755577;
+			public const int Widget_AppCompat_ListView = 2131755577;
 			
 			// aapt resource value: 0x7F10023A
-			public const int Widget_AppCompat_ListView = 2131755578;
+			public const int Widget_AppCompat_ListView_DropDown = 2131755578;
 			
 			// aapt resource value: 0x7F10023B
-			public const int Widget_AppCompat_ListView_DropDown = 2131755579;
+			public const int Widget_AppCompat_ListView_Menu = 2131755579;
 			
 			// aapt resource value: 0x7F10023C
-			public const int Widget_AppCompat_ListView_Menu = 2131755580;
+			public const int Widget_AppCompat_PopupMenu = 2131755580;
 			
 			// aapt resource value: 0x7F10023D
-			public const int Widget_AppCompat_PopupMenu = 2131755581;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131755581;
 			
 			// aapt resource value: 0x7F10023E
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131755582;
+			public const int Widget_AppCompat_PopupWindow = 2131755582;
 			
 			// aapt resource value: 0x7F10023F
-			public const int Widget_AppCompat_PopupWindow = 2131755583;
+			public const int Widget_AppCompat_ProgressBar = 2131755583;
 			
 			// aapt resource value: 0x7F100240
-			public const int Widget_AppCompat_ProgressBar = 2131755584;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131755584;
 			
 			// aapt resource value: 0x7F100241
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131755585;
+			public const int Widget_AppCompat_RatingBar = 2131755585;
 			
 			// aapt resource value: 0x7F100242
-			public const int Widget_AppCompat_RatingBar = 2131755586;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131755586;
 			
 			// aapt resource value: 0x7F100243
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131755587;
+			public const int Widget_AppCompat_RatingBar_Small = 2131755587;
 			
 			// aapt resource value: 0x7F100244
-			public const int Widget_AppCompat_RatingBar_Small = 2131755588;
+			public const int Widget_AppCompat_SearchView = 2131755588;
 			
 			// aapt resource value: 0x7F100245
-			public const int Widget_AppCompat_SearchView = 2131755589;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131755589;
 			
 			// aapt resource value: 0x7F100246
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131755590;
+			public const int Widget_AppCompat_SeekBar = 2131755590;
 			
 			// aapt resource value: 0x7F100247
-			public const int Widget_AppCompat_SeekBar = 2131755591;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131755591;
 			
 			// aapt resource value: 0x7F100248
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131755592;
+			public const int Widget_AppCompat_Spinner = 2131755592;
 			
 			// aapt resource value: 0x7F100249
-			public const int Widget_AppCompat_Spinner = 2131755593;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131755593;
 			
 			// aapt resource value: 0x7F10024A
-			public const int Widget_AppCompat_Spinner_DropDown = 2131755594;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131755594;
 			
 			// aapt resource value: 0x7F10024B
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131755595;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131755595;
 			
 			// aapt resource value: 0x7F10024C
-			public const int Widget_AppCompat_Spinner_Underlined = 2131755596;
+			public const int Widget_AppCompat_TextView = 2131755596;
 			
 			// aapt resource value: 0x7F10024D
-			public const int Widget_AppCompat_TextView = 2131755597;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131755597;
 			
 			// aapt resource value: 0x7F10024E
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131755598;
+			public const int Widget_AppCompat_Toolbar = 2131755598;
 			
 			// aapt resource value: 0x7F10024F
-			public const int Widget_AppCompat_Toolbar = 2131755599;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131755599;
 			
 			// aapt resource value: 0x7F100250
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131755600;
+			public const int Widget_Compat_NotificationActionContainer = 2131755600;
 			
 			// aapt resource value: 0x7F100251
-			public const int Widget_Compat_NotificationActionContainer = 2131755601;
+			public const int Widget_Compat_NotificationActionText = 2131755601;
 			
 			// aapt resource value: 0x7F100252
-			public const int Widget_Compat_NotificationActionText = 2131755602;
+			public const int Widget_Design_AppBarLayout = 2131755602;
 			
 			// aapt resource value: 0x7F100253
-			public const int Widget_Design_AppBarLayout = 2131755603;
+			public const int Widget_Design_BottomNavigationView = 2131755603;
 			
 			// aapt resource value: 0x7F100254
-			public const int Widget_Design_BottomNavigationView = 2131755604;
+			public const int Widget_Design_BottomSheet_Modal = 2131755604;
 			
 			// aapt resource value: 0x7F100255
-			public const int Widget_Design_BottomSheet_Modal = 2131755605;
+			public const int Widget_Design_CollapsingToolbar = 2131755605;
 			
 			// aapt resource value: 0x7F100256
-			public const int Widget_Design_CollapsingToolbar = 2131755606;
+			public const int Widget_Design_FloatingActionButton = 2131755606;
 			
 			// aapt resource value: 0x7F100257
-			public const int Widget_Design_FloatingActionButton = 2131755607;
+			public const int Widget_Design_NavigationView = 2131755607;
 			
 			// aapt resource value: 0x7F100258
-			public const int Widget_Design_NavigationView = 2131755608;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131755608;
 			
 			// aapt resource value: 0x7F100259
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131755609;
+			public const int Widget_Design_Snackbar = 2131755609;
 			
 			// aapt resource value: 0x7F10025A
-			public const int Widget_Design_Snackbar = 2131755610;
+			public const int Widget_Design_TabLayout = 2131755610;
 			
 			// aapt resource value: 0x7F10025B
-			public const int Widget_Design_TabLayout = 2131755611;
+			public const int Widget_Design_TextInputEditText = 2131755611;
 			
 			// aapt resource value: 0x7F10025C
-			public const int Widget_Design_TextInputEditText = 2131755612;
+			public const int Widget_Design_TextInputLayout = 2131755612;
 			
 			// aapt resource value: 0x7F10025D
-			public const int Widget_Design_TextInputLayout = 2131755613;
+			public const int Widget_MaterialComponents_ActionBar_Primary = 2131755613;
 			
 			// aapt resource value: 0x7F10025E
-			public const int Widget_MaterialComponents_ActionBar_Primary = 2131755614;
+			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131755614;
 			
 			// aapt resource value: 0x7F10025F
-			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131755615;
+			public const int Widget_MaterialComponents_ActionBar_Solid = 2131755615;
 			
 			// aapt resource value: 0x7F100260
-			public const int Widget_MaterialComponents_ActionBar_Solid = 2131755616;
+			public const int Widget_MaterialComponents_ActionBar_Surface = 2131755616;
 			
 			// aapt resource value: 0x7F100261
-			public const int Widget_MaterialComponents_ActionBar_Surface = 2131755617;
+			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131755617;
 			
 			// aapt resource value: 0x7F100262
-			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131755618;
+			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131755618;
 			
 			// aapt resource value: 0x7F100263
-			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131755619;
+			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131755619;
 			
 			// aapt resource value: 0x7F100264
-			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131755620;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131755620;
 			
 			// aapt resource value: 0x7F100265
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131755621;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131755621;
 			
 			// aapt resource value: 0x7F100266
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131755622;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131755622;
 			
 			// aapt resource value: 0x7F100267
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131755623;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131755623;
 			
 			// aapt resource value: 0x7F100268
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131755624;
+			public const int Widget_MaterialComponents_Badge = 2131755624;
 			
 			// aapt resource value: 0x7F100269
-			public const int Widget_MaterialComponents_Badge = 2131755625;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131755625;
 			
 			// aapt resource value: 0x7F10026A
-			public const int Widget_MaterialComponents_BottomAppBar = 2131755626;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131755626;
 			
 			// aapt resource value: 0x7F10026B
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131755627;
+			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131755627;
 			
 			// aapt resource value: 0x7F10026C
-			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131755628;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131755628;
 			
 			// aapt resource value: 0x7F10026D
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131755629;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131755629;
 			
 			// aapt resource value: 0x7F10026E
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131755630;
+			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131755630;
 			
 			// aapt resource value: 0x7F10026F
-			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131755631;
+			public const int Widget_MaterialComponents_BottomSheet = 2131755631;
 			
 			// aapt resource value: 0x7F100270
-			public const int Widget_MaterialComponents_BottomSheet = 2131755632;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131755632;
 			
 			// aapt resource value: 0x7F100271
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131755633;
+			public const int Widget_MaterialComponents_Button = 2131755633;
 			
 			// aapt resource value: 0x7F100272
-			public const int Widget_MaterialComponents_Button = 2131755634;
+			public const int Widget_MaterialComponents_Button_Icon = 2131755634;
 			
 			// aapt resource value: 0x7F100273
-			public const int Widget_MaterialComponents_Button_Icon = 2131755635;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131755635;
 			
 			// aapt resource value: 0x7F100274
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131755636;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131755636;
 			
 			// aapt resource value: 0x7F100275
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131755637;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131755637;
 			
 			// aapt resource value: 0x7F100276
-			public const int Widget_MaterialComponents_Button_TextButton = 2131755638;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131755638;
 			
 			// aapt resource value: 0x7F100277
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131755639;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131755639;
 			
 			// aapt resource value: 0x7F100278
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131755640;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131755640;
 			
 			// aapt resource value: 0x7F100279
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131755641;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131755641;
 			
 			// aapt resource value: 0x7F10027A
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131755642;
+			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131755642;
 			
 			// aapt resource value: 0x7F10027B
-			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131755643;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131755643;
 			
 			// aapt resource value: 0x7F10027C
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131755644;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131755644;
 			
 			// aapt resource value: 0x7F10027D
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131755645;
+			public const int Widget_MaterialComponents_CardView = 2131755645;
 			
 			// aapt resource value: 0x7F10027E
-			public const int Widget_MaterialComponents_CardView = 2131755646;
-			
-			// aapt resource value: 0x7F10027F
-			public const int Widget_MaterialComponents_CheckedTextView = 2131755647;
-			
-			// aapt resource value: 0x7F100284
-			public const int Widget_MaterialComponents_ChipGroup = 2131755652;
-			
-			// aapt resource value: 0x7F100280
-			public const int Widget_MaterialComponents_Chip_Action = 2131755648;
-			
-			// aapt resource value: 0x7F100281
-			public const int Widget_MaterialComponents_Chip_Choice = 2131755649;
-			
-			// aapt resource value: 0x7F100282
-			public const int Widget_MaterialComponents_Chip_Entry = 2131755650;
+			public const int Widget_MaterialComponents_CheckedTextView = 2131755646;
 			
 			// aapt resource value: 0x7F100283
-			public const int Widget_MaterialComponents_Chip_Filter = 2131755651;
+			public const int Widget_MaterialComponents_ChipGroup = 2131755651;
+			
+			// aapt resource value: 0x7F10027F
+			public const int Widget_MaterialComponents_Chip_Action = 2131755647;
+			
+			// aapt resource value: 0x7F100280
+			public const int Widget_MaterialComponents_Chip_Choice = 2131755648;
+			
+			// aapt resource value: 0x7F100281
+			public const int Widget_MaterialComponents_Chip_Entry = 2131755649;
+			
+			// aapt resource value: 0x7F100282
+			public const int Widget_MaterialComponents_Chip_Filter = 2131755650;
+			
+			// aapt resource value: 0x7F100284
+			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131755652;
 			
 			// aapt resource value: 0x7F100285
-			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131755653;
+			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131755653;
 			
 			// aapt resource value: 0x7F100286
-			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131755654;
+			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131755654;
 			
 			// aapt resource value: 0x7F100287
-			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131755655;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131755655;
 			
 			// aapt resource value: 0x7F100288
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131755656;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131755656;
 			
 			// aapt resource value: 0x7F100289
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131755657;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131755657;
 			
 			// aapt resource value: 0x7F10028A
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131755658;
+			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131755658;
 			
 			// aapt resource value: 0x7F10028B
-			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131755659;
+			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131755659;
 			
 			// aapt resource value: 0x7F10028C
-			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131755660;
+			public const int Widget_MaterialComponents_MaterialCalendar = 2131755660;
 			
 			// aapt resource value: 0x7F10028D
-			public const int Widget_MaterialComponents_MaterialCalendar = 2131755661;
-			
-			// aapt resource value: 0x7F10028E
-			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131755662;
-			
-			// aapt resource value: 0x7F100292
-			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131755666;
-			
-			// aapt resource value: 0x7F10028F
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131755663;
-			
-			// aapt resource value: 0x7F100290
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131755664;
+			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131755661;
 			
 			// aapt resource value: 0x7F100291
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131755665;
+			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131755665;
+			
+			// aapt resource value: 0x7F10028E
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131755662;
+			
+			// aapt resource value: 0x7F10028F
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131755663;
+			
+			// aapt resource value: 0x7F100290
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131755664;
+			
+			// aapt resource value: 0x7F100292
+			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131755666;
 			
 			// aapt resource value: 0x7F100293
-			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131755667;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131755667;
 			
 			// aapt resource value: 0x7F100294
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131755668;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131755668;
 			
 			// aapt resource value: 0x7F100295
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131755669;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131755669;
 			
 			// aapt resource value: 0x7F100296
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131755670;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131755670;
 			
 			// aapt resource value: 0x7F100297
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131755671;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131755671;
 			
 			// aapt resource value: 0x7F100298
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131755672;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131755672;
 			
 			// aapt resource value: 0x7F100299
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131755673;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131755673;
 			
 			// aapt resource value: 0x7F10029A
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131755674;
+			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131755674;
 			
 			// aapt resource value: 0x7F10029B
-			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131755675;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131755675;
 			
 			// aapt resource value: 0x7F10029C
-			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131755676;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131755676;
 			
 			// aapt resource value: 0x7F10029D
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131755677;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131755677;
 			
 			// aapt resource value: 0x7F10029E
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131755678;
+			public const int Widget_MaterialComponents_NavigationView = 2131755678;
 			
 			// aapt resource value: 0x7F10029F
-			public const int Widget_MaterialComponents_NavigationView = 2131755679;
+			public const int Widget_MaterialComponents_PopupMenu = 2131755679;
 			
 			// aapt resource value: 0x7F1002A0
-			public const int Widget_MaterialComponents_PopupMenu = 2131755680;
+			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131755680;
 			
 			// aapt resource value: 0x7F1002A1
-			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131755681;
+			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131755681;
 			
 			// aapt resource value: 0x7F1002A2
-			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131755682;
+			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131755682;
 			
 			// aapt resource value: 0x7F1002A3
-			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131755683;
+			public const int Widget_MaterialComponents_ShapeableImageView = 2131755683;
 			
 			// aapt resource value: 0x7F1002A4
-			public const int Widget_MaterialComponents_ShapeableImageView = 2131755684;
+			public const int Widget_MaterialComponents_Slider = 2131755684;
 			
 			// aapt resource value: 0x7F1002A5
-			public const int Widget_MaterialComponents_Slider = 2131755685;
+			public const int Widget_MaterialComponents_Snackbar = 2131755685;
 			
 			// aapt resource value: 0x7F1002A6
-			public const int Widget_MaterialComponents_Snackbar = 2131755686;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131755686;
 			
 			// aapt resource value: 0x7F1002A7
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131755687;
+			public const int Widget_MaterialComponents_Snackbar_TextView = 2131755687;
 			
 			// aapt resource value: 0x7F1002A8
-			public const int Widget_MaterialComponents_Snackbar_TextView = 2131755688;
+			public const int Widget_MaterialComponents_TabLayout = 2131755688;
 			
 			// aapt resource value: 0x7F1002A9
-			public const int Widget_MaterialComponents_TabLayout = 2131755689;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131755689;
 			
 			// aapt resource value: 0x7F1002AA
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131755690;
+			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131755690;
 			
 			// aapt resource value: 0x7F1002AB
-			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131755691;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131755691;
 			
 			// aapt resource value: 0x7F1002AC
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131755692;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755692;
 			
 			// aapt resource value: 0x7F1002AD
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755693;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131755693;
 			
 			// aapt resource value: 0x7F1002AE
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131755694;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755694;
 			
 			// aapt resource value: 0x7F1002AF
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755695;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131755695;
 			
 			// aapt resource value: 0x7F1002B0
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131755696;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131755696;
 			
 			// aapt resource value: 0x7F1002B1
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131755697;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131755697;
 			
 			// aapt resource value: 0x7F1002B2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131755698;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131755698;
 			
 			// aapt resource value: 0x7F1002B3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131755699;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131755699;
 			
 			// aapt resource value: 0x7F1002B4
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131755700;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131755700;
 			
 			// aapt resource value: 0x7F1002B5
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131755701;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131755701;
 			
 			// aapt resource value: 0x7F1002B6
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131755702;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131755702;
 			
 			// aapt resource value: 0x7F1002B7
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131755703;
+			public const int Widget_MaterialComponents_TextView = 2131755703;
 			
 			// aapt resource value: 0x7F1002B8
-			public const int Widget_MaterialComponents_TextView = 2131755704;
+			public const int Widget_MaterialComponents_Toolbar = 2131755704;
 			
 			// aapt resource value: 0x7F1002B9
-			public const int Widget_MaterialComponents_Toolbar = 2131755705;
+			public const int Widget_MaterialComponents_Toolbar_Primary = 2131755705;
 			
 			// aapt resource value: 0x7F1002BA
-			public const int Widget_MaterialComponents_Toolbar_Primary = 2131755706;
+			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131755706;
 			
 			// aapt resource value: 0x7F1002BB
-			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131755707;
+			public const int Widget_MaterialComponents_Toolbar_Surface = 2131755707;
 			
 			// aapt resource value: 0x7F1002BC
-			public const int Widget_MaterialComponents_Toolbar_Surface = 2131755708;
+			public const int Widget_MaterialComponents_Tooltip = 2131755708;
 			
 			// aapt resource value: 0x7F1002BD
-			public const int Widget_MaterialComponents_Tooltip = 2131755709;
-			
-			// aapt resource value: 0x7F1002BE
-			public const int Widget_Support_CoordinatorLayout = 2131755710;
+			public const int Widget_Support_CoordinatorLayout = 2131755709;
 			
 			static Style()
 			{
@@ -20606,7 +17793,7 @@ namespace MoleWatchApp.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F040034,0x7F04003B,0x7F04003C,0x7F0400B5,0x7F0400B6,0x7F0400B7,0x7F0400B8,0x7F0400B9,0x7F0400BA,0x7F0400D4,0x7F0400DD,0x7F0400DE,0x7F0400F2,0x7F040132,0x7F040138,0x7F04013E,0x7F04013F,0x7F040143,0x7F04014D,0x7F04015E,0x7F040195,0x7F0401B6,0x7F0401CF,0x7F0401D6,0x7F0401D7,0x7F04021D,0x7F040220,0x7F040272,0x7F04027C }
+			// aapt resource value: { 0x7F040034,0x7F04003B,0x7F04003C,0x7F0400B5,0x7F0400B6,0x7F0400B7,0x7F0400B8,0x7F0400B9,0x7F0400BA,0x7F0400D4,0x7F0400DD,0x7F0400DE,0x7F0400F2,0x7F040130,0x7F040136,0x7F04013C,0x7F04013D,0x7F040140,0x7F04014A,0x7F040157,0x7F04018B,0x7F0401AC,0x7F0401C5,0x7F0401CC,0x7F0401CD,0x7F04020E,0x7F040211,0x7F040263,0x7F04026D }
 			public static int[] ActionBar = new int[] {
 					2130968628,
 					2130968635,
@@ -20621,22 +17808,22 @@ namespace MoleWatchApp.Droid
 					2130968797,
 					2130968798,
 					2130968818,
-					2130968882,
-					2130968888,
-					2130968894,
-					2130968895,
-					2130968899,
-					2130968909,
-					2130968926,
-					2130968981,
-					2130969014,
-					2130969039,
-					2130969046,
-					2130969047,
-					2130969117,
-					2130969120,
-					2130969202,
-					2130969212};
+					2130968880,
+					2130968886,
+					2130968892,
+					2130968893,
+					2130968896,
+					2130968906,
+					2130968919,
+					2130968971,
+					2130969004,
+					2130969029,
+					2130969036,
+					2130969037,
+					2130969102,
+					2130969105,
+					2130969187,
+					2130969197};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -20743,14 +17930,14 @@ namespace MoleWatchApp.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F040034,0x7F04003B,0x7F040097,0x7F040132,0x7F040220,0x7F04027C }
+			// aapt resource value: { 0x7F040034,0x7F04003B,0x7F040097,0x7F040130,0x7F040211,0x7F04026D }
 			public static int[] ActionMode = new int[] {
 					2130968628,
 					2130968635,
 					2130968727,
-					2130968882,
-					2130969120,
-					2130969212};
+					2130968880,
+					2130969105,
+					2130969197};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -20770,10 +17957,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F040106,0x7F04014E }
+			// aapt resource value: { 0x7F040105,0x7F04014B }
 			public static int[] ActivityChooserView = new int[] {
-					2130968838,
-					2130968910};
+					2130968837,
+					2130968907};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -20781,16 +17968,16 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F040066,0x7F040067,0x7F04018A,0x7F04018B,0x7F0401B3,0x7F0401FB,0x7F0401FD }
+			// aapt resource value: { 0x10100F2,0x7F040066,0x7F040067,0x7F040180,0x7F040181,0x7F0401A9,0x7F0401EC,0x7F0401EE }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130968678,
 					2130968679,
-					2130968970,
-					2130968971,
-					2130969011,
-					2130969083,
-					2130969085};
+					2130968960,
+					2130968961,
+					2130969001,
+					2130969068,
+					2130969070};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -20873,23 +18060,23 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0400F2,0x7F040107,0x7F040182,0x7F040183,0x7F040217 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0400F2,0x7F040106,0x7F040178,0x7F040179,0x7F040208 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
 					2130968818,
-					2130968839,
-					2130968962,
-					2130968963,
-					2130969111};
+					2130968838,
+					2130968952,
+					2130968953,
+					2130969096};
 			
-			// aapt resource value: { 0x7F040211,0x7F040212,0x7F040214,0x7F040215 }
+			// aapt resource value: { 0x7F040202,0x7F040203,0x7F040205,0x7F040206 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130969105,
-					2130969106,
-					2130969108,
-					2130969109};
+					2130969090,
+					2130969091,
+					2130969093,
+					2130969094};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -20918,10 +18105,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F040180,0x7F040181 }
+			// aapt resource value: { 0x7F040176,0x7F040177 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130968960,
-					2130968961};
+					2130968950,
+					2130968951};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -20938,12 +18125,12 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F040209,0x7F040270,0x7F040271 }
+			// aapt resource value: { 0x1010119,0x7F0401FA,0x7F040261,0x7F040262 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130969097,
-					2130969200,
-					2130969201};
+					2130969082,
+					2130969185,
+					2130969186};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -20957,12 +18144,12 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F04026D,0x7F04026E,0x7F04026F }
+			// aapt resource value: { 0x1010142,0x7F04025E,0x7F04025F,0x7F040260 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130969197,
-					2130969198,
-					2130969199};
+					2130969182,
+					2130969183,
+					2130969184};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -21007,7 +18194,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F04002F,0x7F040030,0x7F040031,0x7F040032,0x7F040033,0x7F0400E2,0x7F0400E3,0x7F0400E4,0x7F0400E5,0x7F0400E7,0x7F0400E8,0x7F0400E9,0x7F0400EA,0x7F04011E,0x7F040121,0x7F040129,0x7F040175,0x7F040184,0x7F040243,0x7F04025F }
+			// aapt resource value: { 0x1010034,0x7F04002F,0x7F040030,0x7F040031,0x7F040032,0x7F040033,0x7F0400E2,0x7F0400E3,0x7F0400E4,0x7F0400E5,0x7F0400E7,0x7F0400E8,0x7F0400E9,0x7F0400EA,0x7F04011C,0x7F04011F,0x7F040127,0x7F04016B,0x7F04017A,0x7F040234,0x7F040250 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130968623,
@@ -21023,13 +18210,13 @@ namespace MoleWatchApp.Droid
 					2130968808,
 					2130968809,
 					2130968810,
-					2130968862,
-					2130968865,
-					2130968873,
-					2130968949,
-					2130968964,
-					2130969155,
-					2130969183};
+					2130968860,
+					2130968863,
+					2130968871,
+					2130968939,
+					2130968954,
+					2130969140,
+					2130969168};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -21094,7 +18281,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F040000,0x7F040001,0x7F040002,0x7F040003,0x7F040004,0x7F040005,0x7F040006,0x7F040007,0x7F040008,0x7F040009,0x7F04000A,0x7F04000B,0x7F04000C,0x7F04000E,0x7F04000F,0x7F040010,0x7F040011,0x7F040012,0x7F040013,0x7F040014,0x7F040015,0x7F040016,0x7F040017,0x7F040018,0x7F040019,0x7F04001A,0x7F04001B,0x7F04001C,0x7F04001D,0x7F04001E,0x7F040022,0x7F040023,0x7F040024,0x7F040025,0x7F040026,0x7F04002E,0x7F04004F,0x7F04005F,0x7F040060,0x7F040061,0x7F040062,0x7F040063,0x7F040068,0x7F040069,0x7F040074,0x7F04007B,0x7F04009E,0x7F04009F,0x7F0400A0,0x7F0400A1,0x7F0400A2,0x7F0400A3,0x7F0400A4,0x7F0400AB,0x7F0400AC,0x7F0400B2,0x7F0400C1,0x7F0400DA,0x7F0400DB,0x7F0400DC,0x7F0400DF,0x7F0400E1,0x7F0400ED,0x7F0400EE,0x7F0400EF,0x7F0400F0,0x7F0400F1,0x7F04013E,0x7F04014C,0x7F040186,0x7F040187,0x7F040188,0x7F040189,0x7F04018C,0x7F04018D,0x7F04018E,0x7F04018F,0x7F040190,0x7F040191,0x7F040192,0x7F040193,0x7F040194,0x7F0401C2,0x7F0401C3,0x7F0401C4,0x7F0401CE,0x7F0401D0,0x7F0401DA,0x7F0401DC,0x7F0401DD,0x7F0401DE,0x7F0401E8,0x7F0401E9,0x7F0401EA,0x7F0401EB,0x7F040206,0x7F040207,0x7F040227,0x7F04024E,0x7F040250,0x7F040251,0x7F040252,0x7F040254,0x7F040255,0x7F040256,0x7F040257,0x7F04025A,0x7F04025B,0x7F04027E,0x7F04027F,0x7F040280,0x7F040281,0x7F040292,0x7F040295,0x7F040296,0x7F040297,0x7F040298,0x7F040299,0x7F04029A,0x7F04029B,0x7F04029C,0x7F04029D,0x7F04029E }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F040000,0x7F040001,0x7F040002,0x7F040003,0x7F040004,0x7F040005,0x7F040006,0x7F040007,0x7F040008,0x7F040009,0x7F04000A,0x7F04000B,0x7F04000C,0x7F04000E,0x7F04000F,0x7F040010,0x7F040011,0x7F040012,0x7F040013,0x7F040014,0x7F040015,0x7F040016,0x7F040017,0x7F040018,0x7F040019,0x7F04001A,0x7F04001B,0x7F04001C,0x7F04001D,0x7F04001E,0x7F040022,0x7F040023,0x7F040024,0x7F040025,0x7F040026,0x7F04002E,0x7F04004F,0x7F04005F,0x7F040060,0x7F040061,0x7F040062,0x7F040063,0x7F040068,0x7F040069,0x7F040074,0x7F04007B,0x7F04009E,0x7F04009F,0x7F0400A0,0x7F0400A1,0x7F0400A2,0x7F0400A3,0x7F0400A4,0x7F0400AB,0x7F0400AC,0x7F0400B2,0x7F0400C1,0x7F0400DA,0x7F0400DB,0x7F0400DC,0x7F0400DF,0x7F0400E1,0x7F0400ED,0x7F0400EE,0x7F0400EF,0x7F0400F0,0x7F0400F1,0x7F04013C,0x7F040149,0x7F04017C,0x7F04017D,0x7F04017E,0x7F04017F,0x7F040182,0x7F040183,0x7F040184,0x7F040185,0x7F040186,0x7F040187,0x7F040188,0x7F040189,0x7F04018A,0x7F0401B8,0x7F0401B9,0x7F0401BA,0x7F0401C4,0x7F0401C6,0x7F0401D0,0x7F0401D2,0x7F0401D3,0x7F0401D4,0x7F0401DE,0x7F0401DF,0x7F0401E0,0x7F0401E1,0x7F0401F7,0x7F0401F8,0x7F040218,0x7F04023F,0x7F040241,0x7F040242,0x7F040243,0x7F040245,0x7F040246,0x7F040247,0x7F040248,0x7F04024B,0x7F04024C,0x7F04026F,0x7F040270,0x7F040271,0x7F040272,0x7F040282,0x7F040284,0x7F040285,0x7F040286,0x7F040287,0x7F040288,0x7F040289,0x7F04028A,0x7F04028B,0x7F04028C,0x7F04028D }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -21165,62 +18352,62 @@ namespace MoleWatchApp.Droid
 					2130968815,
 					2130968816,
 					2130968817,
-					2130968894,
-					2130968908,
+					2130968892,
+					2130968905,
+					2130968956,
+					2130968957,
+					2130968958,
+					2130968959,
+					2130968962,
+					2130968963,
+					2130968964,
+					2130968965,
 					2130968966,
 					2130968967,
 					2130968968,
 					2130968969,
-					2130968972,
-					2130968973,
-					2130968974,
-					2130968975,
-					2130968976,
-					2130968977,
-					2130968978,
-					2130968979,
-					2130968980,
-					2130969026,
-					2130969027,
+					2130968970,
+					2130969016,
+					2130969017,
+					2130969018,
 					2130969028,
-					2130969038,
+					2130969030,
 					2130969040,
-					2130969050,
-					2130969052,
-					2130969053,
+					2130969042,
+					2130969043,
+					2130969044,
 					2130969054,
-					2130969064,
-					2130969065,
-					2130969066,
-					2130969067,
-					2130969094,
-					2130969095,
-					2130969127,
-					2130969166,
-					2130969168,
-					2130969169,
-					2130969170,
-					2130969172,
-					2130969173,
-					2130969174,
-					2130969175,
-					2130969178,
-					2130969179,
-					2130969214,
-					2130969215,
-					2130969216,
-					2130969217,
-					2130969234,
-					2130969237,
-					2130969238,
-					2130969239,
-					2130969240,
-					2130969241,
-					2130969242,
-					2130969243,
-					2130969244,
-					2130969245,
-					2130969246};
+					2130969055,
+					2130969056,
+					2130969057,
+					2130969079,
+					2130969080,
+					2130969112,
+					2130969151,
+					2130969153,
+					2130969154,
+					2130969155,
+					2130969157,
+					2130969158,
+					2130969159,
+					2130969160,
+					2130969163,
+					2130969164,
+					2130969199,
+					2130969200,
+					2130969201,
+					2130969202,
+					2130969218,
+					2130969220,
+					2130969221,
+					2130969222,
+					2130969223,
+					2130969224,
+					2130969225,
+					2130969226,
+					2130969227,
+					2130969228,
+					2130969229};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -21597,15 +18784,15 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F040035,0x7F04003F,0x7F040041,0x7F040140,0x7F0401AD,0x7F0401B8,0x7F040290 }
+			// aapt resource value: { 0x7F040035,0x7F04003F,0x7F040041,0x7F04013E,0x7F0401A3,0x7F0401AE,0x7F040281 }
 			public static int[] Badge = new int[] {
 					2130968629,
 					2130968639,
 					2130968641,
-					2130968896,
-					2130969005,
-					2130969016,
-					2130969232};
+					2130968894,
+					2130968995,
+					2130969006,
+					2130969217};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -21628,19 +18815,19 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x7F04003D,0x7F0400F2,0x7F040111,0x7F040112,0x7F040113,0x7F040114,0x7F040115,0x7F040139,0x7F0401BC,0x7F0401BE,0x7F0401BF }
+			// aapt resource value: { 0x7F04003D,0x7F0400F2,0x7F040110,0x7F040111,0x7F040112,0x7F040113,0x7F040114,0x7F040137,0x7F0401B2,0x7F0401B4,0x7F0401B5 }
 			public static int[] BottomAppBar = new int[] {
 					2130968637,
 					2130968818,
+					2130968848,
 					2130968849,
 					2130968850,
 					2130968851,
 					2130968852,
-					2130968853,
-					2130968889,
-					2130969020,
-					2130969022,
-					2130969023};
+					2130968887,
+					2130969010,
+					2130969012,
+					2130969013};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -21675,20 +18862,20 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F04003D,0x7F0400F2,0x7F040155,0x7F040159,0x7F04015B,0x7F04015C,0x7F04015F,0x7F04016B,0x7F04016C,0x7F04016D,0x7F040174,0x7F0401B1 }
+			// aapt resource value: { 0x7F04003D,0x7F0400F2,0x7F04014F,0x7F040152,0x7F040154,0x7F040155,0x7F040158,0x7F040164,0x7F040165,0x7F040166,0x7F04016A,0x7F0401A7 }
 			public static int[] BottomNavigationView = new int[] {
 					2130968637,
 					2130968818,
+					2130968911,
+					2130968914,
+					2130968916,
 					2130968917,
-					2130968921,
-					2130968923,
-					2130968924,
-					2130968927,
-					2130968939,
-					2130968940,
-					2130968941,
-					2130968948,
-					2130969009};
+					2130968920,
+					2130968932,
+					2130968933,
+					2130968934,
+					2130968938,
+					2130968999};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_backgroundTint = 0;
@@ -21726,7 +18913,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F04003D,0x7F040045,0x7F040046,0x7F040047,0x7F040048,0x7F040049,0x7F04004B,0x7F04004C,0x7F04004D,0x7F04012D,0x7F0401F1,0x7F0401F4 }
+			// aapt resource value: { 0x1010440,0x7F04003D,0x7F040045,0x7F040046,0x7F040047,0x7F040048,0x7F040049,0x7F04004B,0x7F04004C,0x7F04004D,0x7F04012B,0x7F0401E3,0x7F0401E6 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
 					2130968637,
@@ -21738,9 +18925,9 @@ namespace MoleWatchApp.Droid
 					2130968651,
 					2130968652,
 					2130968653,
-					2130968877,
-					2130969073,
-					2130969076};
+					2130968875,
+					2130969059,
+					2130969062};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -21843,7 +19030,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F040077,0x7F040078,0x7F040079,0x7F04007A,0x7F04007C,0x7F04007D,0x7F04007E,0x7F040080,0x7F040081,0x7F040082,0x7F040083,0x7F040084,0x7F040085,0x7F040086,0x7F04008B,0x7F04008C,0x7F04008D,0x7F04008F,0x7F040090,0x7F040091,0x7F040092,0x7F040093,0x7F040094,0x7F040095,0x7F040096,0x7F0400FE,0x7F040137,0x7F040144,0x7F040148,0x7F0401E1,0x7F0401F1,0x7F0401F4,0x7F0401F8,0x7F04025C,0x7F040260 }
+			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F040077,0x7F040078,0x7F040079,0x7F04007A,0x7F04007C,0x7F04007D,0x7F04007E,0x7F040080,0x7F040081,0x7F040082,0x7F040083,0x7F040084,0x7F040085,0x7F040086,0x7F04008B,0x7F04008C,0x7F04008D,0x7F04008F,0x7F040090,0x7F040091,0x7F040092,0x7F040093,0x7F040094,0x7F040095,0x7F040096,0x7F0400FD,0x7F040135,0x7F040141,0x7F040145,0x7F0401D7,0x7F0401E3,0x7F0401E6,0x7F0401EA,0x7F04024D,0x7F040251 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842904,
@@ -21876,26 +19063,26 @@ namespace MoleWatchApp.Droid
 					2130968724,
 					2130968725,
 					2130968726,
-					2130968830,
-					2130968887,
-					2130968900,
-					2130968904,
-					2130969057,
-					2130969073,
-					2130969076,
-					2130969080,
-					2130969180,
-					2130969184};
+					2130968829,
+					2130968885,
+					2130968897,
+					2130968901,
+					2130969047,
+					2130969059,
+					2130969062,
+					2130969066,
+					2130969165,
+					2130969169};
 			
-			// aapt resource value: { 0x7F040076,0x7F040087,0x7F040088,0x7F040089,0x7F0401F0,0x7F0401FE,0x7F0401FF }
+			// aapt resource value: { 0x7F040076,0x7F040087,0x7F040088,0x7F040089,0x7F0401E2,0x7F0401EF,0x7F0401F0 }
 			public static int[] ChipGroup = new int[] {
 					2130968694,
 					2130968711,
 					2130968712,
 					2130968713,
-					2130969072,
-					2130969086,
-					2130969087};
+					2130969058,
+					2130969071,
+					2130969072};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -22041,25 +19228,25 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 40
 			public const int Chip_textStartPadding = 40;
 			
-			// aapt resource value: { 0x7F04009A,0x7F04009B,0x7F0400C0,0x7F040108,0x7F040109,0x7F04010A,0x7F04010B,0x7F04010C,0x7F04010D,0x7F04010E,0x7F0401AF,0x7F0401E2,0x7F0401E4,0x7F040218,0x7F040272,0x7F040273,0x7F04027D }
+			// aapt resource value: { 0x7F04009A,0x7F04009B,0x7F0400C0,0x7F040107,0x7F040108,0x7F040109,0x7F04010A,0x7F04010B,0x7F04010C,0x7F04010D,0x7F0401A5,0x7F0401D8,0x7F0401DA,0x7F040209,0x7F040263,0x7F040264,0x7F04026E }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968730,
 					2130968731,
 					2130968768,
+					2130968839,
 					2130968840,
 					2130968841,
 					2130968842,
 					2130968843,
 					2130968844,
 					2130968845,
-					2130968846,
-					2130969007,
-					2130969058,
-					2130969060,
-					2130969112,
-					2130969202,
-					2130969203,
-					2130969213};
+					2130968997,
+					2130969048,
+					2130969050,
+					2130969097,
+					2130969187,
+					2130969188,
+					2130969198};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -22091,10 +19278,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F04017B,0x7F04017C }
+			// aapt resource value: { 0x7F040171,0x7F040172 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130968955,
-					2130968956};
+					2130968945,
+					2130968946};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -22157,23 +19344,23 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F040171,0x7F040216 }
+			// aapt resource value: { 0x7F040167,0x7F040207 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130968945,
-					2130969110};
+					2130968935,
+					2130969095};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F040178,0x7F040179,0x7F04017A,0x7F04017D,0x7F04017E,0x7F04017F }
+			// aapt resource value: { 0x10100B3,0x7F04016E,0x7F04016F,0x7F040170,0x7F040173,0x7F040174,0x7F040175 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130968952,
-					2130968953,
-					2130968954,
-					2130968957,
-					2130968958,
-					2130968959};
+					2130968942,
+					2130968943,
+					2130968944,
+					2130968947,
+					2130968948,
+					2130968949};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -22199,16 +19386,16 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F04002C,0x7F04002D,0x7F040042,0x7F04009D,0x7F0400E6,0x7F04012C,0x7F040205,0x7F040263 }
+			// aapt resource value: { 0x7F04002C,0x7F04002D,0x7F040042,0x7F04009D,0x7F0400E6,0x7F04012A,0x7F0401F6,0x7F040254 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130968620,
 					2130968621,
 					2130968642,
 					2130968733,
 					2130968806,
-					2130968876,
-					2130969093,
-					2130969187};
+					2130968874,
+					2130969078,
+					2130969172};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -22241,13 +19428,13 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F0400F2,0x7F04010F,0x7F040137,0x7F0401F8,0x7F0401FC }
+			// aapt resource value: { 0x7F0400F2,0x7F04010E,0x7F040135,0x7F0401EA,0x7F0401ED }
 			public static int[] ExtendedFloatingActionButton = new int[] {
 					2130968818,
-					2130968847,
-					2130968887,
-					2130969080,
-					2130969084};
+					2130968846,
+					2130968885,
+					2130969066,
+					2130969069};
 			
 			// aapt resource value: { 0x7F040043,0x7F040044 }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -22275,25 +19462,25 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 4
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 4;
 			
-			// aapt resource value: { 0x101000E,0x7F04003D,0x7F04003E,0x7F04004E,0x7F0400F2,0x7F0400FE,0x7F040116,0x7F040117,0x7F040137,0x7F040142,0x7F0401AE,0x7F0401D5,0x7F0401E1,0x7F0401F1,0x7F0401F4,0x7F0401F8,0x7F04028D }
+			// aapt resource value: { 0x101000E,0x7F04003D,0x7F04003E,0x7F04004E,0x7F0400F2,0x7F0400FD,0x7F040115,0x7F040116,0x7F040135,0x7F04013F,0x7F0401A4,0x7F0401CB,0x7F0401D7,0x7F0401E3,0x7F0401E6,0x7F0401EA,0x7F04027E }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130968637,
 					2130968638,
 					2130968654,
 					2130968818,
-					2130968830,
+					2130968829,
+					2130968853,
 					2130968854,
-					2130968855,
-					2130968887,
-					2130968898,
-					2130969006,
-					2130969045,
-					2130969057,
-					2130969073,
-					2130969076,
-					2130969080,
-					2130969229};
+					2130968885,
+					2130968895,
+					2130968996,
+					2130969035,
+					2130969047,
+					2130969059,
+					2130969062,
+					2130969066,
+					2130969214};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -22353,10 +19540,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F040167,0x7F040185 }
+			// aapt resource value: { 0x7F040160,0x7F04017B }
 			public static int[] FlowLayout = new int[] {
-					2130968935,
-					2130968965};
+					2130968928,
+					2130968955};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -22364,27 +19551,27 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F040122,0x7F040123,0x7F040124,0x7F040125,0x7F040126,0x7F040127 }
+			// aapt resource value: { 0x7F040120,0x7F040121,0x7F040122,0x7F040123,0x7F040124,0x7F040125 }
 			public static int[] FontFamily = new int[] {
+					2130968864,
+					2130968865,
 					2130968866,
 					2130968867,
 					2130968868,
-					2130968869,
-					2130968870,
-					2130968871};
+					2130968869};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F040120,0x7F040128,0x7F040129,0x7F04012A,0x7F04028C }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F04011E,0x7F040126,0x7F040127,0x7F040128,0x7F04027D }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130968864,
+					2130968862,
+					2130968870,
+					2130968871,
 					2130968872,
-					2130968873,
-					2130968874,
-					2130969228};
+					2130969213};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -22434,11 +19621,11 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F04012B }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F040129 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130968875};
+					2130968873};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -22537,11 +19724,11 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F0401BC,0x7F0401BE,0x7F0401BF }
+			// aapt resource value: { 0x7F0401B2,0x7F0401B4,0x7F0401B5 }
 			public static int[] Insets = new int[] {
-					2130969020,
-					2130969022,
-					2130969023};
+					2130969010,
+					2130969012,
+					2130969013};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -22559,7 +19746,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0400DE,0x7F0400E0,0x7F0401B0,0x7F0401F7 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0400DE,0x7F0400E0,0x7F0401A6,0x7F0401E9 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -22568,8 +19755,8 @@ namespace MoleWatchApp.Droid
 					16843048,
 					2130968798,
 					2130968800,
-					2130969008,
-					2130969079};
+					2130968998,
+					2130969065};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -22635,13 +19822,13 @@ namespace MoleWatchApp.Droid
 					2130968632,
 					2130968633};
 			
-			// aapt resource value: { 0x7F040197,0x7F040198,0x7F040199,0x7F04019A,0x7F04019B }
+			// aapt resource value: { 0x7F04018D,0x7F04018E,0x7F04018F,0x7F040190,0x7F040191 }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130968983,
-					2130968984,
-					2130968985,
-					2130968986,
-					2130968987};
+					2130968973,
+					2130968974,
+					2130968975,
+					2130968976,
+					2130968977};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -22677,7 +19864,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F04003D,0x7F04003E,0x7F0400C8,0x7F0400F2,0x7F040143,0x7F040145,0x7F040146,0x7F040147,0x7F040149,0x7F04014A,0x7F0401E1,0x7F0401F1,0x7F0401F4,0x7F040219,0x7F04021A }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F04003D,0x7F04003E,0x7F0400C8,0x7F0400F2,0x7F040140,0x7F040142,0x7F040143,0x7F040144,0x7F040146,0x7F040147,0x7F0401D7,0x7F0401E3,0x7F0401E6,0x7F04020A,0x7F04020B }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -22689,23 +19876,23 @@ namespace MoleWatchApp.Droid
 					2130968638,
 					2130968776,
 					2130968818,
+					2130968896,
+					2130968898,
 					2130968899,
-					2130968901,
+					2130968900,
 					2130968902,
 					2130968903,
-					2130968905,
-					2130968906,
-					2130969057,
-					2130969073,
-					2130969076,
-					2130969113,
-					2130969114};
+					2130969047,
+					2130969059,
+					2130969062,
+					2130969098,
+					2130969099};
 			
-			// aapt resource value: { 0x7F040075,0x7F0401F0,0x7F0401FF }
+			// aapt resource value: { 0x7F040075,0x7F0401E2,0x7F0401F0 }
 			public static int[] MaterialButtonToggleGroup = new int[] {
 					2130968693,
-					2130969072,
-					2130969087};
+					2130969058,
+					2130969072};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -22779,30 +19966,30 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F0400D5,0x7F0400D6,0x7F0400D7,0x7F0400D8,0x7F0401DB,0x7F0402A0,0x7F0402A1,0x7F0402A2 }
+			// aapt resource value: { 0x101020D,0x7F0400D5,0x7F0400D6,0x7F0400D7,0x7F0400D8,0x7F0401D1,0x7F04028E,0x7F04028F,0x7F040290 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
 					2130968789,
 					2130968790,
 					2130968791,
 					2130968792,
-					2130969051,
-					2130969248,
-					2130969249,
-					2130969250};
+					2130969041,
+					2130969230,
+					2130969231,
+					2130969232};
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F040156,0x7F040160,0x7F040161,0x7F040168,0x7F040169,0x7F04016D }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F040150,0x7F040159,0x7F04015A,0x7F040161,0x7F040162,0x7F040166 }
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130968918,
-					2130968928,
+					2130968912,
+					2130968921,
+					2130968922,
 					2130968929,
-					2130968936,
-					2130968937,
-					2130968941};
+					2130968930,
+					2130968934};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -22861,18 +20048,18 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 8
 			public const int MaterialCalendar_yearTodayStyle = 8;
 			
-			// aapt resource value: { 0x10101E5,0x7F04006F,0x7F040077,0x7F040079,0x7F0401E1,0x7F0401F1,0x7F0401F4,0x7F040213,0x7F040219,0x7F04021A }
+			// aapt resource value: { 0x10101E5,0x7F04006F,0x7F040077,0x7F040079,0x7F0401D7,0x7F0401E3,0x7F0401E6,0x7F040204,0x7F04020A,0x7F04020B }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130968687,
 					2130968695,
 					2130968697,
-					2130969057,
-					2130969073,
-					2130969076,
-					2130969107,
-					2130969113,
-					2130969114};
+					2130969047,
+					2130969059,
+					2130969062,
+					2130969092,
+					2130969098,
+					2130969099};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -22904,10 +20091,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 9
 			public const int MaterialCardView_strokeWidth = 9;
 			
-			// aapt resource value: { 0x7F04006A,0x7F04028E }
+			// aapt resource value: { 0x7F04006A,0x7F04027F }
 			public static int[] MaterialCheckBox = new int[] {
 					2130968682,
-					2130969230};
+					2130969215};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -22915,10 +20102,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F04006A,0x7F04028E }
+			// aapt resource value: { 0x7F04006A,0x7F04027F }
 			public static int[] MaterialRadioButton = new int[] {
 					2130968682,
-					2130969230};
+					2130969215};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -22926,10 +20113,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F0401F1,0x7F0401F4 }
+			// aapt resource value: { 0x7F0401E3,0x7F0401E6 }
 			public static int[] MaterialShape = new int[] {
-					2130969073,
-					2130969076};
+					2130969059,
+					2130969062};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -22937,10 +20124,10 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x101057F,0x7F040184 }
+			// aapt resource value: { 0x101057F,0x7F04017A }
 			public static int[] MaterialTextAppearance = new int[] {
 					16844159,
-					2130968964};
+					2130968954};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_lineHeight = 0;
@@ -22948,11 +20135,11 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int MaterialTextAppearance_lineHeight = 1;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F040184 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F04017A }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130968964};
+					2130968954};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -22990,7 +20177,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F04000D,0x7F04001F,0x7F040021,0x7F040029,0x7F0400B4,0x7F040149,0x7F04014A,0x7F0401B9,0x7F0401F6,0x7F040283 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F04000D,0x7F04001F,0x7F040021,0x7F040029,0x7F0400B4,0x7F040146,0x7F040147,0x7F0401AF,0x7F0401E8,0x7F040274 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -23010,11 +20197,11 @@ namespace MoleWatchApp.Droid
 					2130968609,
 					2130968617,
 					2130968756,
-					2130968905,
-					2130968906,
-					2130969017,
-					2130969078,
-					2130969219};
+					2130968902,
+					2130968903,
+					2130969007,
+					2130969064,
+					2130969204};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -23085,7 +20272,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0401D4,0x7F04021B }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0401CA,0x7F04020C }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -23094,8 +20281,8 @@ namespace MoleWatchApp.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130969044,
-					2130969115};
+					2130969034,
+					2130969100};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -23124,29 +20311,29 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0400F2,0x7F040131,0x7F040155,0x7F040158,0x7F04015A,0x7F04015B,0x7F04015C,0x7F04015D,0x7F040160,0x7F040161,0x7F040162,0x7F040163,0x7F040164,0x7F040165,0x7F040166,0x7F04016A,0x7F04016D,0x7F0401B1 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0400F2,0x7F04012F,0x7F04014F,0x7F040151,0x7F040153,0x7F040154,0x7F040155,0x7F040156,0x7F040159,0x7F04015A,0x7F04015B,0x7F04015C,0x7F04015D,0x7F04015E,0x7F04015F,0x7F040163,0x7F040166,0x7F0401A7 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
 					2130968818,
-					2130968881,
+					2130968879,
+					2130968911,
+					2130968913,
+					2130968915,
+					2130968916,
 					2130968917,
-					2130968920,
+					2130968918,
+					2130968921,
 					2130968922,
 					2130968923,
 					2130968924,
 					2130968925,
-					2130968928,
-					2130968929,
-					2130968930,
+					2130968926,
+					2130968927,
 					2130968931,
-					2130968932,
-					2130968933,
 					2130968934,
-					2130968938,
-					2130968941,
-					2130969009};
+					2130968999};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -23211,15 +20398,15 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 20
 			public const int NavigationView_menu = 20;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0401BA }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0401B0 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130969018};
+					2130969008};
 			
-			// aapt resource value: { 0x7F040210 }
+			// aapt resource value: { 0x7F040201 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130969104};
+					2130969089};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -23233,17 +20420,17 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F04028F }
+			// aapt resource value: { 0x7F040280 }
 			public static int[] RangeSlider = new int[] {
-					2130969231};
+					2130969216};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_values = 0;
 			
-			// aapt resource value: { 0x7F0401BB,0x7F0401C1 }
+			// aapt resource value: { 0x7F0401B1,0x7F0401B7 }
 			public static int[] RecycleListView = new int[] {
-					2130969019,
-					2130969025};
+					2130969009,
+					2130969015};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -23251,20 +20438,20 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F040119,0x7F04011A,0x7F04011B,0x7F04011C,0x7F04011D,0x7F040177,0x7F0401E0,0x7F040204,0x7F04020A }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F040117,0x7F040118,0x7F040119,0x7F04011A,0x7F04011B,0x7F04016D,0x7F0401D6,0x7F0401F5,0x7F0401FB }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
+					2130968855,
+					2130968856,
 					2130968857,
 					2130968858,
 					2130968859,
-					2130968860,
-					2130968861,
-					2130968951,
-					2130969056,
-					2130969092,
-					2130969098};
+					2130968941,
+					2130969046,
+					2130969077,
+					2130969083};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -23302,9 +20489,9 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F04014F }
+			// aapt resource value: { 0x7F04014C }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130968911};
+					2130968908};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -23316,14 +20503,14 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F0401E5 }
+			// aapt resource value: { 0x7F0401DB }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130969061};
+					2130969051};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F040090,0x7F0400B3,0x7F0400D9,0x7F04012E,0x7F04014B,0x7F040176,0x7F0401D8,0x7F0401D9,0x7F0401E6,0x7F0401E7,0x7F04021C,0x7F040224,0x7F040294 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F040090,0x7F0400B3,0x7F0400D9,0x7F04012C,0x7F040148,0x7F04016C,0x7F0401CE,0x7F0401CF,0x7F0401DC,0x7F0401DD,0x7F04020D,0x7F040215,0x7F040283 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -23332,16 +20519,16 @@ namespace MoleWatchApp.Droid
 					2130968720,
 					2130968755,
 					2130968793,
-					2130968878,
-					2130968907,
-					2130968950,
-					2130969048,
-					2130969049,
-					2130969062,
-					2130969063,
-					2130969116,
-					2130969124,
-					2130969236};
+					2130968876,
+					2130968904,
+					2130968940,
+					2130969038,
+					2130969039,
+					2130969052,
+					2130969053,
+					2130969101,
+					2130969109,
+					2130969219};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -23394,12 +20581,12 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F0401F1,0x7F0401F4,0x7F040219,0x7F04021A }
+			// aapt resource value: { 0x7F0401E3,0x7F0401E6,0x7F04020A,0x7F04020B }
 			public static int[] ShapeableImageView = new int[] {
-					2130969073,
-					2130969076,
-					2130969113,
-					2130969114};
+					2130969059,
+					2130969062,
+					2130969098,
+					2130969099};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_shapeAppearance = 0;
@@ -23456,27 +20643,27 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F04012F,0x7F040130,0x7F040172,0x7F040173,0x7F040264,0x7F040265,0x7F040266,0x7F04026A,0x7F04026B,0x7F04026C,0x7F040285,0x7F040286,0x7F040287,0x7F040288 }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F04012D,0x7F04012E,0x7F040168,0x7F040169,0x7F040255,0x7F040256,0x7F040257,0x7F04025B,0x7F04025C,0x7F04025D,0x7F040276,0x7F040277,0x7F040278,0x7F040279 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130968879,
-					2130968880,
-					2130968946,
-					2130968947,
-					2130969188,
-					2130969189,
-					2130969190,
-					2130969194,
-					2130969195,
-					2130969196,
-					2130969221,
-					2130969222,
-					2130969223,
-					2130969224};
+					2130968877,
+					2130968878,
+					2130968936,
+					2130968937,
+					2130969173,
+					2130969174,
+					2130969175,
+					2130969179,
+					2130969180,
+					2130969181,
+					2130969206,
+					2130969207,
+					2130969208,
+					2130969209};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -23535,13 +20722,13 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 18
 			public const int Slider_trackHeight = 18;
 			
-			// aapt resource value: { 0x7F040201,0x7F040202,0x7F040203 }
+			// aapt resource value: { 0x7F0401F2,0x7F0401F3,0x7F0401F4 }
 			public static int[] Snackbar = new int[] {
-					2130969089,
-					2130969090,
-					2130969091};
+					2130969074,
+					2130969075,
+					2130969076};
 			
-			// aapt resource value: { 0x101011F,0x7F040020,0x7F04002A,0x7F04003A,0x7F04003D,0x7F04003E,0x7F0400F2,0x7F0401AB }
+			// aapt resource value: { 0x101011F,0x7F040020,0x7F04002A,0x7F04003A,0x7F04003D,0x7F04003E,0x7F0400F2,0x7F0401A1 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130968608,
@@ -23550,7 +20737,7 @@ namespace MoleWatchApp.Droid
 					2130968637,
 					2130968638,
 					2130968818,
-					2130969003};
+					2130968993};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -23585,13 +20772,13 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0401CF }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0401C5 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130969039};
+					2130969029};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -23642,22 +20829,22 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0401FA,0x7F040208,0x7F040225,0x7F040226,0x7F040228,0x7F040267,0x7F040268,0x7F040269,0x7F040284,0x7F040289,0x7F04028A }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0401EB,0x7F0401F9,0x7F040216,0x7F040217,0x7F040219,0x7F040258,0x7F040259,0x7F04025A,0x7F040275,0x7F04027A,0x7F04027B }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130969082,
-					2130969096,
-					2130969125,
-					2130969126,
-					2130969128,
-					2130969191,
-					2130969192,
-					2130969193,
-					2130969220,
-					2130969225,
-					2130969226};
+					2130969067,
+					2130969081,
+					2130969110,
+					2130969111,
+					2130969113,
+					2130969176,
+					2130969177,
+					2130969178,
+					2130969205,
+					2130969210,
+					2130969211};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -23701,9 +20888,9 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F04028E }
+			// aapt resource value: { 0x7F04027F }
 			public static int[] SwitchMaterial = new int[] {
-					2130969230};
+					2130969215};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -23723,8 +20910,23 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F040229,0x7F04022A,0x7F04022B,0x7F04022C,0x7F04022D,0x7F04022E,0x7F04022F,0x7F040230,0x7F040231,0x7F040232,0x7F040233,0x7F040234,0x7F040235,0x7F040236,0x7F040237,0x7F040238,0x7F040239,0x7F04023A,0x7F04023B,0x7F04023C,0x7F04023D,0x7F04023E,0x7F040240,0x7F040241,0x7F040242 }
+			// aapt resource value: { 0x7F04021A,0x7F04021B,0x7F04021C,0x7F04021D,0x7F04021E,0x7F04021F,0x7F040220,0x7F040221,0x7F040222,0x7F040223,0x7F040224,0x7F040225,0x7F040226,0x7F040227,0x7F040228,0x7F040229,0x7F04022A,0x7F04022B,0x7F04022C,0x7F04022D,0x7F04022E,0x7F04022F,0x7F040231,0x7F040232,0x7F040233 }
 			public static int[] TabLayout = new int[] {
+					2130969114,
+					2130969115,
+					2130969116,
+					2130969117,
+					2130969118,
+					2130969119,
+					2130969120,
+					2130969121,
+					2130969122,
+					2130969123,
+					2130969124,
+					2130969125,
+					2130969126,
+					2130969127,
+					2130969128,
 					2130969129,
 					2130969130,
 					2130969131,
@@ -23732,24 +20934,9 @@ namespace MoleWatchApp.Droid
 					2130969133,
 					2130969134,
 					2130969135,
-					2130969136,
 					2130969137,
 					2130969138,
-					2130969139,
-					2130969140,
-					2130969141,
-					2130969142,
-					2130969143,
-					2130969144,
-					2130969145,
-					2130969146,
-					2130969147,
-					2130969148,
-					2130969149,
-					2130969150,
-					2130969152,
-					2130969153,
-					2130969154};
+					2130969139};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -23826,7 +21013,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F040121,0x7F040129,0x7F040243,0x7F04025F }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F04011F,0x7F040127,0x7F040234,0x7F040250 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -23840,10 +21027,10 @@ namespace MoleWatchApp.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130968865,
-					2130968873,
-					2130969155,
-					2130969183};
+					2130968863,
+					2130968871,
+					2130969140,
+					2130969168};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -23893,14 +21080,14 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x7F04025D }
+			// aapt resource value: { 0x7F04024E }
 			public static int[] TextInputEditText = new int[] {
-					2130969181};
+					2130969166};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F040054,0x7F040055,0x7F040056,0x7F040057,0x7F040058,0x7F040059,0x7F04005A,0x7F04005B,0x7F04005C,0x7F04005D,0x7F04005E,0x7F0400CE,0x7F0400CF,0x7F0400D0,0x7F0400D1,0x7F0400D2,0x7F0400D3,0x7F0400F6,0x7F0400F7,0x7F0400F8,0x7F0400F9,0x7F0400FA,0x7F0400FB,0x7F0400FF,0x7F040100,0x7F040101,0x7F040102,0x7F040103,0x7F040104,0x7F040105,0x7F040133,0x7F040134,0x7F040135,0x7F040136,0x7F04013A,0x7F04013B,0x7F04013C,0x7F04013D,0x7F0401C5,0x7F0401C6,0x7F0401C7,0x7F0401C8,0x7F0401C9,0x7F0401CA,0x7F0401CB,0x7F0401CC,0x7F0401D1,0x7F0401D2,0x7F0401D3,0x7F0401F1,0x7F0401F4,0x7F04020B,0x7F04020C,0x7F04020D,0x7F04020E,0x7F04020F,0x7F040221,0x7F040222,0x7F040223 }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F040054,0x7F040055,0x7F040056,0x7F040057,0x7F040058,0x7F040059,0x7F04005A,0x7F04005B,0x7F04005C,0x7F04005D,0x7F04005E,0x7F0400CE,0x7F0400CF,0x7F0400D0,0x7F0400D1,0x7F0400D2,0x7F0400D3,0x7F0400F5,0x7F0400F6,0x7F0400F7,0x7F0400F8,0x7F0400F9,0x7F0400FA,0x7F0400FE,0x7F0400FF,0x7F040100,0x7F040101,0x7F040102,0x7F040103,0x7F040104,0x7F040131,0x7F040132,0x7F040133,0x7F040134,0x7F040138,0x7F040139,0x7F04013A,0x7F04013B,0x7F0401BB,0x7F0401BC,0x7F0401BD,0x7F0401BE,0x7F0401BF,0x7F0401C0,0x7F0401C1,0x7F0401C2,0x7F0401C7,0x7F0401C8,0x7F0401C9,0x7F0401E3,0x7F0401E6,0x7F0401FC,0x7F0401FD,0x7F0401FE,0x7F0401FF,0x7F040200,0x7F040212,0x7F040213,0x7F040214 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -23922,48 +21109,48 @@ namespace MoleWatchApp.Droid
 					2130968785,
 					2130968786,
 					2130968787,
+					2130968821,
 					2130968822,
 					2130968823,
 					2130968824,
 					2130968825,
 					2130968826,
-					2130968827,
+					2130968830,
 					2130968831,
 					2130968832,
 					2130968833,
 					2130968834,
 					2130968835,
 					2130968836,
-					2130968837,
+					2130968881,
+					2130968882,
 					2130968883,
 					2130968884,
-					2130968885,
-					2130968886,
+					2130968888,
+					2130968889,
 					2130968890,
 					2130968891,
-					2130968892,
-					2130968893,
-					2130969029,
-					2130969030,
+					2130969019,
+					2130969020,
+					2130969021,
+					2130969022,
+					2130969023,
+					2130969024,
+					2130969025,
+					2130969026,
 					2130969031,
 					2130969032,
 					2130969033,
-					2130969034,
-					2130969035,
-					2130969036,
-					2130969041,
-					2130969042,
-					2130969043,
-					2130969073,
-					2130969076,
-					2130969099,
-					2130969100,
-					2130969101,
-					2130969102,
-					2130969103,
-					2130969121,
-					2130969122,
-					2130969123};
+					2130969059,
+					2130969062,
+					2130969084,
+					2130969085,
+					2130969086,
+					2130969087,
+					2130969088,
+					2130969106,
+					2130969107,
+					2130969108};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -24151,11 +21338,11 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 61
 			public const int TextInputLayout_suffixTextColor = 61;
 			
-			// aapt resource value: { 0x1010034,0x7F0400FC,0x7F0400FD }
+			// aapt resource value: { 0x1010034,0x7F0400FB,0x7F0400FC }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130968828,
-					2130968829};
+					2130968827,
+					2130968828};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -24166,7 +21353,7 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F040065,0x7F040098,0x7F040099,0x7F0400B5,0x7F0400B6,0x7F0400B7,0x7F0400B8,0x7F0400B9,0x7F0400BA,0x7F040195,0x7F040196,0x7F0401AC,0x7F0401B1,0x7F0401B4,0x7F0401B5,0x7F0401CF,0x7F04021D,0x7F04021E,0x7F04021F,0x7F040272,0x7F040274,0x7F040275,0x7F040276,0x7F040277,0x7F040278,0x7F040279,0x7F04027A,0x7F04027B }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F040065,0x7F040098,0x7F040099,0x7F0400B5,0x7F0400B6,0x7F0400B7,0x7F0400B8,0x7F0400B9,0x7F0400BA,0x7F04018B,0x7F04018C,0x7F0401A2,0x7F0401A7,0x7F0401AA,0x7F0401AB,0x7F0401C5,0x7F04020E,0x7F04020F,0x7F040210,0x7F040263,0x7F040265,0x7F040266,0x7F040267,0x7F040268,0x7F040269,0x7F04026A,0x7F04026B,0x7F04026C }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -24179,25 +21366,25 @@ namespace MoleWatchApp.Droid
 					2130968760,
 					2130968761,
 					2130968762,
-					2130968981,
-					2130968982,
-					2130969004,
-					2130969009,
-					2130969012,
-					2130969013,
-					2130969039,
-					2130969117,
-					2130969118,
-					2130969119,
-					2130969202,
-					2130969204,
-					2130969205,
-					2130969206,
-					2130969207,
-					2130969208,
-					2130969209,
-					2130969210,
-					2130969211};
+					2130968971,
+					2130968972,
+					2130968994,
+					2130968999,
+					2130969002,
+					2130969003,
+					2130969029,
+					2130969102,
+					2130969103,
+					2130969104,
+					2130969187,
+					2130969189,
+					2130969190,
+					2130969191,
+					2130969192,
+					2130969193,
+					2130969194,
+					2130969195,
+					2130969196};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -24320,13 +21507,13 @@ namespace MoleWatchApp.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0401BD,0x7F0401C0,0x7F040261 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0401B3,0x7F0401B6,0x7F040252 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130969021,
-					2130969024,
-					2130969185};
+					2130969011,
+					2130969014,
+					2130969170};
 			
 			// aapt resource value: { 0x10100D4,0x7F04003D,0x7F04003E }
 			public static int[] ViewBackgroundHelper = new int[] {
@@ -24379,85 +21566,6 @@ namespace MoleWatchApp.Droid
 			
 			// aapt resource value: 4
 			public const int View_theme = 4;
-			
-			// aapt resource value: { 0x10100AF,0x7F0400F5,0x7F040118,0x7F040141,0x7F040150,0x7F040153,0x7F040154,0x7F040157,0x7F04016E,0x7F04016F,0x7F040170,0x7F0401EC,0x7F0401ED,0x7F0401EE,0x7F0401EF,0x7F0401F9,0x7F040291,0x7F040293,0x7F04029F }
-			public static int[] WheelPicker = new int[] {
-					16842927,
-					2130968821,
-					2130968856,
-					2130968897,
-					2130968912,
-					2130968915,
-					2130968916,
-					2130968919,
-					2130968942,
-					2130968943,
-					2130968944,
-					2130969068,
-					2130969069,
-					2130969070,
-					2130969071,
-					2130969081,
-					2130969233,
-					2130969235,
-					2130969247};
-			
-			// aapt resource value: 0
-			public const int WheelPicker_android_gravity = 0;
-			
-			// aapt resource value: 1
-			public const int WheelPicker_enableTrace = 1;
-			
-			// aapt resource value: 2
-			public const int WheelPicker_fadingItems = 2;
-			
-			// aapt resource value: 3
-			public const int WheelPicker_horizontalSpaceBetweenWheels = 3;
-			
-			// aapt resource value: 4
-			public const int WheelPicker_isCurved = 4;
-			
-			// aapt resource value: 5
-			public const int WheelPicker_itemAlign = 5;
-			
-			// aapt resource value: 6
-			public const int WheelPicker_itemAligns = 6;
-			
-			// aapt resource value: 7
-			public const int WheelPicker_itemHeights = 7;
-			
-			// aapt resource value: 10
-			public const int WheelPicker_itemsSource = 10;
-			
-			// aapt resource value: 8
-			public const int WheelPicker_itemTextSize = 8;
-			
-			// aapt resource value: 9
-			public const int WheelPicker_itemWidths = 9;
-			
-			// aapt resource value: 11
-			public const int WheelPicker_selectedItem = 11;
-			
-			// aapt resource value: 12
-			public const int WheelPicker_selectedItemTextColor = 12;
-			
-			// aapt resource value: 13
-			public const int WheelPicker_selectionLinesColor = 13;
-			
-			// aapt resource value: 14
-			public const int WheelPicker_selectionLinesThickness = 14;
-			
-			// aapt resource value: 15
-			public const int WheelPicker_showSelectionLines = 15;
-			
-			// aapt resource value: 16
-			public const int WheelPicker_verticalSpaceBetweenItems = 16;
-			
-			// aapt resource value: 17
-			public const int WheelPicker_visibleItemCount = 17;
-			
-			// aapt resource value: 18
-			public const int WheelPicker_wp_itemTextColor = 18;
 			
 			static Styleable()
 			{
