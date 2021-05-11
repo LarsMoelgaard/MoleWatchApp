@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DTO;
+using MoleWatchApp.Extensions.DTO;
+using MoleWatchApp.Interfaces;
 
 namespace MoleWatchApp.Models
 {
-    public class PictureListModel
+    public class PictureListModel : IPictureListModel
     {
         private IAPIService api;
+
+        public CompletePicture PictureOnPage { get; set; }
 
         public PictureListModel()
         {
@@ -25,5 +30,15 @@ namespace MoleWatchApp.Models
             
         }
 
+
+        public string LoadSpecificComment(int PictureID)
+        {
+            PictureRequestDTO PictureRequest = new PictureRequestDTO();
+            PictureRequest.PictureID = PictureID;
+
+            PictureCommentDTO PictureFromApi = api.GetObject<PictureCommentDTO, PictureRequestDTO>("GetPictureComment", PictureRequest);
+
+            return PictureFromApi.Comment;
+        }
     }
 }

@@ -24,15 +24,6 @@ namespace MoleWatchApp.Views
             TableList = new List<ImageCell>();
 
             InitializeComponent();
-
-            //ImageCell testImageCell = new ImageCell();
-            //testImageCell.ImageSource = "settings.png";
-            //testImageCell.Text = "TestDato her:";
-            //testImageCell.Detail = "Indsæt kommentar her";
-
-
-
-            //PictureListTableView.BindingContext = this;
         }
 
 
@@ -56,16 +47,22 @@ namespace MoleWatchApp.Views
 
             foreach (CompletePicture item in HiddenPictureListView.ItemsSource)
             {
-                TableList.Add(new ImageCell
-                    {
-                        Text = item.DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
-                            CultureInfo.CreateSpecificCulture("da-DA")),
+                ImageCell NewCell = new ImageCell
+                {
+                    Text = item.DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                        CultureInfo.CreateSpecificCulture("da-DA")),
 
-                        ImageSource = ConvertByteArrayToImageSource(item.PictureData),
+                    ImageSource = ConvertByteArrayToImageSource(item.PictureData),
+                    Detail = item.PictureComment
 
-                        Detail = "Testkommentar"
-                    }
-                );
+                };
+                NewCell.CommandParameter = item.CollectionID;
+
+                NewCell.SetBinding(ImageCell.CommandProperty,new Binding("OpenFullPictureView"));
+                
+
+
+                TableList.Add(NewCell);
             }
 
             TableSection Section = new TableSection();
@@ -74,6 +71,7 @@ namespace MoleWatchApp.Views
             {
                 Section.Add(PictureControl);
             }
+            
 
 
 

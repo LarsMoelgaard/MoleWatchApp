@@ -5,10 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
+using MoleWatchApp.Views;
 using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
@@ -16,10 +18,26 @@ namespace MoleWatchApp.ViewModels
     public class PictureListViewModel : BaseViewModel
     {
         private IPatientModel patientModelRef;
-        private PictureListModel PictureListModel;
+        private IPictureListModel PictureListModel;
         private bool isPicturesFullyLoaded;
+        private string pageTitle;
 
 
+
+        
+
+        public bool BaseIsBusy
+        {
+            get
+            {
+                return this.IsBusy;
+            }
+            set
+            {
+                this.IsBusy = value;
+                OnPropertyChanged();
+            }
+        }
 
         private ObservableCollection<CompletePicture> completePictureList;
         public ObservableCollection<CompletePicture> CompletePictureList
@@ -34,6 +52,19 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+        public string PageTitle
+        {
+            get
+            {
+                return pageTitle;
+            }
+            set
+            {
+                pageTitle = value;
+                OnPropertyChanged();
+            }
+        }
+
         public bool IsPicturesFullyLoaded
         {
             get
@@ -47,11 +78,17 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-
-
-        public PictureListViewModel() 
+        public ICommand OpenFullPictureView
         {
-            PictureListModel = new PictureListModel();
+            get
+            {
+                return new Command<int>((x) => OpenPictureView(x));
+            }
+        }
+
+        public PictureListViewModel()
+        {
+            PictureListModel = PictureListModelSingleton.GetPictureListModel();
             patientModelRef = PatientModelSingleton.GetPatientModel();
             IsPicturesFullyLoaded = false;
 
@@ -64,14 +101,16 @@ namespace MoleWatchApp.ViewModels
             }
 
             CompletePictureList = TempPictureList;
-
+            PageTitle = patientModelRef.CollectionOnPage.CollectionName;
 
             Thread t1 = new Thread(LoadPictureData);
             t1.Start();
         }
 
-        public void LoadPictureData()
+        public async void LoadPictureData()
         {
+            BaseIsBusy = true;
+            await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
 
             ObservableCollection<CompletePicture> tempCollection = new ObservableCollection<CompletePicture>();
 
@@ -83,11 +122,21 @@ namespace MoleWatchApp.ViewModels
             foreach (CompletePicture PictureInCollection in tempCollection)
             {
                byte[] PictureData = PictureListModel.LoadSpecificPicture(PictureInCollection.PictureID);
-
+               string PictureComment = PictureListModel.LoadSpecificComment(PictureInCollection.PictureID);
                PictureInCollection.PictureData = PictureData;
+               PictureInCollection.PictureComment = PictureComment;
             }
 
             CompletePictureList = tempCollection;
+            //BaseIsBusy = false;
+        }
+
+        private void OpenPictureView(int PictureId)
+        {
+            
+
+
+            Shell.Current.GoToAsync($"{nameof(FullPictureView)}");
         }
 
     }

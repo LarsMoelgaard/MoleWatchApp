@@ -15,12 +15,15 @@ namespace MoleWatchApp.Extensions.DTO
 
         public byte[] PictureData { get; set; }
 
+        public string PictureComment { get; set; }
+
         public CompletePicture(int pictureId, int collectionId, DateTime dateOfUpload)
         {
             PictureID = pictureId;
             CollectionID = collectionId;
             DateOfUpload = dateOfUpload;
             PictureData = new byte[1];
+            PictureComment = "";
         }
 
         public CompletePicture(PictureInfoDTO picInfo)
@@ -29,7 +32,7 @@ namespace MoleWatchApp.Extensions.DTO
             CollectionID = picInfo.CollectionID;
             DateOfUpload = picInfo.DateOfUpload;
             PictureData = new byte[1];
-            
+            PictureComment = "";
         }
     }
 }

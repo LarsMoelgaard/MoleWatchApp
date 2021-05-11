@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
              x:Class="MoleWatchApp.Views.PictureListView"
-             x:Name="PictureListPage">
+             x:Name="PictureListPage" Title="{Binding PageTitle}">
 
 
     <ContentPage.BindingContext>
@@ -18,11 +18,15 @@
                 <TableView x:Name="PictureListTableView" Intent="Form" >
 
                 </TableView>
+                <ActivityIndicator IsRunning="{Binding BaseIsBusy}"/>
+
+
                 <ListView x:Name="HiddenPictureListView" 
                           ItemsSource="{Binding CompletePictureList}"
                           IsEnabled="{Binding PicturesFullyLoaded}"
                           PropertyChanged="HiddenPictureListView_OnPropertyChanged" 
-                          ItemAppearing="HiddenPictureListView_OnItemAppearing"/>
+                          ItemAppearing="HiddenPictureListView_OnItemAppearing" IsVisible="True"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

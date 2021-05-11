@@ -68,6 +68,7 @@ namespace MoleWatchApp.Views
             LastCollectionPhoto.HeightRequest = 500;
             LastCollectionPhoto.WidthRequest = 400;
             //LastCollectionPhoto.PreviewTransformations = new List<ITransformation>() {new CircleTransformation()}; //TODO gør således man kan ændre croppet
+            LastCollectionPhoto.TouchGesturesEnabled = false; //Skal ændres hvis man skal kunne ændre croppet
             Grid.SetRow(LastCollectionPhoto, 0);
             Grid.SetColumn(LastCollectionPhoto, 0);
             Grid.SetColumnSpan(LastCollectionPhoto,2);
