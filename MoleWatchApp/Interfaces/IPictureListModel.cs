@@ -17,5 +17,7 @@ namespace MoleWatchApp.Interfaces
 
         string LoadSpecificComment(int PictureID);
 
+        void DeleteSpecificPicture();
+
     }
 }

@@ -133,7 +133,11 @@ namespace MoleWatchApp.ViewModels
 
         private void OpenPictureView(int PictureId)
         {
+            CompletePicture CompletePictureOnFullPage = CompletePictureList.
+                Where(i => i.PictureID == PictureId).First();
             
+
+            PictureListModel.PictureOnPage = CompletePictureOnFullPage;
 
 
             Shell.Current.GoToAsync($"{nameof(FullPictureView)}");

@@ -282,7 +282,7 @@ namespace MoleWatchApp.Views
 
         public async void RenameButtonClicked()
         {
-            string result = await DisplayPromptAsync("Ændre navn for modermærke", "Angiv navn på modermærke:");
+            string result = await DisplayPromptAsync("Ændre navn for modermærke", "Angiv navn for modermærke:");
             if (!string.IsNullOrEmpty(result))
             {
                 CCVM.ChangeNameCommand.Execute(result);

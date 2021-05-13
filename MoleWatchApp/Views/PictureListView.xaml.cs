@@ -56,7 +56,7 @@ namespace MoleWatchApp.Views
                     Detail = item.PictureComment
 
                 };
-                NewCell.CommandParameter = item.CollectionID;
+                NewCell.CommandParameter = item.PictureID;
 
                 NewCell.SetBinding(ImageCell.CommandProperty,new Binding("OpenFullPictureView"));
                 
@@ -83,15 +83,11 @@ namespace MoleWatchApp.Views
 
         private void HiddenPictureListView_OnPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-
-                if (!NoItemsInTableView)
+            if (!NoItemsInTableView)
                 {
                     UpdateTable();
                 }
-                        //Device.BeginInvokeOnMainThread(() =>
-                        //{
 
-                        //});
         }
 
         private void HiddenPictureListView_OnItemAppearing(object sender, ItemVisibilityEventArgs e)
