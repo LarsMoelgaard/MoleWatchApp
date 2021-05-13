@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:wheelPickerForms="clr-namespace:Vapolia.WheelPickerForms;assembly=Vapolia.WheelPickerForms"
              xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
              xmlns:collections="clr-namespace:System.Collections;assembly=netstandard"
              xmlns:models="clr-namespace:MoleWatchApp.Models;assembly=MoleWatchApp"
@@ -18,6 +17,8 @@
 
         <Label Text="Notifikationsindstilling" FontSize="30" TextColor="DarkBlue" HorizontalTextAlignment="Center">
 
+        </Label>
+        <Label>
         </Label>
         <Label>
 
@@ -52,6 +53,10 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
+
+
+        <Label >
+        </Label>
 
         <Button x:Name="SaveNotificationButton" Text="Gem notifikation for modermærke" Clicked="SaveNotificationButton_OnClicked">
         </Button>
