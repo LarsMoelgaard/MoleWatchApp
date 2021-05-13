@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -35,7 +36,7 @@ namespace MoleWatchApp.Views
 
         private void SaveNotificationButton_OnClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            vm.SaveClickedCommand.Execute(null);
         }
     }
 }
