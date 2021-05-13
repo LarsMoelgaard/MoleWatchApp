@@ -17,6 +17,8 @@ namespace MoleWatchApp.Extensions
         double yOffset = 0;
 
 
+        private DateTime lastPinchDateTime;
+        private TimeSpan TimeSinceLastPinch;
 
         private double ScreenWidth;
         private double ScreenHeight;
@@ -111,19 +113,25 @@ namespace MoleWatchApp.Extensions
                 xOffset = Content.TranslationX;
                 yOffset = Content.TranslationY;
 
-                Task.Delay(250);
+                lastPinchDateTime = DateTime.Now;
             }
         }
 
         void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
-           
-            if (Content.Scale == 1 )
-            {
-                return;
-            }
 
-            Task.Delay(250);
+            TimeSinceLastPinch = DateTime.Now - lastPinchDateTime;
+
+            if (TimeSinceLastPinch.Milliseconds > 250)
+            {
+
+
+            //if (Content.Scale == 1 )
+            //{
+            //    return;
+            //}
+
+            
 
             switch (e.StatusType)
             {
@@ -135,7 +143,7 @@ namespace MoleWatchApp.Extensions
                     double height = (Content.Height * Content.Scale);
 
                     bool canMoveX = width > ScreenWidth;
-                    bool canMoveY = height > ScreenHeight;
+                    bool canMoveY = height >  ScreenHeight;
 
                     if (canMoveX)
                     {
@@ -186,6 +194,8 @@ namespace MoleWatchApp.Extensions
                     xOffset = Content.TranslationX;
                     yOffset = Content.TranslationY;
                     break;
+            }
+
             }
         }
 
