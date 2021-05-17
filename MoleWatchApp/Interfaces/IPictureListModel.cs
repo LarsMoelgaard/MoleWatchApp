@@ -12,12 +12,16 @@ namespace MoleWatchApp.Interfaces
     {
         CompletePicture PictureOnPage { get; set; }
 
+        ObservableCollection<CompletePicture> CompletePictureModelList { get; set; }
+
         byte[] LoadSpecificPicture(int PictureID);
 
 
         string LoadSpecificComment(int PictureID);
 
         void DeleteSpecificPicture();
+
+        void UpdatePictureComment(string Comment);
 
     }
 }

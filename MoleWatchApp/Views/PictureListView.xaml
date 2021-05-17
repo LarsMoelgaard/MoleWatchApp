@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
              x:Class="MoleWatchApp.Views.PictureListView"
-             x:Name="PictureListPage" Title="{Binding PageTitle}">
+             x:Name="PictureListPage" Title="{Binding PageTitle}"
+             Appearing="PictureListView_OnAppearing">
 
 
     <ContentPage.BindingContext>
-        <viewModels:PictureListViewModel x:Name="PictureViewModel" />
+        <viewModels:PictureListViewModel x:Name="PictureListViewModel" />
         
     </ContentPage.BindingContext>
 

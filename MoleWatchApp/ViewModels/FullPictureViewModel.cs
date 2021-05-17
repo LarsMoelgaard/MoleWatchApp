@@ -68,6 +68,7 @@ namespace MoleWatchApp.ViewModels
             listModelRef = PictureListModelSingleton.GetPictureListModel();
 
             DeleteButtonClicked = new Command(DeletePicture);
+            AddCommentButtonClicked = new Command(InsertComment);
             
 
             PictureTitle = listModelRef.PictureOnPage.DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
@@ -105,5 +106,9 @@ namespace MoleWatchApp.ViewModels
             await Shell.Current.GoToAsync("..");
         }
 
+        private void InsertComment()
+        {
+            listModelRef.UpdatePictureComment(CommentText);
+        }
     }
 }

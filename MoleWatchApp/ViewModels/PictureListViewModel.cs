@@ -78,6 +78,8 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        public Command UpdateTableOnAppearingCommand { get; }
+
         public ICommand OpenFullPictureView
         {
             get
@@ -92,7 +94,10 @@ namespace MoleWatchApp.ViewModels
             patientModelRef = PatientModelSingleton.GetPatientModel();
             IsPicturesFullyLoaded = false;
 
+            UpdateTableOnAppearingCommand = new Command(PageAppearing);
             CompletePictureList = new ObservableCollection<CompletePicture>();
+
+
 
             ObservableCollection<CompletePicture> TempPictureList = new ObservableCollection<CompletePicture>();
             foreach (PictureInfoDTO PictureToAdd in patientModelRef.CollectionOnPage.PictureList)
@@ -101,6 +106,8 @@ namespace MoleWatchApp.ViewModels
             }
 
             CompletePictureList = TempPictureList;
+            PictureListModel.CompletePictureModelList = CompletePictureList;
+
             PageTitle = patientModelRef.CollectionOnPage.CollectionName;
 
             Thread t1 = new Thread(LoadPictureData);
@@ -143,5 +150,13 @@ namespace MoleWatchApp.ViewModels
             Shell.Current.GoToAsync($"{nameof(FullPictureView)}");
         }
 
+
+        private void PageAppearing()
+        {
+            if (CompletePictureList != null)
+            {
+                CompletePictureList = PictureListModel.CompletePictureModelList;
+            }
+        }
     }
 }

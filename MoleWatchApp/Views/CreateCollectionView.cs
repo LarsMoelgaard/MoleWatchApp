@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -20,6 +21,7 @@ namespace MoleWatchApp.Views
     {
 
         private CreateCollectionViewModel CCVM;
+        private ImageCropView LastCollectionPhoto;
 
         /// <summary>
         /// Oprettelse af createcollection siden med alle UI-elementer
@@ -63,16 +65,18 @@ namespace MoleWatchApp.Views
 
             #endregion
 
-            ImageCropView LastCollectionPhoto = new ImageCropView();
+            LastCollectionPhoto = new ImageCropView();
             LastCollectionPhoto.SetBinding(ImageCropView.SourceProperty, "LastCollectionPhoto");
             LastCollectionPhoto.HeightRequest = 500;
             LastCollectionPhoto.WidthRequest = 400;
             //LastCollectionPhoto.PreviewTransformations = new List<ITransformation>() {new CircleTransformation()}; //TODO gør således man kan ændre croppet
             LastCollectionPhoto.TouchGesturesEnabled = false; //Skal ændres hvis man skal kunne ændre croppet
+            
             Grid.SetRow(LastCollectionPhoto, 0);
             Grid.SetColumn(LastCollectionPhoto, 0);
             Grid.SetColumnSpan(LastCollectionPhoto,2);
             CreateCollectionSuperGrid.Children.Add(LastCollectionPhoto);
+            
              
             ActivityIndicator activityIndicator = new ActivityIndicator();
             activityIndicator.SetBinding(ActivityIndicator.IsRunningProperty, "BaseIsBusy");
@@ -197,6 +201,7 @@ namespace MoleWatchApp.Views
             ShowPicturesCollection.CornerRadius = 20;
             ShowPicturesCollection.Text = "Vis billeder for samlingen";
             ShowPicturesCollection.FontSize = 20;
+            ShowPicturesCollection.Clicked += new EventHandler(ShowPicturesClicked);
             ShowPicturesCollection.SetBinding(Button.CommandProperty, "ShowPictureCollectionCommand");
             Grid.SetColumn(ShowPicturesCollection, 1);
             Grid.SetRow(ShowPicturesCollection, 1);
@@ -291,6 +296,16 @@ namespace MoleWatchApp.Views
 
         public async void NotificationClicked()
         {
+            
+        }
+
+
+        public async void ShowPicturesClicked(object sender, EventArgs e)
+        {
+            if (LastCollectionPhoto.Source == null)
+            {
+                await DisplayAlert("Ingen billeder i samling", "For at kunne se alle billederne for et modersmærke, skal der først uploades et billede fra enten galleriet eller kameraet", "OK");
+            }
             
         }
 

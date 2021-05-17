@@ -29,5 +29,9 @@ namespace MoleWatchApp.Views
         }
 
 
+        private async void AddCommentButton_OnClicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("Kommentar opdateret", "Kommentaren er nu opdateret og gemt", "OK");
+        }
     }
 }
