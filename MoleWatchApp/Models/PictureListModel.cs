@@ -40,5 +40,18 @@ namespace MoleWatchApp.Models
 
             return PictureFromApi.Comment;
         }
+
+        public void DeleteSpecificPicture()
+        {
+            if (PictureOnPage != null)
+            {
+                PictureRequestDTO PictureRequest = new PictureRequestDTO();
+                PictureRequest.PictureID = PictureOnPage.PictureID;
+
+                string Return = api.PostObject<PictureRequestDTO>("DeletePicture", PictureRequest);
+            }
+
+
+        }
     }
 }

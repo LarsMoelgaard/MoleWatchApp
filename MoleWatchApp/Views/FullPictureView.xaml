@@ -13,8 +13,8 @@
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="3*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="2*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="0.5*"/>
 
@@ -27,12 +27,12 @@
                 <ColumnDefinition Width="0.5*" />
             </Grid.ColumnDefinitions>
 
-            <Image x:Name="ImageCropView" Source="{Binding FullImageSource}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" 
-                   HeightRequest="500" WidthRequest="400" IsVisible="True" HorizontalOptions="Center" VerticalOptions="Center" />
+            <controls:ImageCropView x:Name="ImageCropView" Source="{Binding FullImageSource}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" 
+                    IsVisible="True" HeightRequest="500" WidthRequest="400" TouchGesturesEnabled="False"/>
 
-            <Entry Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Placeholder="Indsæt kommentar her.." Text="{Binding CommentText}"/>
+            <Editor Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Placeholder="Indsæt kommentar her.." Text="{Binding CommentText}"/>
             
-            <ImageButton x:Name="DeleteButton" Grid.Row="2" Grid.Column="1" Source="settings.png" Command="{Binding DeleteButtonClicked}"/>
+            <ImageButton x:Name="DeleteButton" Grid.Row="2" Grid.Column="1" Source="settings.png" Clicked="DeleteButton_OnClicked"/>
             <ImageButton x:Name="AddCommentButton" Grid.Row="2" Grid.Column="3" Source="CameraIcon.png" Command="{Binding AddCommentButtonClicked}"/>
 
         </Grid>

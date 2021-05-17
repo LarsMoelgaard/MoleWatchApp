@@ -35,8 +35,6 @@ namespace MoleWatchApp.Extensions
 
 
 
-
-
             int[] dataList = new int[2] { Convert.ToInt32(TrueXPosition), Convert.ToInt32(TrueYPosition) };
 
 
