@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="google-services.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="APIWebServiesConnector" Version="20210430.1.0" />
     <PackageReference Include="DLToolkit.Forms.Controls.ImageCropView" Version="1.0.7" />
     <PackageReference Include="Plugin.Fingerprint" Version="2.1.3" />
