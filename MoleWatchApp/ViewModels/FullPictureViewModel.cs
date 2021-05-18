@@ -80,6 +80,8 @@ namespace MoleWatchApp.ViewModels
             if (listModelRef.PictureOnPage.PictureData.Length > 10)
             {
                 FullImageSource = ImageSource.FromStream(() => new MemoryStream(listModelRef.PictureOnPage.PictureData));
+                Thread loadPictureThread = new Thread(LoadUnloadedPicture);
+                loadPictureThread.Start();
             }
             else
             {

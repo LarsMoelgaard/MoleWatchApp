@@ -14,7 +14,7 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
-    public class PatientModelViewModel : BaseViewModel
+    public class PatientModelViewModel : BaseViewModel, IPatientViewModel
     {
         private ILogin loginModel;
         private IPatientModel patientModelClass;
@@ -24,7 +24,12 @@ namespace MoleWatchApp.ViewModels
         private string newPinAdded;
         private string plusIcon;
         private string checkmark;
+        private bool isAnimationPlaying;
+        private bool IsPatientMale;
+        private bool IsPatientFrontFacing;
+        private bool CreateCollectionInProgress;
         private ObservableCollection<CollectionDTO> patientCollection;
+
 
         public ObservableCollection<CollectionDTO> PatientCollection
         {
@@ -151,11 +156,6 @@ namespace MoleWatchApp.ViewModels
                 return new Command<CollectionDTO>((x) => GoToExistingCollection(x));
             }
         }
-
-        private bool isAnimationPlaying;
-        private bool IsPatientMale;
-        private bool IsPatientFrontFacing;
-        private bool CreateCollectionInProgress;
 
 
 

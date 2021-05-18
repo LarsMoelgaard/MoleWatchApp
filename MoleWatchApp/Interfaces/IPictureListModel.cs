@@ -23,5 +23,7 @@ namespace MoleWatchApp.Interfaces
 
         void UpdatePictureComment(string Comment);
 
+
+        byte[] LoadSpecificThumbnail(int PictureID);
     }
 }

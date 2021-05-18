@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
+
 using Xamarin.Forms;
+
 
 namespace MoleWatchApp.Models
 {
@@ -13,6 +18,7 @@ namespace MoleWatchApp.Models
     {
         private IAPIService _api;
         public CollectionDTO CollectionOnPage { get; private set; }
+        
 
         public CollectionModel(CollectionDTO CollectionOnPage) 
         {
@@ -24,8 +30,6 @@ namespace MoleWatchApp.Models
 
         public void UploadPictureToDatabase(byte[] newDataBytes, PictureInfoDTO pictureInfo)
         {
-
-
             PostPictureDTO NewPostPicture = new PostPictureDTO();
             
             NewPostPicture.Comment = new PictureCommentDTO();
@@ -48,6 +52,8 @@ namespace MoleWatchApp.Models
             }
             //TODO indsæt try/catch
         }
+
+
 
         public void ChangeMarkingStatus()
         {
@@ -94,6 +100,8 @@ namespace MoleWatchApp.Models
 
             return PictureFromApi.PictureData;
         }
+
+
 
 
     }

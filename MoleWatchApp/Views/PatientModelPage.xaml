@@ -8,15 +8,15 @@
              Appearing="PatientModelPage_OnAppearing"
                        
              >
-    <!--<Shell.BackButtonBehavior>
-        <BackButtonBehavior Command="{Binding BackCommand}"
-                            IconOverride="back.png" />
-    </Shell.BackButtonBehavior>-->
 
-    <ContentPage.BindingContext>
-        <vm:PatientModelViewModel x:Name="PViewModel" />
 
-    </ContentPage.BindingContext>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+                     IconImageSource="help_icon.png"
+                     Order="Primary"
+                     Priority="0" Clicked="ShowHelpMenu" />
+
+    </ContentPage.ToolbarItems>
     
 
     <Grid>

@@ -306,7 +306,7 @@ namespace MoleWatchApp.Views
             {
                 await DisplayAlert("Ingen billeder i samling", "For at kunne se alle billederne for et modersmærke, skal der først uploades et billede fra enten galleriet eller kameraet", "OK");
             }
-            
+
         }
 
     }
