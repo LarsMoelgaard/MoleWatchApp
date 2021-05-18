@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DTO;
@@ -14,6 +15,7 @@ namespace MoleWatchApp.Models
         private IAPIService api;
 
         public CompletePicture PictureOnPage { get; set; }
+        public ObservableCollection<CompletePicture> CompletePictureModelList { get; set; }
 
         public PictureListModel()
         {
@@ -49,8 +51,35 @@ namespace MoleWatchApp.Models
                 PictureRequest.PictureID = PictureOnPage.PictureID;
 
                 string Return = api.PostObject<PictureRequestDTO>("DeletePicture", PictureRequest);
+
+
+
+                CompletePicture OldPicture = CompletePictureModelList.
+                    Where(i => i.PictureID == PictureOnPage.PictureID).First();
+
+                int indexPosition = CompletePictureModelList.IndexOf(OldPicture);
+                CompletePictureModelList.RemoveAt(indexPosition);
             }
 
+
+        }
+
+        public void UpdatePictureComment(string Comment)
+        {
+            if (PictureOnPage != null)
+            {
+                PictureCommentDTO NewPictureComment = new PictureCommentDTO();
+                NewPictureComment.Comment = Comment;
+                NewPictureComment.PictureID = PictureOnPage.PictureID;
+
+                string ReturnMessage = api.PostObject<PictureCommentDTO>("NewPictureComment", NewPictureComment);
+
+                CompletePicture OldPicture = CompletePictureModelList.
+                    Where(i => i.PictureID == PictureOnPage.PictureID).First();
+
+                int indexPosition = CompletePictureModelList.IndexOf(OldPicture);
+                CompletePictureModelList[indexPosition].PictureComment = Comment;
+            }
 
         }
     }

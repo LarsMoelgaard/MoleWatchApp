@@ -95,5 +95,10 @@ namespace MoleWatchApp.Views
                 UpdateTable();
                 NoItemsInTableView = false;
         }
+
+        private void PictureListView_OnAppearing(object sender, EventArgs e)
+        {
+            PictureListViewModel.UpdateTableOnAppearingCommand.Execute(null);
+        }
     }
 }

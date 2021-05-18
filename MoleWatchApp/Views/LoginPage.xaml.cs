@@ -51,29 +51,29 @@ namespace MoleWatchApp.Views
             if (string.IsNullOrEmpty(e.NewTextValue)) return;
 
             string NewInput = e.NewTextValue;
-            
-            if (!char.IsNumber(e.NewTextValue[e.NewTextValue.Length-1]) && e.NewTextValue[e.NewTextValue.Length - 1] != '-')
+
+            if (!char.IsNumber(e.NewTextValue[e.NewTextValue.Length - 1]) && e.NewTextValue[e.NewTextValue.Length - 1] != '-')
             {
                 ((Entry)sender).Text = e.OldTextValue;
             }
 
-                if ( e.NewTextValue.Length > 5 && e.NewTextValue.Length > e.OldTextValue.Length && e.NewTextValue.Length == 6)
+            if (e.NewTextValue.Length > 5 && e.NewTextValue.Length > e.OldTextValue.Length && e.NewTextValue.Length == 6)
+            {
+                ((Entry)sender).Text = e.NewTextValue + "-";
+            }
+
+            if (e.NewTextValue.Length == 7 && !e.NewTextValue.Contains('-') && e.NewTextValue.Length > e.OldTextValue.Length)
+            {
+                string TextValueWithDash = "";
+                for (int i = 0; i < 6; i++)
                 {
-                    ((Entry)sender).Text = e.NewTextValue + "-";
+                    TextValueWithDash += Convert.ToString(e.NewTextValue[i]);
                 }
 
-                if (e.NewTextValue.Length == 7 && !e.NewTextValue.Contains('-') && e.NewTextValue.Length > e.OldTextValue.Length)
-                {
-                    string TextValueWithDash = "";
-                    for (int i = 0; i < 6; i++)
-                    {
-                        TextValueWithDash += Convert.ToString(e.NewTextValue[i]);
-                    }
+                TextValueWithDash += "-" + Convert.ToString(e.NewTextValue[6]);
 
-                    TextValueWithDash += "-" + Convert.ToString(e.NewTextValue[6]);
-
-                    ((Entry) sender).Text = TextValueWithDash;
-                }
+                ((Entry)sender).Text = TextValueWithDash;
+            }
         }
 
         

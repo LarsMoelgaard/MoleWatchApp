@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using DataClasses.DTO;
+using FFImageLoading.Forms.Args;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
 using MoleWatchApp.Views;
@@ -120,6 +121,7 @@ namespace MoleWatchApp.ViewModels
         public Command DeleteCollectionCommand { get; }
 
 
+
         public ICommand ChangeNameCommand
         {
             get
@@ -146,13 +148,15 @@ namespace MoleWatchApp.ViewModels
 
         private async void ShowPictureCollection()
         {
-            await Shell.Current.GoToAsync($"{nameof(PictureListView)}");
+            if (!NoImagesInCollection)
+            {
+                await Shell.Current.GoToAsync($"{nameof(PictureListView)}");
+            }
+            
         }
 
         private void UpdateCollectionPage()
         {
-
-
             CollectionTitle = collectionModel.CollectionOnPage.CollectionName;
 
            if (collectionModel.CollectionOnPage.PictureList.Count != 0)
@@ -252,6 +256,7 @@ namespace MoleWatchApp.ViewModels
                 {
                     return new MemoryStream(imgByteArray);
                 });
+                
             }
 
         }
@@ -330,6 +335,7 @@ namespace MoleWatchApp.ViewModels
             patientModelRef.RemoveCollection();
             await Shell.Current.GoToAsync("..");
         }
+
 
 
        }
