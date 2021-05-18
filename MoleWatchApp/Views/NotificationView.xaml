@@ -13,7 +13,8 @@
 
 
     <StackLayout Orientation="Vertical"
-                 VerticalOptions ="Center">
+                 VerticalOptions ="Center"
+                 x:Name="NotificationStackLayout">
 
         <Label Text="Notifikationsindstilling" FontSize="30" TextColor="DarkBlue" HorizontalTextAlignment="Center">
 

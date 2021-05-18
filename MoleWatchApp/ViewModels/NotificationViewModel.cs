@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
+using DataClasses.DTO;
+using MoleWatchApp.Extensions;
 using MoleWatchApp.Extensions.DTO;
+using MoleWatchApp.Interfaces;
 using MoleWatchApp.Models;
 using Xamarin.Forms;
 
@@ -10,10 +13,39 @@ namespace MoleWatchApp.ViewModels
 {
     class NotificationViewModel : BaseViewModel
     {
+        public CollectionDTO currentCollection;
+        public string CurrentCollectionName;
+
+        public NotificationViewModel()
+        {
+            DateToday = DateTime.Now;
+
+            SaveClickedCommand = new Command(SaveNotification);
+            NotificationModel = new NotificationModel();
+            CurrentCollectionName = NotificationModel.GetName();
+
+        }
+
+        #region Properties, commands mm. 
+
         private DateTime dateToday;
-        private DateTime pickedDate;
+        private DateTime pickedDate = DateTime.Now;
         private int pickedIndex;
         private NotificationModel NotificationModel;
+        private bool newDatePicked;
+
+        public bool NewDatePicked
+        {
+            get
+            {
+                return newDatePicked;
+            }
+            set
+            {
+                newDatePicked = value;
+                this.OnPropertyChanged();
+            }
+        }
 
         public Command SaveClickedCommand { get; }
 
@@ -56,14 +88,10 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-      
-        public NotificationViewModel()
-        {
-            DateToday = DateTime.Now;
-            SaveClickedCommand = new Command(SaveNotification);
 
-            NotificationModel = new NotificationModel();
-        }
+        #endregion
+
+
 
         public void SaveNotification()
         {
@@ -74,13 +102,15 @@ namespace MoleWatchApp.ViewModels
             NotificationModel.UpdateNotification(notificationData);
         }
 
+        
+        //TODO skal slettes enten her eller i view'et 
         private int CalculateIntervalInWeeks(int index)
         {
             switch (index)
             {
                 case 1:
                     return 0;
-                    
+
                 case 2:
                     return 1;
 
