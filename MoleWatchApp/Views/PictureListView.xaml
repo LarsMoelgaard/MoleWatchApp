@@ -5,8 +5,7 @@
              x:Class="MoleWatchApp.Views.PictureListView"
              x:Name="PictureListPage" Title="{Binding PageTitle}"
              Appearing="PictureListView_OnAppearing">
-
-
+        
     <ContentPage.BindingContext>
         <viewModels:PictureListViewModel x:Name="PictureListViewModel" />
         
@@ -16,9 +15,11 @@
 
         <ScrollView>
             <StackLayout x:Name="PictureStackLayout">
+               
                 <TableView x:Name="PictureListTableView" Intent="Form" >
 
                 </TableView>
+
                 <ActivityIndicator IsRunning="{Binding BaseIsBusy}"/>
 
 

@@ -13,8 +13,8 @@ namespace MoleWatchApp
             InitializeComponent();
             Routing.RegisterRoute(nameof(CreateCollectionView), typeof(CreateCollectionView));
             Routing.RegisterRoute(nameof(PictureListView), typeof(PictureListView));
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(CollectionListView), typeof(CollectionListView));
+            //Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
             Routing.RegisterRoute(nameof(NotificationView), typeof(NotificationView));
             Routing.RegisterRoute(nameof(FullPictureView), typeof(FullPictureView));
 

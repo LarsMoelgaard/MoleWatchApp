@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using DataClasses.DTO;
 using DataClasses.DTO.MISCDTOS;
 using MoleWatchApp.Extensions;
+
 using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
@@ -18,11 +19,14 @@ namespace MoleWatchApp.Views
         private string result = "";
 
         private List<ImageButton> PatientButtonList = new List<ImageButton>();
-
+        private IPatientViewModel PViewModel;
 
         public PatientModelPage() 
         {
             InitializeComponent();
+            PViewModel = new PatientModelViewModel();
+            BindingContext = PViewModel;
+
         }
 
         private async void Checkmark_button_Clicked(object sender, EventArgs e)
@@ -150,7 +154,19 @@ namespace MoleWatchApp.Views
         }
 
 
+        private async void ShowHelpMenu(object sender, EventArgs e)
+        {
 
+            await DisplayAlert("Hjælp:",
+                "-   Brug 1 finger til at navigere rundt på modellen \r\n"
+                + "-   Brug 2 fingre til at zoome ind/ud på modellen \r\n"
+                + "-   Tryk på en prik for at se et specifikt modermærke \r\n\r\n"
+                + "-   Tryk på det blå plus for at kunne tilføje et nyt modersmærke. " +
+                "Når nålen er placeret korrekt, tryk på det grønne flueben for at oprette samlingen\r\n"+
+                  "-   Tryk på de 2 blå pile for at vende modellen om"
 
+                , "OK");
+
+        }
     }
 }

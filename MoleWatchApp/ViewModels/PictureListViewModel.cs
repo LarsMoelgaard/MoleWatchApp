@@ -128,14 +128,14 @@ namespace MoleWatchApp.ViewModels
 
             foreach (CompletePicture PictureInCollection in tempCollection)
             {
-               byte[] PictureData = PictureListModel.LoadSpecificPicture(PictureInCollection.PictureID);
+               byte[] PictureData = PictureListModel.LoadSpecificThumbnail(PictureInCollection.PictureID);
                string PictureComment = PictureListModel.LoadSpecificComment(PictureInCollection.PictureID);
                PictureInCollection.PictureData = PictureData;
                PictureInCollection.PictureComment = PictureComment;
             }
 
             CompletePictureList = tempCollection;
-            //BaseIsBusy = false;
+            BaseIsBusy = false;
         }
 
         private void OpenPictureView(int PictureId)
