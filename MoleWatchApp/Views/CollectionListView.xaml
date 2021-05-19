@@ -14,23 +14,42 @@
         
 
         <ContentPage.Content>
-        <ScrollView>
-            <StackLayout x:Name="CollectionStackLayout">
-                <Label Text="Hej"/>
-
-
-                <TableView x:Name="CollectionListTableView" Intent="Form" >
-
-                </TableView>
-
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
                 <ListView
                     ItemsSource="{Binding CollectionWithPicture}"
                     PropertyChanged="UpdateCollectionListView" x:Name="HiddenCollectionListView"
-
+                    Grid.Column="0" Grid.Row="0"
+                    IsVisible="False" IsEnabled="False"
                 />
 
 
-            </StackLayout>
-        </ScrollView>
+            <ScrollView Grid.Column="0" Grid.Row="0">
+                    <StackLayout x:Name="CollectionStackLayout">
+                
+
+                    <TableView x:Name="CollectionListTableView" Intent="Form" IsVisible="True">
+
+                    </TableView>
+
+
+
+
+
+       
+
+
+
+
+                    </StackLayout>
+              </ScrollView>
+                <!--<Label Text="Hej" Grid.Column="0" Grid.Row="0"/>-->
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
