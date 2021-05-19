@@ -1,5 +1,6 @@
 ﻿using System;
 using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
@@ -7,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using FFImageLoading.Forms;
 using FFImageLoading.Forms.Platform;
+using MoleWatchApp.Interfaces;
 using Plugin.CurrentActivity;
 using Plugin.Fingerprint;
 using Xamarin.Forms;
@@ -37,5 +39,6 @@ namespace MoleWatchApp.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
     }
 }
