@@ -53,13 +53,8 @@
                         </Grid.ColumnDefinitions>
 
 
-                    <Image x:Name="PatientModelImage" 
-                          
-                           Source="{Binding PatientPicture}"
-                           HorizontalOptions="FillAndExpand"
-                           WidthRequest="500"
-                           HeightRequest="1000" 
-                    > 
+                    <Image x:Name="PatientModelImage" Grid.Row="0" Grid.Column="0"
+                           Source="{Binding PatientPicture}" Aspect="Fill"> 
                     </Image>
 
                 </Grid>

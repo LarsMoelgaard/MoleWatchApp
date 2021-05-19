@@ -105,7 +105,7 @@ namespace MoleWatchApp.Views
             if (HiddenListView.ItemsSource != null)
             {
 
-                await Task.Delay(25); //Gøres for at sikre at patientbilledet er opdateret før knapperne laves
+                await Task.Delay(40); //Gøres for at sikre at patientbilledet er opdateret før knapperne laves
 
 
                 foreach (ImageButton existingImageButton in PatientButtonList)

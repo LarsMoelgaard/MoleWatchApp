@@ -100,6 +100,9 @@ namespace MoleWatchApp.Views
                 return ms;
             });
             return NewPhoto;
+
+
+            
         }
     }
 }
