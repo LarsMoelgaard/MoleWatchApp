@@ -57,9 +57,8 @@
                           
                            Source="{Binding PatientPicture}"
                            HorizontalOptions="FillAndExpand"
-
                            WidthRequest="500"
-                           HeightRequest="1000"
+                           HeightRequest="1000" 
                     > 
                     </Image>
 

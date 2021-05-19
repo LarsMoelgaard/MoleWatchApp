@@ -30,6 +30,9 @@ namespace MoleWatchApp.ViewModels
         private bool CreateCollectionInProgress;
         private ObservableCollection<CollectionDTO> patientCollection;
 
+        #region DatabindingProperties
+
+        
 
         public ObservableCollection<CollectionDTO> PatientCollection
         {
@@ -158,6 +161,7 @@ namespace MoleWatchApp.ViewModels
         }
 
 
+        #endregion
 
         public PatientModelViewModel()
         {
@@ -214,20 +218,52 @@ namespace MoleWatchApp.ViewModels
                 //throw new NotImplementedException("Køn ukendt.");
             }
 
+
             if (PatientCollection.Count == 0)
             {
-                 foreach (CollectionDTO ExistingCollectionDTO in loginModel.PatientData.CollectionList)
-                 {
-                  PatientCollection.Add(ExistingCollectionDTO);
-                 }
+                //ObservableCollection<CollectionDTO> tempCollection =
+                //    new ObservableCollection<CollectionDTO>(loginModel.PatientData.CollectionList);
+
+                //Device.BeginInvokeOnMainThread(() =>
+                //{
+                //    PatientCollection = tempCollection;
+                //});
+
+                foreach (CollectionDTO ExistingCollectionDTO in loginModel.PatientData.CollectionList)
+                {
+                    //Device.BeginInvokeOnMainThread(() =>
+                    //{
+                        PatientCollection.Add(ExistingCollectionDTO);
+                    //});
+
+                }
             }
             else
             {
-                ObservableCollection<CollectionDTO> tempCollection = new ObservableCollection<CollectionDTO>(patientModelClass.CurrentPatientData.CollectionList);
-                PatientCollection = tempCollection;
+                //Device.BeginInvokeOnMainThread(() =>
+                //{
+                    ObservableCollection<CollectionDTO> tempCollection = new ObservableCollection<CollectionDTO>(patientModelClass.CurrentPatientData.CollectionList);
+                    PatientCollection = tempCollection;
+                //});
+
             }
 
+
+            //Thread UpdateCollectionsThread = new Thread(UpdateCollectionsWhenLoaded);
+            //UpdateCollectionsThread.Start();
+
         }
+
+
+        private void UpdateCollectionsWhenLoaded()
+        {
+            Thread.Sleep(5000);
+
+
+        }
+
+
+
 
         private void FlipPatient(object obj)
         {

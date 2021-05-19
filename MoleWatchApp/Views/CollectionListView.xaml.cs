@@ -51,6 +51,7 @@ namespace MoleWatchApp.Views
                     ImageSource = ConvertByteArrayToImageSource(item.CollectionPictureData),
                     //Detail = item.Collection.PictureList[item.Collection.PictureList.Count].DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
                     //    CultureInfo.CreateSpecificCulture("da-DA"))
+                    Detail = "y =" + item.Collection.Location.yCoordinate.ToString() + ". x = " +item.Collection.Location.xCoordinate.ToString(),
 
                 };
                 NewCell.CommandParameter = item.Collection.CollectionID;
