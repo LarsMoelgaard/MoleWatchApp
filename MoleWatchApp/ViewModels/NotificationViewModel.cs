@@ -22,7 +22,8 @@ namespace MoleWatchApp.ViewModels
 
             SaveClickedCommand = new Command(SaveNotification);
             NotificationModel = new NotificationModel();
-            CurrentCollectionName = NotificationModel.GetName();
+            currentCollection = NotificationModel.GetCurrentCollection();
+            CurrentCollectionName = currentCollection.CollectionName;
 
         }
 

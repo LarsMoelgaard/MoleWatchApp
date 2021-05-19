@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using APIWebServiesConnector;
+using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
 
@@ -15,6 +16,7 @@ namespace MoleWatchApp.Models
         public NotificationModel()
         {
             api = APISingleton.GetAPI();
+            patientModel = PatientModelSingleton.GetPatientModel();
         }
 
         public void UpdateNotification(NotificationData data)
@@ -22,11 +24,10 @@ namespace MoleWatchApp.Models
            //TODO opret forbindelse til API herfra og ændre indstilling for notifikation => kan muligvis undlades 
         }
 
-        public string GetName()
+        public CollectionDTO GetCurrentCollection()
         {
-            patientModel = PatientModelSingleton.GetPatientModel();
-            string collectionName = patientModel.CollectionOnPage.CollectionName;
-            return collectionName;
+            CollectionDTO collection = patientModel.CollectionOnPage;
+            return collection;
         }
     }
 }

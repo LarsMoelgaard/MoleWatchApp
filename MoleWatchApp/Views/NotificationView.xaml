@@ -62,6 +62,13 @@
         <Button x:Name="SaveNotificationButton" Text="Gem notifikation for modermærke" Clicked="SaveNotificationButton_OnClicked">
         </Button>
 
+
+        <Label >
+        </Label>
+
+        <Button x:Name="DeleteNotificationButton" Text="Fjern notifikation for modermærke" Clicked="DeleteNotificationButton_OnClicked" BackgroundColor="IndianRed">
+        </Button>
+
     </StackLayout>
 
 </ContentPage>

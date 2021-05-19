@@ -24,10 +24,14 @@ namespace MoleWatchApp.Droid
         public const string TitleKey = "title";
         public const string MessageKey = "message";
 
+        private Intent intent;
+        private AlarmManager alarmManager;
+        private PendingIntent pendingIntent;
+
         bool channelInitialized = false;
         int messageId = 0;
         int pendingIntentId = 0;
-        private int repeateForWeek = 0;
+
 
         NotificationManager manager;
 
@@ -36,6 +40,7 @@ namespace MoleWatchApp.Droid
         public static AndroidNotificationManager Instance { get; private set; }
 
         public AndroidNotificationManager() => Initialize();
+        
 
         public void Initialize()
         {
@@ -43,25 +48,39 @@ namespace MoleWatchApp.Droid
             {
                 CreateNotificationChannel();
                 Instance = this;
+                alarmManager = AndroidApp.Context.GetSystemService(Context.AlarmService) as AlarmManager;
             }
         }
 
-        public void SendNotification(string title, string message, int interval ,DateTime notifyTime = default(DateTime))
+        public void SendNotification(string title, string message, int id, int interval ,DateTime notifyTime = default(DateTime))
         {
+            intent = new Intent(AndroidApp.Context, typeof(AlarmHandler)).SetAction("LocalNotifierIntent" + id);
+            pendingIntentId = id;
+
             if (!channelInitialized)
             {
                 CreateNotificationChannel();
             }
+            intent.PutExtra(TitleKey, title); 
+            intent.PutExtra(MessageKey, message);
 
-                Intent intent = new Intent(AndroidApp.Context, typeof(AlarmHandler));
-                intent.PutExtra(TitleKey, title);
-                intent.PutExtra(MessageKey, message);
+            long triggerTime = GetNotifyTime(notifyTime);
+            pendingIntent = PendingIntent.GetBroadcast(AndroidApp.Context, pendingIntentId, intent, PendingIntentFlags.CancelCurrent);
 
-                PendingIntent pendingIntent = PendingIntent.GetBroadcast(AndroidApp.Context, pendingIntentId++, intent, PendingIntentFlags.CancelCurrent);
-                long triggerTime = GetNotifyTime(notifyTime);
-                AlarmManager alarmManager = AndroidApp.Context.GetSystemService(Context.AlarmService) as AlarmManager;
-                alarmManager.SetRepeating(AlarmType.RtcWakeup, 1000+triggerTime*1000,interval*1000, pendingIntent);
-            
+            if (interval == 0)
+            { 
+                alarmManager.Set(AlarmType.RtcWakeup, 1000 + triggerTime * 1000,  pendingIntent);
+            }
+            else
+            {
+                alarmManager.SetRepeating(AlarmType.RtcWakeup, 1000 + triggerTime * 1000, interval * 1000, pendingIntent);
+            }
+        }
+
+        public void DeleteNotification(int id)
+        {
+            PendingIntent pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, id, intent, PendingIntentFlags.UpdateCurrent);
+            alarmManager.Cancel(pendingIntent);
         }
 
         public void ReceiveNotification(string title, string message)
@@ -80,7 +99,7 @@ namespace MoleWatchApp.Droid
             intent.PutExtra(TitleKey, title);
             intent.PutExtra(MessageKey, message);
 
-            PendingIntent pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, pendingIntentId++, intent, PendingIntentFlags.UpdateCurrent);
+            PendingIntent pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, pendingIntentId, intent, PendingIntentFlags.UpdateCurrent);
 
             NotificationCompat.Builder builder = new NotificationCompat.Builder(AndroidApp.Context, channelId)
                 .SetContentIntent(pendingIntent)

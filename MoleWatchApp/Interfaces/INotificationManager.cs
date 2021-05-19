@@ -8,7 +8,8 @@ namespace MoleWatchApp.Interfaces
     {
         event EventHandler NotificationReceived;
         void Initialize();
-        void SendNotification(string title, string message, int interval, DateTime notifyTime = default(DateTime));
-        //void ReceiveNotification(string title, string message);
+        void SendNotification(string title, string message,int id, int interval, DateTime notifyTime = default(DateTime));
+        void DeleteNotification(int id);
+
     }
 }

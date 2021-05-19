@@ -17,6 +17,7 @@ namespace MoleWatchApp.Views
     {
         private INotificationManager notificationManager;
         private string MoleName;
+        private int CollectionID;
         private NotificationViewModel vm;
 
         public NotificationView()
@@ -25,6 +26,7 @@ namespace MoleWatchApp.Views
             vm = new NotificationViewModel();
             BindingContext = vm;
             MoleName = vm.CurrentCollectionName;
+            CollectionID = vm.currentCollection.CollectionID;
 
             notificationManager = DependencyService.Get<INotificationManager>();
             notificationManager.NotificationReceived += (sender, eventArgs) =>
@@ -57,8 +59,9 @@ namespace MoleWatchApp.Views
             string title = $"Moletracker";
             string message = $"Dit modermærke {MoleName} skal opdateres!";
             int IntervalInWeeks = CalculateIntervalInWeeks(vm.PickedIndex);
+            int CollectionID = vm.currentCollection.CollectionID;
 
-            notificationManager.SendNotification(title, message, IntervalInWeeks, vm.PickedDate);
+            notificationManager.SendNotification(title, message,CollectionID ,IntervalInWeeks, vm.PickedDate);
 
         }
 
@@ -101,6 +104,11 @@ namespace MoleWatchApp.Views
                 };
                 NotificationStackLayout.Children.Add(msg);
             });
+        }
+
+        private void DeleteNotificationButton_OnClicked(object sender, EventArgs e)
+        {
+            notificationManager.DeleteNotification(CollectionID);
         }
     }
 }
