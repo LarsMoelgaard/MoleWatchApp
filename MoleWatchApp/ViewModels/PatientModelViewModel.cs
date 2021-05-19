@@ -196,7 +196,7 @@ namespace MoleWatchApp.ViewModels
                 loginModel.IsPatientLoadedFromAPI = true;
             }
 
-            
+            IsPatientFrontFacing = true;
 
             if (patientModelClass.CurrentPatient.Gender.ToLower() == "b")
             {
@@ -210,7 +210,7 @@ namespace MoleWatchApp.ViewModels
             }
             else
             {
-                PatientPicture = "MaleFrontCrop.png";
+                PatientPicture = "MaleFrontCrop.png"; // Der bliver ikke taget højde for transkønnede i dette program
                 //throw new NotImplementedException("Køn ukendt.");
             }
 

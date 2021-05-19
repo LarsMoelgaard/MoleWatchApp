@@ -225,6 +225,7 @@ namespace MoleWatchApp.ViewModels
 
             if (photo != null)
             {
+                BaseIsBusy = true;
                 PictureInfoDTO picToUpload = new PictureInfoDTO();
 
                 byte[] imgByteArray = new byte[0];
@@ -256,7 +257,7 @@ namespace MoleWatchApp.ViewModels
                 {
                     return new MemoryStream(imgByteArray);
                 });
-                
+                BaseIsBusy = false;
             }
 
         }
@@ -268,6 +269,7 @@ namespace MoleWatchApp.ViewModels
 
             if (photo != null)
             {
+                BaseIsBusy = true;
                 PictureInfoDTO picToUpload = new PictureInfoDTO();
 
                 byte[] imgByteArray = new byte[0];
@@ -299,6 +301,7 @@ namespace MoleWatchApp.ViewModels
                 {
                     return new MemoryStream(imgByteArray);
                 });
+                BaseIsBusy = false;
             }
         }
 

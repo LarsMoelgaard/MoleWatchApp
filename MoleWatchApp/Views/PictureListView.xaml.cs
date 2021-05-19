@@ -83,7 +83,7 @@ namespace MoleWatchApp.Views
 
         private void HiddenPictureListView_OnPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-            if (!NoItemsInTableView)
+            if (HiddenPictureListView.ItemsSource != null)
                 {
                     UpdateTable();
                 }
@@ -99,6 +99,12 @@ namespace MoleWatchApp.Views
         private void PictureListView_OnAppearing(object sender, EventArgs e)
         {
             PictureListViewModel.UpdateTableOnAppearingCommand.Execute(null);
+        }
+
+        private void HiddenPictureListView_OnChildAdded(object sender, ElementEventArgs e)
+        {
+            UpdateTable();
+            NoItemsInTableView = false;
         }
     }
 }

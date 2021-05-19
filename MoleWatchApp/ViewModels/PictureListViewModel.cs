@@ -100,6 +100,10 @@ namespace MoleWatchApp.ViewModels
 
 
             ObservableCollection<CompletePicture> TempPictureList = new ObservableCollection<CompletePicture>();
+           
+            patientModelRef.LoadExistingCollection(patientModelRef.CollectionOnPage); //Gør således at de sidste billeder også bliver loaded
+
+            
             foreach (PictureInfoDTO PictureToAdd in patientModelRef.CollectionOnPage.PictureList)
             {
                 TempPictureList.Add(new CompletePicture(PictureToAdd));

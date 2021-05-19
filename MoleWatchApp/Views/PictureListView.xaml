@@ -13,23 +13,41 @@
 
     <ContentPage.Content>
 
-        <ScrollView>
-            <StackLayout x:Name="PictureStackLayout">
-               
-                <TableView x:Name="PictureListTableView" Intent="Form" >
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <ListView x:Name="HiddenPictureListView"  Grid.Column="0" Grid.Row="0"
+                      ItemsSource="{Binding CompletePictureList}"
+                      PropertyChanged="HiddenPictureListView_OnPropertyChanged" 
+                      
+                      IsVisible="False" IsEnabled="False"/>
+            <!---->
 
-                </TableView>
-
-                <ActivityIndicator IsRunning="{Binding BaseIsBusy}"/>
 
 
-                <ListView x:Name="HiddenPictureListView" 
-                          ItemsSource="{Binding CompletePictureList}"
-                          IsEnabled="{Binding PicturesFullyLoaded}"
-                          PropertyChanged="HiddenPictureListView_OnPropertyChanged" 
-                          ItemAppearing="HiddenPictureListView_OnItemAppearing" IsVisible="True"/>
+            <ScrollView Grid.Column="0" Grid.Row="0">
+                <StackLayout x:Name="PictureStackLayout">
 
-            </StackLayout>
-        </ScrollView>
+
+                    <TableView x:Name="PictureListTableView" Intent="Form" IsVisible="True" IsEnabled="True">
+
+                    </TableView>
+
+                    <!--<ActivityIndicator IsRunning="{Binding BaseIsBusy}"/>-->
+
+
+
+                </StackLayout>
+            </ScrollView>
+            <!--<Label Text="Hej" Grid.Column="0" Grid.Row="0"/>-->
+
+        </Grid>
+
+
     </ContentPage.Content>
 </ContentPage>
