@@ -284,8 +284,9 @@ namespace MoleWatchApp.ViewModels
 
                 patientModelClass.LoadExistingCollection(Collection);
 
-                BaseIsBusy = false;
                 await Shell.Current.GoToAsync($"{nameof(CreateCollectionView)}");
+
+                BaseIsBusy = false;
             }
 
         }
