@@ -11,6 +11,8 @@ using MoleWatchApp.Interfaces;
 using Xamarin.Forms;
 using AndroidApp = Android.App.Application;
 
+//INSPIRATION https://www.c-sharpcorner.com/article/creating-and-scheduling-alarms-in-android/
+
 
 [assembly: Dependency(typeof(AndroidNotificationManager))]
 namespace MoleWatchApp.Droid
@@ -105,8 +107,8 @@ namespace MoleWatchApp.Droid
                 .SetContentIntent(pendingIntent)
                 .SetContentTitle(title)
                 .SetContentText(message)
-                .SetLargeIcon(BitmapFactory.DecodeResource(AndroidApp.Context.Resources, Resource.Drawable.GalleryIcon))
-                .SetSmallIcon(Resource.Drawable.GalleryIcon)
+                .SetLargeIcon(BitmapFactory.DecodeResource(AndroidApp.Context.Resources, Resource.Mipmap.mole_watch_round_logo))
+                .SetSmallIcon(Resource.Mipmap.mole_watch_round_logo)
                 .SetPriority(2)
                 .SetVibrate(new long[0])
                 .SetDefaults((int)NotificationDefaults.Sound | (int)NotificationDefaults.Vibrate);
@@ -122,10 +124,15 @@ namespace MoleWatchApp.Droid
             if (Build.VERSION.SdkInt >= BuildVersionCodes.O)
             {
                 var channelNameJava = new Java.Lang.String(channelName);
-                var channel = new NotificationChannel(channelId, channelNameJava, NotificationImportance.Default)
+                var channel = new NotificationChannel(channelId, channelNameJava, NotificationImportance.High)
                 {
                     Description = channelDescription
                 };
+
+                channel.EnableVibration(true);
+                channel.LockscreenVisibility = NotificationVisibility.Public;
+                channel.SetShowBadge(true);
+
                 manager.CreateNotificationChannel(channel);
             }
 
