@@ -120,8 +120,16 @@ namespace MoleWatchApp.Extensions
 
         void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
-            ScreenWidth = Application.Current.MainPage.Width;
-            ScreenHeight = Application.Current.MainPage.Height;
+
+            if (ScreenHeight == -1)
+            {
+               ScreenHeight = Application.Current.MainPage.Height;
+            }
+            if (ScreenWidth == -1)
+            {
+                ScreenWidth = Application.Current.MainPage.Width;
+            }
+
 
             TimeSinceLastPinch = DateTime.Now - lastPinchDateTime;
 
@@ -145,8 +153,8 @@ namespace MoleWatchApp.Extensions
                     double width = (Content.Width * Content.Scale);
                     double height = (Content.Height * Content.Scale);
 
-                    bool canMoveX = true; //width > ScreenWidth;
-                    bool canMoveY = true; //height >  ScreenHeight;
+                    bool canMoveX = width > ScreenWidth;
+                    bool canMoveY = height >  ScreenHeight;
 
                     if (canMoveX)
                     {

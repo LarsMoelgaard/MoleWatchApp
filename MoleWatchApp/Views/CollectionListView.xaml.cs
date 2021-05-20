@@ -42,6 +42,20 @@ namespace MoleWatchApp.Views
 
             foreach (CollectionWithThumbnail item in HiddenCollectionListView.ItemsSource)
             {
+                string DateText = "";
+                if (item.Collection.PictureList.Count != 0)
+                {
+                    DateText = item.Collection.PictureList[item.Collection.PictureList.Count-1].DateOfUpload
+                        .ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                            CultureInfo.CreateSpecificCulture("da-DA"));
+                }
+                else
+                {
+                    DateText = "Ingen billeder i samling";
+                }
+
+                string DetailText = item.Collection.Location.BodyPart + ": " + DateText;
+
                 ImageCell NewCell = new ImageCell
                 {
                     Text = item.Collection.CollectionName,
@@ -49,14 +63,13 @@ namespace MoleWatchApp.Views
 
                     
                     ImageSource = ConvertByteArrayToImageSource(item.CollectionPictureData),
-                    //Detail = item.Collection.PictureList[item.Collection.PictureList.Count].DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
-                    //    CultureInfo.CreateSpecificCulture("da-DA"))
-                    Detail = "y =" + item.Collection.Location.yCoordinate.ToString() + ". x = " +item.Collection.Location.xCoordinate.ToString(),
+                    Detail = DetailText,
 
                 };
+                
                 NewCell.CommandParameter = item.Collection.CollectionID;
 
-                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionClicked"));
+                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionClicked")); //TODO sørg for at denne her kører til en collection
 
 
 
@@ -104,5 +117,8 @@ namespace MoleWatchApp.Views
 
             
         }
+
+
+
     }
 }

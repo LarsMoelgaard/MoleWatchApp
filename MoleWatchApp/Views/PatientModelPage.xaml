@@ -12,9 +12,9 @@
 
     <ContentPage.ToolbarItems>
         <ToolbarItem 
-                     IconImageSource="help_icon.png"
-                     Order="Primary"
-                     Priority="0" Clicked="ShowHelpMenu" />
+            IconImageSource="help_icon.png"
+            Order="Primary"
+            Priority="0" Clicked="ShowHelpMenu" />
 
     </ContentPage.ToolbarItems>
     
