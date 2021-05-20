@@ -5,7 +5,6 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using SkiaSharp;
-using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions
 {
@@ -15,7 +14,7 @@ namespace MoleWatchApp.Extensions
         private string resourceID = "MoleWatchApp.Extensions.ColorMaleFront.png";
         private bool isFrontFacing = true;
 
-        public PixelImageHandler(ImageSource source)
+        public PixelImageHandler()
         {
             switch (source.ToString())
             {
@@ -43,6 +42,7 @@ namespace MoleWatchApp.Extensions
 
         public string getPixelValue(int x, int y)
         {
+            string resourceID = "MoleWatchApp.Extensions.ColorMaleFront.png";
             Assembly assembly = GetType().GetTypeInfo().Assembly;
 
             using (Stream stream = assembly.GetManifestResourceStream(resourceID))

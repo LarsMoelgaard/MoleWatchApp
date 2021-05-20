@@ -210,10 +210,12 @@ namespace MoleWatchApp.Views
 
         private string GetBodypart(int x, int y, ImageSource source)
         {
-            PixelImageHandler imageHandler = new PixelImageHandler(source);
+            PixelImageHandler imageHandler = new PixelImageHandler();
             var color = imageHandler.getPixelValue(x, y);
 
             return color;
         }
+
+
     }
 }
