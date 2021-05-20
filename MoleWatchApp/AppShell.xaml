@@ -85,6 +85,9 @@
     <FlyoutItem Title="Mine modermærker" Icon="icon_feed.png">
         <ShellContent Route="CollectionListView" ContentTemplate="{DataTemplate local:CollectionListView}" />
     </FlyoutItem>
+    <FlyoutItem Title="Kontakt lægen" Icon="icon_feed.png">
+        <ShellContent Route="CollectionListView" ContentTemplate="{DataTemplate local:CollectionListView}" />
+    </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
     <MenuItem Text="Log ud" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
