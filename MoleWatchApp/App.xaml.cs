@@ -1,5 +1,4 @@
-﻿using MoleWatchApp.Services;
-using MoleWatchApp.Views;
+﻿using MoleWatchApp.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -15,7 +14,6 @@ namespace MoleWatchApp
 
             Plugin.Media.CrossMedia.Current.Initialize();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 

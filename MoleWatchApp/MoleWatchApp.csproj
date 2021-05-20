@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Media\**" />
+    <EmbeddedResource Remove="Media\**" />
+    <None Remove="Media\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="ColorMaleFront.png" />
     <None Remove="Extensions\ColorFemaleBack.png" />
     <None Remove="Extensions\ColorFemaleFront.png" />
@@ -74,10 +80,6 @@
     <EmbeddedResource Update="Views\SlideUpMenuView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Media\" />
   </ItemGroup>
 
   <ItemGroup>
