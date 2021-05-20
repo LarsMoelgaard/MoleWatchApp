@@ -47,7 +47,6 @@ namespace MoleWatchApp.Views
             else
             {
                 CollectionDTO newCollectionDto = new CollectionDTO();
-                newCollectionDto.CollectionName = result;
 
                 LocationOnBodyDTO NewCollectionLocation = new LocationOnBodyDTO();
                 
@@ -66,7 +65,25 @@ namespace MoleWatchApp.Views
 
                 newCollectionDto.Location = NewCollectionLocation;
 
-                string color = GetColorCode(relativeXCoordinate, relativeYCoordinate, PatientModelImage.Source);
+                string bodypart = GetBodypart(relativeXCoordinate, relativeYCoordinate, PatientModelImage.Source);
+                if (result == "")
+                {
+                    newCollectionDto.CollectionName = bodypart;
+                }
+                else
+                {
+                    newCollectionDto.CollectionName = result;
+                }
+
+                newCollectionDto.Location.BodyPart = bodypart;
+                if (relativeXCoordinate > 5000)
+                {
+                    newCollectionDto.Location.BodyPartSide = "Venstre";
+                }
+                else
+                {
+                    newCollectionDto.Location.BodyPartSide = "Højre";
+                }
 
                 PViewModel.CreateOkClicked.Execute(newCollectionDto);
             }
@@ -191,7 +208,7 @@ namespace MoleWatchApp.Views
 
         }
 
-        private string GetColorCode(int x, int y, ImageSource source)
+        private string GetBodypart(int x, int y, ImageSource source)
         {
             PixelImageHandler imageHandler = new PixelImageHandler(source);
             var color = imageHandler.getPixelValue(x, y);

@@ -13,24 +13,29 @@ namespace MoleWatchApp.Extensions
     {
         private SKBitmap resourceBitmap;
         private string resourceID = "MoleWatchApp.Extensions.ColorMaleFront.png";
+        private bool isFrontFacing = true;
 
         public PixelImageHandler(ImageSource source)
         {
             switch (source.ToString())
             {
                 case "File: MaleFrontCrop.png":
+                    isFrontFacing = true;
                     resourceID = "MoleWatchApp.Extensions.ColorMaleFront.png";
                     break;
 
                 case "File: MaleBackCrop.png":
+                    isFrontFacing = false;
                     resourceID = "MoleWatchApp.Extensions.ColorMaleBack.png";
                     break;
 
                 case "File: FemaleFrontCrop.png":
+                    isFrontFacing = true;
                     resourceID = "MoleWatchApp.Extensions.ColorFemaleFront.png";
                     break;
 
                 case "File: FemaleBackCrop.png":
+                    isFrontFacing = false;
                     resourceID = "MoleWatchApp.Extensions.ColorFemaleBack.png";
                     break;
             }
@@ -55,12 +60,98 @@ namespace MoleWatchApp.Extensions
 
             colorValue = colorValue.Remove(0, 3);
 
-            return colorValue;
+            return getBodyPlacement(colorValue);
         }
 
-        private void getBodyPlacement(string color)
+        private string getBodyPlacement(string color)
         {
+            string bodyPart = "";
 
+            switch (color)
+            {
+                case "1302fa":
+                    if (isFrontFacing)
+                    {
+                        bodyPart = "Højre hånd";
+                    }
+                    else
+                    {
+                        bodyPart = "Venstre hånd";
+                    }
+                    break;
+
+                case "02f3fa":
+                    if (isFrontFacing)
+                    {
+                        bodyPart = "Højre overarm";
+                    }
+                    else
+                    {
+                        bodyPart = "Venstre overarm";
+                    }
+                    break;
+
+                case "03f94a":
+                    if (isFrontFacing)
+                    {
+                        bodyPart = "Højre ben";
+                    }
+                    else
+                    {
+                        bodyPart = "Venstre ben";
+                    }
+                    break;
+
+                case "ef03f9":
+                    if (isFrontFacing)
+                    {
+                        bodyPart = "Venstre hånd";
+                    }
+                    else
+                    {
+                        bodyPart = "Højre hånd";
+                    }
+                    break;
+
+                case "6a0c4f":
+                    if (isFrontFacing)
+                    {
+                        bodyPart = "Venstre overarm";
+                    }
+                    else
+                    {
+                        bodyPart = "Højre overarm";
+                    }
+                    break;
+
+                case "f9c803":
+                    if (isFrontFacing)
+                    {
+                        bodyPart = "Venstre ben";
+                    }
+                    else
+                    {
+                        bodyPart = "Højre ben";
+                    }
+                    break;
+
+                case "fa0202":
+                    bodyPart = "Overkrop";
+                    break;
+
+                case "245122":
+                    bodyPart = "Hoved";
+                    break;
+
+                case "000000":
+                    bodyPart = "Uden for krop";
+                    break;
+
+                default: bodyPart = "Ukendt kropsdel";
+                    break;
+            }
+
+            return bodyPart;
         }
     }
 }
