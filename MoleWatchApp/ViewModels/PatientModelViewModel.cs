@@ -361,14 +361,7 @@ namespace MoleWatchApp.ViewModels
             PlusIcon = "Plus_icon.png";
             CreateCollectionInProgress = false;
             string collectionName = Collection.CollectionName;
-
-
-            if (collectionName == "")
-            {
-                collectionName = "AutoNavn"; //TODO insert generation of names
-            }
-
-
+            
             int SameName = 0;
 
             foreach (CollectionDTO collection in patientModelClass.CurrentPatientData.CollectionList)
@@ -390,10 +383,6 @@ namespace MoleWatchApp.ViewModels
 
             Collection.Location.IsFrontFacing = IsPatientFrontFacing;
 
-            string[] BodyPartAndSide = GetBodyPart(Collection);
-            Collection.Location.BodyPart = BodyPartAndSide[0];
-            Collection.Location.BodyPartSide = BodyPartAndSide[1];
-
             Collection.CollectionID = patientModelClass.LoadNewCollection(Collection);
 
             patientModelClass.CurrentPatientData.CollectionList.Add(Collection);
@@ -410,19 +399,6 @@ namespace MoleWatchApp.ViewModels
         private async void OnBackButtonClicked()
         {
             await Shell.Current.GoToAsync("..");
-        }
-
-
-        private string[] GetBodyPart(CollectionDTO Collection)
-        {
-            string[] BodyPartAndSide = new string[2];
-            //TODO implementer udregning af bodypart og side.
-
-
-
-            BodyPartAndSide[0] = "TestBodyPart";
-            BodyPartAndSide[1] = "TestSide";
-            return BodyPartAndSide;
         }
 
     }
