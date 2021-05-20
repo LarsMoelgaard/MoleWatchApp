@@ -23,8 +23,30 @@ namespace MoleWatchApp.Extensions
         private double ScreenWidth;
         private double ScreenHeight;
 
+
+
+        public PinchAndPanContainer()
+        {
+            ScreenWidth = Application.Current.MainPage.Width;
+            ScreenHeight = Application.Current.MainPage.Height;
+
+            var pinchGesture = new PinchGestureRecognizer();
+            pinchGesture.PinchUpdated += OnPinchUpdated;
+            GestureRecognizers.Add(pinchGesture);
+
+
+
+
+            var panGesture = new PanGestureRecognizer();
+            panGesture.PanUpdated += OnPanUpdated;
+            GestureRecognizers.Add(panGesture);
+
+        }
+
+
         public int[] getPinPlacement(double Xpin, double Ypin)
         {
+
 
             double TrueXPosition;
             double TrueYPosition;
@@ -42,25 +64,6 @@ namespace MoleWatchApp.Extensions
         }
 
 
-        public PinchAndPanContainer()
-        {
-            ScreenWidth = Application.Current.MainPage.Width;
-            ScreenHeight = Application.Current.MainPage.Height;
-
-
-
-            var pinchGesture = new PinchGestureRecognizer();
-            pinchGesture.PinchUpdated += OnPinchUpdated;
-            GestureRecognizers.Add(pinchGesture);
-
-
-
-
-            var panGesture = new PanGestureRecognizer();
-            panGesture.PanUpdated += OnPanUpdated;
-            GestureRecognizers.Add(panGesture);
-
-        }
 
         void OnPinchUpdated(object sender, PinchGestureUpdatedEventArgs e)
         {
@@ -117,6 +120,8 @@ namespace MoleWatchApp.Extensions
 
         void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
+            ScreenWidth = Application.Current.MainPage.Width;
+            ScreenHeight = Application.Current.MainPage.Height;
 
             TimeSinceLastPinch = DateTime.Now - lastPinchDateTime;
 
@@ -140,12 +145,12 @@ namespace MoleWatchApp.Extensions
                     double width = (Content.Width * Content.Scale);
                     double height = (Content.Height * Content.Scale);
 
-                    bool canMoveX = width > ScreenWidth;
-                    bool canMoveY = height >  ScreenHeight;
+                    bool canMoveX = true; //width > ScreenWidth;
+                    bool canMoveY = true; //height >  ScreenHeight;
 
                     if (canMoveX)
                     {
-                        double minX = (width - (ScreenWidth / 2)) * -1;
+                        double minX = (width - (ScreenWidth / 2)) * -1 - width * 0.1;
                         double maxX = Math.Min(ScreenWidth / 2, width / 2);
 
                         if (newX < minX)
@@ -165,7 +170,7 @@ namespace MoleWatchApp.Extensions
 
                     if (canMoveY)
                     {
-                        double minY = (height - (ScreenHeight / 2)) * -1;
+                        double minY = (height - (ScreenHeight / 2)) * -1 - height * 0.1;
                         double maxY = Math.Min(ScreenHeight / 2, height / 2);
 
                         if (newY < minY)

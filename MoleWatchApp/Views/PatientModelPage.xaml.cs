@@ -199,11 +199,6 @@ namespace MoleWatchApp.Views
             return color;
         }
 
-        //private static byte[] ToByteArray(this Image imageIn)
-        //{
-        //    var ms = new MemoryStream();
-        //    imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
-        //    return ms.ToArray();
-        //}
+
     }
 }
