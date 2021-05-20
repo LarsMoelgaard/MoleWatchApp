@@ -5,17 +5,10 @@ using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
 using DataClasses.DTO;
-using DataClasses.DTO.MISCDTOS;
-using FFImageLoading;
 using MoleWatchApp.Extensions;
-
 using MoleWatchApp.ViewModels;
-using FFImageLoading;
-using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.PlatformConfiguration;
-using Xamarin.Forms.Xaml;
-using Color = Xamarin.Forms.Color;
+
 
 namespace MoleWatchApp.Views
 {
@@ -210,7 +203,7 @@ namespace MoleWatchApp.Views
 
         private string GetBodypart(int x, int y, ImageSource source)
         {
-            PixelImageHandler imageHandler = new PixelImageHandler();
+            PixelImageHandler imageHandler = new PixelImageHandler(source);
             var color = imageHandler.getPixelValue(x, y);
 
             return color;

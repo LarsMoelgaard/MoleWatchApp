@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Drawing.Text;
 using System.IO;
 using System.Reflection;
-using System.Text;
 using SkiaSharp;
+using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions
 {
@@ -14,7 +14,7 @@ namespace MoleWatchApp.Extensions
         private string resourceID = "MoleWatchApp.Extensions.ColorMaleFront.png";
         private bool isFrontFacing = true;
 
-        public PixelImageHandler()
+        public PixelImageHandler(ImageSource source)
         {
             switch (source.ToString())
             {
