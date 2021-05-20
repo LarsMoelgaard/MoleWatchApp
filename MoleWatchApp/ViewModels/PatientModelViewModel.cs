@@ -19,6 +19,8 @@ namespace MoleWatchApp.ViewModels
         private ILogin loginModel;
         private IPatientModel patientModelClass;
 
+
+        #region Properties, commands mm
         private string patientPicture;
         private string colorPatientPictue;
         private string rotatePlaceholder;
