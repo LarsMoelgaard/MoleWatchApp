@@ -66,7 +66,7 @@ namespace MoleWatchApp.Views
 
                 newCollectionDto.Location = NewCollectionLocation;
 
-                string color = GetColorCode(PinPlacement[0], PinPlacement[1]);
+                string color = GetColorCode(relativeXCoordinate, relativeYCoordinate, PatientModelImage.Source);
 
                 PViewModel.CreateOkClicked.Execute(newCollectionDto);
             }
@@ -191,19 +191,12 @@ namespace MoleWatchApp.Views
 
         }
 
-        private string GetColorCode(int x, int y)
+        private string GetColorCode(int x, int y, ImageSource source)
         {
-            PixelImageHandler imageHandler = new PixelImageHandler();
+            PixelImageHandler imageHandler = new PixelImageHandler(source);
             var color = imageHandler.getPixelValue(x, y);
 
             return color;
         }
-
-        //private static byte[] ToByteArray(this Image imageIn)
-        //{
-        //    var ms = new MemoryStream();
-        //    imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
-        //    return ms.ToArray();
-        //}
     }
 }

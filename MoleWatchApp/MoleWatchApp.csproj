@@ -7,10 +7,22 @@
 
   <ItemGroup>
     <None Remove="ColorMaleFront.png" />
+    <None Remove="Extensions\ColorFemaleBack.png" />
+    <None Remove="Extensions\ColorFemaleFront.png" />
+    <None Remove="Extensions\ColorMaleBack.png" />
     <None Remove="google-services.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Extensions\ColorFemaleBack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extensions\ColorFemaleFront.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extensions\ColorMaleBack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Extensions\ColorMaleFront.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
