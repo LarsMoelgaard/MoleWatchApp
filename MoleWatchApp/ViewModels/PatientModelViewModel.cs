@@ -20,6 +20,7 @@ namespace MoleWatchApp.ViewModels
         private IPatientModel patientModelClass;
 
         private string patientPicture;
+        private string colorPatientPictue;
         private string rotatePlaceholder;
         private string newPinAdded;
         private string plusIcon;
@@ -43,6 +44,20 @@ namespace MoleWatchApp.ViewModels
             set
             {
                 patientCollection = value;
+                this.OnPropertyChanged();
+            }
+        }
+
+        public string ColorPatientPicture
+        {
+
+            get
+            {
+                return colorPatientPictue;
+            }
+            set
+            {
+                colorPatientPictue = value;
                 this.OnPropertyChanged();
             }
         }
@@ -160,7 +175,6 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-
         #endregion
 
         public PatientModelViewModel()
@@ -177,6 +191,7 @@ namespace MoleWatchApp.ViewModels
 
 
             PatientPicture = "MaleFrontCrop.png";
+            ColorPatientPicture = "ColorMaleBack.png";
 
 
             PlusIcon = "Plus_Icon.png";
@@ -206,15 +221,19 @@ namespace MoleWatchApp.ViewModels
             {
                 IsPatientMale = true;
                 PatientPicture = "MaleFrontCrop.png";
+                ColorPatientPicture = "ColorMaleFront.png";
             }
             else if(patientModelClass.CurrentPatient.Gender.ToLower() == "g")
             {
                 IsPatientMale = false;
                 PatientPicture = "FemaleFrontCrop.png";
+                ColorPatientPicture = "ColorFemaleFront.png";
             }
             else
             {
-                PatientPicture = "MaleFrontCrop.png"; // Der bliver ikke taget højde for transkønnede i dette program
+                PatientPicture = "MaleFrontCrop.png";
+                ColorPatientPicture = "ColorMaleFront.png";
+                // Der bliver ikke taget højde for transkønnede i dette program
                 //throw new NotImplementedException("Køn ukendt.");
             }
 
@@ -276,11 +295,13 @@ namespace MoleWatchApp.ViewModels
                 if (IsPatientFrontFacing)
                 {
                     PatientPicture = "MaleBackCrop.png";
+                    ColorPatientPicture = "ColorMaleBack.png";
                     IsPatientFrontFacing = false;
                 }
                 else
                 {
                     PatientPicture = "MaleFrontCrop.png";
+                    ColorPatientPicture = "ColorMaleFront.png";
                     IsPatientFrontFacing = true;
                 }
             }
@@ -289,11 +310,13 @@ namespace MoleWatchApp.ViewModels
                 if (IsPatientFrontFacing)
                 {
                     PatientPicture = "FemaleBackCrop.png";
+                    ColorPatientPicture = "ColorFemaleBack.png";
                     IsPatientFrontFacing = false;
                 }
                 else
                 {
                     PatientPicture = "FemaleFrontCrop.png";
+                    ColorPatientPicture = "ColorFemaleFront.png";
                     IsPatientFrontFacing = true;
                 }
             }
@@ -352,12 +375,33 @@ namespace MoleWatchApp.ViewModels
             Checkmark = null;
             PlusIcon = "Plus_icon.png";
             CreateCollectionInProgress = false;
+            string collectionName = Collection.CollectionName;
 
 
-            if (Collection.CollectionName == "")
+            if (collectionName == "")
             {
-                Collection.CollectionName = "AutoNavn"; //TODO insert generation of names
+                collectionName = "AutoNavn"; //TODO insert generation of names
             }
+
+
+            int SameName = 0;
+
+            foreach (CollectionDTO collection in patientModelClass.CurrentPatientData.CollectionList)
+            {
+                if (collection.CollectionName.Contains(collectionName))
+                {
+                    SameName++;
+                }
+
+            }
+
+            if (SameName > 0)
+            {
+
+                 collectionName += Convert.ToString(" " + SameName);
+            }
+
+            Collection.CollectionName = collectionName;
 
             Collection.Location.IsFrontFacing = IsPatientFrontFacing;
 

@@ -81,19 +81,20 @@ namespace MoleWatchApp.Droid
 
         public void DeleteNotification(int id)
         {
-            PendingIntent pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, id, intent, PendingIntentFlags.UpdateCurrent);
+            pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, id, intent, PendingIntentFlags.UpdateCurrent);
+            pendingIntent.Cancel();
             alarmManager.Cancel(pendingIntent);
         }
 
-        public void ReceiveNotification(string title, string message)
-        {
-            var args = new NotificationEventArgs()
-            {
-                Title = title,
-                Message = message,
-            };
-            NotificationReceived?.Invoke(null, args);
-        }
+        //public void ReceiveNotification(string title, string message)
+        //{
+        //    var args = new NotificationEventArgs()
+        //    {
+        //        Title = title,
+        //        Message = message,
+        //    };
+        //    NotificationReceived?.Invoke(null, args);
+        //}
 
         public void Show(string title, string message)
         {

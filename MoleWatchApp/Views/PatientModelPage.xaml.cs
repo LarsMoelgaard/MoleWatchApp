@@ -6,12 +6,16 @@ using System.Threading;
 using System.Threading.Tasks;
 using DataClasses.DTO;
 using DataClasses.DTO.MISCDTOS;
+using FFImageLoading;
 using MoleWatchApp.Extensions;
 
 using MoleWatchApp.ViewModels;
+using FFImageLoading;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
+using Color = Xamarin.Forms.Color;
 
 namespace MoleWatchApp.Views
 {
@@ -50,8 +54,6 @@ namespace MoleWatchApp.Views
                 double YVal = PatientModelImage.Y + PinImage.Y + 2.5; // De her virker!
                 double XVal =  PatientModelImage.X + PinImage.X; // De her virker Ca!!
 
-
-
                 int[] PinPlacement = PinchPanContainer.getPinPlacement(XVal,YVal);
 
                 //gøres for at gøre samlingernes koordinater relative til skærmstørrelse og telefonens aspect ratio
@@ -63,6 +65,8 @@ namespace MoleWatchApp.Views
                 NewCollectionLocation.yCoordinate = relativeYCoordinate;
 
                 newCollectionDto.Location = NewCollectionLocation;
+
+                string color = GetColorCode(relativeXCoordinate, relativeYCoordinate, PatientModelImage.Source);
 
                 PViewModel.CreateOkClicked.Execute(newCollectionDto);
             }
@@ -160,12 +164,14 @@ namespace MoleWatchApp.Views
 
 
 
-                            PatientButtonList.Add(NewCollectionButton);
 
-
-                        }
+                        PatientButtonList.Add(NewCollectionButton);
 
                     }
+
+
+
+                }
             }
         }
 
@@ -183,6 +189,14 @@ namespace MoleWatchApp.Views
 
                 , "OK");
 
+        }
+
+        private string GetColorCode(int x, int y, ImageSource source)
+        {
+            PixelImageHandler imageHandler = new PixelImageHandler(source);
+            var color = imageHandler.getPixelValue(x, y);
+
+            return color;
         }
     }
 }

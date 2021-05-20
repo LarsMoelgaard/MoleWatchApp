@@ -49,7 +49,7 @@ namespace MoleWatchApp.Views
             vm.NewDatePicked = true;
         }
 
-        private void SaveNotificationButton_OnClicked(object sender, EventArgs e)
+        private async void SaveNotificationButton_OnClicked(object sender, EventArgs e)
         {
 
             vm.SaveClickedCommand.Execute(null); //TODO forbindelse til API så notifikation kan ændres - Dette er ikke implementeret - måske det heller ikke skal? 
@@ -62,6 +62,7 @@ namespace MoleWatchApp.Views
             int CollectionID = vm.currentCollection.CollectionID;
 
             notificationManager.SendNotification(title, message,CollectionID ,IntervalInWeeks, vm.PickedDate);
+            await Shell.Current.GoToAsync("..");
 
         }
 
@@ -106,9 +107,10 @@ namespace MoleWatchApp.Views
             });
         }
 
-        private void DeleteNotificationButton_OnClicked(object sender, EventArgs e)
+        private async void DeleteNotificationButton_OnClicked(object sender, EventArgs e)
         {
             notificationManager.DeleteNotification(CollectionID);
+            await Shell.Current.GoToAsync("..");
         }
     }
 }
