@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
+using System.IO;
+using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using DataClasses.DTO;
 using DataClasses.DTO.MISCDTOS;
+using FFImageLoading;
 using MoleWatchApp.Extensions;
 
 using MoleWatchApp.ViewModels;
+using FFImageLoading;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
+using Color = Xamarin.Forms.Color;
 
 namespace MoleWatchApp.Views
 {
@@ -48,14 +56,14 @@ namespace MoleWatchApp.Views
                 double YVal = PatientModelImage.Y + PinImage.Y + 2.5; // De her virker!
                 double XVal =  PatientModelImage.X + PinImage.X; // De her virker Ca!!
 
-
-
                 int[] PinPlacement = PinchPanContainer.getPinPlacement(XVal,YVal);
 
                 NewCollectionLocation.xCoordinate = PinPlacement[0];
                 NewCollectionLocation.yCoordinate = PinPlacement[1];
 
                 newCollectionDto.Location = NewCollectionLocation;
+
+                string color = GetColorCode(PinPlacement[0], PinPlacement[1]);
 
                 PViewModel.CreateOkClicked.Execute(newCollectionDto);
             }
@@ -141,14 +149,9 @@ namespace MoleWatchApp.Views
                             new Binding("ExistingCollectionClicked"));
 
 
-
-
                         PatientButtonList.Add(NewCollectionButton);
 
                     }
-
-
-
                 }
             }
         }
@@ -168,5 +171,20 @@ namespace MoleWatchApp.Views
                 , "OK");
 
         }
+
+        private string GetColorCode(int x, int y)
+        {
+            PixelImageHandler imageHandler = new PixelImageHandler();
+            var color = imageHandler.getPixelValue(x, y);
+
+            return color;
+        }
+
+        //private static byte[] ToByteArray(this Image imageIn)
+        //{
+        //    var ms = new MemoryStream();
+        //    imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+        //    return ms.ToArray();
+        //}
     }
 }

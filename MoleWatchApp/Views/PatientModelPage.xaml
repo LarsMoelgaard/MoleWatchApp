@@ -63,6 +63,18 @@
                     > 
                     </Image>
 
+                    <Image x:Name="ColorPatientModelImage" 
+                          
+                           Source="{Binding ColorPatientPicture}"
+                           HorizontalOptions="FillAndExpand"
+
+                           WidthRequest="500"
+                           HeightRequest="1000"
+                           IsVisible="False"
+                    >
+                    </Image>
+
+
                 </Grid>
             </extensions:PinchAndPanContainer.Content>
             </extensions:PinchAndPanContainer>
