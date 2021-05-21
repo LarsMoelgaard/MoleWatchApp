@@ -12,11 +12,13 @@ using Xamarin.Forms.Xaml;
 
 namespace MoleWatchApp.Views
 {
+    /// <summary>
+    /// Opretter view for at vise samtlige billeder for en samling 
+    /// </summary>
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PictureListView : ContentPage
     {
         public List<ImageCell> TableList { get; set; }
-        private bool NoItemsInTableView = true;
 
         public PictureListView()
         {
@@ -26,7 +28,13 @@ namespace MoleWatchApp.Views
             InitializeComponent();
         }
 
+        private bool NoItemsInTableView = true;
 
+        /// <summary>
+        /// Konverterer bytearray til et imagesource
+        /// </summary>
+        /// <param name="PictureData"></param>
+        /// <returns></returns>
         private ImageSource ConvertByteArrayToImageSource(byte[] PictureData)
         {
             
@@ -39,6 +47,10 @@ namespace MoleWatchApp.Views
             return NewPhoto;
         }
 
+
+        /// <summary>
+        /// Opdatere indholdet på siden, således alle nye billeder også loades 
+        /// </summary>
 
         private void UpdateTable()
         {
@@ -81,6 +93,11 @@ namespace MoleWatchApp.Views
             };
         }
 
+        /// <summary>
+        /// Binding mellem den synlige liste og den skjulte liste 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void HiddenPictureListView_OnPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
             if (HiddenPictureListView.ItemsSource != null)
@@ -90,17 +107,34 @@ namespace MoleWatchApp.Views
 
         }
 
+        /// <summary>
+        /// Metoden kaldes når nye elementer tilføjes til listen - derefter opdates hele listen 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
         private void HiddenPictureListView_OnItemAppearing(object sender, ItemVisibilityEventArgs e)
         {
                 UpdateTable();
                 NoItemsInTableView = false;
         }
 
+
+        /// <summary>
+        /// Metode som kaldes når siden laves 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PictureListView_OnAppearing(object sender, EventArgs e)
         {
             PictureListViewModel.UpdateTableOnAppearingCommand.Execute(null);
         }
 
+        /// <summary>
+        /// Metoden kaldes når der tilføjes et nyt billede til listen 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void HiddenPictureListView_OnChildAdded(object sender, ElementEventArgs e)
         {
             UpdateTable();

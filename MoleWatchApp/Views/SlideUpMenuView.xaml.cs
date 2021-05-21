@@ -8,6 +8,9 @@ using Xamarin.Forms.Internals;
 
 namespace MoleWatchApp.Views
 {
+    /// <summary>
+    /// Opretter slide up menu til at styre indstilling for samlingen 
+    /// </summary>
     public partial class SlideUpMenuView : SlideMenuView
     {
         private CreateCollectionView collection;
@@ -51,19 +54,35 @@ namespace MoleWatchApp.Views
             this.collection = CollectionView;
         }
 
+
+        /// <summary>
+        /// Ændre navn på samling 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void RenameButton_OnClicked(object sender, EventArgs e)
         {
             collection.RenameButtonClicked();
         }
 
+
+        /// <summary>
+        /// Åbner notifikationsside, så der kan ændres i hyppighed af notifikationen 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void NotificationButton_OnClicked(object sender, EventArgs e)
         {
             await Shell.Current.GoToAsync($"{nameof(NotificationView)}");
         }
 
+        /// <summary>
+        /// Sletter den valgte samling 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void DeleteButton_OnClicked(object sender, EventArgs e)
         {
-            
             collection.DeleteButtonClicked();
         }
 

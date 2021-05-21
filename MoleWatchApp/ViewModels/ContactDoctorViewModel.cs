@@ -11,11 +11,6 @@ namespace MoleWatchApp.ViewModels
 {
     public class ContactDoctorViewModel : BaseViewModel
     {
-        private string doctorName;
-        private string doctorAdress;
-        private string openingHours;
-        private string mobileNumber;
-
         public ContactDoctorViewModel()
         {
             ContactDoctorModel doctorModel = new ContactDoctorModel();
@@ -23,6 +18,8 @@ namespace MoleWatchApp.ViewModels
 
             string website = !doctorInfo.Website.Contains("www.") ? doctorInfo.Website : doctorInfo.Website.Remove(0,4);
            
+
+            //Opens website for doctor 
             OpenWebCommand = new Command(async () => await Browser.OpenAsync(new Uri("https://" + website)));
             CallNumber = new Command(Call);
 
@@ -38,6 +35,14 @@ namespace MoleWatchApp.ViewModels
 
             OpeningHours = OpenInfo;
         }
+
+        #region Properties
+
+        private string doctorName;
+        private string doctorAdress;
+        private string openingHours;
+        private string mobileNumber;
+
 
         public string MobileNumber
         {
@@ -93,6 +98,8 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+
+        #endregion Region
 
         private void Call()
         {
