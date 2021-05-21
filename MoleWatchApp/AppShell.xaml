@@ -121,7 +121,7 @@
 
 
     <FlyoutItem Title="Min krop" Icon="MaleFrontCrop.png">
-        <ShellContent Route="PatientModelPage" ContentTemplate="{DataTemplate local:PatientModelPage}" />
+        <ShellContent Route="PatientModelView" ContentTemplate="{DataTemplate local:PatientModelView}" />
     </FlyoutItem>
     <FlyoutItem Title="Mine modermærker" Icon="listview_icon.png">
         <ShellContent Route="CollectionListView" ContentTemplate="{DataTemplate local:CollectionListView}" />
