@@ -186,7 +186,7 @@ namespace MoleWatchApp.ViewModels
             IsPatientFrontFacing = true;
             CreateCollectionInProgress = false;
 
-
+            
             //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             RotateClicked = new Command(FlipPatient);
             PlusClicked = new Command(onPlusClicked);

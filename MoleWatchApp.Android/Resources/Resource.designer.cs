@@ -13756,109 +13756,112 @@ namespace MoleWatchApp.Droid
 			public const int medical_icon = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int mtrl_dialog_background = 2131230972;
+			public const int MoleLogoBlue = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int mtrl_dropdown_arrow = 2131230973;
+			public const int mtrl_dialog_background = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int mtrl_ic_arrow_drop_down = 2131230974;
+			public const int mtrl_dropdown_arrow = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int mtrl_ic_arrow_drop_up = 2131230975;
+			public const int mtrl_ic_arrow_drop_down = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int mtrl_ic_cancel = 2131230976;
+			public const int mtrl_ic_arrow_drop_up = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int mtrl_ic_error = 2131230977;
+			public const int mtrl_ic_cancel = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int mtrl_popupmenu_background = 2131230978;
+			public const int mtrl_ic_error = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int mtrl_popupmenu_background_dark = 2131230979;
+			public const int mtrl_popupmenu_background = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int mtrl_tabs_default_indicator = 2131230980;
+			public const int mtrl_popupmenu_background_dark = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int navigation_empty_icon = 2131230981;
-			
-			// aapt resource value: 0x7F080107
-			public const int NotFlagged = 2131230983;
-			
-			// aapt resource value: 0x7F080108
-			public const int notification_action_background = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int notification_bg = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int notification_bg_low = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int notification_bg_low_normal = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int notification_bg_low_pressed = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int notification_bg_normal = 2131230989;
-			
-			// aapt resource value: 0x7F08010E
-			public const int notification_bg_normal_pressed = 2131230990;
-			
-			// aapt resource value: 0x7F08010F
-			public const int notification_icon_background = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int notification_template_icon_bg = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int notification_template_icon_low_bg = 2131230993;
-			
-			// aapt resource value: 0x7F080112
-			public const int notification_tile_bg = 2131230994;
-			
-			// aapt resource value: 0x7F080113
-			public const int notify_panel_notification_icon_bg = 2131230995;
-			
-			// aapt resource value: 0x7F080114
-			public const int NotMarkedCollection = 2131230996;
+			public const int mtrl_tabs_default_indicator = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int no_picture_icon = 2131230982;
+			public const int navigation_empty_icon = 2131230982;
+			
+			// aapt resource value: 0x7F080108
+			public const int NotFlagged = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int notification_action_background = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int notification_bg = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int notification_bg_low = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int notification_bg_low_normal = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int notification_bg_low_pressed = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int notification_bg_normal = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int notification_bg_normal_pressed = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int notification_icon_background = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int notification_template_icon_bg = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int notification_template_icon_low_bg = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int notification_tile_bg = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int notify_panel_notification_icon_bg = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int Plus_icon = 2131230997;
+			public const int NotMarkedCollection = 2131230997;
+			
+			// aapt resource value: 0x7F080107
+			public const int no_picture_icon = 2131230983;
 			
 			// aapt resource value: 0x7F080116
-			public const int renameCollection = 2131230998;
+			public const int Plus_icon = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int settings = 2131230999;
+			public const int renameCollection = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int test_custom_background = 2131231000;
+			public const int settings = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int tooltip_frame_dark = 2131231001;
+			public const int test_custom_background = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int tooltip_frame_light = 2131231002;
+			public const int tooltip_frame_dark = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int touch_id_240 = 2131231003;
+			public const int tooltip_frame_light = 2131231003;
 			
 			// aapt resource value: 0x7F08011C
-			public const int touch_id_96 = 2131231004;
+			public const int touch_id_240 = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int trashcan = 2131231005;
+			public const int touch_id_96 = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int xamarin_logo = 2131231006;
+			public const int trashcan = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int xamarin_logo = 2131231007;
 			
 			static Drawable()
 			{

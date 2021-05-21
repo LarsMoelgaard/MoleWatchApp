@@ -97,7 +97,7 @@ namespace MoleWatchApp.ViewModels
             UpdateTableOnAppearingCommand = new Command(PageAppearing);
             CompletePictureList = new ObservableCollection<CompletePicture>();
 
-
+            
 
             ObservableCollection<CompletePicture> TempPictureList = new ObservableCollection<CompletePicture>();
            

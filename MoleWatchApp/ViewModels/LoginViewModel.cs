@@ -231,7 +231,7 @@ namespace MoleWatchApp.ViewModels
 
             if (authResult.Authenticated && SessionIdValidated)
             {
-              //TODO benyt sessionID til at verificere brugeren af dette device.
+             
                MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
 
                 BaseIsBusy = false;

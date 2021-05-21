@@ -36,20 +36,9 @@
                     <TableView x:Name="CollectionListTableView" Intent="Form" IsVisible="True">
 
                     </TableView>
-
-
-
-
-
-       
-
-
-
-
-                    </StackLayout>
+            </StackLayout>
               <!--</ScrollView>-->
-                <!--<Label Text="Hej" Grid.Column="0" Grid.Row="0"/>-->
-
+                
         </Grid>
     </ContentPage.Content>
 </ContentPage>

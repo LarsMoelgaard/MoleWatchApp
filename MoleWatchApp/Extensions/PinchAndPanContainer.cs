@@ -41,6 +41,7 @@ namespace MoleWatchApp.Extensions
             panGesture.PanUpdated += OnPanUpdated;
             GestureRecognizers.Add(panGesture);
 
+            lastPinchDateTime = DateTime.Now;
         }
 
 

@@ -46,9 +46,15 @@ namespace MoleWatchApp.Views
 
         private void InputView_OnTextChanged(object sender, TextChangedEventArgs e)
         {
-            //TODO Gør således at textlængden kun kan være 11 og at man kun kan placere bindestregen på det rigtige sted.
+            
             //lets the Entry be empty
             if (string.IsNullOrEmpty(e.NewTextValue)) return;
+
+            if (e.NewTextValue.Length >= 12)
+            {
+                ((Entry)sender).Text = e.OldTextValue;
+            }
+
 
             string NewInput = e.NewTextValue;
 

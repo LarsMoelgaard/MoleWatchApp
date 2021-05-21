@@ -72,7 +72,7 @@ namespace MoleWatchApp.Views
                 
                 NewCell.CommandParameter = item.Collection;
 
-                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionListClicked")); //TODO sørg for at denne her kører til en collection
+                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionListClicked"));
 
                 CollectionCells.Add(NewCell);
             }

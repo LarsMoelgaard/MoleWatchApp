@@ -7,7 +7,9 @@
              x:Class="MoleWatchApp.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Padding="10,150,10,0" VerticalOptions="Start">
+        <StackLayout Padding="10,0,10,0" VerticalOptions="Start">
+
+            <Image Source="MoleLogoBlue.png" VerticalOptions="Center" HorizontalOptions="Center"/>
             <Label Text="{Binding UsernameLabel, Mode=TwoWay}" TextColor="{Binding UsernameLabelColor, Mode=TwoWay}"/>
             <Entry x:Name="UsernameEntry"  Text="{Binding UsernameInput, Mode=TwoWay}" Placeholder="DDMMÅÅ-XXXX" Keyboard="Telephone" TextChanged="InputView_OnTextChanged"/>
             <Label Text="{Binding PasswordLabel, Mode=TwoWay}" TextColor="{Binding PasswordLabelColor, Mode=TwoWay}"/>

@@ -108,10 +108,9 @@ namespace MoleWatchApp.Views
 
         private void RotateImageButton_OnClicked(object sender, EventArgs e)
         {
+            PViewModel.RotateClicked.Execute(null);
 
-                PViewModel.RotateClicked.Execute(null);
-
-                UpdateButtonsOnPatientImage();
+            UpdateButtonsOnPatientImage();
         }
 
         private async void UpdateButtonsOnPatientImage()

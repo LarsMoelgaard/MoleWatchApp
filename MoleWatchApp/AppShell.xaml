@@ -63,10 +63,14 @@
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
-                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="LightGray" />
+                            </VisualState.Setters>
+                            </VisualState>
                             <VisualState x:Name="Selected">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="Accent"/>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -116,7 +120,7 @@
     </Shell.ItemTemplate>
 
 
-    <FlyoutItem Title="Min krop" Icon="icon_about.png">
+    <FlyoutItem Title="Min krop" Icon="MaleFrontCrop.png">
         <ShellContent Route="PatientModelPage" ContentTemplate="{DataTemplate local:PatientModelPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Mine modermærker" Icon="listview_icon.png">
