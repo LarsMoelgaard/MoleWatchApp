@@ -183,7 +183,7 @@ namespace MoleWatchApp.ViewModels
             {
 
                 BaseIsBusy = false;
-                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
+                await Shell.Current.GoToAsync($"//{nameof(PatientModelView)}");
 
             }
             else
@@ -235,7 +235,7 @@ namespace MoleWatchApp.ViewModels
                MessagingCenter.Send(this, "SmartLoginMessage", "SuccesfulBiometric");
 
                 BaseIsBusy = false;
-                await Shell.Current.GoToAsync($"//{nameof(PatientModelPage)}");
+                await Shell.Current.GoToAsync($"//{nameof(PatientModelView)}");
             }
             else
             {

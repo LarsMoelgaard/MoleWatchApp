@@ -9,13 +9,118 @@
     </ContentPage.BindingContext>
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Navn:"
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.40*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="0.20*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="1.3*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="1.3*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+            <Image Grid.Row="1" Grid.RowSpan="2"
+                Source="medical_icon.png"
+                VerticalOptions="Center"
+                   >
+
+            </Image>
+
+                <Frame Grid.Row="3" BackgroundColor="DarkBlue"></Frame>
+
+                <Label Grid.Column="0"  Grid.Row="4" Grid.RowSpan="2"
+                       Text="{Binding DoctorName}"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="CenterAndExpand" 
+                       FontSize="22"
+                       TextColor="Black"
+                />
+
+
+                <Label Grid.Column="0"  Grid.Row="5"
+                       Text="Adresse:"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand" 
+                       FontSize="18" 
+                       FontAttributes="Italic"/>
+
+            <Label Grid.Column="0"  Grid.Row="6"
+                   Text="{Binding DoctorAdress}"
                    VerticalOptions="FillAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="{Binding DoctorName}"
-                   VerticalOptions="FillAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+                   HorizontalOptions="FillAndExpand" 
+                   FontSize="20"
+                   TextColor="Black"/>
+
+                <Label Grid.Column="0"  Grid.Row="7"
+                       Text="Telefonnummer:"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand"
+                       FontSize="18"
+                       FontAttributes="Italic"/>
+
+                <Label Grid.Column="0"  Grid.Row="8" 
+                       Text="{Binding MobileNumber}"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand" 
+                       FontSize="20"
+                       TextColor="Black"/>
+
+                <Label Grid.Column="0"  Grid.Row="10"
+                       Text="Åbningstider:"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand"
+                       FontSize="18"
+                       FontAttributes="Italic"/>
+
+                <Label Grid.Column="0"  Grid.Row="11" Grid.RowSpan="8"
+                        TextColor="Black"
+                        VerticalOptions="StartAndExpand"
+                        FontAttributes="Italic"
+                        FontSize="18" Text="{Binding OpeningHours}">
+                </Label>
+
+
+                <Button Grid.Column="0"  Grid.Row="19" Grid.RowSpan="2"
+                        x:Name="CallButton"
+                        Text="Ring op" 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Command="{Binding CallNumber}"
+                        FontSize="18"
+                        BackgroundColor="DarkBlue">
+                </Button>
+
+            <Button Grid.Column="0"  Grid.Row="21" Grid.RowSpan="2"
+                        x:Name="WebsiteButton"
+                        Text="Besøg hjemmeside" 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Command="{Binding OpenWebCommand}"
+                        FontSize="20"
+                        BackgroundColor="DarkBlue">
+                </Button>
+
+            </Grid>
+        </ContentPage.Content>
 </ContentPage>

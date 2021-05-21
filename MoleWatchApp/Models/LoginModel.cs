@@ -41,6 +41,8 @@ namespace MoleWatchApp.Models
                 
                 PatientData = API.GetObject<PatientDataDTO, PatientInfoRequestDTO>
                     ("GetPatientData", new PatientInfoRequestDTO() { LoginID = newPatientInfoDto.PatientID });
+
+                PatientData.PatientInfo = newPatientInfoDto;
             }
             catch (Exception e)
             {
