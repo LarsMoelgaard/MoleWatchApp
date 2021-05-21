@@ -21,11 +21,14 @@ namespace MoleWatchApp.ViewModels
             ContactDoctorModel doctorModel = new ContactDoctorModel();
             DoctorContactInfoDTO doctorInfo = doctorModel.GetDoctorInfo();
 
-            string website = doctorInfo.Website.Contains("www.") ? doctorInfo.Website : "www." + doctorInfo.Website;
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("" + website));
+            string website = !doctorInfo.Website.Contains("www.") ? doctorInfo.Website : doctorInfo.Website.Remove(0,4);
+           
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync(new Uri("https://" + website)));
+            CallNumber = new Command(Call);
 
             DoctorName = doctorInfo.MedicalPracticeName;
             DoctorAdress = doctorInfo.Adress;
+            MobileNumber = doctorInfo.PhoneNumber;
 
             string OpenInfo = "";
             foreach (string openingHour in doctorInfo.OpeningHours)
@@ -63,6 +66,7 @@ namespace MoleWatchApp.ViewModels
         }
 
         public ICommand OpenWebCommand { get; }
+        public ICommand CallNumber { get; }
 
         public string DoctorName
         {
@@ -88,6 +92,27 @@ namespace MoleWatchApp.ViewModels
                 doctorAdress = value;
                 this.OnPropertyChanged();
             }
+        }
+
+        private void Call()
+        {
+            try
+                {
+                    PhoneDialer.Open(MobileNumber);
+                }
+                catch (ArgumentNullException anEx)
+                {
+                    // Number was null or white space
+                }
+                catch (FeatureNotSupportedException ex)
+                {
+                    // Phone Dialer is not supported on this device.
+                }
+                catch (Exception ex)
+                {
+                    // Other error has occurred.
+                }
+            
         }
     }
 }
