@@ -26,12 +26,27 @@ namespace MoleWatchApp.Views
         /// <summary>
         /// Oprettelse af createcollection siden med alle UI-elementer
         /// </summary>
+        ///
+        //<ContentPage.ToolbarItems>
+        //<ToolbarItem
+        //    IconImageSource = "help_icon.png"
+        //Order="Primary"
+        //Priority="0" Clicked="ShowHelpMenu" />
+
+        /// 
         public CreateCollectionView()
         {
             CCVM = new CreateCollectionViewModel();
             this.BindingContext = CCVM;
             this.SetBinding(TitleProperty, "CollectionTitle");
 
+            ToolbarItem helpToolbarItem = new ToolbarItem();
+            helpToolbarItem.IconImageSource = "help_icon.png";
+            helpToolbarItem.Order = ToolbarItemOrder.Primary;
+            helpToolbarItem.Priority = 0;
+            helpToolbarItem.Clicked += HelpToolbarItemOnClicked;
+
+            this.ToolbarItems.Add(helpToolbarItem);
 
             GridLengthTypeConverter gridLengthConverter = new GridLengthTypeConverter();
             
@@ -247,6 +262,20 @@ namespace MoleWatchApp.Views
 
             this.SlideMenu = new SlideUpMenuView(this);
 
+        }
+
+        private async void HelpToolbarItemOnClicked(object sender, EventArgs e)
+        {
+
+            await DisplayAlert("Hjælp:",
+                "-  Tryk på det blå kamera eller kamerarulle icon for at tilføje det første billede. \r\n"
+                + "-   Tryk på det blå plus for at tilføje flere billeder. \r\n"
+                + "-   Tryk på 'Marker samling'-knappen for at markere samlingen \r\n\r\n"
+                + "For at få de bedste billeder skal du: " +
+                "\r\n- Tage billedet så tæt som muligt uden at kameraet mister fokus" +
+                "\r\n- Bruge blitzen eller være i godt lys" +
+                "\r\n- Sørge for de samme lysforhold til alle billederne"
+                , "OK");
         }
 
         private async void showAddPhotoMessage()

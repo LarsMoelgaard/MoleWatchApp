@@ -42,27 +42,40 @@ namespace MoleWatchApp.Views
 
             foreach (CollectionWithThumbnail item in HiddenCollectionListView.ItemsSource)
             {
+                string DateText = "";
+                if (item.Collection.PictureList.Count != 0)
+                {
+                    DateText = item.Collection.PictureList[item.Collection.PictureList.Count-1].DateOfUpload
+                        .ToLocalTime().ToString("dd MMM yyyy HH:mm",
+                            CultureInfo.CreateSpecificCulture("da-DA"));
+                }
+                else
+                {
+                    DateText = "Ingen billeder i samling";
+                }
+
+                Color titleColor = item.Collection.IsMarked ? Color.Crimson : Color.DodgerBlue;
+
+
+                string DetailText = item.Collection.Location.BodyPart + ": " + DateText;
+
                 ImageCell NewCell = new ImageCell
                 {
                     Text = item.Collection.CollectionName,
-
+                    TextColor = titleColor,
 
                     
-                    ImageSource = ConvertByteArrayToImageSource(item.CollectionPictureData),
-                    //Detail = item.Collection.PictureList[item.Collection.PictureList.Count].DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
-                    //    CultureInfo.CreateSpecificCulture("da-DA"))
-                    Detail = "y =" + item.Collection.Location.yCoordinate.ToString() + ". x = " +item.Collection.Location.xCoordinate.ToString(),
+                    ImageSource = item.CollectionPictureData,
+                    Detail = DetailText,
 
                 };
-                NewCell.CommandParameter = item.Collection.CollectionID;
+                
+                NewCell.CommandParameter = item.Collection;
 
-                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionClicked"));
-
-
+                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionListClicked")); //TODO sørg for at denne her kører til en collection
 
                 CollectionCells.Add(NewCell);
             }
-
 
             TableSection Section = new TableSection();
 
@@ -70,8 +83,6 @@ namespace MoleWatchApp.Views
             {
                 Section.Add(CollectionPictureControl);
             }
-
-
 
 
             CollectionListTableView.Root = new TableRoot
@@ -82,6 +93,7 @@ namespace MoleWatchApp.Views
 
         private void CollectionListView_OnAppearing(object sender, EventArgs e)
         {
+            CollectionListVModel.UpdateCollections.Execute(null);
             if (HiddenCollectionListView.ItemsSource != null)
             {
                 UpdateTable();
@@ -92,7 +104,6 @@ namespace MoleWatchApp.Views
 
         private ImageSource ConvertByteArrayToImageSource(byte[] PictureData)
         {
-
             ImageSource NewPhoto = ImageSource.FromStream(() =>
             {
                 MemoryStream ms = new MemoryStream(PictureData);
@@ -101,8 +112,7 @@ namespace MoleWatchApp.Views
             });
             return NewPhoto;
 
-
-            
         }
+
     }
 }

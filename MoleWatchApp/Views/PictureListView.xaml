@@ -26,12 +26,10 @@
                       PropertyChanged="HiddenPictureListView_OnPropertyChanged" 
                       
                       IsVisible="False" IsEnabled="False"/>
-            <!---->
+            
 
-
-
-            <ScrollView Grid.Column="0" Grid.Row="0">
-                <StackLayout x:Name="PictureStackLayout">
+            <!--<ScrollView >-->
+                <StackLayout x:Name="PictureStackLayout" Grid.Column="0" Grid.Row="0">
 
 
                     <TableView x:Name="PictureListTableView" Intent="Form" IsVisible="True" IsEnabled="True">
@@ -43,7 +41,7 @@
 
 
                 </StackLayout>
-            </ScrollView>
+            <!--</ScrollView>-->
             <!--<Label Text="Hej" Grid.Column="0" Grid.Row="0"/>-->
 
         </Grid>
