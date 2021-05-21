@@ -62,20 +62,17 @@ namespace MoleWatchApp.Views
 
 
                     
-                    ImageSource = ConvertByteArrayToImageSource(item.CollectionPictureData),
+                    ImageSource = item.CollectionPictureData,
                     Detail = DetailText,
 
                 };
                 
-                NewCell.CommandParameter = item.Collection.CollectionID;
+                NewCell.CommandParameter = item.Collection;
 
-                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionClicked")); //TODO sørg for at denne her kører til en collection
-
-
+                NewCell.SetBinding(ImageCell.CommandProperty, new Binding("ExistingCollectionListClicked")); //TODO sørg for at denne her kører til en collection
 
                 CollectionCells.Add(NewCell);
             }
-
 
             TableSection Section = new TableSection();
 
@@ -83,8 +80,6 @@ namespace MoleWatchApp.Views
             {
                 Section.Add(CollectionPictureControl);
             }
-
-
 
 
             CollectionListTableView.Root = new TableRoot
@@ -105,7 +100,6 @@ namespace MoleWatchApp.Views
 
         private ImageSource ConvertByteArrayToImageSource(byte[] PictureData)
         {
-
             ImageSource NewPhoto = ImageSource.FromStream(() =>
             {
                 MemoryStream ms = new MemoryStream(PictureData);
@@ -114,11 +108,7 @@ namespace MoleWatchApp.Views
             });
             return NewPhoto;
 
-
-            
         }
-
-
 
     }
 }
