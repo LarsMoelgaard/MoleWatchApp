@@ -20,7 +20,6 @@ namespace MoleWatchApp.ViewModels
         {
             DateToday = DateTime.Now;
 
-            SaveClickedCommand = new Command(SaveNotification);
             NotificationModel = new NotificationModel();
             currentCollection = NotificationModel.GetCurrentCollection();
             CurrentCollectionName = currentCollection.CollectionName;
@@ -48,7 +47,13 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-        public Command SaveClickedCommand { get; }
+        public ICommand SaveClickedCommand
+        {
+            get
+            {
+                return new Command<int>((x)=>SaveNotification(x));
+            }
+        }
 
         public int PickedIndex
         {
@@ -93,45 +98,17 @@ namespace MoleWatchApp.ViewModels
         #endregion
 
 
-
-        public void SaveNotification()
+        /// <summary>
+        /// Metoden gemmer ændringen i notifikationen og sender dette videre til Notification Model så det kan gemmes på API'en 
+        /// </summary>
+        /// <param name="interval"></param>
+        public void SaveNotification(int interval)
         {
             NotificationData notificationData = new NotificationData();
             notificationData.nextNotification = PickedDate;
-            notificationData.ReminderIntervalInWeeks = CalculateIntervalInWeeks(PickedIndex);
+            notificationData.ReminderIntervalInWeeks = interval;
 
             NotificationModel.UpdateNotification(notificationData);
-        }
-
-        
-        //TODO skal slettes enten her eller i view'et 
-        private int CalculateIntervalInWeeks(int index)
-        {
-            switch (index)
-            {
-                case 1:
-                    return 0;
-
-                case 2:
-                    return 1;
-
-                case 3:
-                    return 2;
-
-                case 4:
-                    return 4;
-
-                case 5:
-                    return 12;
-
-                case 6:
-                    return 24;
-
-                case 7:
-                    return 52;
-            }
-
-            return 0;
         }
     }
 }

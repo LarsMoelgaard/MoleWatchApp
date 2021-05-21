@@ -50,8 +50,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\ContactDoctorPage.xaml.cs">
-      <DependentUpon>ContactDoctorPage.xaml</DependentUpon>
+    <Compile Update="Views\ContactDoctorView.xaml.cs">
+      <DependentUpon>ContactDoctorView.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\PictureListView.xaml.cs">
       <DependentUpon>PictureListView.xaml</DependentUpon>
@@ -65,7 +65,7 @@
     <EmbeddedResource Update="Views\CollectionListView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ContactDoctorPage.xaml">
+    <EmbeddedResource Update="Views\ContactDoctorView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\FullPictureView.xaml">

@@ -12,11 +12,13 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
+    /// <summary>
+    /// ViewModel for LoginView 
+    /// </summary>
     public class LoginViewModel : BaseViewModel
     {
-
+        #region Properties mm
         private ILogin loginModel;
-
         private Color passwordLabelColor;
         private Color usernameLabelColor;
         private string usernameInput;
@@ -49,22 +51,6 @@ namespace MoleWatchApp.ViewModels
             }
             set
             {
-                //bool IsNumericalValue = false;
-                //try
-                //{
-                //    Convert.ToInt32(value[value.Length - 1]);
-                //    IsNumericalValue = true;
-                //}
-                //catch (InvalidOperationException e)
-                //{
-                    
-                //}
-
-                //if (IsNumericalValue || value[value.Length - 1] == '-')
-                //{
-                    
-                    
-                //}
                 usernameInput = value;
                 this.OnPropertyChanged();
             }
@@ -152,31 +138,33 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        #endregion
+
         public LoginViewModel()
         {
             UsernameLabel = "Indtast CPR-nummer:";
             PasswordLabel = "Indtast password:";
 
-
-
-
             LoginCommand = new Command(OnLoginClicked);
             SmartLoginCommand = new Command(AuthButton_OnClicked);
             loginModel = LoginSingleton.GetLoginModel();
 
-
+            //Udfylder automatisk brugernavn og kode for at logge hurtigt ind - skal slettes når koden skal ud til bruger 
             UsernameInput = "12345";
             Password = "12345";
         }
 
+
+        /// <summary>
+        /// Metoden kaldes når brugeren trykker login. 
+        /// </summary>
+        /// <param name="obj"></param>
         private async void OnLoginClicked(object obj)
         {
             
             BaseIsBusy = true;
-
             await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
-            
-            
+
             bool LoginResult = loginModel.VerifyPassword(UsernameInput, Password);
 
             if (LoginResult)
@@ -188,10 +176,6 @@ namespace MoleWatchApp.ViewModels
             }
             else
             {
-
-                // Hvordan man laver en dialogboks med en enkelt knap.
-                //Application.Current.MainPage.DisplayAlert("Forkert Login",
-                //    "Loginoplysningerne var forkerte. Indtast dem igen", "OK");
                 UsernameLabel = "loginoplysninger var forkerte. indtast CPR-nummer igen:";
                 UsernameLabelColor = Color.Crimson;
                 PasswordLabelColor = Color.Crimson;
@@ -201,16 +185,19 @@ namespace MoleWatchApp.ViewModels
 
                 BaseIsBusy = false;
             }
-            // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
-
         }
 
 
+
+        /// <summary>
+        /// Metoden kaldes når brugeren trykker på fingeraftrykket for at logge ind med smartlogin 
+        /// </summary>
+        /// <param name="sender"></param>
         private async void AuthButton_OnClicked(object sender)
         {
             BaseIsBusy = true;
 
-            await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
+            await Task.Delay(1); //Indsat delay så Activity indicator virker
 
 
             bool isFingerprintAvailable = await CrossFingerprint.Current.IsAvailableAsync(false);

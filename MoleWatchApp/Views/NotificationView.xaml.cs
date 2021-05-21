@@ -72,14 +72,13 @@ namespace MoleWatchApp.Views
         /// <param name="e"></param>
         private async void SaveNotificationButton_OnClicked(object sender, EventArgs e)
         {
-
-            vm.SaveClickedCommand.Execute(null); //TODO forbindelse til API så notifikation kan ændres - Dette er ikke implementeret - måske det heller ikke skal? 
+            int IntervalInWeeks = CalculateIntervalInWeeks(vm.PickedIndex);
+            vm.SaveClickedCommand.Execute(IntervalInWeeks); //TODO forbindelse til API så notifikation kan ændres - Dette er ikke implementeret - måske det heller ikke skal? 
 
             //Bemærk: for testens skyld laves dette i sekunder og ikke i dage, uger og måneder
 
             string title = $"Moletracker";
             string message = $"Dit modermærke {MoleName} skal opdateres!";
-            int IntervalInWeeks = CalculateIntervalInWeeks(vm.PickedIndex);
             int CollectionID = vm.currentCollection.CollectionID;
 
             notificationManager.SendNotification(title, message,CollectionID ,IntervalInWeeks, vm.PickedDate);
