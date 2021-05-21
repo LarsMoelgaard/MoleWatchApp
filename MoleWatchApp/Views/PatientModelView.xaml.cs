@@ -12,14 +12,11 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.Views
 {
+    /// <summary>
+    /// Opretter view for patientmodel 
+    /// </summary>
     public partial class PatientModelView : ContentPage
     {
-        private bool IsVisible = false;
-        private string result = "";
-
-        private List<ImageButton> PatientButtonList = new List<ImageButton>();
-        private IPatientViewModel PViewModel;
-
         public PatientModelView() 
         {
             InitializeComponent();
@@ -28,6 +25,17 @@ namespace MoleWatchApp.Views
 
         }
 
+        private List<ImageButton> PatientButtonList = new List<ImageButton>();
+        private IPatientViewModel PViewModel;
+        private bool IsVisible = false;
+        private string result = "";
+
+
+        /// <summary>
+        /// Metoden kaldes når brugeren trykker Checkmark-button for at tilføje en ny samling 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void Checkmark_button_Clicked(object sender, EventArgs e)
         {
 
@@ -82,7 +90,9 @@ namespace MoleWatchApp.Views
             }
         }
 
-
+        /// <summary>
+        /// Metoden kaldes når patient model view oprettes - opdatere alle modermærker på patienten 
+        /// </summary>
         private void PatientModelPage_OnAppearing(object sender, EventArgs e)
         {
             if (IsVisible)
@@ -100,12 +110,22 @@ namespace MoleWatchApp.Views
         }
 
 
-
+        /// <summary>
+        ///  Binding til skjult listview så modermærkerne på kroppen så de bliver opdateret når der tilføjes nye
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void HiddenListView_OnItemAppearing(object sender, ItemVisibilityEventArgs e)
         {
             UpdateButtonsOnPatientImage();
         }
 
+
+        /// <summary>
+        /// Metoden vender billedet af patienten om og opdatere modermærkerne på kroppen 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void RotateImageButton_OnClicked(object sender, EventArgs e)
         {
 
@@ -114,6 +134,10 @@ namespace MoleWatchApp.Views
                 UpdateButtonsOnPatientImage();
         }
 
+
+        /// <summary>
+        /// Opdatere alle modermærker på kroppen 
+        /// </summary>
         private async void UpdateButtonsOnPatientImage()
         {
             if (HiddenListView.ItemsSource != null)
@@ -126,7 +150,6 @@ namespace MoleWatchApp.Views
                 {
                     PinchAndPanGrid.Children.Remove(existingImageButton);
                 }
-
 
 
                     foreach (CollectionDTO item in HiddenListView.ItemsSource)
@@ -185,7 +208,11 @@ namespace MoleWatchApp.Views
             }
         }
 
-
+        /// <summary>
+        /// Metoden åbner en hjælpe-menu med forklaring af hvordan programmet anvendes 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void ShowHelpMenu(object sender, EventArgs e)
         {
 
@@ -198,9 +225,16 @@ namespace MoleWatchApp.Views
                   "-   Tryk på de 2 blå pile for at vende modellen om"
 
                 , "OK");
-
         }
 
+
+        /// <summary>
+        /// Metoden henter navnet på den kropsdel hvor modermærket er placeret ud fra modermærkets koordinator 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="source"></param>
+        /// <returns></returns>
         private string GetBodypart(int x, int y, ImageSource source)
         {
             PixelImageHandler imageHandler = new PixelImageHandler(source);
@@ -208,7 +242,5 @@ namespace MoleWatchApp.Views
 
             return color;
         }
-
-
     }
 }

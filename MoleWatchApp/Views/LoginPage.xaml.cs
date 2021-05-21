@@ -11,6 +11,9 @@ using Xamarin.Forms.Xaml;
 
 namespace MoleWatchApp.Views
 {
+    /// <summary>
+    /// Opretter view til loginsiden 
+    /// </summary>
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
@@ -18,10 +21,8 @@ namespace MoleWatchApp.Views
         public LoginPage()
         {
             InitializeComponent();
-            this.BindingContext = new LoginViewModel();
+            BindingContext = new LoginViewModel();
 
-
-            //TODO gør således at Smart login kun kommer frem hvis man har logget ind på den telefon før.
             MessagingCenter.Subscribe<LoginViewModel,string>(this,"SmartLoginMessage", async (sender, arg) =>
             {
                 switch (arg)
@@ -36,17 +37,18 @@ namespace MoleWatchApp.Views
                         await DisplayAlert("Error", "Biometric authentication is not available or is not configured.", "OK");
                         break;
                 }
-
-               
             });
-
-
 
         }
 
+
+        /// <summary>
+        /// Metoden kaldes når brugeren skriver noget ind i brugernavn-feltet, og opdateres teksten så den står korrekt med bindestreg. 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void InputView_OnTextChanged(object sender, TextChangedEventArgs e)
         {
-            //TODO Gør således at textlængden kun kan være 11 og at man kun kan placere bindestregen på det rigtige sted.
             //lets the Entry be empty
             if (string.IsNullOrEmpty(e.NewTextValue)) return;
 
@@ -75,9 +77,5 @@ namespace MoleWatchApp.Views
                 ((Entry)sender).Text = TextValueWithDash;
             }
         }
-
-        
-
-
     }
 }
