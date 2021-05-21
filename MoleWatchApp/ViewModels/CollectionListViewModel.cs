@@ -63,13 +63,20 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        public Command UpdateCollections { get; }
+
+
         public CollectionListViewModel()
         {
             patientModelRef = PatientModelSingleton.GetPatientModel();
             collectionListModel = new CollectionListModel();
+            UpdateCollections = new Command(LoadCollections);
 
+            
+        }
 
-
+        private void LoadCollections()
+        {
             ObservableCollection<CollectionWithThumbnail> TempCollections = new ObservableCollection<CollectionWithThumbnail>();
 
             foreach (CollectionDTO Collection in patientModelRef.CurrentPatientData.CollectionList)
@@ -84,9 +91,7 @@ namespace MoleWatchApp.ViewModels
         }
 
 
-
-
-        public async void LoadThumbnails()
+        private async void LoadThumbnails()
         {
             BaseIsBusy = true;
             await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.

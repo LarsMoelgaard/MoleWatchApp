@@ -29,8 +29,8 @@
                 />
 
 
-            <ScrollView Grid.Column="0" Grid.Row="0">
-                    <StackLayout x:Name="CollectionStackLayout">
+            <!--<ScrollView Grid.Column="0" Grid.Row="0">-->
+            <StackLayout x:Name="CollectionStackLayout" Grid.Column="0" Grid.Row="0">
                 
 
                     <TableView x:Name="CollectionListTableView" Intent="Form" IsVisible="True">
@@ -47,7 +47,7 @@
 
 
                     </StackLayout>
-              </ScrollView>
+              <!--</ScrollView>-->
                 <!--<Label Text="Hej" Grid.Column="0" Grid.Row="0"/>-->
 
         </Grid>

@@ -56,8 +56,25 @@
             </Style>
 
             <!--
+            
             Custom Style you can apply to any Flyout Item
             -->
+            <Style x:Key="FloutItemStyle" TargetType="Grid">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Accent"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+
             <Style Class="MenuItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
@@ -79,19 +96,59 @@
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
+    <Shell.ItemTemplate>
+        <DataTemplate >
+            <Grid Style="{StaticResource FloutItemStyle}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding FlyoutIcon}"
+                       Margin="5"
+                       HeightRequest="45" />
+                <Label Grid.Column="1"
+                       Text="{Binding Title}"
+                       FontAttributes="Italic"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+
     <FlyoutItem Title="Min krop" Icon="icon_about.png">
         <ShellContent Route="PatientModelPage" ContentTemplate="{DataTemplate local:PatientModelPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="Mine modermærker" Icon="icon_feed.png">
+    <FlyoutItem Title="Mine modermærker" Icon="listview_icon.png">
         <ShellContent Route="CollectionListView" ContentTemplate="{DataTemplate local:CollectionListView}" />
     </FlyoutItem>
-    <FlyoutItem Title="Kontakt lægen" Icon="icon_feed.png">
+    <FlyoutItem Title="Kontakt lægen" Icon="medical_icon.png">
         <ShellContent Route="ContactDoctor" ContentTemplate="{DataTemplate local:ContactDoctor}" />
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-    <MenuItem Text="Log ud" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+        <Shell.MenuItemTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="{Binding Icon}"
+                           Margin="5"
+                           HeightRequest="45" />
+                    <Label Grid.Column="1"
+                           Text="{Binding Text}"
+                           FontSize="Large"
+                           TextColor="Red"
+                           VerticalTextAlignment="Center" />
+                </Grid>
+            </DataTemplate>
+        </Shell.MenuItemTemplate>
+
+    <MenuItem Text="Log ud" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked" IconImageSource="logout_icon.png" >
     </MenuItem>
+
 
     <!--
         TabBar lets you define content that won't show up in a flyout menu. When this content is active

@@ -54,12 +54,15 @@ namespace MoleWatchApp.Views
                     DateText = "Ingen billeder i samling";
                 }
 
+                Color titleColor = item.Collection.IsMarked ? Color.Crimson : Color.DodgerBlue;
+
+
                 string DetailText = item.Collection.Location.BodyPart + ": " + DateText;
 
                 ImageCell NewCell = new ImageCell
                 {
                     Text = item.Collection.CollectionName,
-
+                    TextColor = titleColor,
 
                     
                     ImageSource = item.CollectionPictureData,
@@ -90,6 +93,7 @@ namespace MoleWatchApp.Views
 
         private void CollectionListView_OnAppearing(object sender, EventArgs e)
         {
+            CollectionListVModel.UpdateCollections.Execute(null);
             if (HiddenCollectionListView.ItemsSource != null)
             {
                 UpdateTable();
