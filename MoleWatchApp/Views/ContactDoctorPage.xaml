@@ -9,13 +9,63 @@
     </ContentPage.BindingContext>
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Navn:"
-                   VerticalOptions="FillAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="{Binding DoctorName}"
-                   VerticalOptions="FillAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Column="1"  Grid.Row="0"
+                       Text="Lægehus:"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand"
+                       FontSize="20"/>
+                <Label Grid.Column="1"  Grid.Row="1"
+                       Text="{Binding DoctorName}"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand" 
+                       FontSize="20"/>
+                <Label Text="Adresse:"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand" 
+                       FontSize="20"/>
+                <Label Text="{Binding DoctorAdress}"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="FillAndExpand" 
+                       FontSize="20"/>
+
+                <Label Text="Åbningstider:"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand"
+                       FontSize="20"/>
+                <Editor Placeholder="Ukendte åbningstider - besøg venligst hjemmesiden" FontSize="20" Text="{Binding OpeningHours}">
+                </Editor>
+
+                <Label Text="Telefonnummer:"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand"
+                       FontSize="20"/>
+                <Label Text="{Binding MobileNumber}"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="StartAndExpand" 
+                       FontSize="20"/>
+
+                <Button x:Name="WebsiteButton"
+                        Text="Besøg hjemmeside" 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Clicked="WebsiteButton_OnClicked"
+                        FontSize="20">
+                </Button>
+            </Grid>
+        </ContentPage.Content>
 </ContentPage>

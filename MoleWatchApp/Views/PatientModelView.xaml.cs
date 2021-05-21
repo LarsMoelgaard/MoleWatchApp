@@ -12,7 +12,7 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.Views
 {
-    public partial class PatientModelPage : ContentPage
+    public partial class PatientModelView : ContentPage
     {
         private bool IsVisible = false;
         private string result = "";
@@ -20,7 +20,7 @@ namespace MoleWatchApp.Views
         private List<ImageButton> PatientButtonList = new List<ImageButton>();
         private IPatientViewModel PViewModel;
 
-        public PatientModelPage() 
+        public PatientModelView() 
         {
             InitializeComponent();
             PViewModel = new PatientModelViewModel();

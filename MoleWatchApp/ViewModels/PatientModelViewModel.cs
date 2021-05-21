@@ -317,7 +317,6 @@ namespace MoleWatchApp.ViewModels
             IsAnimationPlaying = false;
             RotatePlaceholder = "animated_rotate.gif";
         }
-        //public ICommand OpenWebCommand { get; }
 
         private async void GoToExistingCollection(CollectionDTO Collection)
         {

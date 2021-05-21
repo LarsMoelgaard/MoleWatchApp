@@ -16,5 +16,10 @@ namespace MoleWatchApp.Views
         {
             InitializeComponent();
         }
+
+        private void WebsiteButton_OnClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

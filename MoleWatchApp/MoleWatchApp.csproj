@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="APIWebServiesConnector" Version="20210430.1.0" />
+    <PackageReference Include="APIWebServiesConnector" Version="20210521.1.0" />
     <PackageReference Include="DLToolkit.Forms.Controls.ImageCropView" Version="1.0.7" />
     <PackageReference Include="Plugin.Fingerprint" Version="2.1.3" />
     <PackageReference Include="Prism.Core" Version="8.0.0.1909" />
@@ -56,8 +56,8 @@
     <Compile Update="Views\PictureListView.xaml.cs">
       <DependentUpon>PictureListView.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\PatientModelPage.xaml.cs">
-      <DependentUpon>PatientModelPage.xaml</DependentUpon>
+    <Compile Update="Views\PatientModelView.xaml.cs">
+      <DependentUpon>PatientModelView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
