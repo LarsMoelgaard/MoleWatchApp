@@ -204,6 +204,7 @@ namespace MoleWatchApp.ViewModels
             if (!isFingerprintAvailable)
             {
                 MessagingCenter.Send(this, "SmartLoginMessage", "NoBiometricDataFound");
+                BaseIsBusy = false;
                 return;
             }
 
