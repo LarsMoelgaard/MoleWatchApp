@@ -16,8 +16,14 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
+
+    /// <summary>
+    /// ViewModel for CreateCollectionView 
+    /// </summary>
     public class CreateCollectionViewModel : BaseViewModel
     {
+        #region Properties mm 
+
         private IPatientModel patientModelRef;
         private ICollectionModel collectionModel;
         private string dateText;
@@ -27,7 +33,6 @@ namespace MoleWatchApp.ViewModels
         private ImageSource lastCollectionPhoto;
         private int LastPictureID;
 
-        #region DatabindedProperties
         public ImageSource LastCollectionPhoto
         {
             get
@@ -108,9 +113,6 @@ namespace MoleWatchApp.ViewModels
         }
 
 
-
-        #endregion
-
         public Command MarkCommand { get; }
 
         public Command CameraButtonClicked { get; }
@@ -130,6 +132,8 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        #endregion
+
         public CreateCollectionViewModel()
         {
             BaseIsBusy = false;
@@ -146,6 +150,10 @@ namespace MoleWatchApp.ViewModels
             DeleteCollectionCommand = new Command(DeleteCollection);
         }
 
+
+        /// <summary>
+        /// Metoden åbner PictureListView for at vise en liste med alle billeder af det valgte modermærke 
+        /// </summary>
         private async void ShowPictureCollection()
         {
             if (!NoImagesInCollection)
@@ -155,6 +163,10 @@ namespace MoleWatchApp.ViewModels
             
         }
 
+
+        /// <summary>
+        /// Metoden opdatere CreateCollectionView
+        /// </summary>
         private void UpdateCollectionPage()
         {
             CollectionTitle = collectionModel.CollectionOnPage.CollectionName;
@@ -195,7 +207,9 @@ namespace MoleWatchApp.ViewModels
 
            
         }
-
+        /// <summary>
+        /// Metoden markere det valgt modermærke og indikere for brugeren at særlig opmærksomhed er påkrævet 
+        /// </summary>
         private void MarkCollection()
         {
             if (collectionModel.CollectionOnPage.IsMarked)
@@ -218,6 +232,10 @@ namespace MoleWatchApp.ViewModels
             patientModelRef.UpdateCollection(collectionModel.CollectionOnPage);
         }
 
+
+        /// <summary>
+        /// Metoden åbner for kameraet på telefonen og lader brugeren tage et billede til samlingen 
+        /// </summary>
         private async void CameraButton_Clicked()
         {
             var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(
@@ -261,7 +279,9 @@ namespace MoleWatchApp.ViewModels
             }
 
         }
-
+        /// <summary>
+        /// Metoden åbner for brugerens galleri og lader brugeren vælge et billede at tilføje til samlingen 
+        /// </summary>
         private async void GalleryButton_Clicked()
         {
             var photo = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(
@@ -305,7 +325,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-
+        /// <summary>
+        ///Metoden hentes det sidste billede som er tilføjet til samlingen og sætter dette som det billede der vises på siden 
+        /// </summary>
         private async void LoadLastPicture()
         {
             BaseIsBusy = true;
@@ -323,6 +345,11 @@ namespace MoleWatchApp.ViewModels
             BaseIsBusy = false;
         }
 
+
+        /// <summary>
+        /// Metoden lader brugeren ændre navn på samlingen 
+        /// </summary>
+        /// <param name="name"></param>
         private void ChangeNameOnCollection(string name)
         {
             CollectionDTO tempCollection = collectionModel.CollectionOnPage;
@@ -332,15 +359,16 @@ namespace MoleWatchApp.ViewModels
             collectionModel.ChangeCollectionName(name);
         }
 
+
+        /// <summary>
+        /// Metoden lader brugeren slette den valgte samling af modermærker 
+        /// </summary>
         private async void DeleteCollection()
         {
             collectionModel.DeleteCollection(patientModelRef.CollectionOnPage, patientModelRef.CurrentPatient);
             patientModelRef.RemoveCollection();
             await Shell.Current.GoToAsync("..");
         }
-
-
-
-       }
     }
+}
 

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
-             x:Class="MoleWatchApp.Views.ContactDoctor">
+             x:Class="MoleWatchApp.Views.ContactDoctorView">
 
     <ContentPage.BindingContext >
         <viewModels:ContactDoctorViewModel x:Name="ContactVM" />

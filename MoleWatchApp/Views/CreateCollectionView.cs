@@ -17,23 +17,17 @@ using FFImageLoading.Work;
 
 namespace MoleWatchApp.Views
 {
+
+    /// <summary>
+    /// Oprettelse af createcollection siden med alle UI-elementer
+    /// </summary>
+    
     public class CreateCollectionView : MenuContainerPage
     {
 
         private CreateCollectionViewModel CCVM;
         private ImageCropView LastCollectionPhoto;
 
-        /// <summary>
-        /// Oprettelse af createcollection siden med alle UI-elementer
-        /// </summary>
-        ///
-        //<ContentPage.ToolbarItems>
-        //<ToolbarItem
-        //    IconImageSource = "help_icon.png"
-        //Order="Primary"
-        //Priority="0" Clicked="ShowHelpMenu" />
-
-        /// 
         public CreateCollectionView()
         {
             CCVM = new CreateCollectionViewModel();
@@ -264,6 +258,11 @@ namespace MoleWatchApp.Views
 
         }
 
+        /// <summary>
+        /// Viser toolbar for Help-menu 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void HelpToolbarItemOnClicked(object sender, EventArgs e)
         {
 
@@ -278,6 +277,10 @@ namespace MoleWatchApp.Views
                 , "OK");
         }
 
+
+        /// <summary>
+        /// Metoden lader brugeren vælge om billedet skal tages fra fotoalbum eller med kameraet 
+        /// </summary>
         private async void showAddPhotoMessage()
         {
             string action = await DisplayActionSheet("Vælg metode til upload af billede:", "Fortryd", null, "Galleri", "Kamera");
@@ -299,11 +302,19 @@ namespace MoleWatchApp.Views
             }
         }
 
+
+        /// <summary>
+        /// Implementere metode fra nuggetpakke (SlideOverKit) til at vise menuen 
+        /// </summary>
         private void ShowSettingsMenu()
         {
             this.ShowMenu();
         }
 
+
+        /// <summary>
+        /// Metoden spørger brugeren om det ønskes at slette modermærket og sender derefter besked til Create Collection model. 
+        /// </summary>
         public async void DeleteButtonClicked()
         {
             bool answer = await DisplayAlert("Slet modermærke", "Ønsker du at slette modermærket?", "Ja", "Nej");
@@ -314,6 +325,10 @@ namespace MoleWatchApp.Views
             }
         }
 
+
+        /// <summary>
+        /// Metoden kaldes når brugeren ønsker at skifte navn på et modermærke og giver brugerne mulighed for at skrive dette in 
+        /// </summary>
         public async void RenameButtonClicked()
         {
             string result = await DisplayPromptAsync("Ændre navn for modermærke", "Angiv navn for modermærke:");
@@ -323,12 +338,12 @@ namespace MoleWatchApp.Views
             }
         }
 
-        public async void NotificationClicked()
-        {
-            
-        }
 
-
+        /// <summary>
+        /// Metoden informere brugeren om hvis der ikke er nogen tilgængelig billeder for et modermærke 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public async void ShowPicturesClicked(object sender, EventArgs e)
         {
             if (LastCollectionPhoto.Source == null)

@@ -15,16 +15,17 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
+    /// <summary>
+    /// Viewmodel for PictureListView 
+    /// </summary>
     public class PictureListViewModel : BaseViewModel
     {
+        #region Properties mm 
         private IPatientModel patientModelRef;
         private IPictureListModel PictureListModel;
         private bool isPicturesFullyLoaded;
         private string pageTitle;
 
-
-
-        
 
         public bool BaseIsBusy
         {
@@ -88,6 +89,8 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        #endregion
+
         public PictureListViewModel()
         {
             PictureListModel = PictureListModelSingleton.GetPictureListModel();
@@ -118,6 +121,9 @@ namespace MoleWatchApp.ViewModels
             t1.Start();
         }
 
+        /// <summary>
+        /// Metoden henter alle billeder for et modermærke 
+        /// </summary>
         public async void LoadPictureData()
         {
             BaseIsBusy = true;
@@ -142,6 +148,11 @@ namespace MoleWatchApp.ViewModels
             BaseIsBusy = false;
         }
 
+
+        /// <summary>
+        /// Metoden åbner det valgte billede i sit eget view (Full picture view) 
+        /// </summary>
+        /// <param name="PictureId"></param>
         private void OpenPictureView(int PictureId)
         {
             CompletePicture CompletePictureOnFullPage = CompletePictureList.
@@ -155,6 +166,9 @@ namespace MoleWatchApp.ViewModels
         }
 
 
+        /// <summary>
+        /// Metoden kaldes når siden vises og opdatere listen med billeder 
+        /// </summary>
         private void PageAppearing()
         {
             if (CompletePictureList != null)

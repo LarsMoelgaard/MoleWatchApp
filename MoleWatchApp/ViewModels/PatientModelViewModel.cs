@@ -14,11 +14,13 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
+    /// <summary>
+    /// View model for PatientModelView 
+    /// </summary>
     public class PatientModelViewModel : BaseViewModel, IPatientViewModel
     {
         private ILogin loginModel;
         private IPatientModel patientModelClass;
-
 
         #region Properties, commands mm
         private string patientPicture;
@@ -170,30 +172,26 @@ namespace MoleWatchApp.ViewModels
         {
             loginModel = LoginSingleton.GetLoginModel();
             PatientCollection = new ObservableCollection<CollectionDTO>();
-
             patientModelClass = PatientModelSingleton.GetPatientModel();
 
-
+            //Indsæt defaultbilleder mm for view 
             IsAnimationPlaying = false;
             Title = "Vælg Modermærke";
             RotatePlaceholder = "animated_rotate.gif";
-
-
             PatientPicture = "MaleFrontCrop.png";
-
-
             PlusIcon = "Plus_Icon.png";
             IsPatientFrontFacing = true;
             CreateCollectionInProgress = false;
 
-            
-            //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             RotateClicked = new Command(FlipPatient);
             PlusClicked = new Command(onPlusClicked);
-            BackCommand = new Command(OnBackButtonClicked);
             OnPageAppearingCommand = new Command(LoadPatient);
         }
 
+
+        /// <summary>
+        /// Metoden kaldes når View'et vises. Den henter patientdataen og får sat den korrekte patientmodel m. tilhørende modermærker 
+        /// </summary>
         private void LoadPatient()
         {
             if (!loginModel.IsPatientLoadedFromAPI)
@@ -225,53 +223,27 @@ namespace MoleWatchApp.ViewModels
 
             if (PatientCollection.Count == 0)
             {
-                //ObservableCollection<CollectionDTO> tempCollection =
-                //    new ObservableCollection<CollectionDTO>(loginModel.PatientData.CollectionList);
-
-                //Device.BeginInvokeOnMainThread(() =>
-                //{
-                //    PatientCollection = tempCollection;
-                //});
-
                 foreach (CollectionDTO ExistingCollectionDTO in loginModel.PatientData.CollectionList)
                 {
-                    //Device.BeginInvokeOnMainThread(() =>
-                    //{
-                        PatientCollection.Add(ExistingCollectionDTO);
-                    //});
 
+                        PatientCollection.Add(ExistingCollectionDTO);
                 }
             }
             else
             {
-                //Device.BeginInvokeOnMainThread(() =>
-                //{
-                    ObservableCollection<CollectionDTO> tempCollection = new ObservableCollection<CollectionDTO>(patientModelClass.CurrentPatientData.CollectionList);
-                    PatientCollection = tempCollection;
-                //});
-
+                ObservableCollection<CollectionDTO> tempCollection = new ObservableCollection<CollectionDTO>(patientModelClass.CurrentPatientData.CollectionList);
+                PatientCollection = tempCollection;
+                    
             }
-
-
-            //Thread UpdateCollectionsThread = new Thread(UpdateCollectionsWhenLoaded);
-            //UpdateCollectionsThread.Start();
-
         }
 
 
-        private void UpdateCollectionsWhenLoaded()
-        {
-            Thread.Sleep(5000);
-
-
-        }
-
-
-
-
+        /// <summary>
+        /// Metoden kaldes når "Flip patient" knappen trykkes på view'et 
+        /// </summary>
+        /// <param name="obj"></param>
         private void FlipPatient(object obj)
         {
-
             Task AnimationTask = new Task(AnimateRotation);
             AnimationTask.Start();
 
@@ -280,13 +252,11 @@ namespace MoleWatchApp.ViewModels
                 if (IsPatientFrontFacing)
                 {
                     PatientPicture = "MaleBackCrop.png";
-                    
                     IsPatientFrontFacing = false;
                 }
                 else
                 {
                     PatientPicture = "MaleFrontCrop.png";
-                    
                     IsPatientFrontFacing = true;
                 }
             }
@@ -295,20 +265,20 @@ namespace MoleWatchApp.ViewModels
                 if (IsPatientFrontFacing)
                 {
                     PatientPicture = "FemaleBackCrop.png";
-                    
                     IsPatientFrontFacing = false;
                 }
                 else
                 {
                     PatientPicture = "FemaleFrontCrop.png";
-                   
                     IsPatientFrontFacing = true;
                 }
             }
-           
-
         }
 
+
+        /// <summary>
+        /// Metoden starter animationen på "Flip patient" knappen 
+        /// </summary>
         private void AnimateRotation()
         {
             RotatePlaceholder = null;
@@ -318,6 +288,11 @@ namespace MoleWatchApp.ViewModels
             RotatePlaceholder = "animated_rotate.gif";
         }
 
+
+        /// <summary>
+        /// Metoden kaldes når brugeren klikker på en eksistrende kollektion. Den valgte kollektion vises 
+        /// </summary>
+        /// <param name="Collection"></param>
         private async void GoToExistingCollection(CollectionDTO Collection)
         {
             if (!BaseIsBusy)
@@ -334,7 +309,9 @@ namespace MoleWatchApp.ViewModels
 
         }
 
-
+        /// <summary>
+        /// Metoden kaldes når der trykkes på "Add new collection" og der vises en pin så den nye samling kan placeres på kroppen. Hvis brugeren allerede er i gang med at placere en samling vil trykket gøre således at handlingen stoppes 
+        /// </summary>
         private void onPlusClicked()
         {
             if (CreateCollectionInProgress == false)
@@ -353,6 +330,11 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+        /// <summary>
+        /// Metoden opretter et nyt modermærkem tilføjer det til samlingen af modermærker og åbner Create Collection View'et. 
+        /// </summary>
+        /// <param name="Collection"></param>
         private async void CreateCollection(CollectionDTO Collection)
         {
             NewPinAdded = null;
@@ -369,23 +351,18 @@ namespace MoleWatchApp.ViewModels
                 {
                     SameName++;
                 }
-
             }
 
             if (SameName > 0)
             {
-
-                 collectionName += Convert.ToString(" " + SameName);
+                collectionName += Convert.ToString(" " + SameName);
             }
 
             Collection.CollectionName = collectionName;
-
             Collection.Location.IsFrontFacing = IsPatientFrontFacing;
-
             Collection.CollectionID = patientModelClass.LoadNewCollection(Collection);
 
             patientModelClass.CurrentPatientData.CollectionList.Add(Collection);
-
 
             ObservableCollection<CollectionDTO> TempCollection = PatientCollection;
             TempCollection.Add(Collection);
@@ -394,11 +371,5 @@ namespace MoleWatchApp.ViewModels
 
             await Shell.Current.GoToAsync($"{nameof(CreateCollectionView)}");
         }
-
-        private async void OnBackButtonClicked()
-        {
-            await Shell.Current.GoToAsync("..");
-        }
-
     }
 }

@@ -14,6 +14,9 @@ using Xamarin.Forms.Xaml;
 
 namespace MoleWatchApp.Views
 {
+    /// <summary>
+    /// Opretter view for listen med billeder for et modermærke 
+    /// </summary>
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CollectionListView : ContentPage
     {
@@ -22,11 +25,15 @@ namespace MoleWatchApp.Views
 
         public CollectionListView()
         {
-
             InitializeComponent();
-
         }
 
+
+        /// <summary>
+        /// Metoden opdatere listen med billeder 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void UpdateCollectionListView(object sender, PropertyChangedEventArgs e)
         {
             if (HiddenCollectionListView.ItemsSource != null)
@@ -35,6 +42,10 @@ namespace MoleWatchApp.Views
             }
         }
 
+
+        /// <summary>
+        /// Metoden opdatere tablesection i view (XAML)
+        /// </summary>
         public void UpdateTable()
         {
             CollectionCells = new List<ImageCell>();
@@ -91,6 +102,11 @@ namespace MoleWatchApp.Views
             };
         }
 
+        /// <summary>
+        /// Metoden opdatere tablesektion når der tilføjes elementer til den 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CollectionListView_OnAppearing(object sender, EventArgs e)
         {
             CollectionListVModel.UpdateCollections.Execute(null);
@@ -99,20 +115,5 @@ namespace MoleWatchApp.Views
                 UpdateTable();
             }
         }
-
-
-
-        private ImageSource ConvertByteArrayToImageSource(byte[] PictureData)
-        {
-            ImageSource NewPhoto = ImageSource.FromStream(() =>
-            {
-                MemoryStream ms = new MemoryStream(PictureData);
-
-                return ms;
-            });
-            return NewPhoto;
-
-        }
-
     }
 }

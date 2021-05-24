@@ -10,8 +10,14 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
+
+    /// <summary>
+    /// ViewModel for FullPictureView 
+    /// </summary>
     public class FullPictureViewModel: BaseViewModel
     {
+
+        #region Properties mm 
         private IPictureListModel listModelRef;
         private ImageSource fullImageSource;
         private string pictureTitle;
@@ -63,6 +69,8 @@ namespace MoleWatchApp.ViewModels
         public Command DeleteButtonClicked { get; }
         public Command AddCommentButtonClicked { get; }
 
+        #endregion
+
         public FullPictureViewModel()
         {
             listModelRef = PictureListModelSingleton.GetPictureListModel();
@@ -91,6 +99,10 @@ namespace MoleWatchApp.ViewModels
 
         }
 
+
+        /// <summary>
+        /// Metoden henter det valgte billede 
+        /// </summary>
         private void LoadUnloadedPicture()
         {
             byte[] imageBytes = listModelRef.LoadSpecificPicture(listModelRef.PictureOnPage.PictureID);
@@ -101,6 +113,9 @@ namespace MoleWatchApp.ViewModels
 
         }
 
+        /// <summary>
+        /// Metoden sletter det valfte billede 
+        /// </summary>
         private async void DeletePicture()
         {
             listModelRef.DeleteSpecificPicture();
@@ -108,6 +123,10 @@ namespace MoleWatchApp.ViewModels
             await Shell.Current.GoToAsync("..");
         }
 
+
+        /// <summary>
+        /// Metoden indsætter kommentar til billedet 
+        /// </summary>
         private void InsertComment()
         {
             listModelRef.UpdatePictureComment(CommentText);
