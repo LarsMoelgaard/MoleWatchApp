@@ -10,6 +10,7 @@ namespace MoleWatchApp.Models
 {
     public class LoginModel: ILogin
     {
+
         private IAPIService API;
 
         private PatientInfoDTO newPatientInfoDto;
@@ -23,6 +24,12 @@ namespace MoleWatchApp.Models
             API = APISingleton.GetAPI();
         }
 
+        /// <summary>
+        /// Metoden verificere brugernavn og kodeord via API'en 
+        /// </summary>
+        /// <param name="Username"></param>
+        /// <param name="Password"></param>
+        /// <returns></returns>
         public bool VerifyPassword(string Username, string Password)
         {
             LoginInfoDTO NewLogin = new LoginInfoDTO();
@@ -60,11 +67,13 @@ namespace MoleWatchApp.Models
             {
                 return false;
             }
-
-
-
         }
 
+
+        /// <summary>
+        /// Metoden verificere loginoplysning fra smartlogin via API'en 
+        /// </summary>
+        /// <returns></returns>
         public bool VerifySmartLoginPassword()
         {
             try

@@ -15,15 +15,14 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
+    /// <summary>
+    /// ViewModel for collectionList view 
+    /// </summary>
     public class CollectionListViewModel : BaseViewModel
     {
-
-
-
+        #region Properties mm
         private CollectionListModel collectionListModel;
         private IPatientModel patientModelRef;
-        
-        
         private ObservableCollection<CollectionWithThumbnail> collectionWithPicture;
 
 
@@ -65,16 +64,19 @@ namespace MoleWatchApp.ViewModels
 
         public Command UpdateCollections { get; }
 
+        #endregion
 
         public CollectionListViewModel()
         {
             patientModelRef = PatientModelSingleton.GetPatientModel();
             collectionListModel = new CollectionListModel();
             UpdateCollections = new Command(LoadCollections);
-
-            
         }
 
+
+        /// <summary>
+        /// Metoden henter alle collectioner som tilhører brugeren 
+        /// </summary>
         private void LoadCollections()
         {
             ObservableCollection<CollectionWithThumbnail> TempCollections = new ObservableCollection<CollectionWithThumbnail>();
@@ -91,6 +93,9 @@ namespace MoleWatchApp.ViewModels
         }
 
 
+        /// <summary>
+        /// Metoden henter alle collectionerne med alle de nyeste billeder til hvert modermærke
+        /// </summary>
         private async void LoadThumbnails()
         {
             BaseIsBusy = true;
@@ -126,7 +131,10 @@ namespace MoleWatchApp.ViewModels
 
         }
 
-
+        /// <summary>
+        /// Metoden åbner en valgt collection og viser denne i CreateCikkectionView'et 
+        /// </summary>
+        /// <param name="existingCollection"></param>
         private async void GoToExistingCollection(CollectionDTO existingCollection)
         {
             if (!BaseIsBusy)
@@ -144,7 +152,11 @@ namespace MoleWatchApp.ViewModels
         }
 
 
-
+        /// <summary>
+        /// Metoden laver et byte array om til et imagesource 
+        /// </summary>
+        /// <param name="PictureData"></param>
+        /// <returns></returns>
         private ImageSource ConvertByteArrayToImageSource(byte[] PictureData)
         {
 

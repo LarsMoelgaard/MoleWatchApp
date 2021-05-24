@@ -14,6 +14,9 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.Models
 {
+    /// <summary>
+    /// Model klasse til CollectionViewModel 
+    /// </summary>
     public class CollectionModel : ICollectionModel
     {
         private IAPIService _api;
@@ -24,10 +27,13 @@ namespace MoleWatchApp.Models
         {
             _api = APISingleton.GetAPI();
             this.CollectionOnPage = CollectionOnPage;
-            
         }
 
-
+        /// <summary>
+        /// Metoden oploader et nyt billede til databasen via API'en 
+        /// </summary>
+        /// <param name="newDataBytes"></param>
+        /// <param name="pictureInfo"></param>
         public void UploadPictureToDatabase(byte[] newDataBytes, PictureInfoDTO pictureInfo)
         {
             PostPictureDTO NewPostPicture = new PostPictureDTO();
@@ -54,25 +60,34 @@ namespace MoleWatchApp.Models
         }
 
 
-
+        /// <summary>
+        /// Metodne ændre et modermærkes status 
+        /// </summary>
         public void ChangeMarkingStatus()
         {
             ChangeCollectionMarkingDTO ChangeMarkingDTO = new ChangeCollectionMarkingDTO();
             ChangeMarkingDTO.CollectionID = CollectionOnPage.CollectionID;
             ChangeMarkingDTO.IsMarked = CollectionOnPage.IsMarked;
 
-            
             string outputFromAPI =_api.PostObject<ChangeCollectionMarkingDTO>
                 ("ChangeCollectionMarking", ChangeMarkingDTO);
 
         }
 
-        
+        /// <summary>
+        /// Metoden opdatere indstillingerne for hyppigheden af notifikationer for et modermærke
+        /// </summary>
+        /// <param name="CollectionToChange"></param>
         public void ChangeNotificationStatus(CollectionDTO CollectionToChange)
         {
-            throw new NotImplementedException("Få det lavet!");
+            //TODO Implementer forbindelse til API - måske dette skal undlades? 
         }
 
+
+        /// <summary>
+        /// Metoden ændre navnet på et modermærke på databasen 
+        /// </summary>
+        /// <param name="NewName"></param>
         public void ChangeCollectionName(string NewName)
         {
             ChangeCollectionNameDTO NameChangeDTO = new ChangeCollectionNameDTO();
@@ -82,6 +97,11 @@ namespace MoleWatchApp.Models
                 ("ChangeCollectionName", NameChangeDTO);
         }
 
+        /// <summary>
+        /// Metoden sletter et modermærke fra databasen 
+        /// </summary>
+        /// <param name="CollectionToChange"></param>
+        /// <param name="patient"></param>
         public void DeleteCollection(CollectionDTO CollectionToChange, PatientInfoDTO patient)
         {
             CollectionRequestDTO DeleteCollectionRequest = new CollectionRequestDTO();
@@ -91,6 +111,11 @@ namespace MoleWatchApp.Models
            string result = _api.PostObject<CollectionRequestDTO>("DeleteCollection", DeleteCollectionRequest);
         }
 
+        /// <summary>
+        /// Metoden henter det sidst tilføjede billede for et modermærke 
+        /// </summary>
+        /// <param name="PictureID"></param>
+        /// <returns></returns>
         public byte[] LoadLastPicutreFromApi(int PictureID)
         {
             PictureRequestDTO PictureRequest = new PictureRequestDTO();
@@ -100,10 +125,6 @@ namespace MoleWatchApp.Models
 
             return PictureFromApi.PictureData;
         }
-
-
-
-
     }
 }
 

@@ -7,6 +7,9 @@ using SkiaSharp;
 
 namespace MoleWatchApp.Models
 {
+    /// <summary>
+    /// Model klasse for CollectionListViewModel 
+    /// </summary>
     public class CollectionListModel
     {
         private IAPIService api;
@@ -17,6 +20,11 @@ namespace MoleWatchApp.Models
 
         }
 
+        /// <summary>
+        /// Metoden henter en specifik samling med tilhørende thumbnail 
+        /// </summary>
+        /// <param name="PictureID"></param>
+        /// <returns></returns>
         public byte[] LoadSpecificCollectionThumbnail(int PictureID)
         {
             PictureRequestDTO PictureRequest = new PictureRequestDTO();
@@ -25,7 +33,5 @@ namespace MoleWatchApp.Models
 
             return PictureFromApi.PictureData;
         }
-
-
     }
 }

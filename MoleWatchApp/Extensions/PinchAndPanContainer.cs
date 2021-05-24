@@ -6,7 +6,9 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions
 {
-
+    /// <summary>
+    /// Klasse til at styre zoom og pan på patientmodellen 
+    /// </summary>
     //Inspiration til denne kode fundet på https://forums.xamarin.com/discussion/77726/how-to-mix-the-pinch-and-pan-gesture-for-image-control-together
 
     public class PinchAndPanContainer : ContentView
@@ -34,9 +36,6 @@ namespace MoleWatchApp.Extensions
             pinchGesture.PinchUpdated += OnPinchUpdated;
             GestureRecognizers.Add(pinchGesture);
 
-
-
-
             var panGesture = new PanGestureRecognizer();
             panGesture.PanUpdated += OnPanUpdated;
             GestureRecognizers.Add(panGesture);
@@ -44,19 +43,20 @@ namespace MoleWatchApp.Extensions
             lastPinchDateTime = DateTime.Now;
         }
 
-
+        /// <summary>
+        /// Metoden retunere positionen af den placerede pin 
+        /// </summary>
+        /// <param name="Xpin"></param>
+        /// <param name="Ypin"></param>
+        /// <returns></returns>
         public int[] getPinPlacement(double Xpin, double Ypin)
         {
-
-
             double TrueXPosition;
             double TrueYPosition;
 
 
             TrueXPosition = (Xpin - xOffset)/currentScale;
             TrueYPosition = (Ypin - yOffset) / currentScale;
-
-
 
             int[] dataList = new int[2] { Convert.ToInt32(TrueXPosition), Convert.ToInt32(TrueYPosition) };
 
@@ -65,7 +65,11 @@ namespace MoleWatchApp.Extensions
         }
 
 
-
+        /// <summary>
+        /// Metoden opdatere billedet når der bruges pinch 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         void OnPinchUpdated(object sender, PinchGestureUpdatedEventArgs e)
         {
             if (e.Status == GestureStatus.Started)
@@ -119,6 +123,11 @@ namespace MoleWatchApp.Extensions
             }
         }
 
+        /// <summary>
+        /// Metoden opdatere billedet når der bruges pan 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
 
@@ -136,16 +145,8 @@ namespace MoleWatchApp.Extensions
 
             if (TimeSinceLastPinch.Milliseconds > 250)
             {
-
-
-            //if (Content.Scale == 1 )
-            //{
-            //    return;
-            //}
-
-            
-
-            switch (e.StatusType)
+                
+                switch (e.StatusType)
             {
                 case GestureStatus.Running:
                     double newX = (e.TotalX * Scale) + xOffset;
@@ -210,6 +211,7 @@ namespace MoleWatchApp.Extensions
 
             }
         }
+
 
         public void UpdateScreenSize()
         {

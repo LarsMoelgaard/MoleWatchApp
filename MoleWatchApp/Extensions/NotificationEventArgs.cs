@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MoleWatchApp.Extensions
 {
+    /// <summary>
+    /// Event til at sende notifikationer 
+    /// </summary>
     public class NotificationEventArgs : EventArgs
     {
         public string Title { get; set; }

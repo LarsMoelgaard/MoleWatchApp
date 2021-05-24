@@ -9,6 +9,9 @@ using MoleWatchApp.Interfaces;
 
 namespace MoleWatchApp.Models
 {
+    /// <summary>
+    /// Model klasse til PatientModelViewModel 
+    /// </summary>
     public class PatientModelModel : IPatientModel
     {
         public PatientInfoDTO CurrentPatient { get; set; }
@@ -23,6 +26,10 @@ namespace MoleWatchApp.Models
             api = APISingleton.GetAPI();
         }
 
+        /// <summary>
+        /// Metoden henter en eksisterende collection via API'en 
+        /// </summary>
+        /// <param name="Collection"></param>
         public void LoadExistingCollection(CollectionDTO Collection)
         {
             CollectionRequestDTO collectionRequest = new CollectionRequestDTO();
@@ -35,6 +42,11 @@ namespace MoleWatchApp.Models
 
         }
 
+        /// <summary>
+        /// Metoden opretter en ny collection og oploader den til databasen via API'en 
+        /// </summary>
+        /// <param name="Collection"></param>
+        /// <returns></returns>
         public int LoadNewCollection(CollectionDTO Collection)
         {
             
@@ -50,6 +62,11 @@ namespace MoleWatchApp.Models
             return Collection.CollectionID;
         }
 
+
+        /// <summary>
+        /// Metoden opdatere en eksisterende collection 
+        /// </summary>
+        /// <param name="UpdatedCollection"></param>
         public void UpdateCollection(CollectionDTO UpdatedCollection)
         {
             CollectionDTO OldCollectionDTO = CurrentPatientData.CollectionList.
@@ -60,6 +77,9 @@ namespace MoleWatchApp.Models
             CurrentPatientData.CollectionList[indexPosition] = UpdatedCollection;
         }
 
+        /// <summary>
+        /// Metoden sletter en collection i databasen via API'en 
+        /// </summary>
         public void RemoveCollection()
         {
             CollectionDTO OldCollectionDTO = CurrentPatientData.CollectionList.

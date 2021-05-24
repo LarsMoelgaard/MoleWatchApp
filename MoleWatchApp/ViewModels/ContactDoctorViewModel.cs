@@ -9,6 +9,9 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.ViewModels
 {
+    /// <summary>
+    ///  Viewmodel for contact doctor view 
+    /// </summary>
     public class ContactDoctorViewModel : BaseViewModel
     {
         public ContactDoctorViewModel()
@@ -101,6 +104,10 @@ namespace MoleWatchApp.ViewModels
 
         #endregion Region
 
+
+        /// <summary>
+        /// Metoden åbner mobilnummeret så det kan ringes op. 
+        /// </summary>
         private void Call()
         {
             try

@@ -17,6 +17,9 @@ using AndroidApp = Android.App.Application;
 [assembly: Dependency(typeof(AndroidNotificationManager))]
 namespace MoleWatchApp.Droid
 {
+    /// <summary>
+    /// Klassen skal varetage at gemme og sende notifikationer på android app'en 
+    /// </summary>
     public class AndroidNotificationManager : INotificationManager
     {
         const string channelId = "default";
@@ -54,6 +57,15 @@ namespace MoleWatchApp.Droid
             }
         }
 
+
+        /// <summary>
+        /// Metoden skal sende en given notifikation 
+        /// </summary>
+        /// <param name="title"></param>
+        /// <param name="message"></param>
+        /// <param name="id"></param>
+        /// <param name="interval"></param>
+        /// <param name="notifyTime"></param>
         public void SendNotification(string title, string message, int id, int interval ,DateTime notifyTime = default(DateTime))
         {
             intent = new Intent(AndroidApp.Context, typeof(AlarmHandler)).SetAction("LocalNotifierIntent" + id);
@@ -79,6 +91,10 @@ namespace MoleWatchApp.Droid
             }
         }
 
+        /// <summary>
+        /// Metoden skal fjerne en oprettet notifikation fra alarm manageren 
+        /// </summary>
+        /// <param name="id"></param>
         public void DeleteNotification(int id)
         {
             pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, id, intent, PendingIntentFlags.UpdateCurrent);
@@ -96,6 +112,12 @@ namespace MoleWatchApp.Droid
         //    NotificationReceived?.Invoke(null, args);
         //}
 
+
+        /// <summary>
+        /// Metoden skal vise en modtaget notifikation
+        /// </summary>
+        /// <param name="title"></param>
+        /// <param name="message"></param>
         public void Show(string title, string message)
         {
             Intent intent = new Intent(AndroidApp.Context, typeof(MainActivity));
@@ -118,6 +140,10 @@ namespace MoleWatchApp.Droid
             manager.Notify(messageId++, notification);
         }
 
+
+        /// <summary>
+        /// Metoden opretter en notification channel 
+        /// </summary>
         void CreateNotificationChannel()
         {
             manager = (NotificationManager)AndroidApp.Context.GetSystemService(AndroidApp.NotificationService);
@@ -140,6 +166,11 @@ namespace MoleWatchApp.Droid
             channelInitialized = true;
         }
 
+        /// <summary>
+        /// Metoden regner ud hvor lang tid der er til den næste notifikation skal sendes 
+        /// </summary>
+        /// <param name="notifyTime"></param>
+        /// <returns></returns>
         long GetNotifyTime(DateTime notifyTime)
         {
             int daysToNotifikation = Convert.ToInt16((notifyTime.Date - DateTime.Today).TotalDays);

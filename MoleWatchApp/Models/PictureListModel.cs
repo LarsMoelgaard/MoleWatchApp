@@ -10,10 +10,12 @@ using MoleWatchApp.Interfaces;
 
 namespace MoleWatchApp.Models
 {
+    /// <summary>
+    /// Model klasse for PictureList viewmodel 
+    /// </summary>
     public class PictureListModel : IPictureListModel
     {
         private IAPIService api;
-
         public CompletePicture PictureOnPage { get; set; }
         public ObservableCollection<CompletePicture> CompletePictureModelList { get; set; }
 
@@ -21,7 +23,13 @@ namespace MoleWatchApp.Models
         {
             api = APISingleton.GetAPI();
         }
+        
 
+        /// <summary>
+        /// Metoden henter et specifikt billede via API'en 
+        /// </summary>
+        /// <param name="PictureID"></param>
+        /// <returns></returns>
         public byte[] LoadSpecificPicture(int PictureID)
         {
             PictureRequestDTO PictureRequest = new PictureRequestDTO(); 
@@ -32,7 +40,11 @@ namespace MoleWatchApp.Models
             
         }
 
-
+        /// <summary>
+        /// Metoden henter en kommentar til et specifikt billede via API'en 
+        /// </summary>
+        /// <param name="PictureID"></param>
+        /// <returns></returns>
         public string LoadSpecificComment(int PictureID)
         {
             PictureRequestDTO PictureRequest = new PictureRequestDTO();
@@ -43,6 +55,10 @@ namespace MoleWatchApp.Models
             return PictureFromApi.Comment;
         }
 
+
+        /// <summary>
+        /// Metoden sletter et specifikt billede fra samlingen 
+        /// </summary>
         public void DeleteSpecificPicture()
         {
             if (PictureOnPage != null)
@@ -64,6 +80,10 @@ namespace MoleWatchApp.Models
 
         }
 
+        /// <summary>
+        /// Metoden opdatere en kommentar til et specifikt billede 
+        /// </summary>
+        /// <param name="Comment"></param>
         public void UpdatePictureComment(string Comment)
         {
             if (PictureOnPage != null)
@@ -83,7 +103,11 @@ namespace MoleWatchApp.Models
 
         }
 
-
+        /// <summary>
+        /// Metoden henter et thumbnail billede for en specifik samling 
+        /// </summary>
+        /// <param name="PictureID"></param>
+        /// <returns></returns>
         public byte[] LoadSpecificThumbnail(int PictureID)
         {
             PictureRequestDTO PictureRequest = new PictureRequestDTO();

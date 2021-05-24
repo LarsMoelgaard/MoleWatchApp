@@ -26,7 +26,5 @@ namespace MoleWatchApp.Models
         {
             return loginModel;
         }
-
-
     }
 }
