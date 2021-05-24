@@ -5,6 +5,11 @@
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\debug\netstandard2.0\</OutputPath>
+    <DocumentationFile>bin\debug\netstandard2.0\MoleWatchApp.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Remove="Media\**" />
     <EmbeddedResource Remove="Media\**" />

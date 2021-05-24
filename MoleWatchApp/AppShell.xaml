@@ -127,7 +127,7 @@
         <ShellContent Route="CollectionListView" ContentTemplate="{DataTemplate local:CollectionListView}" />
     </FlyoutItem>
     <FlyoutItem Title="Kontakt lægen" Icon="medical_icon.png">
-        <ShellContent Route="ContactDoctorView" ContentTemplate="{DataTemplate local:ContactDoctor}" />
+        <ShellContent Route="ContactDoctorView" ContentTemplate="{DataTemplate local:ContactDoctorView}" />
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->

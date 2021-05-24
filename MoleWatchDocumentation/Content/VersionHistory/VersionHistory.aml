@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="21508576-2f22-43a3-be0e-aaa912e326e6" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>The topics in this section describe the various changes made to the [TODO: Project Title] over the
+life of the project.</para>
+		</introduction>
+
+		<section>
+			<title>Version History</title>
+			<content>
+				<para>Select a version below to see a description of its changes.</para>
+
+				<list class="bullet">
+					<listItem>
+						<para><link xlink:href="72c40c02-3c51-4851-9ab8-76d48286f4cf" /></para>
+					</listItem>
+
+					<listItem>
+						<para>[TODO: Add links to each specific version page]</para>
+					</listItem>
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="68f89708-c35b-4774-9d75-48e37ba081d0" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

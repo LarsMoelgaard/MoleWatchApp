@@ -76,6 +76,32 @@ namespace MoleWatchApp.Views
                     newCollectionDto.CollectionName = result;
                 }
 
+                string collectionName = newCollectionDto.CollectionName;
+
+                int SameName = 0;
+
+                foreach (CollectionDTO collection in HiddenListView.ItemsSource)
+                {
+                    if (collection.CollectionName.Contains(collectionName))
+                    {
+                        SameName++;
+                    }
+                }
+
+                if (SameName > 0)
+                {
+                    collectionName += Convert.ToString(" " + SameName);
+                }
+
+                if (result != collectionName)
+                {
+                    await DisplayAlert("Ugyldigt navn på samling",
+                        "Navnet på samlingen er enten tomt eller ugyldigt. Samlingen har fået autogenereret et navn, som eventuelt kan ændres senere", "OK");
+                }
+
+                newCollectionDto.CollectionName = collectionName;
+
+
                 newCollectionDto.Location.BodyPart = bodypart;
                 if (relativeXCoordinate > 5000)
                 {

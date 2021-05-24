@@ -341,24 +341,7 @@ namespace MoleWatchApp.ViewModels
             Checkmark = null;
             PlusIcon = "Plus_icon.png";
             CreateCollectionInProgress = false;
-            string collectionName = Collection.CollectionName;
-            
-            int SameName = 0;
 
-            foreach (CollectionDTO collection in patientModelClass.CurrentPatientData.CollectionList)
-            {
-                if (collection.CollectionName.Contains(collectionName))
-                {
-                    SameName++;
-                }
-            }
-
-            if (SameName > 0)
-            {
-                collectionName += Convert.ToString(" " + SameName);
-            }
-
-            Collection.CollectionName = collectionName;
             Collection.Location.IsFrontFacing = IsPatientFrontFacing;
             Collection.CollectionID = patientModelClass.LoadNewCollection(Collection);
 

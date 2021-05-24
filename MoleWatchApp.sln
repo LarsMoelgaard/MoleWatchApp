@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoleWatchApp.Android", "Mol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoleWatchApp", "MoleWatchApp\MoleWatchApp.csproj", "{C78589C6-98D1-47F1-862F-907BF69B02A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_MoleWatchApp", "UnitTest_MoleWatchApp\UnitTest_MoleWatchApp.csproj", "{6AF84129-A3F6-4641-A616-650E0137F7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest_MoleWatchApp", "UnitTest_MoleWatchApp\UnitTest_MoleWatchApp.csproj", "{6AF84129-A3F6-4641-A616-650E0137F7E5}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "MoleWatchDocumentation", "MoleWatchDocumentation\MoleWatchDocumentation.shfbproj", "{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,18 @@ Global
 		{6AF84129-A3F6-4641-A616-650E0137F7E5}.Release|iPhone.Build.0 = Release|Any CPU
 		{6AF84129-A3F6-4641-A616-650E0137F7E5}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{6AF84129-A3F6-4641-A616-650E0137F7E5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Release|iPhone.Build.0 = Release|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B1E37D8D-9576-4FF9-BA89-F7BF3DFD2A4B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
