@@ -42,7 +42,7 @@
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
                                     <Setter Property="BackgroundColor" Value="White" />
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="Black" />
                                 </VisualState.Setters>
                             </VisualState>
                             <VisualState x:Name="Selected">
@@ -66,11 +66,11 @@
                             <VisualState x:Name="Normal">
                             <VisualState.Setters>
                                 <Setter Property="BackgroundColor" Value="LightGray" />
-                            </VisualState.Setters>
+                                </VisualState.Setters>
                             </VisualState>
                             <VisualState x:Name="Selected">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                    <Setter Property="BackgroundColor" Value="DimGray" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>

@@ -21,20 +21,20 @@ namespace MoleWatchApp.Views
         public LoginPage()
         {
             InitializeComponent();
-            BindingContext = new LoginViewModel();
+            
 
             MessagingCenter.Subscribe<LoginViewModel,string>(this,"SmartLoginMessage", async (sender, arg) =>
             {
                 switch (arg)
                 {
                     case "SuccesfulBiometric":
-                        await DisplayAlert("Succes","Authentication succeeded", "OK");
+                        await DisplayAlert("Succes","Loginnet er godkendt", "OK");
                         break;
                     case "BiometricFailed":
-                        await DisplayAlert("Error", "Authentication failed", "OK");
+                        await DisplayAlert("Fejl", "Loginnet blev ikke godkendt", "OK");
                         break;
                     case "NoBiometricDataFound":
-                        await DisplayAlert("Error", "Biometric authentication is not available or is not configured.", "OK");
+                        await DisplayAlert("Fejl", "Biometrisk godkendelse er ikke tilgængeligt eller ikke konfigureret på dette device.", "OK");
                         break;
                 }
             });

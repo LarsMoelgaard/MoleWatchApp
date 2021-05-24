@@ -3,31 +3,61 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
              mc:Ignorable="d"
              x:Class="MoleWatchApp.Views.LoginPage"
              Shell.NavBarIsVisible="False">
+    
+    
+            <ContentPage.BindingContext>
+            <viewModels:LoginViewModel x:Name="LoginViewModel" />
+
+        </ContentPage.BindingContext>
+    
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Start">
+
+
+        <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1.5*" />
+                    <RowDefinition Height="0.8*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                </Grid.ColumnDefinitions>
+
+
 
             <Image Source="MoleLogoBlue.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <StackLayout Grid.Row="1" Padding="10,0,10,0" VerticalOptions="Start">
+
+
+
             <Label Text="{Binding UsernameLabel, Mode=TwoWay}" TextColor="{Binding UsernameLabelColor, Mode=TwoWay}"/>
             <Entry x:Name="UsernameEntry"  Text="{Binding UsernameInput, Mode=TwoWay}" Placeholder="DDMMÅÅ-XXXX" Keyboard="Telephone" TextChanged="InputView_OnTextChanged"/>
             <Label Text="{Binding PasswordLabel, Mode=TwoWay}" TextColor="{Binding PasswordLabelColor, Mode=TwoWay}"/>
             <Entry Text="{Binding Password, Mode=TwoWay}" IsPassword="True" Placeholder="Password"/>
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+
+                </StackLayout>
+
+            <Grid Grid.Row="2">
 
 
-            <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="0.05*" />
+                    <RowDefinition Height="0.5*" />
+                    <RowDefinition Height="0.5*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="0.01*" />
                     <ColumnDefinition Width="2*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <ActivityIndicator Grid.Column="1" Grid.Row="0" IsRunning="{Binding BaseIsBusy}">
+                    <ColumnDefinition Width="0.01*" />
+                </Grid.ColumnDefinitions>            
+                
+                <Button Grid.Column="1" Grid.Row="1" VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+                <ActivityIndicator Grid.Column="1" Grid.Row="2" IsRunning="{Binding BaseIsBusy}">
                 </ActivityIndicator>
 
                 <Button Text="Smart login" x:Name="AuthButton"    
@@ -35,14 +65,14 @@
                         HorizontalOptions="CenterAndExpand"    
                         VerticalOptions="CenterAndExpand"
                         ImageSource="touch_id_96.png" 
-                        ContentLayout="Top" BackgroundColor="Transparent" TextColor="Black" Grid.Column="1" Grid.Row="1"
+                        ContentLayout="Top" BackgroundColor="Transparent" TextColor="Black" Grid.Column="1" Grid.Row="3"
 
                 />
             </Grid>
             <!-- Place new controls here -->
+            </Grid>
 
 
-            </StackLayout>
 
 
     </ContentPage.Content>
