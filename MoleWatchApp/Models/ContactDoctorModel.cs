@@ -7,6 +7,9 @@ using MoleWatchApp.Interfaces;
 
 namespace MoleWatchApp.Models
 {
+    /// <summary>
+    /// Model kalsse for ContactDoctor viewmodel 
+    /// </summary>
     public class ContactDoctorModel
     {
         private IAPIService api;
@@ -18,6 +21,11 @@ namespace MoleWatchApp.Models
             patientModel = PatientModelSingleton.GetPatientModel();
         }
 
+
+        /// <summary>
+        /// Metoden henter information på brugerens tilknyttede doktor 
+        /// </summary>
+        /// <returns></returns>
         public DoctorContactInfoDTO GetDoctorInfo()
         {
             DoctorContactInfoRequestDTO doctorRequest = new DoctorContactInfoRequestDTO();

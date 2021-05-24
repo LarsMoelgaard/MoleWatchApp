@@ -8,6 +8,9 @@ using MoleWatchApp.Interfaces;
 
 namespace MoleWatchApp.Models
 {
+    /// <summary>
+    /// Model klasse for notifikationViewModel 
+    /// </summary>
     class NotificationModel
     {
         public IAPIService api { get; }
@@ -19,11 +22,19 @@ namespace MoleWatchApp.Models
             patientModel = PatientModelSingleton.GetPatientModel();
         }
 
+        /// <summary>
+        /// Metoden ændre indstillinger fra notifikation for et valgt modermærke
+        /// </summary>
+        /// <param name="data"></param>
         public void UpdateNotification(NotificationData data)
         {
            //TODO opret forbindelse til API herfra og ændre indstilling for notifikation => kan muligvis undlades 
         }
 
+        /// <summary>
+        /// Metoden henter den valgte collections data 
+        /// </summary>
+        /// <returns></returns>
         public CollectionDTO GetCurrentCollection()
         {
             CollectionDTO collection = patientModel.CollectionOnPage;

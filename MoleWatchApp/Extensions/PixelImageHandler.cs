@@ -8,6 +8,9 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions
 {
+    /// <summary>
+    /// Klasse til at identificere en kropsdel på patienten ud fra et koordinat 
+    /// </summary>
     public class PixelImageHandler
     {
         private SKBitmap resourceBitmap;
@@ -40,6 +43,13 @@ namespace MoleWatchApp.Extensions
             }
         }
 
+
+        /// <summary>
+        /// Metoden finder en farve på en kropdel på et farvelagt billede af patienten og ud fra farven retunere metoden den kropsdel som koordinatet er sat på 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public string getPixelValue(int x, int y)
         {
             string resourceID = "MoleWatchApp.Extensions.ColorMaleFront.png";

@@ -9,7 +9,5 @@ namespace MoleWatchApp.Extensions.DTO
         public DateTime nextNotification;
 
         public int ReminderIntervalInWeeks;
-
-
     }
 }
