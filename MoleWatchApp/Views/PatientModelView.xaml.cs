@@ -17,6 +17,9 @@ namespace MoleWatchApp.Views
     /// </summary>
     public partial class PatientModelView : ContentPage
     {
+        /// <summary>
+        /// default constructor til viewet som sætter bindingcontexten
+        /// </summary>
         public PatientModelView() 
         {
             InitializeComponent();
@@ -24,11 +27,23 @@ namespace MoleWatchApp.Views
             BindingContext = PViewModel;
 
         }
-
+        /// <summary>
+        /// Listen af alle knapperne/modermærkerne på patientmodellen
+        /// </summary>
         private List<ImageButton> PatientButtonList = new List<ImageButton>();
+
+        /// <summary>
+        /// Reference til Viewmodellen så den kan eksekverer kommandoer
+        /// </summary>
         private IPatientViewModel PViewModel;
+        
+        /// <summary>
+        /// Bool der sikrer at PatientModelViewet ikke eksekverer UpdateTable() før siden er synlig på skærmen.
+        /// </summary>
         private bool IsVisible = false;
-        private string result = "";
+
+
+
 
 
         /// <summary>
@@ -39,7 +54,7 @@ namespace MoleWatchApp.Views
         private async void Checkmark_button_Clicked(object sender, EventArgs e)
         {
 
-            result = await DisplayPromptAsync("Opret ny samling for modermærke", "Indtast navn på det valgte modermærke");
+            string result = await DisplayPromptAsync("Opret ny samling for modermærke", "Indtast navn på det valgte modermærke");
 
             if (result == null)
             {

@@ -13,21 +13,27 @@ namespace MoleWatchApp.Views
     /// </summary>
     public partial class SlideUpMenuView : SlideMenuView
     {
+        /// <summary>
+        /// Reference til Viewet hvori slideup-menuen kommer fra
+        /// </summary>
         private CreateCollectionView collection;
-        private bool hidePicker;
 
-        public bool HidePicker
-        {
-            get
-            {
-                return hidePicker;
-            }
-            set
-            {
-                hidePicker = value;
-                this.OnPropertyChanged();
-            }
-        }
+
+
+        ////private bool hidePicker;
+
+        ////public bool HidePicker
+        ////{
+        ////    get
+        ////    {
+        ////        return hidePicker;
+        ////    }
+        ////    set
+        ////    {
+        ////        hidePicker = value;
+        ////        this.OnPropertyChanged();
+        ////    }
+        ////}
 
         public SlideUpMenuView (CreateCollectionView CollectionView)
         {

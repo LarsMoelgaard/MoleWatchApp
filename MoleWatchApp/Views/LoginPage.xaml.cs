@@ -18,6 +18,9 @@ namespace MoleWatchApp.Views
     public partial class LoginPage : ContentPage
     {
 
+        /// <summary>
+        /// Default constructor til siden
+        /// </summary>
         public LoginPage()
         {
             InitializeComponent();
@@ -43,7 +46,7 @@ namespace MoleWatchApp.Views
 
 
         /// <summary>
-        /// Metoden kaldes når brugeren skriver noget ind i brugernavn-feltet, og opdateres teksten så den står korrekt med bindestreg. 
+        /// Metoden kaldes når brugeren skriver noget ind i brugernavn-feltet, og opdaterer teksten så den står korrekt med bindestreg. Dette gøres for at sikre at CPR-nummeret er i det rigtige format.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

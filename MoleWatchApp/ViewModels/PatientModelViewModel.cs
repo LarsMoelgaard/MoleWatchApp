@@ -23,22 +23,53 @@ namespace MoleWatchApp.ViewModels
         private IPatientModel patientModelClass;
 
         #region Properties, commands mm
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string patientPicture;
-        
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string rotatePlaceholder;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string newPinAdded;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string plusIcon;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string checkmark;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private bool isAnimationPlaying;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private bool IsPatientMale;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private bool IsPatientFrontFacing;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private bool CreateCollectionInProgress;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private ObservableCollection<CollectionDTO> patientCollection;
 
         #region DatabindingProperties
 
         
-
+        /// <summary>
+        /// Databinded property som indeholder dataene der bruges til at lave collectionerne på patienten
+        /// </summary>
         public ObservableCollection<CollectionDTO> PatientCollection
         {
             get
@@ -52,6 +83,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Databinded property som sætter imagesourcen for "godkend"-knappen. Bliver sat til null for at få billedet væk igen.
+        /// </summary>
         public string Checkmark
         {
 
@@ -65,6 +99,10 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+
+        /// <summary>
+        /// Databinded property som sætter imagesourcen for "godkend"-knappen. Bliver sat til "Cancel.png" for at ændre indikere en ændring i funktionaliteten.
+        /// </summary>
         public string PlusIcon
         {
 
@@ -78,6 +116,11 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+
+
+        /// <summary>
+        /// Databinded property som sætter imagesourcen for "nålen" på siden. Bliver sat til null for at få billedet væk igen.
+        /// </summary>
         public string NewPinAdded
         {
 
@@ -91,6 +134,11 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+
+
+        /// <summary>
+        /// Databinded property som sætter imagesourcen for Patientmodellens billede. Bliver ændret alt efter køn og retning patienten vender.
+        /// </summary>
         public string PatientPicture
         {
         
@@ -104,6 +152,11 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+
+
+        /// <summary>
+        /// Databinded property som sætter imagesourcen for "Rotate"-knappen. Bliver sat til null for at få billedet væk igen.
+        /// </summary>
         public string RotatePlaceholder
         {
 
@@ -117,6 +170,11 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+
+
+        /// <summary>
+        /// Databinded property som styrer hvorvidt animationen af rotate-knappen kører
+        /// </summary>
         public bool IsAnimationPlaying
         {
             get
@@ -130,6 +188,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Databinded property som styrer hvorvidt activity-indicatoren kører.
+        /// </summary>
         public bool BaseIsBusy
         {
             get
@@ -145,10 +206,29 @@ namespace MoleWatchApp.ViewModels
 
         }
 
+        /// <summary>
+        /// Kommando der eksekveres når "Rotate"-knappen bliver trykket på
+        /// </summary>
         public Command RotateClicked { get; }
+
+        /// <summary>
+        /// Kommando der eksekveres når plus-knappen bliver trykket på
+        /// </summary>
         public Command PlusClicked { get; }
+
+        /// <summary>
+        /// Kommando der eksekveres når tilbage-knappen bliver trykket på
+        /// </summary>
         public Command BackCommand { get; }
+
+        /// <summary>
+        /// Kommando der eksekveres når siden bliver indlæst
+        /// </summary>
         public Command OnPageAppearingCommand { get; }
+
+        /// <summary>
+        /// Kommando der eksekveres når "OK"-knappen bliver trykket på
+        /// </summary>
         public ICommand CreateOkClicked
         {
             get
@@ -157,6 +237,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Kommando der eksekveres når en eksisterende collection bliver trykket på
+        /// </summary>
         public ICommand ExistingCollectionClicked
         {
             get
@@ -168,6 +251,9 @@ namespace MoleWatchApp.ViewModels
         #endregion
         #endregion
 
+        /// <summary>
+        /// Default constructor til Viewmodellen, der sætter de forskellige properties til default værdier og opretter forbindelserne til models
+        /// </summary>
         public PatientModelViewModel()
         {
             loginModel = LoginSingleton.GetLoginModel();

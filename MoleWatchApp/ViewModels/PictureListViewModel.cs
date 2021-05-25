@@ -21,12 +21,29 @@ namespace MoleWatchApp.ViewModels
     public class PictureListViewModel : BaseViewModel
     {
         #region Properties mm 
+        /// <summary>
+        /// Reference til patientModellen for at kunne hente/opdatere den relevante information.
+        /// </summary>
         private IPatientModel patientModelRef;
+
+        /// <summary>
+        /// Reference til viewmodellens Model / Datalag
+        /// </summary>
         private IPictureListModel PictureListModel;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private bool isPicturesFullyLoaded;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string pageTitle;
 
-
+        /// <summary>
+        /// Databinded property der fortæller om viewmodellen er i gang med at eksekvere en trådspecifik handling.
+        /// </summary>
         public bool BaseIsBusy
         {
             get
@@ -40,7 +57,15 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private ObservableCollection<CompletePicture> completePictureList;
+
+
+        /// <summary>
+        /// Databinded property, som opdaterer listen af billederne på skærmen
+        /// </summary>
         public ObservableCollection<CompletePicture> CompletePictureList
         {
             get
@@ -53,6 +78,10 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
+
+        /// <summary>
+        /// Databinded property til titlen på viewet.
+        /// </summary>
         public string PageTitle
         {
             get
@@ -66,6 +95,11 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+
+        /// <summary>
+        /// Bool der siger noget om hvorledes alle billederne er blevet loaded ind på siden.
+        /// </summary>
         public bool IsPicturesFullyLoaded
         {
             get
@@ -79,8 +113,14 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Kommando som eksekveres når siden bliver vist.
+        /// </summary>
         public Command UpdateTableOnAppearingCommand { get; }
 
+        /// <summary>
+        /// Kommando der eksekveres når der trykkes på et specifikt billede i en samling.
+        /// </summary>
         public ICommand OpenFullPictureView
         {
             get
@@ -90,7 +130,9 @@ namespace MoleWatchApp.ViewModels
         }
 
         #endregion
-
+        /// <summary>
+        /// Default constructor til viewmodellen
+        /// </summary>
         public PictureListViewModel()
         {
             PictureListModel = PictureListModelSingleton.GetPictureListModel();

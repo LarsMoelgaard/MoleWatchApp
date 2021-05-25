@@ -18,11 +18,30 @@ namespace MoleWatchApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NotificationView : ContentPage
     {
+        /// <summary>
+        /// Reference til den interne notificationsmanager for telefonen.
+        /// </summary>
         private INotificationManager notificationManager;
+     
+        /// <summary>
+        /// Navnet på modermærket som er på siden.
+        /// </summary>
         private string MoleName;
+
+        /// <summary>
+        /// ID'et på collectionen som man ændrer notificationerne for
+        /// </summary>
         private int CollectionID;
+
+        /// <summary>
+        /// reference til viewmodellen.
+        /// </summary>
         private NotificationViewModel vm;
 
+
+        /// <summary>
+        /// Default constructor for viewet
+        /// </summary>
         public NotificationView()
         {
             InitializeComponent();

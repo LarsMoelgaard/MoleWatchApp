@@ -16,6 +16,9 @@ namespace MoleWatchApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FullPictureView : ContentPage
     {
+        /// <summary>
+        /// Default constructor
+        /// </summary>
         public FullPictureView()
         {
             InitializeComponent();

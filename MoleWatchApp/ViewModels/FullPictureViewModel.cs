@@ -18,9 +18,22 @@ namespace MoleWatchApp.ViewModels
     {
 
         #region Properties mm 
+        /// <summary>
+        /// Reference til Viewmodellen's Model.
+        /// </summary>
         private IPictureListModel listModelRef;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private ImageSource fullImageSource;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string pictureTitle;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string commentText;
 
         public string PictureTitle
