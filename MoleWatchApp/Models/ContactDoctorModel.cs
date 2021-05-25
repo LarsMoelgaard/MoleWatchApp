@@ -12,7 +12,14 @@ namespace MoleWatchApp.Models
     /// </summary>
     public class ContactDoctorModel
     {
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         private IAPIService api;
+
+        /// <summary>
+        /// Reference til patientmodellen for at kunne hente det rigtige data.
+        /// </summary>
         private IPatientModel patientModel;
 
         public ContactDoctorModel()

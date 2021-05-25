@@ -23,16 +23,45 @@ namespace MoleWatchApp.ViewModels
     public class CreateCollectionViewModel : BaseViewModel
     {
         #region Properties mm 
-
+        /// <summary>
+        /// Reference til PatientModellens model så alt kan opdateres og hentes korrekt.
+        /// </summary>
         private IPatientModel patientModelRef;
+
+        /// <summary>
+        /// Reference til Viewmodellen's model
+        /// </summary>
         private ICollectionModel collectionModel;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string dateText;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string markCollectionImage;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string collectionTitle;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private bool noImagesInCollection = true;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private ImageSource lastCollectionPhoto;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private int LastPictureID;
 
+
+        /// <summary>
+        /// Property som sætter billedets source på siden
+        /// </summary>
         public ImageSource LastCollectionPhoto
         {
             get
@@ -46,6 +75,10 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+        /// <summary>
+        /// Databinded property som styrer hvorvidt activity-indicatoren kører.
+        /// </summary>
         public bool BaseIsBusy
         {
             get
@@ -59,6 +92,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Property som styrer teksten som er under billedet, som indeholder datoen for det sidste billede som blev uploadet
+        /// </summary>
         public string DateText
         {
             get
@@ -72,6 +108,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Bool der fortæller om der ikke er nogen billeder i samlingen
+        /// </summary>
         public bool NoImagesInCollection
         {
             get
@@ -86,6 +125,9 @@ namespace MoleWatchApp.ViewModels
         }
 
 
+        /// <summary>
+        /// Databinded property som styrer, ikonet der bliver vist sammen med "Markér samling"-knappen 
+        /// </summary>
         public string MarkCollectionImage
         {
             get
@@ -99,6 +141,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Property der styrer titlen på CreateCollection-viewet.
+        /// </summary>
         public string CollectionTitle
         {
             get
@@ -113,17 +158,39 @@ namespace MoleWatchApp.ViewModels
         }
 
 
+        /// <summary>
+        /// Kommando der eksekveres når "markér samling"-knappen bliver trykket på
+        /// </summary>
         public Command MarkCommand { get; }
 
+
+        /// <summary>
+        /// Kommando der eksekveres når kamera-knappen trykkes på
+        /// </summary>
         public Command CameraButtonClicked { get; }
+
+        /// <summary>
+        /// Kommando der eksekveres når galleri-knappen trykkes på
+        /// </summary>
         public Command GalleryButtonClicked { get; }
 
+
+        /// <summary>
+        /// Kommando der eksekveres når "Vis bileder for samling"-knappen trykkes på
+        /// </summary>
         public Command ShowPictureCollectionCommand { get; }
 
+
+        /// <summary>
+        /// Kommando der eksekveres når "SletCollection"-knappen i pop-up-menuen bliver trykket på
+        /// </summary>
         public Command DeleteCollectionCommand { get; }
 
 
 
+        /// <summary>
+        /// Kommando der eksekveres når "ændre navn"-knappen i pop-up-menuen bliver trykket på
+        /// </summary>
         public ICommand ChangeNameCommand
         {
             get
@@ -133,7 +200,10 @@ namespace MoleWatchApp.ViewModels
         }
 
         #endregion
-
+        
+        /// <summary>
+        /// Default constructor til viewmodellen
+        /// </summary>
         public CreateCollectionViewModel()
         {
             BaseIsBusy = false;

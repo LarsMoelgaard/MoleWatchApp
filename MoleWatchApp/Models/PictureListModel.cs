@@ -15,10 +15,24 @@ namespace MoleWatchApp.Models
     /// </summary>
     public class PictureListModel : IPictureListModel
     {
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         private IAPIService api;
+
+        /// <summary>
+        /// Billedet der er valgt til at blive vist på siden
+        /// </summary>
         public CompletePicture PictureOnPage { get; set; }
+
+        /// <summary>
+        /// Listen af alle billederne der er hentet ned fra API'en
+        /// </summary>
         public ObservableCollection<CompletePicture> CompletePictureModelList { get; set; }
 
+        /// <summary>
+        /// Default constructor til modellen
+        /// </summary>
         public PictureListModel()
         {
             api = APISingleton.GetAPI();

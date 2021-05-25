@@ -14,6 +14,9 @@ namespace MoleWatchApp.ViewModels
     /// </summary>
     public class ContactDoctorViewModel : BaseViewModel
     {
+        /// <summary>
+        /// Default constructor til Viewet  
+        /// </summary>
         public ContactDoctorViewModel()
         {
             ContactDoctorModel doctorModel = new ContactDoctorModel();
@@ -41,12 +44,29 @@ namespace MoleWatchApp.ViewModels
 
         #region Properties
 
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string doctorName;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string doctorAdress;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string openingHours;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string mobileNumber;
 
-
+        /// <summary>
+        /// Property der indholder telefonnummeret på lægens praksis
+        /// </summary>
         public string MobileNumber
         {
             get
@@ -59,7 +79,10 @@ namespace MoleWatchApp.ViewModels
                 this.OnPropertyChanged();
             }
         }
-
+        
+        /// <summary>
+        /// Property der indeholder læge-praksisens åbningstider
+        /// </summary>
         public string OpeningHours
         {
             get
@@ -73,9 +96,23 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+
+        /// <summary>
+        /// Kommando der eksekveres når "Besøg hjemmeside"-knappen bliver trykket på
+        /// </summary>
         public ICommand OpenWebCommand { get; }
+
+
+
+        /// <summary>
+        /// Kommando der eksekveres når "Ring op"-knappen bliver trykket på
+        /// </summary>
         public ICommand CallNumber { get; }
 
+        /// <summary>
+        /// Property der indeholder lægepraksisens navn
+        /// </summary>
         public string DoctorName
         {
             get
@@ -89,6 +126,10 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+        /// <summary>
+        /// Property der indeholder lægepraksisens adresse
+        /// </summary>
         public string DoctorAdress
         {
             get

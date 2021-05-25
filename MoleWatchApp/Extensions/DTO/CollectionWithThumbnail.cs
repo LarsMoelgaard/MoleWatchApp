@@ -6,6 +6,9 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp.Extensions.DTO
 {
+    /// <summary>
+    /// Klasse der indeholder dataen som en Collection sammen med en ImageSource som indeholder billeddata
+    /// </summary>
     public class CollectionWithThumbnail
     {
         public ImageSource CollectionPictureData { get; set; }

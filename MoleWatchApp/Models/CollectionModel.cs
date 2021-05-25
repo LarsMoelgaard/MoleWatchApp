@@ -19,10 +19,20 @@ namespace MoleWatchApp.Models
     /// </summary>
     public class CollectionModel : ICollectionModel
     {
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         private IAPIService _api;
+
+        /// <summary>
+        /// Property til at kunne hente og opdatere den rigtige samling på siden.
+        /// </summary>
         public CollectionDTO CollectionOnPage { get; private set; }
         
-
+        /// <summary>
+        /// Constructor til collectionModel
+        /// </summary>
+        /// <param name="CollectionOnPage">Den collection som siden skal vise</param>
         public CollectionModel(CollectionDTO CollectionOnPage) 
         {
             _api = APISingleton.GetAPI();

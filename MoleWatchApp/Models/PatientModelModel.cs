@@ -14,13 +14,30 @@ namespace MoleWatchApp.Models
     /// </summary>
     public class PatientModelModel : IPatientModel
     {
+        /// <summary>
+        /// Informationen vedrørende patienten som er logget ind, såsom navn, køn, kontakt information til vedrørendes læge osv.
+        /// </summary>
         public PatientInfoDTO CurrentPatient { get; set; }
+
+        /// <summary>
+        /// Data vedrørende patienten som er logget ind, såsom alle de pågældende collection og hvor de ligger henne.
+        /// </summary>
         public PatientDataDTO CurrentPatientData { get; set; }
+
+        /// <summary>
+        /// Collectionen som er vist på CreateCollection siden.
+        /// </summary>
         public CollectionDTO CollectionOnPage { get; private set; }
+
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         public IAPIService api { get; }
 
 
-
+        /// <summary>
+        /// Default constructor til modellen.
+        /// </summary>
         public PatientModelModel()
         {
             api = APISingleton.GetAPI();

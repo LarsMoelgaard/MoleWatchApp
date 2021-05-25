@@ -13,7 +13,14 @@ namespace MoleWatchApp.Models
     /// </summary>
     class NotificationModel
     {
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         public IAPIService api { get; }
+
+        /// <summary>
+        /// Reference til patientmodellen 
+        /// </summary>
         private IPatientModel patientModel;
 
         public NotificationModel()

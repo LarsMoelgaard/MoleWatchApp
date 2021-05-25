@@ -10,15 +10,29 @@ namespace MoleWatchApp.Models
 {
     public class LoginModel: ILogin
     {
-
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         private IAPIService API;
 
+        /// <summary>
+        /// Objekt der bliver brugt til at verificere login. Hvis denne er null efter API-kaldet så er loginet ikke verificeret
+        /// </summary>
         private PatientInfoDTO newPatientInfoDto;
 
+        /// <summary>
+        /// Patientdata objekt som bliver returneret efter API-kaldet når PatientInformationen allerede er blevet hentet ned.
+        /// </summary>
         public PatientDataDTO PatientData { get; private set; }
 
+        /// <summary>
+        /// Bool der fortæller om en patient allerede er loaded ned fra API'en
+        /// </summary>
         public bool IsPatientLoadedFromAPI { get; set; } = false;
 
+        /// <summary>
+        /// Default constructor til Modellen
+        /// </summary>
         public LoginModel()
         {
             API = APISingleton.GetAPI();

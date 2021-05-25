@@ -7,9 +7,9 @@ using Xamarin.Forms;
 namespace MoleWatchApp.Extensions
 {
     /// <summary>
-    /// Klasse til at styre zoom og pan på patientmodellen 
+    /// Klasse til at styre zoom og pan på patientmodellen
+    /// //Inspiration til denne kode fundet på https://forums.xamarin.com/discussion/77726/how-to-mix-the-pinch-and-pan-gesture-for-image-control-together
     /// </summary>
-    //Inspiration til denne kode fundet på https://forums.xamarin.com/discussion/77726/how-to-mix-the-pinch-and-pan-gesture-for-image-control-together
 
     public class PinchAndPanContainer : ContentView
     {

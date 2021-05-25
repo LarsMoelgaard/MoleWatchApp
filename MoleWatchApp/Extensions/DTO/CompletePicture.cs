@@ -5,6 +5,9 @@ using DataClasses.DTO;
 
 namespace MoleWatchApp.Extensions.DTO
 {
+    /// <summary>
+    /// Klasse der indeholder dataen som en PictureInfoDTO sammen med et byte array som indeholder billeddata
+    /// </summary>
     public class CompletePicture
     {
         public int PictureID { get; set; }

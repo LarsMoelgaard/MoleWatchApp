@@ -9,16 +9,22 @@ namespace MoleWatchApp.Models
     {
         private static IPatientModel _patientModel;
 
+        private static readonly object threadSafetyLock = new object();
+
+
         private static IPatientModel patientModel
         {
             get
             {
-                if (_patientModel == null)
+                lock (threadSafetyLock)
                 {
-                    _patientModel = new PatientModelModel(); 
-                }
+                    if (_patientModel == null)
+                    {
+                        _patientModel = new PatientModelModel();
+                    }
 
-                return _patientModel;
+                    return _patientModel;
+                }
             }
         }
 

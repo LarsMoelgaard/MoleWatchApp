@@ -21,11 +21,24 @@ namespace MoleWatchApp.ViewModels
     public class CollectionListViewModel : BaseViewModel
     {
         #region Properties mm
+        /// <summary>
+        /// Reference til viewmodellen's Model
+        /// </summary>
         private CollectionListModel collectionListModel;
+
+        /// <summary>
+        /// Reference til Patientmodellen så data kan hentes/opdateres korrekt
+        /// </summary>
         private IPatientModel patientModelRef;
+
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private ObservableCollection<CollectionWithThumbnail> collectionWithPicture;
 
-
+        /// <summary>
+        /// Databinded property som styrer hvorvidt activity-indicatoren kører.
+        /// </summary>
         public bool BaseIsBusy
         {
             get
@@ -41,6 +54,9 @@ namespace MoleWatchApp.ViewModels
 
         }
 
+        /// <summary>
+        /// Observable collection af CollectionWithThumbnail, der kan fungere som links til de forskellige collection med et billede i småt format til identifikation
+        /// </summary>
         public ObservableCollection<CollectionWithThumbnail> CollectionWithPicture
         {
             get
@@ -54,6 +70,11 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+
+        /// <summary>
+        /// Kommando der eksekveres når en specifik collection bliver trykket på.
+        /// </summary>
         public ICommand ExistingCollectionListClicked
         {
             get
@@ -62,10 +83,18 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+
+        /// <summary>
+        /// Kommando der eksekveres når siden indlæses
+        /// </summary>
         public Command UpdateCollections { get; }
 
         #endregion
 
+        /// <summary>
+        /// Default constructor til viewmodellen
+        /// </summary>
         public CollectionListViewModel()
         {
             patientModelRef = PatientModelSingleton.GetPatientModel();

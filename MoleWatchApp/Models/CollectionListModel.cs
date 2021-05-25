@@ -12,8 +12,14 @@ namespace MoleWatchApp.Models
     /// </summary>
     public class CollectionListModel
     {
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         private IAPIService api;
 
+        /// <summary>
+        /// Default constructor til CollectionListModellen
+        /// </summary>
         public CollectionListModel()
         {
             api = APISingleton.GetAPI();

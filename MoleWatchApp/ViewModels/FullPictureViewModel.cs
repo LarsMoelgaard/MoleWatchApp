@@ -36,6 +36,10 @@ namespace MoleWatchApp.ViewModels
         /// </summary>
         private string commentText;
 
+
+        /// <summary>
+        /// Property som bruges til at sætte titlen på viewet.
+        /// </summary>
         public string PictureTitle
         {
             get
@@ -49,6 +53,10 @@ namespace MoleWatchApp.ViewModels
             }
 
         }
+
+        /// <summary>
+        /// Property som bruges til at databinde billed-kommentarene til billedet.
+        /// </summary>
         public string CommentText
         {
             get
@@ -63,7 +71,9 @@ namespace MoleWatchApp.ViewModels
         }
 
 
-
+        /// <summary>
+        /// Databinded property som sætter billedets source på viewet.
+        /// </summary>
         public ImageSource FullImageSource
         {
             get
@@ -79,11 +89,21 @@ namespace MoleWatchApp.ViewModels
         }
 
 
+        /// <summary>
+        /// Kommando der eksekveres når slet billede-knappen trykkes på
+        /// </summary>
         public Command DeleteButtonClicked { get; }
+
+        /// <summary>
+        /// Kommando der eksekveres når tilføj-kommentar knappen trykkes på
+        /// </summary>
         public Command AddCommentButtonClicked { get; }
 
         #endregion
 
+        /// <summary>
+        /// default constructor til viewmodellen
+        /// </summary>
         public FullPictureViewModel()
         {
             listModelRef = PictureListModelSingleton.GetPictureListModel();
