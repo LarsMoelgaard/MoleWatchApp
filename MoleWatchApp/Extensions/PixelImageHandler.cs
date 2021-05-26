@@ -13,10 +13,25 @@ namespace MoleWatchApp.Extensions
     /// </summary>
     public class PixelImageHandler
     {
+        /// <summary>
+        /// Bitmap af patientmodellen med farver for at kunne identificere placering af lemmer og side
+        /// </summary>
         private SKBitmap resourceBitmap;
+
+        /// <summary>
+        /// Tekststreng til at finde den rigtige fil med markerede kropsdele
+        /// </summary>
         private string resourceID = "MoleWatchApp.Extensions.ColorMaleFront.png";
+
+        /// <summary>
+        /// Bool der fortæller om patienten vender med fronten til.
+        /// </summary>
         private bool isFrontFacing = true;
 
+        /// <summary>
+        /// Constructor der indeholder Imagesourcen på patientmodellen for at finde den tilsvarende farvede version af det.
+        /// </summary>
+        /// <param name="source"></param>
         public PixelImageHandler(ImageSource source)
         {
             switch (source.ToString())
@@ -73,6 +88,11 @@ namespace MoleWatchApp.Extensions
             return getBodyPlacement(colorValue);
         }
 
+        /// <summary>
+        /// Finder kropsdelen ud fra farvekoden.
+        /// </summary>
+        /// <param name="color"></param>
+        /// <returns></returns>
         private string getBodyPlacement(string color)
         {
             string bodyPart = "";

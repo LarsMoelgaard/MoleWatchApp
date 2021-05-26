@@ -24,10 +24,19 @@ namespace MoleWatchApp.Views
     
     public class CreateCollectionView : MenuContainerPage
     {
-
+        /// <summary>
+        /// Reference til Viewmodellen, så det kan databindes og så der kan eksekveres kommandoer derpå.
+        /// </summary>
         private CreateCollectionViewModel CCVM;
+
+        /// <summary>
+        /// Billedet af det sidste photo i kronologisk rækkefølge som er taget af modermærket.
+        /// </summary>
         private ImageCropView LastCollectionPhoto;
 
+        /// <summary>
+        /// Default constructor som opretter hele siden fra code-behind.
+        /// </summary>
         public CreateCollectionView()
         {
             CCVM = new CreateCollectionViewModel();

@@ -4,15 +4,23 @@ using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 
 namespace MoleWatchApp.Models
 {
     /// <summary>
     /// Model kalsse for ContactDoctor viewmodel 
     /// </summary>
-    public class ContactDoctorModel
+    public class ContactDoctorModel : IContactDoctorModel
     {
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         private IAPIService api;
+
+        /// <summary>
+        /// Reference til patientmodellen for at kunne hente det rigtige data.
+        /// </summary>
         private IPatientModel patientModel;
 
         public ContactDoctorModel()

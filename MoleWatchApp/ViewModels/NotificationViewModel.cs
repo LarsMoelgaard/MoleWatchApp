@@ -13,9 +13,19 @@ namespace MoleWatchApp.ViewModels
 {
     class NotificationViewModel : BaseViewModel
     {
+        /// <summary>
+        /// Refernce til den pågældende collection som er på siden.
+        /// </summary>
         public CollectionDTO currentCollection;
+        /// <summary>
+        /// Navnet på den pågældende collection på siden.
+        /// </summary>
         public string CurrentCollectionName;
 
+
+        /// <summary>
+        /// Default constructor til viewmodellen
+        /// </summary>
         public NotificationViewModel()
         {
             DateToday = DateTime.Now;
@@ -27,13 +37,30 @@ namespace MoleWatchApp.ViewModels
         }
 
         #region Properties, commands mm. 
-
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private DateTime dateToday;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private DateTime pickedDate = DateTime.Now;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private int pickedIndex;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private NotificationModel NotificationModel;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private bool newDatePicked;
 
+        /// <summary>
+        /// Tjekker om hvorvidt der er valgt en ny dato
+        /// </summary>
         public bool NewDatePicked
         {
             get
@@ -47,6 +74,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Kommando der eksekveres når der trykkes på gem-knappen.
+        /// </summary>
         public ICommand SaveClickedCommand
         {
             get
@@ -55,6 +85,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Index på hjulet som notifikationen sættes til.
+        /// </summary>
         public int PickedIndex
         {
             get
@@ -68,6 +101,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Datoen som bliver valgt i Viewet
+        /// </summary>
         public DateTime PickedDate
         {
             get
@@ -81,6 +117,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Sættes så kalenderen ved at notfikationen skal startes fra dags dato.
+        /// </summary>
         public DateTime DateToday
         {
             get

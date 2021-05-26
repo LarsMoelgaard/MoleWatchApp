@@ -18,8 +18,15 @@ namespace MoleWatchApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PictureListView : ContentPage
     {
+        /// <summary>
+        /// Listen af imagecells hvori alle completepictures for den pågældende samling er gemt.
+        /// </summary>
         public List<ImageCell> TableList { get; set; }
 
+
+        /// <summary>
+        /// Default constructor til PictureListViewet
+        /// </summary>
         public PictureListView()
         {
 
@@ -28,7 +35,8 @@ namespace MoleWatchApp.Views
             InitializeComponent();
         }
 
-        private bool NoItemsInTableView = true;
+
+        //private bool NoItemsInTableView = true;
 
         /// <summary>
         /// Konverterer bytearray til et imagesource
@@ -49,7 +57,7 @@ namespace MoleWatchApp.Views
 
 
         /// <summary>
-        /// Opdatere indholdet på siden, således alle nye billeder også loades 
+        /// Opdaterer indholdet på siden, således alle nye billeder også loades 
         /// </summary>
 
         private void UpdateTable()
@@ -116,7 +124,7 @@ namespace MoleWatchApp.Views
         private void HiddenPictureListView_OnItemAppearing(object sender, ItemVisibilityEventArgs e)
         {
                 UpdateTable();
-                NoItemsInTableView = false;
+                //NoItemsInTableView = false;
         }
 
 
@@ -138,7 +146,7 @@ namespace MoleWatchApp.Views
         private void HiddenPictureListView_OnChildAdded(object sender, ElementEventArgs e)
         {
             UpdateTable();
-            NoItemsInTableView = false;
+            //NoItemsInTableView = false;
         }
     }
 }

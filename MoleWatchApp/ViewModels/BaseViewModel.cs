@@ -8,7 +8,7 @@ using Xamarin.Forms;
 namespace MoleWatchApp.ViewModels
 {
     /// <summary>
-    /// Standard klasse implementeret fra Xamarin Forms 
+    /// Standard klasse implementeret fra Xamarin.Forms 
     /// </summary>
     public class BaseViewModel : INotifyPropertyChanged
     {

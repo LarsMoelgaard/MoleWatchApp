@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 
 namespace MoleWatchApp.Models
 {
@@ -9,16 +10,20 @@ namespace MoleWatchApp.Models
     {
         private static IPictureListModel _pictureListModel;
 
+        private static readonly object threadSafetyLock = new object();
         private static IPictureListModel pictureListModel
         {
             get
             {
-                if (_pictureListModel == null)
+                lock (threadSafetyLock)
                 {
-                    _pictureListModel = new PictureListModel();
-                }
+                    if (_pictureListModel == null)
+                    {
+                        _pictureListModel = new PictureListModel();
+                    }
 
-                return _pictureListModel;
+                    return _pictureListModel;
+                }
             }
         }
 

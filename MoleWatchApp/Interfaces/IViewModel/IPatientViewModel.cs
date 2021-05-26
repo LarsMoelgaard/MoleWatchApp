@@ -3,7 +3,7 @@ using System.Windows.Input;
 using DataClasses.DTO;
 using Xamarin.Forms;
 
-namespace MoleWatchApp.ViewModels
+namespace MoleWatchApp.Interfaces
 {
     public interface IPatientViewModel
     {

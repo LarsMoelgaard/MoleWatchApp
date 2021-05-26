@@ -20,9 +20,15 @@ namespace MoleWatchApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CollectionListView : ContentPage
     {
-
+        /// <summary>
+        /// Lit af Imagecells som bliver brugt til oprettelse af tabel-listen, hvori alle completeCollections er gemt, så de fungerer som links til deres respektive CreateCollectionViews.
+        /// </summary>
         private List<ImageCell> CollectionCells;
 
+
+        /// <summary>
+        /// Default constructor til viewet.
+        /// </summary>
         public CollectionListView()
         {
             InitializeComponent();

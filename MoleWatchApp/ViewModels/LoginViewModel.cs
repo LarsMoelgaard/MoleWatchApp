@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataClasses.DTO.MISCDTOS;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 using MoleWatchApp.Models;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
@@ -18,31 +19,63 @@ namespace MoleWatchApp.ViewModels
     public class LoginViewModel : BaseViewModel
     {
         #region Properties mm
+
         private ILogin loginModel;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private Color passwordLabelColor;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private Color usernameLabelColor;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string usernameInput;
+                /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string password;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string usernameLabel;
+        /// <summary>
+        /// Privat version af databinded property
+        /// </summary>
         private string passwordLabel;
-        private bool biometricValue;
 
-        public bool BiometricValue
-        {
-            get
-            {
-                return biometricValue;
-            }
-            set
-            {
-                biometricValue = value;
-                this.OnPropertyChanged();
-            }
-        }
 
+
+
+        //private bool biometricValue;
+
+        //public bool BiometricValue
+        //{
+        //    get
+        //    {
+        //        return biometricValue;
+        //    }
+        //    set
+        //    {
+        //        biometricValue = value;
+        //        this.OnPropertyChanged();
+        //    }
+        //}
+
+        /// <summary>
+        /// Kommando der eksekveres når der trykkes på login-knappen
+        /// </summary>
         public Command LoginCommand { get; }
+        /// <summary>
+        /// Kommando der eksekveres når der trykkes på SmartLogin-knappen
+        /// </summary>
         public Command SmartLoginCommand { get; }
 
+        /// <summary>
+        /// Databinded property for brugerens input i username-feltet
+        /// </summary>
         public string UsernameInput
         {
             get
@@ -56,6 +89,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Databinded property for brugerens input i Password-feltet
+        /// </summary>
         public string Password
         {
             get
@@ -69,6 +105,10 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+
+        /// <summary>
+        /// Databinded property som styrer hvorvidt activity-indicatoren kører.
+        /// </summary>
         public bool BaseIsBusy
         {
             get
@@ -84,6 +124,9 @@ namespace MoleWatchApp.ViewModels
 
         }
 
+        /// <summary>
+        /// Databinded property for teksten over username-feltet
+        /// </summary>
         public string UsernameLabel
         {
             get
@@ -97,6 +140,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
+        /// <summary>
+        /// Databinded property for teksten over password-feltet
+        /// </summary>
         public string PasswordLabel
         {
             get
@@ -110,7 +156,9 @@ namespace MoleWatchApp.ViewModels
             }
         }
 
-
+        /// <summary>
+        /// Databinded property for tekstens farve over username-feltet
+        /// </summary>
         public Color UsernameLabelColor
         {
             get
@@ -125,6 +173,9 @@ namespace MoleWatchApp.ViewModels
         }
 
 
+        /// <summary>
+        /// Databinded property for tekstens farve over password-feltet
+        /// </summary>
         public Color PasswordLabelColor
         {
             get
@@ -140,6 +191,9 @@ namespace MoleWatchApp.ViewModels
 
         #endregion
 
+        /// <summary>
+        /// Default constructor til viewmodellen
+        /// </summary>
         public LoginViewModel()
         {
             UsernameLabel = "Indtast CPR-nummer:";

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DataClasses.DTO;
+﻿using DataClasses.DTO;
 
-namespace MoleWatchApp.Interfaces
+namespace MoleWatchApp.Interfaces.IModel
 {
     public interface ILogin
     {

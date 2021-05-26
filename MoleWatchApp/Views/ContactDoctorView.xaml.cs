@@ -16,6 +16,9 @@ namespace MoleWatchApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ContactDoctorView : ContentPage
     {
+        /// <summary>
+        /// Default constructor til viewet
+        /// </summary>
         public ContactDoctorView()
         {
             InitializeComponent();

@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions;
+using MoleWatchApp.Interfaces;
 using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 
@@ -17,6 +18,9 @@ namespace MoleWatchApp.Views
     /// </summary>
     public partial class PatientModelView : ContentPage
     {
+        /// <summary>
+        /// default constructor til viewet som sætter bindingcontexten
+        /// </summary>
         public PatientModelView() 
         {
             InitializeComponent();
@@ -24,11 +28,23 @@ namespace MoleWatchApp.Views
             BindingContext = PViewModel;
 
         }
-
+        /// <summary>
+        /// Listen af alle knapperne/modermærkerne på patientmodellen
+        /// </summary>
         private List<ImageButton> PatientButtonList = new List<ImageButton>();
+
+        /// <summary>
+        /// Reference til Viewmodellen så den kan eksekverer kommandoer
+        /// </summary>
         private IPatientViewModel PViewModel;
+        
+        /// <summary>
+        /// Bool der sikrer at PatientModelViewet ikke eksekverer UpdateTable() før siden er synlig på skærmen.
+        /// </summary>
         private bool IsVisible = false;
-        private string result = "";
+
+
+
 
 
         /// <summary>
@@ -39,7 +55,7 @@ namespace MoleWatchApp.Views
         private async void Checkmark_button_Clicked(object sender, EventArgs e)
         {
 
-            result = await DisplayPromptAsync("Opret ny samling for modermærke", "Indtast navn på det valgte modermærke");
+            string result = await DisplayPromptAsync("Opret ny samling for modermærke", "Indtast navn på det valgte modermærke");
 
             if (result == null)
             {
@@ -75,6 +91,32 @@ namespace MoleWatchApp.Views
                 {
                     newCollectionDto.CollectionName = result;
                 }
+
+                string collectionName = newCollectionDto.CollectionName;
+
+                int SameName = 0;
+
+                foreach (CollectionDTO collection in HiddenListView.ItemsSource)
+                {
+                    if (collection.CollectionName.Contains(collectionName))
+                    {
+                        SameName++;
+                    }
+                }
+
+                if (SameName > 0)
+                {
+                    collectionName += Convert.ToString(" " + SameName);
+                }
+
+                if (result != collectionName)
+                {
+                    await DisplayAlert("Ugyldigt navn på samling",
+                        "Navnet på samlingen er enten tomt eller ugyldigt. Samlingen har fået autogenereret et navn, som eventuelt kan ændres senere", "OK");
+                }
+
+                newCollectionDto.CollectionName = collectionName;
+
 
                 newCollectionDto.Location.BodyPart = bodypart;
                 if (relativeXCoordinate > 5000)

@@ -1,6 +1,6 @@
 ﻿using DataClasses.DTO;
 
-namespace MoleWatchApp.Interfaces
+namespace MoleWatchApp.Interfaces.IModel
 {
     public interface ICollectionModel
     {

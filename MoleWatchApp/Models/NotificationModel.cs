@@ -5,6 +5,7 @@ using APIWebServiesConnector;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 
 namespace MoleWatchApp.Models
 {
@@ -13,7 +14,14 @@ namespace MoleWatchApp.Models
     /// </summary>
     class NotificationModel
     {
+        /// <summary>
+        /// Reference til api-klassen fra Nuget-Pakken
+        /// </summary>
         public IAPIService api { get; }
+
+        /// <summary>
+        /// Reference til patientmodellen 
+        /// </summary>
         private IPatientModel patientModel;
 
         public NotificationModel()

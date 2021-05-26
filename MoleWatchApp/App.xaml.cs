@@ -5,6 +5,9 @@ using Xamarin.Forms.Xaml;
 
 namespace MoleWatchApp
 {
+    /// <summary>
+    /// Default klasse i Xamarin.Forms
+    /// </summary>
     public partial class App : Application
     {
 
