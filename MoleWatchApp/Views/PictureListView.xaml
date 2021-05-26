@@ -6,10 +6,7 @@
              x:Name="PictureListPage" Title="{Binding PageTitle}"
              Appearing="PictureListView_OnAppearing">
         
-    <ContentPage.BindingContext>
-        <viewModels:PictureListViewModel x:Name="PictureListViewModel" />
-        
-    </ContentPage.BindingContext>
+
 
     <ContentPage.Content>
 

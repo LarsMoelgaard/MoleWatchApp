@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
+using MoleWatchApp.Interfaces.IViewModel;
 using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -21,16 +22,22 @@ namespace MoleWatchApp.Views
     public partial class CollectionListView : ContentPage
     {
         /// <summary>
+        /// Reference til databinding
+        /// </summary>
+        private ICollectionListViewModel CollectionListVModel;
+
+        /// <summary>
         /// Lit af Imagecells som bliver brugt til oprettelse af tabel-listen, hvori alle completeCollections er gemt, så de fungerer som links til deres respektive CreateCollectionViews.
         /// </summary>
         private List<ImageCell> CollectionCells;
-
 
         /// <summary>
         /// Default constructor til viewet.
         /// </summary>
         public CollectionListView()
         {
+            CollectionListVModel = new CollectionListViewModel();
+            this.BindingContext = CollectionListVModel;
             InitializeComponent();
         }
 

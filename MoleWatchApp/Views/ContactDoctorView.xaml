@@ -4,9 +4,6 @@
              xmlns:viewModels="clr-namespace:MoleWatchApp.ViewModels;assembly=MoleWatchApp"
              x:Class="MoleWatchApp.Views.ContactDoctorView">
 
-    <ContentPage.BindingContext >
-        <viewModels:ContactDoctorViewModel x:Name="ContactVM" />
-    </ContentPage.BindingContext>
 
     <ContentPage.Content>
             <Grid>

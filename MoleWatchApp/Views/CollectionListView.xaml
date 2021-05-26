@@ -7,10 +7,7 @@
              Title ="Mine Modermærker"
 >
 
-    <ContentPage.BindingContext >
-        <viewModels:CollectionListViewModel x:Name="CollectionListVModel" />
-    </ContentPage.BindingContext>
-        
+
         
 
         <ContentPage.Content>

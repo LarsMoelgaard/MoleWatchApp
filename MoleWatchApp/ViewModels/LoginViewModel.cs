@@ -21,7 +21,6 @@ namespace MoleWatchApp.ViewModels
     {
         #region Properties mm
 
-        public ILogin loginModel { private get; set; }
         /// <summary>
         /// Privat version af databinded property
         /// </summary>
@@ -52,18 +51,10 @@ namespace MoleWatchApp.ViewModels
 
         //private bool biometricValue;
 
-        //public bool BiometricValue
-        //{
-        //    get
-        //    {
-        //        return biometricValue;
-        //    }
-        //    set
-        //    {
-        //        biometricValue = value;
-        //        this.OnPropertyChanged();
-        //    }
-        //}
+        /// <summary>
+        /// Reference til modellen, som er åben for property injection.
+        /// </summary>
+        public ILogin loginModel { private get; set; }
 
         /// <summary>
         /// Kommando der eksekveres når der trykkes på login-knappen
