@@ -20,8 +20,8 @@ namespace MoleWatchApp.ViewModels
     /// </summary>
     public class PatientModelViewModel : BaseViewModel, IPatientViewModel
     {
-        private ILogin loginModel;
-        private IPatientModel patientModelClass;
+        public ILogin loginModel { private get; set; }
+        public IPatientModel patientModelClass { private get; set; }
 
         #region Properties, commands mm
         /// <summary>
