@@ -6,10 +6,7 @@
              x:Class="MoleWatchApp.Views.FullPictureView" Title="{Binding PictureTitle}">
 
 
-    <ContentPage.BindingContext>
-        <viewModels:FullPictureViewModel x:Name="FullPictureViewModel" />
 
-    </ContentPage.BindingContext>
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>

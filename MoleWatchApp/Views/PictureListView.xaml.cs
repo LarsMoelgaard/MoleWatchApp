@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MoleWatchApp.Extensions.DTO;
+using MoleWatchApp.Interfaces.IViewModel;
+using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,12 +25,15 @@ namespace MoleWatchApp.Views
         /// </summary>
         public List<ImageCell> TableList { get; set; }
 
+        private IPictureListViewModel PictureListVM;
 
         /// <summary>
         /// Default constructor til PictureListViewet
         /// </summary>
         public PictureListView()
         {
+            PictureListVM = new PictureListViewModel();
+            this.BindingContext = PictureListVM;
 
             TableList = new List<ImageCell>();
 
@@ -135,7 +140,7 @@ namespace MoleWatchApp.Views
         /// <param name="e"></param>
         private void PictureListView_OnAppearing(object sender, EventArgs e)
         {
-            PictureListViewModel.UpdateTableOnAppearingCommand.Execute(null);
+            PictureListVM.UpdateTableOnAppearingCommand.Execute(null);
         }
 
         /// <summary>

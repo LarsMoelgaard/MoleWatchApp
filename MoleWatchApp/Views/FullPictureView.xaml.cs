@@ -4,7 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using MoleWatchApp.Interfaces.IViewModel;
+using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,10 +18,17 @@ namespace MoleWatchApp.Views
     public partial class FullPictureView : ContentPage
     {
         /// <summary>
+        /// Reference til databinding
+        /// </summary>
+        private IFullPictureViewModel FullPictureVM;
+
+        /// <summary>
         /// Default constructor
         /// </summary>
         public FullPictureView()
         {
+            FullPictureVM = new FullPictureViewModel();
+            this.BindingContext = FullPictureVM;
             InitializeComponent();
         }
 
@@ -36,7 +44,7 @@ namespace MoleWatchApp.Views
             Debug.WriteLine("Answer: " + answer);
             if (answer == true)
             {
-                FullPictureViewModel.DeleteButtonClicked.Execute(null);
+                FullPictureVM.DeleteButtonClicked.Execute(null);
             }
         }
 
