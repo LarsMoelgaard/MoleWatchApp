@@ -17,7 +17,7 @@ namespace MoleWatchApp.Models
         /// <summary>
         /// Reference til api-klassen fra Nuget-Pakken
         /// </summary>
-        private IAPIService API;
+        public IAPIService API {private get; set; }
 
         /// <summary>
         /// Objekt der bliver brugt til at verificere login. Hvis denne er null efter API-kaldet så er loginet ikke verificeret
