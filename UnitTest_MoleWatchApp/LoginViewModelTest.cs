@@ -3,6 +3,7 @@ using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Interfaces.IModel;
 using MoleWatchApp.ViewModels;
+using MoleWatchApp.Views;
 using NSubstitute;
 using NUnit.Framework;
 using Xamarin.Forms;

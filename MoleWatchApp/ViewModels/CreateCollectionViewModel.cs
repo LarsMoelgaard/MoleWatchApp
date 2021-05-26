@@ -24,16 +24,17 @@ namespace MoleWatchApp.ViewModels
     /// </summary>
     public class CreateCollectionViewModel : BaseViewModel, ICreateCollectionViewModel
     {
-        #region Properties mm 
-        /// <summary>
-        /// Reference til PatientModellens model så alt kan opdateres og hentes korrekt.
-        /// </summary>
-        private IPatientModel patientModelRef;
+        #region Properties mm
 
         /// <summary>
-        /// Reference til Viewmodellen's model
+        /// Reference til PatientModellens model så alt kan opdateres og hentes korrekt. Denne er åben for property-injection for at gøre det testbart
         /// </summary>
-        private ICollectionModel collectionModel;
+        public IPatientModel patientModelRef { set; private get; }
+
+        /// <summary>
+        /// Reference til Viewmodellen's model. Denne er åben for property-injection for at gøre det testbart
+        /// </summary>
+        public ICollectionModel collectionModel { set; private get; }
 
         /// <summary>
         /// Privat version af databinded property
