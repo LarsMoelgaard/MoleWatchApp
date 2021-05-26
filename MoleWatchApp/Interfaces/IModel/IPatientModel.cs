@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using APIWebServiesConnector;
+﻿using APIWebServiesConnector;
 using DataClasses.DTO;
-using MoleWatchApp.Models;
 
-namespace MoleWatchApp.Interfaces
+namespace MoleWatchApp.Interfaces.IModel
 {
     public interface IPatientModel
     {

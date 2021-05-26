@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 
 namespace MoleWatchApp.Models
 {

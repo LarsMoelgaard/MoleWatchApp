@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
-using DataClasses.DTO;
+﻿using System.Collections.ObjectModel;
 using MoleWatchApp.Extensions.DTO;
-using MoleWatchApp.Models;
 
-namespace MoleWatchApp.Interfaces
+namespace MoleWatchApp.Interfaces.IModel
 {
     public interface IPictureListModel
     {

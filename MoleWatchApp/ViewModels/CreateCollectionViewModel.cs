@@ -9,6 +9,8 @@ using System.Windows.Input;
 using DataClasses.DTO;
 using FFImageLoading.Forms.Args;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
+using MoleWatchApp.Interfaces.IViewModel;
 using MoleWatchApp.Models;
 using MoleWatchApp.Views;
 using Plugin.Media.Abstractions;
@@ -20,7 +22,7 @@ namespace MoleWatchApp.ViewModels
     /// <summary>
     /// ViewModel for CreateCollectionView 
     /// </summary>
-    public class CreateCollectionViewModel : BaseViewModel
+    public class CreateCollectionViewModel : BaseViewModel, ICreateCollectionViewModel
     {
         #region Properties mm 
         /// <summary>

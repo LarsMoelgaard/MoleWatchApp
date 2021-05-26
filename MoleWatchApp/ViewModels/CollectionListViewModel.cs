@@ -9,6 +9,8 @@ using System.Windows.Input;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
+using MoleWatchApp.Interfaces.IViewModel;
 using MoleWatchApp.Models;
 using MoleWatchApp.Views;
 using Xamarin.Forms;
@@ -18,13 +20,13 @@ namespace MoleWatchApp.ViewModels
     /// <summary>
     /// ViewModel for collectionList view 
     /// </summary>
-    public class CollectionListViewModel : BaseViewModel
+    public class CollectionListViewModel : BaseViewModel, ICollectionListViewModel
     {
         #region Properties mm
         /// <summary>
         /// Reference til viewmodellen's Model
         /// </summary>
-        private CollectionListModel collectionListModel;
+        private ICollectionListModel collectionListModel;
 
         /// <summary>
         /// Reference til Patientmodellen så data kan hentes/opdateres korrekt

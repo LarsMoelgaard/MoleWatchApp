@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using APIWebServiesConnector;
 using DataClasses.DTO;
+using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 using SkiaSharp;
 
 namespace MoleWatchApp.Models
@@ -10,7 +12,7 @@ namespace MoleWatchApp.Models
     /// <summary>
     /// Model klasse for CollectionListViewModel 
     /// </summary>
-    public class CollectionListModel
+    public class CollectionListModel : ICollectionListModel
     {
         /// <summary>
         /// Reference til api-klassen fra Nuget-Pakken

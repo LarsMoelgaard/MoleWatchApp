@@ -9,6 +9,7 @@ using System.Windows.Input;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 using MoleWatchApp.Models;
 using MoleWatchApp.Views;
 using Xamarin.Forms;

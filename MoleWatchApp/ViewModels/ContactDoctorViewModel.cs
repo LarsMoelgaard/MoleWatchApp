@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 using DataClasses.DTO;
+using MoleWatchApp.Interfaces.IModel;
+using MoleWatchApp.Interfaces.IViewModel;
 using MoleWatchApp.Models;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -12,14 +14,14 @@ namespace MoleWatchApp.ViewModels
     /// <summary>
     ///  Viewmodel for contact doctor view 
     /// </summary>
-    public class ContactDoctorViewModel : BaseViewModel
+    public class ContactDoctorViewModel : BaseViewModel, IContactDoctorViewModel
     {
         /// <summary>
         /// Default constructor til Viewet  
         /// </summary>
-        public ContactDoctorViewModel()
+        public ContactDoctorViewModel() 
         {
-            ContactDoctorModel doctorModel = new ContactDoctorModel();
+            IContactDoctorModel doctorModel = new ContactDoctorModel();
             DoctorContactInfoDTO doctorInfo = doctorModel.GetDoctorInfo();
 
             string website = !doctorInfo.Website.Contains("www.") ? doctorInfo.Website : doctorInfo.Website.Remove(0,4);

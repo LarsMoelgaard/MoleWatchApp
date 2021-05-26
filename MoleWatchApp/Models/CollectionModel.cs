@@ -8,7 +8,7 @@ using APIWebServiesConnector;
 using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
-
+using MoleWatchApp.Interfaces.IModel;
 using Xamarin.Forms;
 
 

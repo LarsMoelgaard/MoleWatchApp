@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataClasses.DTO.MISCDTOS;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 using MoleWatchApp.Models;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;

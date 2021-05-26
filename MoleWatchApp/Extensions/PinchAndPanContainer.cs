@@ -8,25 +8,56 @@ namespace MoleWatchApp.Extensions
 {
     /// <summary>
     /// Klasse til at styre zoom og pan på patientmodellen
-    /// //Inspiration til denne kode fundet på https://forums.xamarin.com/discussion/77726/how-to-mix-the-pinch-and-pan-gesture-for-image-control-together
+    /// Inspiration til denne kode fundet på https://forums.xamarin.com/discussion/77726/how-to-mix-the-pinch-and-pan-gesture-for-image-control-together
     /// </summary>
 
     public class PinchAndPanContainer : ContentView
     {
+        /// <summary>
+        /// Den nuværende skaleringsfaktor
+        /// </summary>
         double currentScale = 1;
+
+        /// <summary>
+        /// Skaleringsfaktoren på billedet ved opstart
+        /// </summary>
         double startScale = 1;
+
+        /// <summary>
+        /// Mængden af x-koordinat som patientmodellen er blevet rykket fra (0,0)
+        /// </summary>
         double xOffset = 0;
+
+        /// <summary>
+        /// Mængden af y-koordinat som patientmodellen er blevet rykket fra (0,0)
+        /// </summary>
         double yOffset = 0;
 
-
+        /// <summary>
+        /// Tidspunktet hvor det sidste pinch-event blev færdiggjort
+        /// </summary>
         private DateTime lastPinchDateTime;
+
+        /// <summary>
+        /// Tiden mellem det sidste pinch-event blev færdigt og nu, for at indsætte et delay.
+        /// </summary>
         private TimeSpan TimeSinceLastPinch;
 
+
+        /// <summary>
+        /// Skærm bredden i pixels
+        /// </summary>
         private double ScreenWidth;
+
+        /// <summary>
+        /// Skærm højden i pixels
+        /// </summary>
         private double ScreenHeight;
 
 
-
+        /// <summary>
+        /// Default constructor, som bliver brugt i XAML-koden.
+        /// </summary>
         public PinchAndPanContainer()
         {
             ScreenWidth = Application.Current.MainPage.Width;
@@ -55,12 +86,12 @@ namespace MoleWatchApp.Extensions
             double TrueYPosition;
 
 
-            TrueXPosition = (Xpin - xOffset)/currentScale;
+            TrueXPosition = (Xpin - xOffset) / currentScale;
             TrueYPosition = (Ypin - yOffset) / currentScale;
 
             int[] dataList = new int[2] { Convert.ToInt32(TrueXPosition), Convert.ToInt32(TrueYPosition) };
 
-
+                
             return dataList;
         }
 

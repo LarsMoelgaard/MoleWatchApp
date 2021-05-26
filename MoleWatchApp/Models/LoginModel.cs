@@ -5,9 +5,13 @@ using APIWebServiesConnector;
 using DataClasses.DataObjects.DTO;
 using DataClasses.DTO;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 
 namespace MoleWatchApp.Models
 {
+    /// <summary>
+    /// Model klasse til Login
+    /// </summary>
     public class LoginModel: ILogin
     {
         /// <summary>

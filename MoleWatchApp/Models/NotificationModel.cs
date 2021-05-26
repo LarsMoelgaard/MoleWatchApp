@@ -5,6 +5,7 @@ using APIWebServiesConnector;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
 
 namespace MoleWatchApp.Models
 {

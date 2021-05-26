@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using DataClasses.DTO;
 using MoleWatchApp.Extensions;
+using MoleWatchApp.Interfaces;
 using MoleWatchApp.ViewModels;
 using Xamarin.Forms;
 

@@ -5,6 +5,8 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using MoleWatchApp.Interfaces;
+using MoleWatchApp.Interfaces.IModel;
+using MoleWatchApp.Interfaces.IViewModel;
 using MoleWatchApp.Models;
 using Xamarin.Forms;
 
@@ -14,7 +16,7 @@ namespace MoleWatchApp.ViewModels
     /// <summary>
     /// ViewModel for FullPictureView 
     /// </summary>
-    public class FullPictureViewModel: BaseViewModel
+    public class FullPictureViewModel: BaseViewModel, IFullPictureViewModel
     {
 
         #region Properties mm 

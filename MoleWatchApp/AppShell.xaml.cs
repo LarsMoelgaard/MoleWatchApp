@@ -6,6 +6,9 @@ using Xamarin.Forms;
 
 namespace MoleWatchApp
 {
+    /// <summary>
+    /// Default klasse i Xamarin.Forms
+    /// </summary>
     public partial class AppShell : Xamarin.Forms.Shell
     {
         public AppShell()
