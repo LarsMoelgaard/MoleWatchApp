@@ -211,13 +211,6 @@ namespace MoleWatchApp.Extensions
 
             }
         }
-
-
-        public void UpdateScreenSize()
-        {
-            ScreenWidth = Application.Current.MainPage.Width;
-            ScreenHeight = Application.Current.MainPage.Height;
-        }
     }
 }
 
