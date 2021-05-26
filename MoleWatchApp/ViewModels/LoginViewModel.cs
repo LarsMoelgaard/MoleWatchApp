@@ -21,7 +21,7 @@ namespace MoleWatchApp.ViewModels
     {
         #region Properties mm
 
-        private ILogin loginModel;
+        public ILogin loginModel { private get; set; }
         /// <summary>
         /// Privat version af databinded property
         /// </summary>

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MoleWatchApp.Interfaces.IViewModel;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
 using Xamarin.Forms;
@@ -18,11 +19,16 @@ namespace MoleWatchApp.Views
     public partial class LoginPage : ContentPage
     {
 
+        private ILoginViewModel LoginVM;
+
         /// <summary>
         /// Default constructor til siden
         /// </summary>
         public LoginPage()
         {
+            LoginVM = new LoginViewModel();
+            this.BindingContext = LoginVM;
+
             InitializeComponent();
             
 

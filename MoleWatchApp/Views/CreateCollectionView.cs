@@ -14,6 +14,7 @@ using DLToolkit.Forms.Controls.Helpers.ImageCropView;
 using FFImageLoading.Forms;
 using FFImageLoading.Transformations;
 using FFImageLoading.Work;
+using MoleWatchApp.Interfaces.IViewModel;
 
 namespace MoleWatchApp.Views
 {
@@ -27,7 +28,7 @@ namespace MoleWatchApp.Views
         /// <summary>
         /// Reference til Viewmodellen, så det kan databindes og så der kan eksekveres kommandoer derpå.
         /// </summary>
-        private CreateCollectionViewModel CCVM;
+        private ICreateCollectionViewModel CCVM;
 
         /// <summary>
         /// Billedet af det sidste photo i kronologisk rækkefølge som er taget af modermærket.

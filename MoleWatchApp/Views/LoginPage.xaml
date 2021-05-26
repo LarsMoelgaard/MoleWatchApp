@@ -9,10 +9,7 @@
              Shell.NavBarIsVisible="False">
     
     
-            <ContentPage.BindingContext>
-            <viewModels:LoginViewModel x:Name="LoginViewModel" />
 
-        </ContentPage.BindingContext>
     
     <ContentPage.Content>
 
