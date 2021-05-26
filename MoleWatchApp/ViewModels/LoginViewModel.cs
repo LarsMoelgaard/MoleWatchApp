@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DataClasses.DTO.MISCDTOS;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Interfaces.IModel;
+using MoleWatchApp.Interfaces.IViewModel;
 using MoleWatchApp.Models;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
@@ -16,7 +17,7 @@ namespace MoleWatchApp.ViewModels
     /// <summary>
     /// ViewModel for LoginView 
     /// </summary>
-    public class LoginViewModel : BaseViewModel
+    public class LoginViewModel : BaseViewModel, ILoginViewModel
     {
         #region Properties mm
 

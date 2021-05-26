@@ -141,7 +141,7 @@ namespace MoleWatchApp.ViewModels
         /// Metoden gemmer ændringen i notifikationen og sender dette videre til Notification Model så det kan gemmes på API'en 
         /// </summary>
         /// <param name="interval"></param>
-        public void SaveNotification(int interval)
+        private void SaveNotification(int interval)
         {
             NotificationData notificationData = new NotificationData();
             notificationData.nextNotification = PickedDate;

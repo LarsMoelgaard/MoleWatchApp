@@ -10,6 +10,7 @@ using DataClasses.DTO;
 using MoleWatchApp.Extensions.DTO;
 using MoleWatchApp.Interfaces;
 using MoleWatchApp.Interfaces.IModel;
+using MoleWatchApp.Interfaces.IViewModel;
 using MoleWatchApp.Models;
 using MoleWatchApp.Views;
 using Xamarin.Forms;
@@ -19,7 +20,7 @@ namespace MoleWatchApp.ViewModels
     /// <summary>
     /// Viewmodel for PictureListView 
     /// </summary>
-    public class PictureListViewModel : BaseViewModel
+    public class PictureListViewModel : BaseViewModel, IPictureListViewModel
     {
         #region Properties mm 
         /// <summary>
@@ -165,9 +166,9 @@ namespace MoleWatchApp.ViewModels
         }
 
         /// <summary>
-        /// Metoden henter alle billeder for et modermærke 
+        /// tråd der henter alle billeder for et modermærke 
         /// </summary>
-        public async void LoadPictureData()
+        private async void LoadPictureData()
         {
             BaseIsBusy = true;
             await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
