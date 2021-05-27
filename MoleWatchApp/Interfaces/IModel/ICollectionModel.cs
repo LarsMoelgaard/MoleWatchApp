@@ -17,5 +17,7 @@ namespace MoleWatchApp.Interfaces.IModel
         void DeleteCollection(CollectionDTO CollectionToChange, PatientInfoDTO patient);
 
         byte[] LoadLastPicutreFromApi(int PictureID);
+
+        byte[] LoadLastPictureThumbnail(int PictureID);
     }
 }

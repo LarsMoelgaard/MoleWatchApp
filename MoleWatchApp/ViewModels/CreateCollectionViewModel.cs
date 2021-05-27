@@ -37,6 +37,10 @@ namespace MoleWatchApp.ViewModels
         public ICollectionModel collectionModel { set; private get; }
 
         /// <summary>
+        /// Lock for at sikre sig at imagesourcen for billedet på siden kun kan tilgåes af en enkelt tråd.
+        /// </summary>
+        private object loadPictureLock = new object();
+        /// <summary>
         /// Privat version af databinded property
         /// </summary>
         private string dateText;
@@ -69,12 +73,19 @@ namespace MoleWatchApp.ViewModels
         {
             get
             {
-                return lastCollectionPhoto;
+                lock (loadPictureLock)
+                {
+                    return lastCollectionPhoto;
+                }
+                
             }
             set
             {
-                lastCollectionPhoto = value;
-                this.OnPropertyChanged();
+                lock (loadPictureLock)
+                {
+                    lastCollectionPhoto = value;
+                    this.OnPropertyChanged();
+                }
             }
         }
 
@@ -246,6 +257,8 @@ namespace MoleWatchApp.ViewModels
 
            if (collectionModel.CollectionOnPage.PictureList.Count != 0)
            {
+
+
                DateText = collectionModel.CollectionOnPage
                    .PictureList[collectionModel.CollectionOnPage.PictureList.Count - 1]
                    .DateOfUpload.ToLocalTime().ToString("dd MMM yyyy HH:mm",
@@ -254,6 +267,9 @@ namespace MoleWatchApp.ViewModels
 
                 LastPictureID = collectionModel.CollectionOnPage
                    .PictureList[collectionModel.CollectionOnPage.PictureList.Count - 1].PictureID;
+
+
+               
 
                 NoImagesInCollection = false;
 
@@ -406,16 +422,41 @@ namespace MoleWatchApp.ViewModels
             BaseIsBusy = true;
             await Task.Delay(1); //Indsat delay så Activity indicator virker - Ved ikke helt hvorfor.
 
+
+            LoadCollectionThumbnail();
+
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                LastCollectionPhoto = ImageSource.FromStream(() =>
+                {
+                    byte[] loadedBytes = collectionModel.LoadLastPicutreFromApi(LastPictureID);
+
+                    MemoryStream ms = new MemoryStream(loadedBytes);
+
+                    return ms;
+                });
+            });
+
+
+
+
+            BaseIsBusy = false;
+        }
+
+        /// <summary>
+        /// Måde hvorpå imagesourcen til collectionbilledet først bliver indlæst hurtigt.
+        /// </summary>
+        public void LoadCollectionThumbnail()
+        {
+
             LastCollectionPhoto = ImageSource.FromStream(() =>
             {
-                byte[] loadedBytes = collectionModel.LoadLastPicutreFromApi(LastPictureID);
+                byte[] loadedBytes = collectionModel.LoadLastPictureThumbnail(LastPictureID);
 
                 MemoryStream ms = new MemoryStream(loadedBytes);
 
                 return ms;
             });
-
-            BaseIsBusy = false;
         }
 
 

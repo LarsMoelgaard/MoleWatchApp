@@ -135,6 +135,16 @@ namespace MoleWatchApp.Models
 
             return PictureFromApi.PictureData;
         }
+
+        public byte[] LoadLastPictureThumbnail(int PictureID)
+        {
+            PictureRequestDTO PictureRequest = new PictureRequestDTO();
+            PictureRequest.PictureID = PictureID;
+
+            PictureDataDTO PictureFromApi = _api.GetObject<PictureDataDTO, PictureRequestDTO>("GetThumbnail", PictureRequest);
+
+            return PictureFromApi.PictureData;
+        }
     }
 }
 
